@@ -1,1203 +1,541 @@
-# O5 — Mechanical Drawing & Cut Sheet
+# O5 - Mechanical Drawing and Cut Sheet
+
 ## Tape Measure Satellite Yagi
+
 **Project:** Tape Measure Satellite Yagi  
-
-**Document:** O5 Mechanical Drawing & Cut Sheet  
-
-**Repository Path:** `docs/cut-sheet.md`  
-
-**Application:** Amateur-Radio Satellite / ISS Operation  
-
+**Project ID:** TM-YAGI-01  
+**Document:** O5 Mechanical Drawing and Cut Sheet  
+**Repository path:** `docs/cut-sheet.md`  
+**Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-
-**Design Inputs:** Finalized O3 dimensional baseline and O4 material baseline  
-
-**Design Status:** Pre-Fabrication Mechanical Baseline  
-
-**Revision:** Rev. A  
-
-**Date:** 2026-08-24
+**Revision:** Rev. B  
+**Date:** 2026-09-21  
+**Status:** Controlled pre-fabrication baseline  
 
 ---
 
-# 1. Purpose
-This document is the formal mechanical drawing and fabrication cut sheet for the Tape Measure Satellite Yagi.
+## 1. Purpose and control
 
-It converts the finalized O3 RF geometry into an unambiguous bench-ready mechanical layout.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision B Tape Measure Satellite Yagi.
 
-This document defines:
+It supersedes the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-- Boom lengths
+Revision B retains the verified RF element lengths and longitudinal element stations. It corrects the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A.
 
-- Front/rear orientation
-
-- Mechanical datum
-
-- Element cut lengths
-
-- Driven-element half lengths
-
-- Driven-element center gaps
-
-- Absolute boom drilling locations
-
-- Adjacent element spacing
-
-- Element-hole size
-
-- Feedpoint-hole guidance
-
-- Dowel/stiffener cuts
-
-- Dual-boom joint locations
-
-- Operating and storage orientation
-
-- Fabrication tolerances
-
-- Pre-cut and post-cut inspection requirements
-
-- As-built dimensional recording
-
-This document is intended to be used directly during:
-
-- **O6 — Fabrication & Assembly**
-
-- **O7 — Feed & Matching System**
-
-- **O8 — Initial RF Testing & Tuning**
-
-The RF dimensions in this document originate from the finalized O3 baseline. Mechanical convenience dimensions are explicitly identified as O5 mechanical choices.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. B sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
-# 2. Authoritative Datum and Orientation
-O3 records element positions from the **rear** of each 30.000 in boom.
+## 2. Audit disposition
 
-For fabrication, O5 uses the **front end as the master mechanical datum** because the director end is easier to identify and lay out consistently at the bench.
+### 2.1 Verified and retained
 
-Define:
+| Item checked | Result |
+|---|---|
+| Two 30.000 in PVC booms | Retained |
+| 2 m element lengths | Arithmetic verified; retained |
+| 70 cm element lengths | Arithmetic verified; retained |
+| 0.250 in driven-element center gaps | Verified; retained |
+| Driven-half calculations | Verified: 18.575 in for 2 m and 6.175 in for 70 cm |
+| Front-datum element stations | Verified against the 30.000 in rear-datum conversion; retained |
+| Adjacent within-band spacings | Verified; retained |
+| Net tape-steel requirement | Verified as 174.700 in |
+| Three 3/8 in x 12.000 in 2 m supports | Retained and made explicit |
+| 8.500 in #12 solid-copper hairpin | Retained as an initial tunable blank, not a guaranteed final match |
 
-**X = 0.000 in at the FRONT end of each boom.**
+### 2.2 Corrected in Rev. B
 
-All O5 drilling dimensions increase toward the rear.
-
-```text
-
-FRONT / DIRECTION OF GAIN                                  REAR
-
-X = 0.000 in
-
-│────────────────────────────────────────────────────────────│
-
-0.000                                                     30.000 in
-
-```
-
-The coordinate conversion from O3 is:
-
-```text
-
-X_front = 30.000 in - X_rear
-
-```
-
-The O3 and O5 coordinates therefore describe the same physical antenna geometry.
-
----
-
-# 3. Antenna Mechanical Architecture
-TM-YAGI-01 uses two separate 30.000 in PVC booms:
-
-- **Boom A:** 2 m Yagi
-
-- **Boom B:** 70 cm Yagi
-
-The booms are mechanically coupled but able to rotate relative to one another.
-
-## 3.1 Operating Configuration
-During normal operation:
-
-**2 m element plane and 70 cm element plane = approximately 90° apart**
-
-```text
-
-Looking down the boom axis:
-
-             2 m elements
-
-                  │
-
-                  │
-
-                  │
-
-──────────────────┼────────────────── 70 cm elements
-
-                  │
-
-                  │
-
-```
-
-## 3.2 Storage Configuration
-For transport/storage, the booms may be rotated so the element planes are approximately parallel.
-
-The dual-boom joint must permit deliberate rotation without allowing the booms to separate.
+| Rev. A problem | Rev. B correction |
+|---|---|
+| Rotating tie-wrap collars and folding language | Removed. The operating assembly is fixed; separate the booms for storage by cutting and replacing the ties. |
+| Separate boom-joint assumptions | Removed. There is no hinge, pivot, tee, crossbar, or joint assembly. |
+| Four-inch ties around both booms | Replaced by two 8 in minimum UV-resistant ties, one at each retention station. |
+| Touching booms | Replaced by two nonconductive separator pads providing at least 0.250 in installed bare-surface clearance. |
+| Six-turn and four-turn RG-58 coils | Removed. Use band-appropriate snap-on ferrites after the feedpoint. |
+| Uncontrolled feed-screw location and hardware stack | Added a mandatory material coupon, symmetric hole-location rule, node stack, and screw-length selection check. |
+| Instruction to tin clamped tape contact | Removed. Do not tin beneath a washer or other mechanical clamp. |
+| Hairpin bend described as noncritical | Replaced by a symmetric, measured starting geometry and an as-built record. |
+| Blanket requirement for no DC short between 2 m driven halves | Corrected. The 2 m feed is open only before the hairpin is connected; the completed hairpin creates intended DC continuity. |
+| Loose station tolerance at the closely spaced reflectors | Added a cross-boom relative-location and physical-clearance requirement. |
+| Ambiguous support cuts of approximately 8-12 in | Replaced by three controlled 12.000 in support pieces. |
 
 ---
 
-# 4. Master Cut List
-## 4.1 PVC Boom Cuts
-| Cut ID | Material | Finished Length | Metric | Qty | Notes |
+## 3. Mechanical configuration
 
-| --- | --- | ---: | ---: | ---: | --- |
+The finished antenna uses two separate, intact, parallel PVC booms:
 
-| PVC-2M | 1/2 in Schedule 40 PVC | **30.000 in** | **762.0 mm** | 1 | 2 m boom |
+| Boom | Band | Finished length | Element plane |
+|---|---|---:|---|
+| Boom A | 2 m | 30.000 in (762.0 mm) | Reference plane A |
+| Boom B | 70 cm | 30.000 in (762.0 mm) | 90 degrees to plane A in the operating assembly |
 
-| PVC-70 | 1/2 in Schedule 40 PVC | **30.000 in** | **762.0 mm** | 1 | 70 cm boom |
+Assembly requirements:
 
-### Total PVC Used
-```text
+- Align both FRONT ends with each other and both REAR ends with each other.
+- Keep the boom longitudinal centerlines parallel.
+- Set the 2 m and 70 cm element planes to **90 degrees +/- 2 degrees**.
+- Set the line between the two boom centers approximately halfway between the two element planes: **45 degrees +/- 5 degrees** from either plane.
+- Maintain at least **0.250 in (6.35 mm)** bare-surface clearance between the PVC booms at both retention stations.
+- Maintain at least **0.125 in (3.2 mm)** physical clearance between either boom and every element, dowel, feed screw, lug, hairpin, ferrite, and cable on the other boom.
+- Do not rotate or fold one boom relative to the other while the retention ties are installed.
+- For storage or transport, cut the two retention ties and separate the booms. Use new ties for reassembly.
 
-30.000 + 30.000 = 60.000 in
-
-```
-
----
-
-# 5. 2 Meter Element Cut Sheet
-The 2 m section contains:
-
-- 1 reflector
-
-- 1 split driven element
-
-- 1 director
-
-## 5.1 Passive Elements
-| Element ID | Type | Finished Length | Metric | Qty |
-
-| --- | --- | ---: | ---: | ---: |
-
-| 2M-R | Reflector | **41.400 in** | **1051.6 mm** | 1 |
-
-| 2M-D1 | Director 1 | **35.400 in** | **899.2 mm** | 1 |
-
-## 5.2 Driven Element
-Final overall tip-to-tip span:
-
-**37.400 in (950.0 mm)**
-
-Center feed gap:
-
-**0.250 in (6.35 mm)**
-
-Combined conductive steel length:
-
-```text
-
-37.400 - 0.250 = 37.150 in
-
-```
-
-Each half:
-
-```text
-
-37.150 / 2 = 18.575 in
-
-```
-
-| Element ID | Type | Finished Conductive Length | Metric | Qty |
-
-| --- | --- | ---: | ---: | ---: |
-
-| 2M-DE-L | Driven left half | **18.575 in** | **471.8 mm** | 1 |
-
-| 2M-DE-R | Driven right half | **18.575 in** | **471.8 mm** | 1 |
-
-### 2 m Net Steel Requirement
-```text
-
-41.400 + 35.400 + 18.575 + 18.575
-
-= 113.950 in
-
-= 9.496 ft
-
-```
+There is no separate boom-joint mechanism.
 
 ---
 
-# 6. 70 Centimeter Element Cut Sheet
-The 70 cm section contains:
+## 4. Master cut list
 
-- 1 reflector
+Cut finished lengths from the actual material. Deburr every cut edge and label each part immediately.
 
-- 1 split driven element
+### 4.1 Tape-steel elements
 
-- 3 directors
+| Cut ID | Band | Element | Finished conductive length | Metric | Quantity | Cut detail |
+|---|---|---|---:|---:|---:|---|
+| 2M-R | 2 m | Reflector | 41.400 in | 1051.6 mm | 1 | Continuous strip |
+| 2M-DE-L | 2 m | Driven left half | 18.575 in | 471.8 mm | 1 | One half of split driven element |
+| 2M-DE-R | 2 m | Driven right half | 18.575 in | 471.8 mm | 1 | One half of split driven element |
+| 2M-D1 | 2 m | Director 1 | 35.400 in | 899.2 mm | 1 | Continuous strip |
+| 70-R | 70 cm | Reflector | 12.900 in | 327.7 mm | 1 | Continuous strip |
+| 70-DE-L | 70 cm | Driven left half | 6.175 in | 156.8 mm | 1 | One half of split driven element |
+| 70-DE-R | 70 cm | Driven right half | 6.175 in | 156.8 mm | 1 | One half of split driven element |
+| 70-D1 | 70 cm | Director 1 | 11.900 in | 302.3 mm | 1 | Continuous strip |
+| 70-D2 | 70 cm | Director 2 | 11.900 in | 302.3 mm | 1 | Continuous strip |
+| 70-D3 | 70 cm | Director 3 | 11.700 in | 297.2 mm | 1 | Continuous strip |
 
-## 6.1 Passive Elements
-| Element ID | Type | Finished Length | Metric | Qty |
+Tape-steel totals:
 
-| --- | --- | ---: | ---: | ---: |
+| Group | Net length |
+|---|---:|
+| 2 m elements | 113.950 in |
+| 70 cm elements | 60.750 in |
+| **Total net steel** | **174.700 in (14.558 ft)** |
 
-| 70-R | Reflector | **12.900 in** | **327.7 mm** | 1 |
+Reserve at least 18 ft of usable approximately 3/8 in wide conductive tape steel. The difference covers cleanup, kerf, damaged coating, the required coupon, and replacement pieces.
 
-| 70-D1 | Director 1 | **11.900 in** | **302.3 mm** | 1 |
+### 4.2 Non-element cuts
 
-| 70-D2 | Director 2 | **11.900 in** | **302.3 mm** | 1 |
+| Cut ID | Material | Finished size | Quantity | Use |
+|---|---|---:|---:|---|
+| PVC-2M | Nominal 1/2 in Schedule 40 PVC | 30.000 in | 1 | 2 m boom |
+| PVC-70 | Nominal 1/2 in Schedule 40 PVC | 30.000 in | 1 | 70 cm boom |
+| ST-1 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-D1 support |
+| ST-2 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-DE support |
+| ST-3 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-R support |
+| 2M-HP | #12 AWG solid copper, fully bare | 8.500 in initial blank | 1 | Tunable 2 m shunt hairpin |
+| PAD-1 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.250 in minimum | 1 | Front retention separator |
+| PAD-2 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.250 in minimum | 1 | Rear retention separator |
 
-| 70-D3 | Director 3 | **11.700 in** | **297.2 mm** | 1 |
+Pad thickness is the minimum installed separation. If a pad compresses, permanently deforms, or measures less than 0.250 in after installation, replace it with a thicker part.
 
-## 6.2 Driven Element
-Final overall tip-to-tip span:
+### 4.3 Stock breakdown
 
-**12.600 in (320.0 mm)**
+One 10 ft PVC length is sufficient for both 30.000 in booms and leaves approximately 60 in before saw kerf. Do not cut the booms into folding sections.
 
-Center feed gap:
-
-**0.250 in (6.35 mm)**
-
-Combined conductive steel length:
-
-```text
-
-12.600 - 0.250 = 12.350 in
-
-```
-
-Each half:
-
-```text
-
-12.350 / 2 = 6.175 in
-
-```
-
-| Element ID | Type | Finished Conductive Length | Metric | Qty |
-
-| --- | --- | ---: | ---: | ---: |
-
-| 70-DE-L | Driven left half | **6.175 in** | **156.8 mm** | 1 |
-
-| 70-DE-R | Driven right half | **6.175 in** | **156.8 mm** | 1 |
-
-### 70 cm Net Steel Requirement
-```text
-
-12.900 + 11.900 + 11.900 + 11.700 + 6.175 + 6.175
-
-= 60.750 in
-
-= 5.063 ft
-
-```
+Do not cut either RG-58 feedline until its routing, ferrite fit, and strain-relief locations have been dry-fitted. At that point remove only the antenna-side connector from each cable; retain the factory BNC male at the operator end.
 
 ---
 
-# 7. Total Tape-Steel Cut Requirement
-```text
+## 5. Driven-element arithmetic
 
-113.950 + 60.750 = 174.700 in
+The 0.250 in center gap is part of the overall span but contains no conductive tape steel.
 
-```
+| Band | Overall span | Center gap | Calculation | Each metal half |
+|---|---:|---:|---|---:|
+| 2 m | 37.400 in | 0.250 in | (37.400 - 0.250) / 2 | 18.575 in |
+| 70 cm | 12.600 in | 0.250 in | (12.600 - 0.250) / 2 | 6.175 in |
 
-```text
-
-174.700 in / 12 = 14.558 ft
-
-```
-
-**Net finished steel requirement: 174.700 in (14.558 ft)**
-
-This value agrees with O4.
+Keep the two halves of each driven element equal before tuning. If O8 tuning requires shortening, remove equal amounts from the outer ends unless the tuning procedure explicitly records another method.
 
 ---
 
-# 8. 2 Meter Boom Drill Schedule
-All positions are measured from the **FRONT end** of the 30.000 in 2 m boom.
+## 6. Boom datum and station schedule
 
-| Station | Element | Position from FRONT | Metric |
+### 6.1 Datum
 
-| --- | --- | ---: | ---: |
+- **FRONT = 0.000 in** at the director end and direction of intended gain.
+- **REAR = 30.000 in** at the operator/handle end.
+- Measure every station independently from the FRONT datum. Do not chain measurements from one element to the next.
+- Rear-datum cross-check: `X_REAR = 30.000 - X_FRONT`.
 
-| 2M-D1 | Director 1 | **2.000 in** | **50.8 mm** |
+### 6.2 Boom A - 2 m stations
 
-| 2M-DE | Driven Element | **13.500 in** | **342.9 mm** |
+| Station | X from FRONT | X from REAR | Adjacent spacing | Hole |
+|---|---:|---:|---:|---|
+| 2M-D1 | 2.000 in (50.8 mm) | 28.000 in (711.2 mm) | - | 7/16 in through |
+| 2M-DE | 13.500 in (342.9 mm) | 16.500 in (419.1 mm) | 11.500 in from 2M-D1 | 7/16 in through |
+| 2M-R | 21.500 in (546.1 mm) | 8.500 in (215.9 mm) | 8.000 in from 2M-DE | 7/16 in through |
 
-| 2M-R | Reflector | **21.500 in** | **546.1 mm** |
+### 6.3 Boom B - 70 cm stations
 
-## 8.1 2 m Adjacent Spacing Check
-```text
+| Station | X from FRONT | X from REAR | Adjacent spacing | Hole |
+|---|---:|---:|---:|---|
+| 70-D3 | 3.500 in (88.9 mm) | 26.500 in (673.1 mm) | - | 7/16 in through |
+| 70-D2 | 9.500 in (241.3 mm) | 20.500 in (520.7 mm) | 6.000 in from 70-D3 | 7/16 in through |
+| 70-D1 | 15.500 in (393.7 mm) | 14.500 in (368.3 mm) | 6.000 in from 70-D2 | 7/16 in through |
+| 70-DE | 18.500 in (469.9 mm) | 11.500 in (292.1 mm) | 3.000 in from 70-D1 | 7/16 in through |
+| 70-R | 21.000 in (533.4 mm) | 9.000 in (228.6 mm) | 2.500 in from 70-DE | 7/16 in through |
 
-13.500 - 2.000 = 11.500 in
+### 6.4 Dual-boom retention stations
 
-```
+| Retention station | X from FRONT | Components | Nearest RF station |
+|---|---:|---|---|
+| J1 | 4.500 in +/- 0.125 in | One PAD-1 and one 8 in minimum tie | 70-D3 at 3.500 in |
+| J2 | 22.500 in +/- 0.125 in | One PAD-2 and one 8 in minimum tie | 2M-R at 21.500 in |
 
-Director 1 → Driven:
-
-**11.500 in (292.1 mm)**
-
-```text
-
-21.500 - 13.500 = 8.000 in
-
-```
-
-Driven → Reflector:
-
-**8.000 in (203.2 mm)**
-
-These values match O3.
-
----
-
-# 9. 70 Centimeter Boom Drill Schedule
-All positions are measured from the **FRONT end** of the 30.000 in 70 cm boom.
-
-| Station | Element | Position from FRONT | Metric |
-
-| --- | --- | ---: | ---: |
-
-| 70-D3 | Director 3 | **3.500 in** | **88.9 mm** |
-
-| 70-D2 | Director 2 | **9.500 in** | **241.3 mm** |
-
-| 70-D1 | Director 1 | **15.500 in** | **393.7 mm** |
-
-| 70-DE | Driven Element | **18.500 in** | **469.9 mm** |
-
-| 70-R | Reflector | **21.000 in** | **533.4 mm** |
-
-## 9.1 70 cm Adjacent Spacing Check
-Director 3 → Director 2:
-
-```text
-
-9.500 - 3.500 = 6.000 in
-
-```
-
-**6.000 in (152.4 mm)**
-
-Director 2 → Director 1:
-
-```text
-
-15.500 - 9.500 = 6.000 in
-
-```
-
-**6.000 in (152.4 mm)**
-
-Director 1 → Driven:
-
-```text
-
-18.500 - 15.500 = 3.000 in
-
-```
-
-**3.000 in (76.2 mm)**
-
-Driven → Reflector:
-
-```text
-
-21.000 - 18.500 = 2.500 in
-
-```
-
-**2.500 in (63.5 mm)**
-
-These values match O3.
+The pad long axis runs parallel to the booms. Center the pad and tie at the stated station. Do not drill either boom at J1 or J2.
 
 ---
 
-# 10. 2 Meter Boom Layout Drawing
-Not to scale.
+## 7. Marking and drilling controls
 
-```text
+### 7.1 Before drilling
 
-FRONT / GAIN →
+1. Measure and record the actual PVC outside diameter.
+2. Measure and record tape width, tape thickness, dowel diameter, and coax diameter.
+3. Draw one straight longitudinal reference line on each boom.
+4. Mark FRONT and REAR permanently on both booms.
+5. Mark every station independently from FRONT.
+6. Align the booms FRONT-to-FRONT and verify the 2M-R to 70-R station difference before drilling.
 
-X=0
+### 7.2 Mandatory material coupon
 
-0        2.000                 13.500              21.500             30.000
+Before drilling any final element station, make one scrap PVC coupon using the actual PVC, tape steel, and support material.
 
-│----------│----------------------│--------------------│------------------│
+The coupon must demonstrate:
 
-           │                      │                    │
+- A clean 7/16 in through-hole without a split or crack.
+- The actual 3/8 in support and tape can share the 2 m hole without crushing, permanent kinking, or forced distortion.
+- The tape alone fits the 70 cm hole without uncontrolled looseness.
+- A candidate approximately 5/32 in #6 clearance hole fits the actual screw.
+- The proposed feed-node stack clamps securely using the shortest usable screw.
+- The nut fully engages with at least two complete threads visible beyond it.
+- No screw, washer, lug, or hairpin can touch the opposite driven half.
 
-         2M-D1                  2M-DE                2M-R
+If the coupon fails, stop. Do not enlarge all final holes or substitute hardware without updating O5 and the as-built record.
 
-        35.400                 37.400               41.400
+### 7.3 Element-hole drilling
 
-       Director                Driven              Reflector
+- Use a V-block, drill guide, or drill press fixture to prevent the round PVC from rolling.
+- Drill a small pilot only if the fixture and material support it without cracking.
+- Finish each controlled element hole at 7/16 in.
+- Keep every hole axis perpendicular to the boom axis.
+- Keep all holes on one boom parallel and in one element plane.
+- Deburr inside and outside without enlarging the hole.
+- Inspect the PVC for whitening, splitting, or cracks after each hole.
 
-           <------11.500-------><------8.000------->
-
-```
-
-Rear handle/clearance from reflector station to boom end:
-
-```text
-
-30.000 - 21.500 = 8.500 in
-
-```
-
-**Rear boom clearance: 8.500 in (215.9 mm)**
-
----
-
-# 11. 70 Centimeter Boom Layout Drawing
-Not to scale.
-
-```text
-
-FRONT / GAIN →
-
-X=0
-
-0      3.500      9.500      15.500   18.500  21.000                  30.000
-
-│--------│-----------│-----------│--------│-------│------------------------│
-
-         │           │           │        │       │
-
-       70-D3       70-D2       70-D1    70-DE   70-R
-
-       11.700      11.900      11.900   12.600   12.900
-
-      Director    Director    Director   Driven Reflector
-
-         <--6.000--><--6.000--><-3.000-><-2.500->
-
-```
-
-Rear boom clearance from reflector station to boom end:
-
-```text
-
-30.000 - 21.000 = 9.000 in
-
-```
-
-**Rear boom clearance: 9.000 in (228.6 mm)**
+Do not drill feed-screw holes through the PVC boom as substitutes for the separate node screws.
 
 ---
 
-# 12. Element Through-Hole Specification
+## 8. Element installation geometry
 
-Baseline element-station holes:
+### 8.1 Passive 2 m elements
 
-**7/16 in diameter**
+- Center one 12.000 in nonconductive support at each 2 m station.
+- Place the tape steel alongside the support through the validated 7/16 in hole.
+- Center the conductive tape left-to-right to within 1/16 in.
+- Keep the tape and support straight through the local boom cross-section.
+- Retain the tape to the support with small ties or the O6 method; do not place metal retention hardware near the boom.
 
-The hole passes through the PVC boom approximately perpendicular to the boom centerline and should be centered through the boom cross-section as consistently as practical.
+### 8.2 Passive 70 cm elements
 
-## 12.1 2 m Element Stations — Stiffener Method
+- Pass the tape steel through the validated 7/16 in station hole.
+- Center the conductive tape left-to-right to within 1/32 in.
+- Use nonconductive retention only.
 
-At the three long 2 m element stations, the **3/8 in nonconductive dowel/fiberglass stiffener passes through the 7/16 in boom hole**. The tape-measure element is centered on the boom and secured to the stiffener on both sides with small cable ties.
+### 8.3 Driven elements
 
-This follows the baseline W6NBC-style mechanical concept: the stiffener carries the long flexible element near the boom and reduces wind-induced bending.
+- Insert the two equal tape halves from opposite sides of the station.
+- Use a 0.250 in nonconductive gauge between the physical inner steel ends.
+- Establish an overall tip-to-tip span of 37.400 in on 2 m or 12.600 in on 70 cm.
+- Keep the halves collinear, symmetric, and electrically isolated before feed hardware is installed.
+- Remove the temporary gap gauge only after the halves are mechanically retained.
+- Record the finished gap and overall span.
 
-Requirements:
-
-- One 3/8 in stiffener through each 2 m element station
-- Tape steel centered symmetrically about the boom
-- Tape element secured to the stiffener on both sides of the boom
-- Cable ties tightened enough to prevent sliding without crushing or sharply deforming the tape
-- Driven-element left and right halves must retain the specified 0.250 in center gap
-- No conductive stiffener may be substituted without design review
-
-## 12.2 70 cm Element Stations — Direct Tape Method
-
-At the 70 cm stations, the narrow tape-measure steel may pass directly through the 7/16 in boom hole, provided the actual purchased blade fits without destructive force and is not excessively loose.
-
-## 12.3 Number of Main Element-Station Holes
-
-### 2 m boom
-
-- 3 total through-holes
-
-### 70 cm boom
-
-- 5 total through-holes
-
-### Total
-
-**8 main element-station through-holes**
-
-## 12.4 Hole Fit Verification
-
-Before drilling all stations:
-
-1. Drill one practice 7/16 in hole in scrap PVC.
-2. Test-fit the actual 3/8 in stiffener material.
-3. Test-fit the actual 70 cm tape steel.
-4. Confirm the intended 2 m stiffener/tape attachment can be assembled without forcing or damaging the parts.
-5. Confirm the 70 cm tape passes through without destructive force and is not excessively loose.
-
-If the purchased materials do not fit the baseline geometry, **stop and revise the mechanical interface rather than enlarging every hole blindly**.
+The 0.250 in steel-tip gap is not the distance between feed-screw centers.
 
 ---
 
-# 13. Driven-Element Feedpoint Geometry
-Each driven element is split at the boom centerline.
+## 9. Feed-node holes and hardware
 
-Nominal center gap:
+There are four separate feed nodes: two on the 2 m driven element and two on the 70 cm driven element.
 
-**0.250 in (6.35 mm)**
+### 9.1 Hole location
 
-## 13.1 2 m Driven Element
-```text
+After the driven halves are centered and the gap is fixed:
 
-LEFT HALF                  GAP                  RIGHT HALF
+- Mark one screw hole on each driven half.
+- Center the hole across the approximately 3/8 in tape width.
+- Place each hole center **0.250 in +/- 0.062 in outboard of the adjacent PVC surface**.
+- Mirror the left and right hole positions.
+- Verify the entire screw, washer, lug, and hairpin envelope remains clear of the opposite half and the other boom.
+- Drill approximately 5/32 in only after confirming clearance on the coupon and with the actual #6-32 screw.
+- Record the final center-to-center node spacing.
 
-18.575 in                 0.250 in                18.575 in
+### 9.2 Controlled stack at each node
 
-<------------------->      <-->      <------------------->
+From screw head toward the nut:
 
-=====================                =====================
+1. #6-32 stainless pan-head screw.
+2. Clean bare tape-steel contact pad.
+3. Coax ring lug.
+4. Bare hairpin hook on 2 m only.
+5. #6 stainless flat washer.
+6. #6-32 stainless nut.
 
-                         BOOM
+Use **one screw and one nut per node**, four nodes total. Begin with the 1/2 in screw. Use the 3/4 in screw only if the coupon shows that 1/2 in cannot provide full nut engagement; in either case use the shortest length that leaves at least two complete threads visible without approaching another conductor.
 
-```
+Prepare only the local contact pad. Do not remove coating from unnecessary areas. Do not tin the tape beneath the washer, ring lug, screw head, or nut; solder can creep under clamping pressure and loosen the joint.
 
-Overall span:
+### 9.3 Electrical node assignment
 
-**37.400 in**
+| Band | Node A | Node B |
+|---|---|---|
+| 2 m | Left driven half + coax center lug + one hairpin end | Right driven half + coax braid lug + other hairpin end |
+| 70 cm | Left driven half + coax center lug | Right driven half + coax braid lug |
 
-## 13.2 70 cm Driven Element
-```text
-
-LEFT HALF                  GAP                  RIGHT HALF
-
-6.175 in                  0.250 in                 6.175 in
-
-<------->                  <-->                  <------->
-
-=========                                        =========
-
-                         BOOM
-
-```
-
-Overall span:
-
-**12.600 in**
+Either left/right convention may be reversed before assembly, but it must remain consistent, labeled, and recorded. Never connect both coax conductors to the same half.
 
 ---
 
-# 14. Feed-Screw Hole Guidance
+## 10. 2 m hairpin starting geometry
 
-The exact feed-screw holes should be **match-drilled during O6/O7 assembly after the driven-element halves are installed, centered, and the 0.250 in feed gap is established**.
+The 8.500 in #12 solid-copper part is an initial tuning blank.
 
-Reason:
+Starting geometry:
 
-- The actual purchased tape width and final stiffener/tape stack-up may vary slightly.
-- Match-drilling places each feed screw through the intended driven-element half at the actual assembled feedpoint.
-- It reduces the chance of a pre-drilled hole missing the conductive steel or disturbing the specified center gap.
+- Strip the entire blank to bare copper without nicking it.
+- Form one symmetric U in the 2 m element plane.
+- Set the two straight legs parallel.
+- Set the leg spacing equal to the measured 2 m feed-node center spacing.
+- Use one smooth 180-degree bottom bend with no kink.
+- Keep the two legs equal in finished length.
+- Orient the U away from the 70 cm boom and away from the rearward coax route.
+- Maintain at least 0.500 in clearance from unintended conductors where the actual assembly permits.
+- Do not trim the blank before the initial calibrated O8 measurement.
 
-Baseline fastener:
-
-**#6-32 × 1/2 in machine screw**
-
-Recommended clearance-hole starting point:
-
-**approximately 5/32 in**
-
-The actual clearance must be verified against the purchased #6-32 hardware.
-
-## 14.1 Feed-Screw Geometry
-
-The #6-32 feed screws are **local feedpoint attachment hardware**, not transverse bolts intended to pass completely through the full 0.840 in outside diameter of the PVC boom.
-
-During O6/O7, the final local screw path and nut/terminal arrangement should be established from the actual assembled feedpoint while preserving the O3/O5 driven-element geometry.
-
-Each feed screw must:
-
-- Electrically contact only one driven-element half
-- Remain electrically isolated from the opposite driven half
-- Provide secure attachment for the appropriate coax conductor terminal
-- Provide attachment for the 2 m hairpin end where applicable
-- Avoid splitting, crushing, or excessively weakening the PVC
-- Preserve the **0.250 in center feed gap**
-- Avoid becoming the dimensional reference used to locate the driven element
-
-Do not drill a full transverse hole across the entire boom solely to accommodate the 1/2 in feed screw.
-
-The driven-element overall span, equal half lengths, boom station, and center gap remain authoritative.
+Record node spacing, leg spacing, straight-leg length, bottom-bend diameter, installed orientation, and any later equal trim. Hairpin dimensions after tuning are as-tuned data, not silent changes to this initial cut sheet.
 
 ---
 
-# 15. 2 Meter Hairpin Cut
-The O7 matching system requires:
+## 11. Boom retention - no joint mechanism
 
-| Part | Material | Cut Length | Metric | Qty |
+At J1 and J2:
 
-| --- | --- | ---: | ---: | ---: |
+1. Place one nonconductive pad between the two bare PVC surfaces.
+2. Align the pad long axis with the boom axes.
+3. Set the boom-center line 45 degrees +/- 5 degrees between the element planes.
+4. Wrap one 8 in minimum UV-resistant cable tie around both booms and the pad.
+5. Tighten only enough to prevent axial slip and loss of the 90-degree plane relationship.
+6. Confirm the pad remains centered and the installed bare-surface gap is at least 0.250 in.
+7. Confirm the PVC is not flattened or visibly indented.
+8. Trim the tie tail flush and orient the locking head away from the operator's hand and coax.
 
-| 2M-HP | #12 AWG solid copper | **8.500 in** | **215.9 mm** | 1 |
+After both ties are installed:
 
-This is the **initial pre-tuning length**.
+- Pull each boom axially by hand; neither may slip.
+- Apply gentle opposite twisting; the 90-degree relationship must remain fixed.
+- Verify all cross-boom clearances, including the 2 m supports and the reflector pair.
+- Verify the coax can route rearward without entering either tie or pad interface.
 
-Do not shorten the hairpin during fabrication.
-
-Any change belongs to the O8 tuning record.
-
----
-
-# 16. Dowel / Stiffener Cut Sheet
-
-The three long 2 m elements receive nonconductive stiffening at the boom.
-
-Baseline stock:
-
-**3/8 in × 36 in hardwood dowel or fiberglass rod**
-
-Recommended initial cuts:
-
-| Stiffener ID | Initial Length | Metric | Qty | Station |
-| --- | ---: | ---: | ---: | --- |
-| ST-1 | **12.000 in** | **304.8 mm** | 1 | 2M-D1 |
-| ST-2 | **12.000 in** | **304.8 mm** | 1 | 2M-DE |
-| ST-3 | **12.000 in** | **304.8 mm** | 1 | 2M-R |
-
-These are **mechanical starting lengths**, not RF-critical dimensions.
-
-## 16.1 Installation Method
-
-At each 2 m element station:
-
-1. Pass the 3/8 in nonconductive stiffener through the corresponding 7/16 in boom hole.
-2. Center the stiffener approximately equally on both sides of the boom.
-3. Center the tape-measure element on the same station.
-4. For the reflector and director, secure the tape element to the stiffener on both sides of the boom using small cable ties.
-5. For the split driven element, position the left and right tape halves symmetrically and maintain the **0.250 in center feed gap**.
-6. Secure each driven half to the stiffener without allowing either half to shift across the center gap.
-7. Verify the tape element remains straight, centered, and approximately perpendicular to the boom.
-
-The stiffener should support the flexible steel near the boom without becoming part of the RF circuit.
-
-The initial 12 in stiffeners may be shortened during O6 if required for:
-
-- Fit
-- Clearance
-- Portability
-- Better element support
-
-Any shortened final length should be recorded in the O6 as-built notes.
-
-Do not replace the stiffeners with metal without design review and subsequent RF revalidation.
+Do not add a tee, crossbar, pivot bolt, hinge, metal clamp, wood block, or permanent adhesive joint.
 
 ---
 
-# 17. Dual-Boom Joint Detail
+## 12. Ferrites and coax routing
 
-The V1 mechanical joint is intentionally simple and uses **long UV-resistant cable ties as rotating collars** around the two adjacent PVC booms.
+The Rev. A air-wound coax coils are deleted.
 
-No separate hinge or metallic pivot hardware is required for Rev. A.
+| Feed | Initial ferrite configuration | Location |
+|---|---|---|
+| 2 m | Four snap-on Fair-Rite 31-material parts, baseline 0431164281 or verified equivalent | Immediately after the feedpoint, before the rearward cable run |
+| 70 cm | Four snap-on Fair-Rite 61-material parts, baseline 0461164281 or verified equivalent | Immediately after the feedpoint, before the rearward cable run |
 
-Because two nominal 1/2 in Schedule 40 PVC booms have an outside diameter of approximately 0.840 in each, a nominal 4 in tie is too short to reliably encircle both booms and engage its locking head.
+Routing requirements:
 
-**Joint-tie requirement:**
+- Confirm ferrite fit on the measured RG-58 jacket before removing a connector.
+- Route each cable from its node pair toward the REAR/operator end.
+- Keep the intact jacket close to the feedpoint and strain-relieve it before the ferrite group.
+- Obey the cable manufacturer's minimum bend radius; do not wrap the cable tightly around either boom.
+- Keep coax and ferrites clear of radiating-element tips, J1, J2, the hairpin, and the other feedpoint.
+- Use small approximately 4 in ties only for local strain relief or ferrite retention, never around both booms.
+- Keep enough free cable at the rear for normal handheld movement without loading the feedpoint.
+- Label the free BNC ends `2 m` and `70 cm`.
 
-- **8 in UV-resistant black cable ties preferred**
-- **6 in UV-resistant cable ties minimum**
-- Quantity: **2 installed, plus spares recommended**
-
-The 4 in ties already used elsewhere in the BOM may remain useful for element/stiffener attachment but are not the Rev. A dual-boom collar ties.
-
-## 17.1 Joint Locations
-
-Measured from the common FRONT end:
-
-| Joint ID | Position from FRONT | Metric |
-| --- | ---: | ---: |
-| J1 | **4.500 in** | **114.3 mm** |
-| J2 | **22.500 in** | **571.5 mm** |
-
-These are **O5 mechanical dimensions**, not RF element-spacing dimensions.
-
-## 17.2 Joint Construction
-
-At each joint:
-
-- Place the two PVC booms directly beside one another.
-- Install one 8 in preferred / 6 in minimum UV-resistant cable tie around both booms.
-- Tighten only enough to retain the booms together while still permitting deliberate relative rotation.
-- Trim only excess tail that is clearly unnecessary; retain enough engagement for a secure lock.
-- Verify the tie does not migrate into an antenna element station.
-- Verify the tie does not pinch or interfere with the coax routing.
-- Verify the booms can rotate from the storage position to approximately 90° operating position without separating.
-
-The cable ties act as **rotating collars**, not rigid clamps.
-
-## 17.3 Operating Position
-
-Set:
-
-**2 m element plane ≈ 90° from 70 cm element plane**
-
-## 17.4 Storage Position
-
-Rotate the booms until the element planes are approximately parallel.
-
-## 17.5 O4 BOM Impact
-
-O4 should be revised in its next revision so the joint hardware reflects the actual O5 mechanical design:
-
-- Retain BOM-011 4 in UV-resistant ties for smaller attachment duties.
-- Redefine or replace BOM-018 as **dual-boom rotating-collar cable ties — UV-resistant, 8 in preferred / 6 in minimum**.
-- Separate hinge or metallic pivot hardware is **not required** for O5 Rev. A.
-
-If a more sophisticated hinge or pivot is later adopted, that becomes a mechanical-design revision.
+Final ferrite count and position are validated during O8 coax-movement testing.
 
 ---
 
-# 18. Coax Choke Mechanical Allowance
-O7 requires:
+## 13. Fabrication tolerances and clearance controls
 
-## 2 m
-**6 turns of RG-58 around the 2 m boom**
+### 13.1 Cut and station tolerances
 
-## 70 cm
-**4 turns of RG-58 around the 70 cm boom**
+| Feature | Controlled tolerance |
+|---|---:|
+| 2 m passive element finished length | +/- 0.0625 in |
+| 2 m driven half finished length | +/- 0.03125 in; half-to-half mismatch no more than 0.03125 in |
+| 70 cm passive element finished length | +/- 0.03125 in |
+| 70 cm driven half finished length | +/- 0.0156 in; half-to-half mismatch no more than 0.0156 in |
+| 2 m boom station from FRONT | +/- 0.0625 in |
+| 70 cm boom station from FRONT | +/- 0.03125 in |
+| Driven-element steel-tip center gap | 0.250 in +/- 0.0156 in |
+| Element centering on 2 m boom | +/- 0.0625 in |
+| Element centering on 70 cm boom | +/- 0.03125 in |
+| Relative element-plane angle | 90 degrees +/- 2 degrees |
+| Installed bare-surface boom gap | 0.250 in minimum |
 
-Exact turn pitch and final axial position should be adjusted during O7 assembly so the choke:
+### 13.2 Close reflector pair
 
-- Remains close to the corresponding feedpoint
+With the boom FRONT ends aligned, the 70-R center at 21.000 in and 2M-R center at 21.500 in must have:
 
-- Does not overlap an antenna element
+- Relative longitudinal center separation: **0.500 in +/- 0.03125 in**.
+- Measured physical edge clearance in the assembled antenna: **0.0625 in minimum**.
 
-- Does not interfere with the rotating joint
-
-- Does not prevent storage folding
-
-- Does not sharply kink the coax
-
-The O5 cut sheet does not define choke turn pitch as an RF-critical fixed dimension.
-
----
-
-# 19. Element Alignment Requirements
-Within each individual band:
-
-- All passive elements should be parallel.
-
-- Driven-element halves should lie in the same plane as the parasitic elements.
-
-- Each continuous element should be centered through the boom.
-
-- Split driven halves should be symmetrical around the boom centerline.
-
-- Element twist should be minimized.
-
-## 19.1 Centering Method
-For a continuous element:
-
-```text
-
-Left projection = Right projection
-
-```
-
-Target centering error:
-
-**≤ 1/8 in on 2 m**
-
-**≤ 1/16 in on 70 cm**
-
-where practical.
+If the tape curvature, width, or mounting angle violates the physical-clearance requirement, stop and document the interference. Do not bend, notch, or shorten an RF element to create clearance without an engineering revision.
 
 ---
 
-# 20. Fabrication Tolerances
-## 20.1 2 m Elements
-Element-length target:
+## 14. Inspection and hold points
 
-**±1/8 in (±3.2 mm) or better**
+### Hold Point A - material acceptance
 
-Boom-position target:
+- [ ] PVC OD, tape width/thickness, support diameter, coax diameter, and pad thickness recorded.
+- [ ] Tape steel is conductive and approximately 3/8 in wide.
+- [ ] Both 30.000 in boom blanks are straight and undamaged.
+- [ ] At least 18 ft of usable tape steel is available.
 
-**±1/8 in (±3.2 mm) or better**
+### Hold Point B - coupon approval
 
-## 20.2 70 cm Elements
-Element-length target:
+- [ ] Shared 2 m tape/support hole fit passes.
+- [ ] 70 cm tape-only hole fit passes.
+- [ ] #6 clearance hole and hardware stack pass.
+- [ ] Selected screw length provides at least two full threads beyond the nut.
 
-**±1/16 in (±1.6 mm) or better**
+### Hold Point C - after cutting
 
-Boom-position target:
+- [ ] Every part is labeled.
+- [ ] Every finished length is measured and recorded.
+- [ ] No element is short, kinked, cracked, or left with a sharp burr.
+- [ ] Driven halves are matched within the controlled difference.
 
-**±1/16 in (±1.6 mm) or better**
+### Hold Point D - after boom drilling
 
-## 20.3 Driven-Element Gap
-Target:
+- [ ] Every station is checked from the FRONT datum.
+- [ ] Rear-datum conversion is checked independently.
+- [ ] Holes are square, coplanar, deburred, and free of cracks.
+- [ ] Close-reflector relative location passes.
 
-**0.250 in**
+### Hold Point E - after mechanical assembly
 
-Preferred tolerance:
+- [ ] Booms are parallel and FRONT ends are aligned.
+- [ ] Element planes are 90 degrees +/- 2 degrees.
+- [ ] Boom-center line is 45 degrees +/- 5 degrees from both element planes.
+- [ ] Both pads retain at least 0.250 in installed gap.
+- [ ] Neither boom slips axially or rotates under gentle hand load.
+- [ ] Clearance from either boom to components carried by the other boom is at least 0.125 in.
+- [ ] Reflector edge clearance is at least 0.0625 in.
+- [ ] Feed hardware cannot bridge a driven-element gap.
 
-**±1/32 in (±0.8 mm)**
+### Hold Point F - DC checks before hairpin
 
-## 20.4 Boom Length
-Target:
+Disconnect both cables from radios, diplexers, and analyzers.
 
-**30.000 in**
+| Test | Expected result |
+|---|---|
+| 2 m BNC pin to assigned driven half | Continuity |
+| 2 m BNC shell to assigned driven half | Continuity |
+| 2 m BNC pin to shell, one hairpin end disconnected | Open |
+| 70 cm BNC pin to assigned driven half | Continuity |
+| 70 cm BNC shell to assigned driven half | Continuity |
+| 70 cm BNC pin to shell | Open |
+| Either feed conductor to any parasitic element | Open |
+| 2 m feed to 70 cm feed, all equipment detached | Open |
 
-Recommended tolerance:
+### Hold Point G - DC checks after hairpin
 
-**±1/16 in**
+| Test | Expected result |
+|---|---|
+| 2 m BNC pin to shell | Continuity through the intended hairpin |
+| 70 cm BNC pin to shell | Open |
+| Either feed conductor to any parasitic element | Open |
+| 2 m feed to 70 cm feed, all equipment detached | Open |
 
-Boom-end squareness should be adequate for repeatable datum measurement.
-
----
-
-# 21. Recommended Marking Procedure
-For each boom:
-
-1. Cut to 30.000 in.
-
-2. Square/deburr both ends.
-
-3. Choose one end as FRONT.
-
-4. Permanently mark:
-
-   - `FRONT`
-
-   - Arrow indicating direction of gain
-
-   - `2 M` or `70 CM`
-
-5. Draw a longitudinal reference line.
-
-6. Measure every station independently from FRONT.
-
-7. Mark station with a fine-point marker.
-
-8. Label station ID.
-
-9. Re-measure every station before drilling.
-
-Do **not** locate later holes by measuring from the previous hole.
-
-Use absolute dimensions from FRONT to avoid accumulated error.
+Do not transmit until O8 calibrated impedance and SWR testing passes the required operating frequencies.
 
 ---
 
-# 22. Pre-Drill Verification Tables
-## 22.1 2 m Boom
-Before drilling, initial each verified location.
+## 15. As-built dimensional record
 
-| Station | Target X | Verified |
+Complete this table before RF tuning.
 
-| --- | ---: | :---: |
+| Item | Design value | As-built value | Pass / deviation |
+|---|---:|---:|---|
+| PVC-2M length | 30.000 in |  |  |
+| PVC-70 length | 30.000 in |  |  |
+| PVC actual OD | Record |  |  |
+| Tape width / thickness | Record |  |  |
+| 2M-D1 length / station | 35.400 / 2.000 in |  |  |
+| 2M-DE-L length | 18.575 in |  |  |
+| 2M-DE-R length | 18.575 in |  |  |
+| 2M-DE gap / station | 0.250 / 13.500 in |  |  |
+| 2M-R length / station | 41.400 / 21.500 in |  |  |
+| 70-D3 length / station | 11.700 / 3.500 in |  |  |
+| 70-D2 length / station | 11.900 / 9.500 in |  |  |
+| 70-D1 length / station | 11.900 / 15.500 in |  |  |
+| 70-DE-L length | 6.175 in |  |  |
+| 70-DE-R length | 6.175 in |  |  |
+| 70-DE gap / station | 0.250 / 18.500 in |  |  |
+| 70-R length / station | 12.900 / 21.000 in |  |  |
+| 2 m node-center spacing | Record |  |  |
+| 70 cm node-center spacing | Record |  |  |
+| Hairpin leg spacing / leg length / bend diameter | Record |  |  |
+| Installed boom gap at J1 / J2 | 0.250 in minimum |  |  |
+| Element-plane angle | 90 degrees +/- 2 degrees |  |  |
+| Reflector physical edge clearance | 0.0625 in minimum |  |  |
 
-| 2M-D1 | 2.000 in | [ ] |
-
-| 2M-DE | 13.500 in | [ ] |
-
-| 2M-R | 21.500 in | [ ] |
-
-| J1 | 4.500 in | [ ] |
-
-| J2 | 22.500 in | [ ] |
-
-## 22.2 70 cm Boom
-| Station | Target X | Verified |
-
-| --- | ---: | :---: |
-
-| 70-D3 | 3.500 in | [ ] |
-
-| 70-D2 | 9.500 in | [ ] |
-
-| 70-D1 | 15.500 in | [ ] |
-
-| 70-DE | 18.500 in | [ ] |
-
-| 70-R | 21.000 in | [ ] |
-
-| J1 | 4.500 in | [ ] |
-
-| J2 | 22.500 in | [ ] |
-
-The joint positions do not require drilling under the Rev. A cable-tie collar design.
-
-They are marked only for assembly placement.
+Any out-of-tolerance result is an as-built deviation requiring evaluation before O8. Do not silently change a design value to match the fabricated part.
 
 ---
 
-# 23. Master Bench Cut Checklist
-## PVC
-- [ ] Cut 2M boom to 30.000 in
+## 16. Stop conditions
 
-- [ ] Cut 70CM boom to 30.000 in
+Stop fabrication for any of the following:
 
-- [ ] Mark both FRONT datums
-
-- [ ] Mark both band IDs
-
-- [ ] Deburr all PVC cuts
-
-## 2 m Steel
-- [ ] 2M-R = 41.400 in
-
-- [ ] 2M-D1 = 35.400 in
-
-- [ ] 2M-DE-L = 18.575 in
-
-- [ ] 2M-DE-R = 18.575 in
-
-- [ ] Deburr all steel ends
-
-- [ ] Label every cut
-
-## 70 cm Steel
-- [ ] 70-R = 12.900 in
-
-- [ ] 70-D1 = 11.900 in
-
-- [ ] 70-D2 = 11.900 in
-
-- [ ] 70-D3 = 11.700 in
-
-- [ ] 70-DE-L = 6.175 in
-
-- [ ] 70-DE-R = 6.175 in
-
-- [ ] Deburr all steel ends
-
-- [ ] Label every cut
-
-## Hairpin
-- [ ] #12 solid copper = 8.500 in
-
-- [ ] Do not trim during O5/O6
-
-## Dowel
-- [ ] ST-1 = 12.000 in
-
-- [ ] ST-2 = 12.000 in
-
-- [ ] ST-3 = 12.000 in
+- A short-cut RF element.
+- A misplaced element station.
+- Cracked, split, or crushed PVC.
+- A failed tape/support coupon.
+- A driven gap that will not remain fixed.
+- Feed hardware that can contact the opposite node.
+- Boom, dowel, element, ferrite, hairpin, or coax interference.
+- Less than the required installed boom or reflector clearance.
+- A coax bend tighter than its documented minimum.
+- Unexpected DC continuity or failed intended continuity.
+- A material substitution that changes element width, boom OD, feedline type, support material, or RF geometry.
 
 ---
 
-# 24. Master Drill Checklist
-## 2 m Boom
-- [ ] 7/16 in hole at 2.000 in
+## 17. Revision control
 
-- [ ] 7/16 in hole at 13.500 in
-
-- [ ] 7/16 in hole at 21.500 in
-
-## 70 cm Boom
-- [ ] 7/16 in hole at 3.500 in
-
-- [ ] 7/16 in hole at 9.500 in
-
-- [ ] 7/16 in hole at 15.500 in
-
-- [ ] 7/16 in hole at 18.500 in
-
-- [ ] 7/16 in hole at 21.000 in
-
-## Feedpoint
-- [ ] Do not pre-drill feed-screw holes until driven halves are installed
-
-- [ ] Verify actual #6-32 clearance-bit fit before drilling
-
----
-
-# 25. As-Built Dimensional Record
-Complete after O6 mechanical assembly and **before O8 RF tuning**.
-
-## 25.1 2 m As-Built
-| Parameter | Design | As-Built | Deviation |
-
-| --- | ---: | ---: | ---: |
-
-| Boom length | 30.000 in | _____ | _____ |
-
-| 2M-D1 length | 35.400 in | _____ | _____ |
-
-| 2M-D1 position | 2.000 in | _____ | _____ |
-
-| 2M-DE overall span | 37.400 in | _____ | _____ |
-
-| 2M-DE gap | 0.250 in | _____ | _____ |
-
-| 2M-DE position | 13.500 in | _____ | _____ |
-
-| 2M-R length | 41.400 in | _____ | _____ |
-
-| 2M-R position | 21.500 in | _____ | _____ |
-
-| Hairpin length | 8.500 in | _____ | _____ |
-
-## 25.2 70 cm As-Built
-| Parameter | Design | As-Built | Deviation |
-
-| --- | ---: | ---: | ---: |
-
-| Boom length | 30.000 in | _____ | _____ |
-
-| 70-D3 length | 11.700 in | _____ | _____ |
-
-| 70-D3 position | 3.500 in | _____ | _____ |
-
-| 70-D2 length | 11.900 in | _____ | _____ |
-
-| 70-D2 position | 9.500 in | _____ | _____ |
-
-| 70-D1 length | 11.900 in | _____ | _____ |
-
-| 70-D1 position | 15.500 in | _____ | _____ |
-
-| 70-DE overall span | 12.600 in | _____ | _____ |
-
-| 70-DE gap | 0.250 in | _____ | _____ |
-
-| 70-DE position | 18.500 in | _____ | _____ |
-
-| 70-R length | 12.900 in | _____ | _____ |
-
-| 70-R position | 21.000 in | _____ | _____ |
-
-## 25.3 Joint / Orientation
-| Parameter | Design | As-Built |
-
-| --- | ---: | ---: |
-
-| J1 position | 4.500 in | _____ |
-
-| J2 position | 22.500 in | _____ |
-
-| Operating relative angle | Approx. 90° | _____ |
-
-| Storage configuration functional | Yes | Yes / No |
-
----
-
-# 26. Cut-Sheet Change Control
-Before fabrication begins, any change to an RF-critical dimension requires:
-
-1. O3 review
-
-2. O5 revision
-
-3. Revision number increment
-
-4. Reason documented in Git history
-
-After fabrication begins:
-
-- Measured dimensional differences belong in **As-Built**
-
-- Tuning changes belong in **As-Tuned / O8**
-
-- Do not silently rewrite the original design dimensions
-
----
-
-# 27. O5 Acceptance Checklist
-O5 may be considered complete when:
-
-- [x] 2 m element cut lengths are defined
-
-- [x] 70 cm element cut lengths are defined
-
-- [x] Driven-element half lengths are defined
-
-- [x] Driven-element gaps are defined
-
-- [x] Two 30.000 in boom cuts are defined
-
-- [x] 2 m absolute drilling positions are defined
-
-- [x] 70 cm absolute drilling positions are defined
-
-- [x] Adjacent spacing agrees with O3
-
-- [x] Main element-hole diameter and 2 m stiffener interface are defined
-
-- [x] Feed-screw match-drilling method and local attachment geometry are defined
-
-- [x] 2 m hairpin cut length is defined
-
-- [x] Dowel/stiffener initial cuts are defined
-
-- [x] Dual-boom joint locations and long-tie requirements are defined
-
-- [x] Operating orientation is defined
-
-- [x] Storage orientation is defined
-
-- [x] Fabrication tolerances are defined
-
-- [x] As-built recording tables are provided
-
-- [x] O5 dimensions agree with O3
-
-- [x] O5 material assumptions agree with O4
-
-- [ ] O5 has been committed to the GitHub repository
-
----
-
-# 28. Revision Control
 | Revision | Date | Description |
+|---|---|---|
+| Rev. A | 2026-08-17 | Initial mechanical drawing and cut sheet. |
+| **Rev. B** | **2026-09-21** | Retained verified RF geometry; standardized project name; removed rotating/folding joint language and coax coils; added fixed removable boom retention, separator pads, ferrites, coupon controls, feed-node geometry, corrected DC checks, tighter clearances, and as-built records. |
 
-| --- | --- | --- |
-
-| Rev. A | 2026-08-24 | Initial formal O5 mechanical drawing and cut sheet using finalized O3 dimensions; dual-boom V1 joint defined using cable-tie rotating collars |
-
-Future revisions should preserve prior history.
-
----
-
-# 29. Engineering Intent
-O5 exists to remove fabrication ambiguity.
-
-The operator should not need to calculate antenna geometry while standing at the workbench.
-
-The intended workflow is:
-
-```text
-
-O3 RF DIMENSIONS
-
-        ↓
-
-O5 CUT / DRILL SHEET
-
-        ↓
-
-O6 PHYSICAL FABRICATION
-
-        ↓
-
-AS-BUILT DIMENSIONS
-
-        ↓
-
-O8 RF MEASUREMENT
-
-        ↓
-
-AS-TUNED CONFIGURATION
-
-```
-
-A successful O5 document means every critical cut and layout dimension can be traced back to the design baseline and later compared against the physical antenna.
+The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
 ---
 
-**End of O5 Mechanical Drawing & Cut Sheet**
+## 18. Engineering intent
+
+This Rev. B cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+
+It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
+
+Baseline RF geometry is derived from the project design set based on John Portune, W6NBC, QST, January 2012, pages 37-39. Project-specific boom retention, feed hardware, ferrite suppression, tolerances, and inspection controls are TM-YAGI-01 Rev. B engineering changes.
+
+---
+
+**End of O5 Rev. B Mechanical Drawing and Cut Sheet**
