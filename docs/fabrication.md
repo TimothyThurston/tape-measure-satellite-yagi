@@ -1,1050 +1,953 @@
-# O6 — Fabrication & Assembly
+# O6 - Fabrication and Assembly
 
 ## Tape Measure Satellite Yagi
 
 **Project:** Tape Measure Satellite Yagi  
-**Document:** O6 Fabrication & Assembly Procedure  
-**Repository Path:** `docs/fabrication.md`  
-**Application:** Amateur-Radio Satellite / ISS Operation  
+**Project ID:** TM-YAGI-01  
+**Document:** O6 Fabrication and Assembly Procedure  
+**Repository path:** `docs/fabrication.md`  
+**Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Design Inputs:** O3 Antenna Design & Dimensions, O4 Bill of Materials & Sourcing, O5 Mechanical Drawing & Cut Sheet  
-**Design Status:** Pre-Fabrication Build Procedure  
-**Revision:** Rev. A  
-**Date:** 2026-08-24
+**Revision:** Rev. B  
+**Date:** 2026-09-21  
+**Status:** Controlled mechanical fabrication procedure  
 
 ---
 
-# 1. Purpose
+## 1. Purpose and scope
 
-This document defines the formal fabrication and mechanical assembly procedure for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision B baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
-It converts the O3 design and O5 cut sheet into a repeatable bench process that produces a mechanically complete antenna structure ready for:
+O6 controls:
 
-- O7 — Feed & Matching System
-- O8 — Initial RF Testing & Tuning
-- O9 — Field Performance Testing
-- O10 — Satellite / ISS Field Validation
+- Incoming-material inspection and measurement.
+- Mandatory scrap-coupon testing.
+- PVC boom cutting, marking, and drilling.
+- Tape-steel and support cutting.
+- Element labeling, installation, centering, and retention.
+- Driven-element gap setup.
+- Feed-node hole marking and drilling in the tape steel.
+- Separator-pad and dual-boom retention assembly.
+- Mechanical clearances and handling checks.
+- Pre-feed DC isolation checks.
+- As-built dimensional recording.
+- Fabrication photographs and deviation records.
 
-This procedure controls:
+O6 does **not**:
 
-- Material preparation
-- Boom cutting
-- Dimensional layout
-- Hole drilling
-- Tape-steel cutting
-- Element labeling
-- Driven-element mechanical preparation
-- Stiffener installation
-- Dual-boom assembly
-- Feedpoint mounting-hole preparation
-- Mechanical inspection
-- As-built dimensional recording
-- Build photographs
-- Fabrication deviations
+- Remove either antenna-side BNC connector.
+- Strip or terminate RG-58.
+- Crimp or solder feed lugs.
+- Install the 2 m hairpin.
+- Install or finalize ferrite common-mode suppression.
+- Apply final heat shrink or weatherproofing.
+- Perform VNA measurements or RF tuning.
+- Transmit through the antenna.
 
-O6 does **not** install or electrically terminate the coax feed lines, matching network, coax chokes, BNC feed interfaces, or other RF-feed components. Those operations belong to O7.
-
-O6 also does **not** include RF tuning. Any dimensional or matching changes resulting from measurement belong to O8 and must be recorded as **as-tuned** changes rather than silently modifying the original O3/O5 baseline.
-
----
-
-# 2. Required Inputs Before Fabrication
-
-Fabrication should not begin until the following repository documents are available and internally consistent:
-
-- `docs/design.md`
-- `docs/bill-of-materials.md`
-- `docs/cut-sheet.md`
-- `docs/fabrication.md`
-
-The builder should verify that:
-
-- O3 contains the finalized antenna dimensions.
-- O4 contains the required materials.
-- O5 contains the finalized cut and drill locations.
-- All purchased substitutions have been reviewed.
-- No unresolved material mismatch affects O5 geometry.
-- The actual tape-measure blade fits the planned boom-hole concept before production drilling begins.
+Those operations belong to O7 and O8.
 
 ---
 
-# 3. Required Materials
+## 2. Revision B audit disposition
 
-The O6 mechanical build uses the materials defined in O4.
+### 2.1 Retained from the later Rev. A fabrication draft
 
-Primary O6 materials:
+| Item | Disposition |
+|---|---|
+| O6 mechanical / O7 electrical phase boundary | Retained |
+| Two 30.000 in PVC booms | Retained |
+| FRONT-datum station layout | Retained |
+| Verified RF element lengths | Retained |
+| 7/16 in baseline element holes | Retained subject to the full coupon test |
+| Three 12.000 in nonconductive 2 m supports | Retained and made final, not trimmable by default |
+| As-designed / as-built / as-tuned configuration control | Retained |
+| Build photographs and deviation log | Retained and expanded |
 
-- 1/2 in Schedule 40 PVC
-- Narrow flexible conductive tape-measure steel
-- 3/8 in nonconductive dowel or fiberglass stiffener
-- Small cable ties for 2 m stiffener attachment
-- UV-resistant cable ties for the dual-boom rotating collars
-  - **8 in preferred**
-  - **6 in minimum**
-- #6-32 feedpoint machine screws and related hardware for match-drilling and fit verification
+### 2.2 Corrected in Revision B
 
-The following O4 items are reserved primarily for O7 and are **not required to complete O6**:
-
-- RG-58 50 Ω coax feed lines
-- Feed lugs
-- #12 AWG solid copper hairpin conductor
-- Heat-shrink tubing
-- Electrical tape
-- Electronics solder
-- Electronics-compatible flux
+| Rev. A fabrication issue | Revision B correction |
+|---|---|
+| Rotating collar and folding instructions | Removed. The booms are fixed in operating orientation while tied and are separated for storage. |
+| Six-inch dual-boom ties allowed | Removed. Use 8 in minimum UV-resistant ties. |
+| Touching booms | Removed. Use two nonconductive separator pads with at least 0.250 in installed clearance. |
+| J1/J2 called joints | Renamed retention stations. No separate joint mechanism exists. |
+| Practice hole tested only the tape | Replaced by a complete tape/support/PVC and feed-hardware coupon. |
+| Feed screws drilled through the PVC wall | Prohibited. Feed-node holes are drilled only through the exposed driven-half tape steel. |
+| Supports could be shortened | Removed. All three controlled supports remain 12.000 in unless a documented revision approves a change. |
+| Loose centering and station controls | Replaced by O5 Rev. B tolerances and the close-reflector check. |
+| Feed work and coax coils appeared in the older combined draft | Excluded from O6. O7 uses snap-on ferrites instead of tight coils. |
+| Contact surfaces could be tinned under hardware | Prohibited. Mechanical clamp surfaces remain untinned. |
+| Relative boom rotation treated as normal handling | Prohibited while ties are installed. Roll the complete antenna during operation. |
+| Incomplete mechanical DC checks | Added driven-half, parasitic-element, and cross-band isolation checks before O7. |
 
 ---
 
-# 4. Required Tools
+## 3. Controlling inputs
 
-Minimum O6 fabrication tools:
+Do not begin O6 unless these documents are available and mutually consistent:
 
-- Measuring tape or steel rule
-- Fine-point permanent marker
-- Square
-- Drill
-- 7/16 in drill bit
-- Approx. 5/32 in drill bit for #6 feedpoint hardware
-- PVC cutter or hacksaw
-- Snips suitable for tape-measure steel
-- File or deburring tool
-- Safety glasses
+| Document | Required revision | Function |
+|---|---|---|
+| O3 - Antenna Design and Dimensions | Rev. B | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. B | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. B | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. B | Mechanical build sequence |
+
+If a value in this procedure conflicts with O5 Rev. B, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+
+---
+
+## 4. Configuration control
+
+Maintain three distinct records:
+
+### 4.1 As-designed
+
+The controlled O3-O7 values before fabrication.
+
+### 4.2 As-built
+
+The actual measured dimensions, materials, fit, gaps, clearances, feed-node spacing, and retention geometry after O6/O7 construction and before RF tuning.
+
+### 4.3 As-tuned
+
+The final configuration after O8 measurement and adjustment.
+
+Never overwrite an as-designed value with a fabricated or tuned value. Record deviations separately.
+
+---
+
+## 5. Required O6 materials
+
+Use only O4-approved materials.
+
+| Item | O6 use |
+|---|---|
+| Nominal 1/2 in Schedule 40 PVC | Two 30.000 in booms plus scrap coupon |
+| Approximately 3/8 in conductive tape steel | RF elements plus coupon |
+| 3/8 in x 12.000 in nonconductive supports | Three 2 m element supports plus one spare for coupon |
+| Approximately 4 in nonconductive cable ties | Element/support retention and temporary positioning |
+| 8 in minimum UV-resistant black cable ties | Two installed dual-boom retention ties plus spares |
+| Two nonconductive separator pads | Installed at J1 and J2 |
+| #6-32 screws, nuts, and flat washers | Coupon and feed-node hole fit verification |
+| One representative #4-6 ring lug | Coupon stack verification only |
+| Fine abrasive | Local feed-node contact-pad preparation after drilling |
+| Temporary nonconductive 0.250 in gap gauge | Driven-element gap setup |
+| Labels or masking tape and marker | Part identification |
+
+RG-58, final ring lugs, the hairpin blank, ferrites, solder, heat shrink, and electrical finishing materials are controlled by O4 but are installed during O7.
+
+---
+
+## 6. Required tools
+
+Minimum tools:
+
+- Safety glasses.
+- Cut-resistant work gloves for handling spring steel.
+- Steel rule or measuring tape with at least 1/32 in graduations where controlled.
+- Caliper capable of reading PVC, tape, support, pad, screw, and coax dimensions.
+- Fine-point permanent marker.
+- Square.
+- V-block, drill guide, or equivalent round-pipe fixture.
+- Drill or drill press.
+- 7/16 in drill bit.
+- Candidate approximately 5/32 in #6 clearance bit.
+- PVC cutter, fine-tooth saw, or hacksaw.
+- Snips rated for the tape steel.
+- Fine file and deburring tools.
+- Padded vise or clamps.
+- Multimeter.
+- Camera or phone for fabrication records.
 
 Recommended:
 
-- Bench vise or padded workholding
-- Center punch
-- Calipers
-- Small round file
-
-O7-specific electrical tools such as wire strippers, terminal crimpers, soldering equipment, heat-shrink tools, and multimeters are not required to complete the mechanical O6 phase.
+- Sacrificial wood drilling block.
+- Low-tack tape for temporary marking and gap retention.
+- Printed or fabricated 45-degree assembly-angle template.
+- Small machinist square.
 
 ---
 
-# 5. Safety Requirements
+## 7. Safety controls
 
-## 5.1 Eye Protection
+### 7.1 Spring-steel tape
 
-Safety glasses shall be worn when:
+- Wear eye protection and gloves while cutting and deburring.
+- Control both sides of the cut; the blade can spring or whip.
+- Deburr each piece immediately.
+- Do not leave unlabeled sharp offcuts on the bench.
 
-- Cutting tape-measure steel
-- Drilling PVC
-- Match-drilling tape steel
-- Deburring
-- Trimming stiffener material
+### 7.2 Drilling
 
-Spring-steel tape can release stored mechanical energy after cutting.
+- Do not hand-hold PVC, tape steel, or the coupon while drilling.
+- Use a V-block or equivalent fixture for round pipe.
+- Clamp tape steel flat to a sacrificial block before drilling node holes.
+- Keep hands away from the bit and from the possible snag direction.
+- Stop if the tape catches, twists, cracks, or kinks.
 
-## 5.2 Tape-Steel Handling
+### 7.3 PVC
 
-Freshly cut tape steel may have:
+- Do not crush the pipe in the vise.
+- Stop for visible cracks, splits, or severe whitening around a hole.
+- Remove chips and burrs before inserting elements.
 
-- Sharp corners
-- Burrs
-- Spring-back
-- Kinked edges
+### 7.4 Electrical and RF safety
 
-Every cut end must be deburred before normal handling.
-
-## 5.3 Drilling
-
-Do not hold PVC or steel directly in the hand while drilling if a vise or clamp is available.
-
-Avoid crushing PVC with excessive clamping force.
-
-When match-drilling the feedpoint hardware, control the workpiece so the drill cannot snag the spring-steel tape and pull it unexpectedly.
+- Keep radios, transmitters, and analyzers disconnected during O6.
+- O6 multimeter checks are performed only on the unpowered structure.
+- Do not transmit before O8 acceptance testing.
 
 ---
 
-# 6. Fabrication Control Philosophy
+## 8. Fabrication record header
 
-The build shall follow three configuration states.
+Complete before cutting:
 
-## 6.1 As-Designed
-
-The dimensions specified in O3/O5.
-
-## 6.2 As-Built
-
-The dimensions actually measured after O6 mechanical fabrication and assembly.
-
-## 6.3 As-Tuned
-
-The final configuration after O7 feed-system installation and O8 RF tuning.
-
-Do not overwrite the original design dimensions with as-built or as-tuned values.
-
----
-
-# 7. Step 1 — Inspect Incoming Materials
-
-Before cutting anything, inspect all material required for O6.
-
-## PVC
-
-Verify:
-
-- Correct nominal size
-- At least 60 in usable length
-- No cracks
-- No major bends
-- Clean enough for marking
-
-## Tape Steel
-
-Verify:
-
-- Conductive steel
-- Width fits the O5 hole concept
-- At least 18 ft usable length
-- No severe kinks
-- No rust or mechanical damage in critical sections
-
-## Dowel / Fiberglass
-
-Verify:
-
-- 3/8 in nominal diameter
-- Straight
-- Nonconductive
-- At least 36 in usable length
-
-## Cable Ties
-
-Verify:
-
-- Small ties are available for 2 m stiffener attachment
-- Dual-boom collar ties are UV-resistant where practical
-- Dual-boom collar ties are **8 in preferred or 6 in minimum**
-
-## Feedpoint Hardware
-
-Verify:
-
-- #6-32 screws fit the selected nuts
-- Washers fit the screws
-- Hardware is available for match-drilling and mechanical fit checks
-
-If any major discrepancy exists, stop fabrication and update O4/O5 before continuing.
+| Field | Entry |
+|---|---|
+| Builder |  |
+| Build date |  |
+| O3 revision | Rev. B |
+| O4 revision | Rev. B |
+| O5 revision | Rev. B |
+| O6 revision | Rev. B |
+| PVC manufacturer / marking |  |
+| Tape manufacturer / blade model |  |
+| Support material |  |
+| Hardware source |  |
+| Deviations open at start |  |
 
 ---
 
-# 8. Step 2 — Cut PVC Booms
+## 9. Step 1 - Inspect and measure incoming materials
+
+### 9.1 PVC
+
+Verify and record:
+
+- Correct nominal 1/2 in Schedule 40 material.
+- At least 60 in usable length plus a coupon section.
+- Actual outside diameter.
+- Straightness and surface condition.
+- No cracks, crushing, or major bends.
+
+### 9.2 Tape steel
+
+Verify and record:
+
+- Conductive spring-steel base material.
+- Actual width and thickness.
+- Blade curvature and coating.
+- At least 18 ft usable length.
+- No severe kinks, cracks, or corrosion in the selected sections.
+
+Reject a 1 in or wider blade unless O3-O5 are formally revised.
+
+### 9.3 Supports
+
+Verify and record:
+
+- Nonconductive material.
+- Actual diameter.
+- Straightness.
+- At least three 12.000 in pieces plus one coupon piece.
+
+### 9.4 Retention materials
+
+Verify:
+
+- At least two 8 in minimum UV-resistant ties plus spares.
+- Two nonconductive pads approximately 1.000 x 0.500 in.
+- Each installed pad thickness will remain at least 0.250 in.
+- Small ties are available for all element-retention stations.
+
+### 9.5 Feed hardware for coupon
+
+Verify:
+
+- Actual #6-32 screw fits the nut.
+- Flat washer and representative ring lug fit the screw.
+- Both 1/2 in and 3/4 in candidate screw lengths are available.
+- Candidate drill bit provides a free but not excessive clearance fit.
+
+---
+
+## 10. Quality Gate A - material acceptance
+
+- [ ] PVC OD measured and recorded.
+- [ ] Tape width, thickness, curvature, coating, and conductivity recorded.
+- [ ] Support diameter measured and recorded.
+- [ ] At least 18 ft usable tape steel accepted.
+- [ ] Three final supports plus one coupon support available.
+- [ ] Separator pads and 8 in minimum ties accepted.
+- [ ] Candidate #6-32 hardware stack available.
+
+Stop if any controlled material differs from O4/O5 without an approved substitution.
+
+---
+
+## 11. Step 2 - Build and approve the material coupon
+
+Use the actual project materials. Do not substitute easier scrap of a different size.
+
+### 11.1 PVC/tape/support fit
+
+1. Secure a short scrap section of the actual PVC in the drilling fixture.
+2. Drill one 7/16 in through-hole through the pipe centerline.
+3. Deburr without enlarging the hole.
+4. Test the actual 3/8 in support and actual tape together through the hole.
+5. Test the tape alone through the same size hole for the 70 cm condition.
+6. Inspect the tape for crushing, permanent kinking, or forced distortion.
+7. Inspect the PVC for cracking and uncontrolled looseness.
+
+### 11.2 Feed-node hardware fit
+
+1. Clamp a tape coupon flat to sacrificial wood.
+2. Center the candidate feed-node hole across the blade width.
+3. Drill with the candidate approximately 5/32 in bit.
+4. Deburr both faces.
+5. Assemble this representative stack from screw head toward nut:
+   1. #6-32 screw.
+   2. Bare tape coupon.
+   3. Representative ring lug.
+   4. Representative #12 wire hook or equal-thickness gauge for the 2 m stack.
+   5. Flat washer.
+   6. Nut.
+6. Begin with the 1/2 in screw.
+7. Confirm the nut fully engages and at least two complete threads are visible.
+8. Use the 3/4 in screw only if the 1/2 in screw fails engagement.
+9. Confirm the stack clamps without bending or tearing the tape.
+
+Do not tin the tape coupon beneath the mechanical stack.
+
+### 11.3 Separator-pad fit
+
+1. Place a pad between two scrap or uncut sections of the actual PVC.
+2. Wrap one 8 in tie around both pipes and the pad.
+3. Tighten only enough to prevent sliding.
+4. Confirm the pad remains centered.
+5. Measure the installed bare-surface gap.
+6. Reject a pad that compresses below 0.250 in, slips uncontrollably, cracks, or permanently deforms.
+
+---
+
+## 12. Quality Gate B - coupon approval
+
+- [ ] 7/16 in hole drilled cleanly without PVC damage.
+- [ ] Actual tape and support share the 2 m hole without forced distortion.
+- [ ] Actual tape fits the 70 cm condition without uncontrolled looseness.
+- [ ] Candidate #6 clearance hole fits the actual screw.
+- [ ] Shortest usable screw identified.
+- [ ] Node stack clamps securely with at least two full threads beyond the nut.
+- [ ] Separator pad retains at least 0.250 in installed gap.
+
+If any item fails, stop. Do not enlarge all final holes or improvise a joint.
+
+---
+
+## 13. Step 3 - Cut the PVC booms
 
 Cut:
 
-| Boom ID | Finished Length |
-| --- | ---: |
-| 2M-BOOM | **30.000 in** |
-| 70CM-BOOM | **30.000 in** |
+| Boom ID | Band | Finished length |
+|---|---|---:|
+| PVC-2M | 2 m | 30.000 in |
+| PVC-70 | 70 cm | 30.000 in |
 
-After cutting:
+For each boom:
 
-1. Square each end as closely as practical.
-2. Deburr inside and outside edges.
-3. Verify final length.
-4. Select one end as FRONT.
-5. Mark:
-   - `FRONT`
-   - Direction-of-gain arrow
-   - Band ID
+1. Make a square cut.
+2. Deburr inside and outside.
+3. Measure the finished length.
+4. Reject or recut if shorter than the O5 tolerance permits.
+5. Select and mark the FRONT end.
+6. Mark the REAR/operator end.
+7. Mark the band ID.
+8. Add a permanent direction-of-gain arrow pointing toward FRONT.
 
-Example:
-
-```text
-FRONT / GAIN →
-
-2 M
-│────────────────────────────────────────────│
-0.000                                    30.000 in
-```
+Do not cut either boom into folding sections. Do not install the purchased PVC tee.
 
 ---
 
-# 9. Step 3 — Establish Reference Lines
+## 14. Step 4 - Establish reference lines
 
-Draw a longitudinal reference line along each boom.
+On each boom:
 
-This line is used to:
-
-- Keep element holes aligned
-- Keep station marks consistent
-- Help verify drilling perpendicularity
+1. Draw one straight longitudinal element-plane reference line.
+2. Transfer the line across each planned station using a square.
+3. Mark a separate assembly-orientation line 45 degrees around the pipe from the element-plane line for use when setting the boom-center relationship.
+4. Keep all labels clear of drilling points.
 
 Do not rely on visual estimation alone.
 
 ---
 
-# 10. Step 4 — Lay Out 2 Meter Element Stations
+## 15. Step 5 - Lay out element and retention stations
 
-Measure every location from the FRONT datum.
+Measure every station independently from FRONT. Do not chain dimensions.
 
-Mark:
+### 15.1 2 m boom
 
-| Station | Position from FRONT |
-| --- | ---: |
-| 2M-D1 | **2.000 in** |
-| 2M-DE | **13.500 in** |
-| 2M-R | **21.500 in** |
+| Station | X from FRONT | Purpose |
+|---|---:|---|
+| 2M-D1 | 2.000 in | Director 1 |
+| J1 | 4.500 in | Front retention station; no hole |
+| 2M-DE | 13.500 in | Driven element |
+| 2M-R | 21.500 in | Reflector |
+| J2 | 22.500 in | Rear retention station; no hole |
 
-Also mark dual-boom joint locations:
+### 15.2 70 cm boom
 
-| Joint | Position from FRONT |
-| --- | ---: |
-| J1 | **4.500 in** |
-| J2 | **22.500 in** |
+| Station | X from FRONT | Purpose |
+|---|---:|---|
+| 70-D3 | 3.500 in | Director 3 |
+| J1 | 4.500 in | Front retention station; no hole |
+| 70-D2 | 9.500 in | Director 2 |
+| 70-D1 | 15.500 in | Director 1 |
+| 70-DE | 18.500 in | Driven element |
+| 70-R | 21.000 in | Reflector |
+| J2 | 22.500 in | Rear retention station; no hole |
 
-Re-measure each position independently from FRONT.
+### 15.3 Independent checks
 
-Do not use chained measurements from one station to the next.
-
----
-
-# 11. Step 5 — Lay Out 70 Centimeter Element Stations
-
-Measure every location from the FRONT datum.
-
-Mark:
-
-| Station | Position from FRONT |
-| --- | ---: |
-| 70-D3 | **3.500 in** |
-| 70-D2 | **9.500 in** |
-| 70-D1 | **15.500 in** |
-| 70-DE | **18.500 in** |
-| 70-R | **21.000 in** |
-
-Also mark:
-
-| Joint | Position from FRONT |
-| --- | ---: |
-| J1 | **4.500 in** |
-| J2 | **22.500 in** |
+- Confirm every rear-datum value using `30.000 - X from FRONT`.
+- Align both FRONT ends and verify the nominal 2M-R to 70-R center difference is 0.500 in.
+- Confirm no retention station overlaps an RF station.
 
 ---
 
-# 12. Quality Gate A — Layout Verification
+## 16. Quality Gate C - layout verification
 
-Before drilling:
+- [ ] Both boom lengths recorded.
+- [ ] FRONT, REAR, band ID, and gain arrows present.
+- [ ] Longitudinal element-plane references present.
+- [ ] Assembly-orientation references present.
+- [ ] All element stations measured independently from FRONT.
+- [ ] Rear-datum cross-checks completed.
+- [ ] J1 and J2 marked as no-hole retention stations.
+- [ ] Nominal reflector-center separation confirmed at 0.500 in.
 
-- [ ] Both booms measure 30.000 in
-- [ ] Both FRONT datums are clearly marked
-- [ ] Band labels are present
-- [ ] Longitudinal reference lines are present
-- [ ] All stations were measured independently from FRONT
-- [ ] 2 m spacing agrees with O5
-- [ ] 70 cm spacing agrees with O5
-- [ ] J1/J2 marks are present
-
-If any mark is questionable, erase and re-mark it before drilling.
+Have a second person remeasure the station marks where practical. If working alone, remeasure after a short break using a different rule orientation.
 
 ---
 
-# 13. Step 6 — Drill Practice Hole
+## 17. Step 6 - Drill the element holes
 
-Before drilling the finished booms:
+Use the approved 7/16 in coupon result.
 
-1. Use scrap 1/2 in PVC.
-2. Drill one 7/16 in through-hole.
-3. Deburr the hole.
-4. Test-fit the actual purchased tape steel.
+1. Place the boom in a V-block or equivalent fixture.
+2. Align the element-plane reference.
+3. Drill through the pipe centerline at each RF station only.
+4. Keep the bit perpendicular to the boom axis.
+5. Deburr inside and outside without enlarging the hole.
+6. Inspect after every hole for cracking, splitting, whitening, and wander.
 
-The tape should pass through without destructive force.
+Drill:
 
-If the blade does not fit:
+| Boom | Hole locations from FRONT |
+|---|---|
+| 2 m | 2.000, 13.500, 21.500 in |
+| 70 cm | 3.500, 9.500, 15.500, 18.500, 21.000 in |
 
-**STOP.**
-
-Do not enlarge every antenna hole blindly.
-
-Update the mechanical mounting method first.
-
----
-
-# 14. Step 7 — Drill Main Element Holes
-
-Use a:
-
-**7/16 in drill bit**
-
-Drill through the approximate center of the PVC cross-section at each element station.
-
-## 2 m Boom
-
-Drill at:
-
-- 2.000 in
-- 13.500 in
-- 21.500 in
-
-## 70 cm Boom
-
-Drill at:
-
-- 3.500 in
-- 9.500 in
-- 15.500 in
-- 18.500 in
-- 21.000 in
-
-Keep the drill approximately perpendicular to the boom.
+Do not drill at J1 or J2. Do not drill feed-node holes through the PVC.
 
 ---
 
-# 15. Step 8 — Deburr Main Element Holes
+## 18. Quality Gate D - boom inspection
 
-Remove:
+- [ ] Three element holes on the 2 m boom.
+- [ ] Five element holes on the 70 cm boom.
+- [ ] No holes at J1 or J2.
+- [ ] Hole axes are parallel within each boom.
+- [ ] Stations remain within the O5 tolerance.
+- [ ] No cracks, splits, crushing, or severe whitening.
+- [ ] Holes are deburred without excessive enlargement.
+- [ ] Actual tape/support fit remains consistent with the coupon.
 
-- PVC chips
-- Sharp edges
-- Internal burrs
-
-Use a round file or deburring tool if necessary.
-
-Do not excessively enlarge the holes.
-
----
-
-# 16. Quality Gate B — Boom Geometry
-
-Verify:
-
-- [ ] 3 element holes exist on the 2 m boom
-- [ ] 5 element holes exist on the 70 cm boom
-- [ ] Holes are centered reasonably well
-- [ ] Holes are approximately square to the boom
-- [ ] No PVC cracking exists
-- [ ] Actual tape steel test-fits
-- [ ] Joint marks remain visible
-
-If a hole is badly misplaced, replacing the boom is preferred over attempting to compensate by changing RF geometry.
+Replace a badly drilled boom rather than moving an RF element to compensate.
 
 ---
 
-# 17. Step 9 — Cut 2 Meter Tape-Steel Elements
+## 19. Step 7 - Cut, deburr, and label RF elements
 
-Cut and immediately label each piece.
+Cut every finished length from the actual tape steel. Label immediately.
 
-## Passive Elements
+### 19.1 2 m cuts
 
-| ID | Finished Length |
-| --- | ---: |
-| 2M-R | **41.400 in** |
-| 2M-D1 | **35.400 in** |
+| ID | Element | Finished length |
+|---|---|---:|
+| 2M-R | Reflector | 41.400 in |
+| 2M-DE-L | Driven left half | 18.575 in |
+| 2M-DE-R | Driven right half | 18.575 in |
+| 2M-D1 | Director 1 | 35.400 in |
 
-## Driven Element Halves
+### 19.2 70 cm cuts
 
-| ID | Finished Length |
-| --- | ---: |
-| 2M-DE-L | **18.575 in** |
-| 2M-DE-R | **18.575 in** |
+| ID | Element | Finished length |
+|---|---|---:|
+| 70-R | Reflector | 12.900 in |
+| 70-DE-L | Driven left half | 6.175 in |
+| 70-DE-R | Driven right half | 6.175 in |
+| 70-D1 | Director 1 | 11.900 in |
+| 70-D2 | Director 2 | 11.900 in |
+| 70-D3 | Director 3 | 11.700 in |
 
-Center gap when assembled:
+### 19.3 Finish requirements
 
-**0.250 in**
+For every piece:
 
-Overall driven-element span:
-
-**37.400 in**
-
----
-
-# 18. Step 10 — Cut 70 Centimeter Tape-Steel Elements
-
-## Passive Elements
-
-| ID | Finished Length |
-| --- | ---: |
-| 70-R | **12.900 in** |
-| 70-D1 | **11.900 in** |
-| 70-D2 | **11.900 in** |
-| 70-D3 | **11.700 in** |
-
-## Driven Element Halves
-
-| ID | Finished Length |
-| --- | ---: |
-| 70-DE-L | **6.175 in** |
-| 70-DE-R | **6.175 in** |
-
-Center gap when assembled:
-
-**0.250 in**
-
-Overall driven-element span:
-
-**12.600 in**
-
----
-
-# 19. Step 11 — Deburr and Label Steel Elements
-
-For every steel element:
-
-1. Deburr both cut ends.
-2. Remove sharp corners.
-3. Verify length.
-4. Mark the element ID using permanent marker or a temporary tape label.
-
-Do not rely on visual recognition.
-
-The 70 cm directors differ by only small dimensional amounts.
-
----
-
-# 20. Quality Gate C — Element Verification
-
-Before installation:
-
-## 2 m
-
-- [ ] 2M-R = 41.400 in
-- [ ] 2M-D1 = 35.400 in
-- [ ] 2M-DE-L = 18.575 in
-- [ ] 2M-DE-R = 18.575 in
-
-## 70 cm
-
-- [ ] 70-R = 12.900 in
-- [ ] 70-D1 = 11.900 in
-- [ ] 70-D2 = 11.900 in
-- [ ] 70-D3 = 11.700 in
-- [ ] 70-DE-L = 6.175 in
-- [ ] 70-DE-R = 6.175 in
+1. Control spring-back while cutting.
+2. Deburr both ends.
+3. Round sharp corners without shortening beyond tolerance.
+4. Measure the finished length after deburring.
+5. Label the ID and intended left/right orientation where applicable.
+6. Record the actual length.
 
 Do not trim any element for RF tuning during O6.
 
----
-
-# 21. Step 12 — Cut Stiffeners
-
-Cut the 3/8 in nonconductive stiffener stock into:
-
-| ID | Initial Length |
-| --- | ---: |
-| ST-1 | **12.000 in** |
-| ST-2 | **12.000 in** |
-| ST-3 | **12.000 in** |
-
-These dimensions are mechanical starting values and may be shortened for fit.
-
-They are not RF-critical antenna-element lengths.
+Net tape steel in the finished elements is 174.700 in.
 
 ---
 
-# 22. Step 13 — Dry-Fit 2 Meter Passive Elements
+## 20. Step 8 - Prepare the 2 m supports
 
-Install:
+Use three separate nonconductive pieces:
 
-- 2M-D1
-- 2M-R
+| ID | Station | Finished length |
+|---|---|---:|
+| ST-1 | 2M-D1 | 12.000 in |
+| ST-2 | 2M-DE | 12.000 in |
+| ST-3 | 2M-R | 12.000 in |
 
-through their corresponding 7/16 in holes.
+1. Verify each support is straight and nonconductive.
+2. Deburr or sand sharp ends.
+3. Mark the center at 6.000 in.
+4. Label the assigned station.
+5. Do not shorten a support for convenience, folding, or storage.
 
-Center each continuous element so the left and right projections are approximately equal.
-
-Do not permanently secure yet.
-
----
-
-# 23. Step 14 — Dry-Fit 70 Centimeter Passive Elements
-
-Install:
-
-- 70-D3
-- 70-D2
-- 70-D1
-- 70-R
-
-through their corresponding boom holes.
-
-Center each element.
-
-Verify that:
-
-- All 70 cm elements are parallel
-- No blade is severely twisted
-- Element IDs are in the correct physical order
+If a 12.000 in support creates a verified interference, stop and document it for engineering review.
 
 ---
 
-# 24. Step 15 — Install 2 Meter Driven Halves
+## 21. Quality Gate E - cut-part verification
 
-Insert:
+- [ ] All ten tape pieces present and labeled.
+- [ ] All tape lengths pass O5 tolerance.
+- [ ] Driven halves match within the controlled difference.
+- [ ] All exposed tape edges are deburred.
+- [ ] Three supports measure 12.000 in and are labeled.
+- [ ] No part is kinked, cracked, or short.
+- [ ] Net tape schedule reconciles to 174.700 in.
 
-- 2M-DE-L
-- 2M-DE-R
-
-from opposite sides of the driven-element station.
-
-Set:
-
-**Center gap = 0.250 in**
-
-Verify:
-
-**Overall span = 37.400 in**
-
-Keep both halves symmetric about the boom centerline.
-
-Do not electrically terminate or permanently lock the feedpoint during O6.
+Do not use an accidentally short element. Cut a replacement.
 
 ---
 
-# 25. Step 16 — Install 70 Centimeter Driven Halves
+## 22. Step 9 - Dry-fit passive elements
 
-Install:
+### 22.1 2 m passive elements
 
-- 70-DE-L
-- 70-DE-R
+At 2M-D1 and 2M-R:
 
-Set:
+1. Place the assigned 12.000 in support alongside the tape.
+2. Pass the validated tape/support pair through the 7/16 in hole.
+3. Align the support center mark with the boom centerline.
+4. Center the conductive tape left-to-right within 1/16 in.
+5. Keep the tape and support straight through the boom cross-section.
+6. Do not permanently retain yet.
 
-**Center gap = 0.250 in**
+### 22.2 70 cm passive elements
 
-Verify:
+At 70-D3, 70-D2, 70-D1, and 70-R:
 
-**Overall span = 12.600 in**
-
-Keep both halves symmetric.
-
-Do not electrically terminate the feedpoint during O6.
-
----
-
-# 26. Step 17 — Install 2 Meter Stiffeners
-
-Install one nonconductive stiffener at each 2 m element station.
-
-For each station:
-
-1. Position the 3/8 in stiffener alongside the tape-measure element near the boom.
-2. Keep the stiffener centered approximately on the boom/element intersection.
-3. Secure the tape steel to the stiffener using small cable ties.
-4. Use enough tension to support the tape without permanently flattening, creasing, or distorting it.
-5. Verify the stiffener does not shift the RF element away from its intended station.
-6. Shorten the stiffener only if required for fit, clearance, or portability.
-
-The stiffeners are mechanical supports and are not RF-critical conductive elements.
-
-Do not substitute metal stiffeners without design review.
+1. Pass the tape through the assigned 7/16 in hole.
+2. Center the tape left-to-right within 1/32 in.
+3. Confirm the element ID and physical order.
+4. Keep all four element axes parallel.
+5. Do not permanently retain yet.
 
 ---
 
-# 27. Step 18 — Center and Align All Elements
+## 23. Step 10 - Fit the driven elements
 
-Check each continuous element.
+### 23.1 2 m driven element
 
-Within each band:
+1. Place ST-2 through the 2M-DE station using the validated tape/support arrangement.
+2. Insert 2M-DE-L and 2M-DE-R from opposite sides.
+3. Place a 0.250 in nonconductive gauge between the physical inner steel ends.
+4. Set the overall tip-to-tip span to 37.400 in.
+5. Match left/right projection about the boom centerline.
+6. Keep both halves collinear.
+7. Apply temporary nonconductive retention so the gap cannot close.
 
-- Elements shall be parallel.
-- Elements shall be approximately perpendicular to the boom.
-- Continuous elements shall be centered.
-- Driven halves shall be symmetrical.
-- No element shall contact another element.
+### 23.2 70 cm driven element
 
-Recommended centering accuracy:
+1. Insert 70-DE-L and 70-DE-R from opposite sides.
+2. Place a 0.250 in nonconductive gauge between the physical inner steel ends.
+3. Set the overall tip-to-tip span to 12.600 in.
+4. Match left/right projection about the boom centerline.
+5. Keep both halves collinear.
+6. Apply temporary nonconductive retention so the gap cannot close.
 
-## 2 m
-
-**≤ 1/8 in**
-
-## 70 cm
-
-**≤ 1/16 in**
-
----
-
-# 28. Step 19 — Mark Feed-Screw Locations
-
-Feed-screw holes are intentionally **match-drilled during assembly** after the driven-element halves are installed and centered.
-
-For each driven half:
-
-1. Select a screw position close to the feedpoint.
-2. Verify the screw will penetrate:
-   - The local PVC wall at the feedpoint
-   - Only the intended driven-element half
-3. Verify the opposite driven half remains electrically isolated.
-4. Preserve the 0.250 in center gap.
-5. Confirm the planned screw location leaves adequate PVC material around the hole.
-
-Do not place the screw so close to an edge that cracking is likely.
-
-The #6-32 × 1/2 in screw is local feedpoint hardware. It is **not** intended to pass completely through the full outside diameter of the PVC boom.
+The steel-tip gap is not the feed-node screw spacing.
 
 ---
 
-# 29. Step 20 — Match-Drill Feed-Screw Holes
+## 24. Step 11 - Install nonconductive element retention
 
-Use a clearance bit appropriate for the actual #6-32 hardware.
+Use small approximately 4 in cable ties. Keep every locking head away from the intended feed-node hardware and operator contact areas.
 
-Nominal starting point:
+### 24.1 2 m stations
 
-**approximately 5/32 in**
+At each 2 m station:
 
-Match-drill carefully through:
+1. Install one small station tie around the PVC in the element cross-section so it gently captures the tape/support pair at both hole exits.
+2. Tighten only enough to prevent lateral sliding; do not flatten the tape, crush the support, or indent the PVC.
+3. Add one small tie around the tape and support near each support end, approximately 0.750 in inboard from the support tip.
+4. Confirm the conductive tape remains centered and straight.
+5. Confirm the driven gap remains controlled at 2M-DE.
 
-- The local PVC wall
-- The installed tape-steel driven-element half
+### 24.2 70 cm stations
 
-Do not intentionally drill through both sides of the boom.
+At each 70 cm station:
 
-Deburr the completed holes.
+1. Install one small station tie around the PVC in the element cross-section so it gently captures the tape at both hole exits.
+2. Tighten only enough to prevent lateral sliding without flattening, creasing, or twisting the blade.
+3. Place the locking head away from the feed-node location at 70-DE.
+4. Recheck centering and parallelism.
 
-Avoid allowing the drill to snag the spring-steel tape.
-
-At the end of O6, the feed-screw holes should be mechanically ready for O7 feed-system installation.
-
----
-
-# 30. Step 21 — Assemble Dual-Boom Rotating Collars
-
-Align the two booms with their FRONT ends pointing in the same longitudinal direction.
-
-At:
-
-- **J1 = 4.500 in from FRONT**
-- **J2 = 22.500 in from FRONT**
-
-install one UV-resistant cable tie around both booms at each joint.
-
-Use:
-
-- **8 in ties preferred**
-- **6 in ties minimum**
-
-These ties act as rotating collars.
-
-Tighten each collar only enough to:
-
-- Keep the booms together
-- Prevent separation
-- Allow deliberate relative rotation
-
-Do not cinch the ties into rigid clamps.
-
-Verify the collars do not migrate into antenna element holes or interfere with nearby elements.
+If this retention method cannot hold the actual blade securely without distortion, stop. Do not add metal fasteners or adhesive without revising O4-O6.
 
 ---
 
-# 31. Step 22 — Verify Operating Orientation
+## 25. Step 12 - Mark and drill the feed-node holes
 
-Rotate the booms until the two element planes are approximately:
+Perform this step only after both driven gaps, overall spans, and temporary retention pass inspection.
 
-**90° apart**
+For each of the four driven halves:
 
-This is the normal operating configuration.
+1. Mark one hole center across the middle of the approximately 3/8 in blade width.
+2. Place the center 0.250 in +/- 0.062 in outboard of the adjacent PVC surface.
+3. Mirror the left and right hole locations.
+4. Confirm the screw and washer envelope will remain clear of the opposite half, other boom, hairpin route, and station tie.
+5. Mark the selected point clearly.
+6. Remove one driven half at a time while preserving all reference marks.
+7. Clamp the tape flat to sacrificial wood.
+8. Drill the approved approximately 5/32 in clearance hole through the tape only.
+9. Deburr both faces without removing excessive material.
+10. Prepare a small bare-metal contact pad around the hole using fine abrasive.
+11. Do not tin the contact pad.
+12. Reinstall the half, reset the gap and overall span, and repeat for the next half.
 
-Verify:
+After all four holes are complete:
 
-- J1/J2 remain in position
-- Cable ties do not interfere with elements
-- Both booms remain mechanically retained
-- Relative rotation feels deliberate rather than uncontrolled
+- Install the selected bare #6-32 screws, washers, and nuts temporarily for mechanical fit only.
+- Do not install ring lugs or the hairpin during O6.
+- Confirm at least two complete threads are visible beyond each nut.
+- Confirm each screw contacts only its assigned driven half.
+- Record the 2 m and 70 cm node-center spacing.
+- Remove and bag the temporary hardware by band if O7 will perform the final stack assembly.
 
-Because O7 feed lines are not yet installed, coax routing and feedpoint-wire behavior are verified later during O7.
-
----
-
-# 32. Step 23 — Verify Storage Orientation
-
-Rotate the booms toward a parallel/folded configuration.
-
-Verify:
-
-- Elements can be positioned for transport
-- J1/J2 remain in place
-- The booms do not separate
-- No element is mechanically overloaded by the folding action
-
-Final storage behavior with installed coax is rechecked during O7.
+Do not drill the PVC wall for feed-node hardware.
 
 ---
 
-# 33. Quality Gate D — Mechanical Assembly
+## 26. Quality Gate F - element and feed-node geometry
 
-Verify:
-
-- [ ] 2 m elements are correctly ordered
-- [ ] 70 cm elements are correctly ordered
-- [ ] All passive elements are centered
-- [ ] Driven halves are symmetrical
-- [ ] 2 m center gap = 0.250 in
-- [ ] 70 cm center gap = 0.250 in
-- [ ] 2 m stiffeners are installed
-- [ ] Feedpoint holes are match-drilled and deburred
-- [ ] J1/J2 collars use 8 in preferred / 6 in minimum ties
-- [ ] J1/J2 collars retain both booms
-- [ ] Booms rotate through operating and storage positions
-- [ ] No sharp exposed steel burrs remain
-- [ ] No visible PVC cracking exists
-
-Do not install or electrically terminate the O7 feed system as part of this quality gate.
+- [ ] Every element is in the correct station and order.
+- [ ] 2 m passive elements are centered within 1/16 in.
+- [ ] 70 cm passive elements are centered within 1/32 in.
+- [ ] Driven halves remain matched and collinear.
+- [ ] 2 m gap is 0.250 in +/- 0.0156 in.
+- [ ] 70 cm gap is 0.250 in +/- 0.0156 in.
+- [ ] 2 m overall driven span is 37.400 in within tolerance.
+- [ ] 70 cm overall driven span is 12.600 in within tolerance.
+- [ ] Feed-node holes are in tape only, centered across blade width, and deburred.
+- [ ] No contact pad is tinned.
+- [ ] Temporary screw fit passes with at least two threads beyond each nut.
+- [ ] No feed screw can bridge the driven-element gap.
+- [ ] 2 m and 70 cm node-center spacings are recorded.
 
 ---
 
-# 34. Step 24 — Record As-Built Mechanical Dimensions
+## 27. Step 13 - Assemble the two booms in operating orientation
 
-Use the O5 as-built tables.
+There is no separate boom-joint mechanism.
 
-At minimum measure and record:
+1. Lay both booms FRONT-to-FRONT and REAR-to-REAR.
+2. Keep the longitudinal centerlines parallel.
+3. Set the two element planes to 90 degrees +/- 2 degrees.
+4. Use the orientation references to set the line between boom centers to 45 degrees +/- 5 degrees from either element plane.
+5. At J1, place PAD-1 between the bare PVC surfaces with its 1.000 in long axis parallel to the booms.
+6. Center one 8 in minimum UV-resistant tie over J1 and PAD-1.
+7. Tighten only enough to retain the booms without axial slip or PVC indentation.
+8. Repeat at J2 using PAD-2 and a new 8 in minimum tie.
+9. Confirm each pad remains centered and produces at least 0.250 in installed bare-surface clearance.
+10. Orient each tie head away from the operator's hand, coax route, and RF elements.
+11. Trim tie tails flush only after all geometry passes.
 
-## 2 m
+Do not use a 4 in or 6 in tie around both booms. Do not add a tee, hinge, pivot, crossbar, metal clamp, wood block, bolt, or adhesive joint.
 
-- Boom length
-- Director length
-- Director position
-- Driven overall span
-- Driven center gap
-- Driven position
-- Reflector length
-- Reflector position
-
-## 70 cm
-
-- Boom length
-- D3 length/position
-- D2 length/position
-- D1 length/position
-- Driven overall span
-- Driven gap
-- Driven position
-- Reflector length/position
-
-Also record:
-
-- J1 position
-- J2 position
-- Approximate operating boom angle
-- Storage configuration functionality
-
-If the O5 as-built table contains feed-system fields such as hairpin dimensions, leave those for completion during O7.
-
-Do not assume the antenna exactly matches nominal dimensions.
-
-Measure it.
+The booms must not rotate relative to each other while retained. For storage, cut both retention ties and separate the booms. Use new ties for reassembly.
 
 ---
 
-# 35. Step 25 — Photograph the Mechanical Build
+## 28. Step 14 - Verify retention and clearances
 
-Minimum recommended O6 photographs:
+With the antenna mechanically assembled:
 
-1. Raw materials before cutting
-2. Both finished 30 in booms
-3. Boom layout marks before drilling
-4. Drilled 2 m boom
-5. Drilled 70 cm boom
-6. All 2 m steel elements laid out with ruler
-7. All 70 cm steel elements laid out with ruler
-8. 2 m driven-element gap
-9. 70 cm driven-element gap
-10. 2 m stiffener installation
-11. Match-drilled 2 m feedpoint mounting holes
-12. Match-drilled 70 cm feedpoint mounting holes
-13. J1/J2 rotating collars
-14. Complete operating configuration
-15. Complete storage configuration
+1. Pull each boom axially by hand; neither may slip.
+2. Apply a gentle opposite twist; the 90-degree relationship must remain fixed.
+3. Confirm neither PVC surface is flattened or visibly indented.
+4. Measure and record the J1 and J2 installed gaps.
+5. Measure and record the element-plane angle.
+6. Confirm the center-to-center line remains approximately 45 degrees from both element planes.
+7. Confirm at least 0.125 in clearance from either boom to components carried by the other boom.
+8. Confirm the 2 m supports clear the 70 cm boom.
+9. Confirm all feed-node screw envelopes clear the other boom and array.
+10. Confirm J1/J2 pads and ties do not touch any RF element.
+11. Confirm the rear handle region remains usable.
 
-Store these images under:
+### Close-reflector check
+
+With FRONT ends aligned:
+
+- 70-R center is 21.000 in.
+- 2M-R center is 21.500 in.
+- Relative center separation must be 0.500 in +/- 0.03125 in.
+- Measured physical edge clearance must be at least 0.0625 in.
+
+Do not bend, notch, offset, or shorten a reflector to create clearance.
+
+---
+
+## 29. Quality Gate G - completed mechanical assembly
+
+- [ ] FRONT ends aligned and gain arrows agree.
+- [ ] Boom centerlines parallel.
+- [ ] Element planes 90 degrees +/- 2 degrees.
+- [ ] Boom-center line 45 degrees +/- 5 degrees from both element planes.
+- [ ] J1 and J2 use 8 in minimum UV-resistant ties.
+- [ ] One approved separator pad installed at each retention station.
+- [ ] Installed boom gap at least 0.250 in at J1 and J2.
+- [ ] No axial slip under hand load.
+- [ ] No relative rotation under gentle hand load.
+- [ ] No crushed or indented PVC.
+- [ ] Each boom clears components on the other boom by at least 0.125 in.
+- [ ] Reflector physical edge clearance at least 0.0625 in.
+- [ ] No tie or pad contacts an RF element.
+- [ ] Antenna separates for storage only by cutting the retention ties.
+
+---
+
+## 30. Step 15 - Perform pre-feed multimeter checks
+
+Keep all radios, coax cables, analyzers, and other equipment disconnected.
+
+Use clean exposed cut ends or the prepared node contact pads for probe contact. Do not remove unnecessary coating.
+
+| Test | Expected result |
+|---|---|
+| Each passive element end-to-end | Continuity |
+| Each individual driven half end-to-node pad | Continuity |
+| 2M-DE-L to 2M-DE-R before hairpin | Open |
+| 70-DE-L to 70-DE-R | Open |
+| Either driven half to any parasitic element on its band | Open |
+| Any 2 m element to any 70 cm element | Open |
+| Any element to an unassigned metal screw | Open or not applicable; no loose screws permitted |
+
+An unexpected continuity result requires inspection for metal debris, a closed driven gap, a misplaced screw, or unintended element contact.
+
+O7 repeats cable-specific checks before and after the hairpin is connected.
+
+---
+
+## 31. Step 16 - Record the as-built mechanical configuration
+
+Complete the O5 as-built table before removing the retention ties or beginning O7.
+
+At minimum record:
+
+### Booms and materials
+
+- Both finished boom lengths.
+- Actual PVC OD.
+- Tape width and thickness.
+- Support diameter and finished lengths.
+- Separator material and installed thickness.
+
+### Every RF element
+
+- Actual finished length.
+- Actual FRONT-datum station.
+- Centering or left/right projection.
+- Element ID and orientation.
+
+### Driven elements
+
+- Both half lengths.
+- Overall span.
+- Steel-tip center gap.
+- Feed-node center spacing.
+- Feed-node hole diameter.
+
+### Assembly
+
+- J1 and J2 positions.
+- J1 and J2 installed boom gaps.
+- Element-plane angle.
+- Boom-center-line angle.
+- Close-reflector center separation and physical edge clearance.
+- Minimum observed cross-boom component clearance.
+
+Leave hairpin geometry, ferrite position, coax routing, cable termination, and RF measurements blank for O7/O8.
+
+---
+
+## 32. Step 17 - Photograph the O6 build
+
+Minimum photographs:
+
+1. Material identification and measured dimensions.
+2. Approved tape/support/PVC coupon.
+3. Approved feed-node stack coupon.
+4. Approved separator-pad coupon.
+5. Both cut 30.000 in booms.
+6. All layout marks before drilling.
+7. Each drilled boom before element installation.
+8. All labeled 2 m cut parts beside a rule.
+9. All labeled 70 cm cut parts beside a rule.
+10. Each 2 m tape/support cross-section and retention method.
+11. 2 m driven gap and node-hole locations.
+12. 70 cm driven gap and node-hole locations.
+13. J1 separator and tie.
+14. J2 separator and tie.
+15. End view showing the 90-degree planes and 45-degree boom-center line.
+16. Close-reflector clearance with a scale or feeler reference.
+17. Completed mechanical assembly from FRONT and REAR.
+18. All completed O6 inspection and as-built records.
+
+Suggested repository structure:
 
 ```text
-images/
+photos/
 └── fabrication/
-    ├── materials/
-    ├── boom-layout/
-    ├── elements/
-    ├── mechanical-assembly/
-    └── final-assembly/
+    ├── materials-and-coupons/
+    ├── boom-layout-and-drilling/
+    ├── elements-and-supports/
+    ├── feed-node-preparation/
+    ├── boom-retention/
+    └── completed-mechanical-build/
 ```
 
-O7 feedpoint, coax-routing, choke, and electrical-termination photographs should be stored separately with the feed-system documentation.
+Photographs are supporting evidence. Recorded measurements remain the controlled as-built data.
 
 ---
 
-# 36. Fabrication Deviation Record
+## 33. Fabrication deviation log
 
-Any meaningful departure from O5 shall be recorded.
+Record every departure from O3-O6.
 
-| Deviation ID | Part / Feature | Designed Value | As-Built Value | Reason | Accepted? |
-| --- | --- | --- | --- | --- | --- |
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Deviation ID | Part / station | Designed value | As-built value | Cause | Disposition | Approved by / date |
+|---|---|---:|---:|---|---|---|
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
+|  |  |  |  |  |  |  |
 
-Examples:
-
-- Element cut slightly short
-- Hole drilled off station
-- Different cable tie used
-- Dowel shortened
-- Feed screw moved
-- Joint location shifted
-
-Do not hide errors.
-
-A documented deviation can later be correlated with measured RF performance.
+Do not hide a mistake by editing the design value. A misplaced RF station, short element, failed coupon, damaged cable, or clearance violation requires a stop and documented disposition.
 
 ---
 
-# 37. Fabrication Stop Conditions
+## 34. Stop conditions
 
-Stop fabrication and review the design if:
+Stop O6 for any of the following:
 
-- Tape steel does not fit the 7/16 in boom hole
-- A main element hole is significantly misplaced
-- PVC cracks around an RF element station
-- A driven-element half is cut materially short
-- Feedpoint mounting holes cannot preserve electrical isolation between driven halves
-- Dual-boom collars cannot retain the booms while permitting deliberate rotation
-- Dual-boom joint prevents approximately 90° operation
-- A material substitution changes the antenna geometry
-
-Do not compensate for a fabrication error by arbitrarily changing another RF dimension.
-
-Electrical feedline, BNC, hairpin, and coax-routing problems belong to O7 rather than O6.
-
----
-
-# 38. O6 Completion State
-
-O6 is complete when the antenna is:
-
-- Mechanically assembled
-- Dimensionally recorded
-- Equipped with correctly positioned and aligned antenna elements
-- Equipped with the required 2 m nonconductive stiffeners
-- Prepared with match-drilled feedpoint mounting holes
-- Equipped with functional dual-boom rotating collars
-- Capable of operating and storage boom rotation
-- Photographically documented
-- Ready for O7 feed-system installation
-
-O6 does **not** require:
-
-- Coax feedline installation
-- Feed-lug installation
-- Hairpin installation
-- Coax choke formation
-- BNC feed labeling
-- DC feed continuity checks
-- Final SWR
-- Final resonance
-- Final impedance match
-- Satellite reception
-- Terrestrial pattern measurements
-
-Those belong to later phases.
+- A failed material or hardware coupon.
+- Tape steel wider than the approved geometry.
+- A short-cut, kinked, cracked, or badly twisted RF element.
+- A misplaced RF station.
+- Cracked, split, crushed, or badly drilled PVC.
+- A 2 m support that cannot share the approved hole without distortion.
+- A driven gap that will not stay within tolerance.
+- A feed-node hole that tears, cracks, or approaches a tape edge unsafely.
+- Any feed screw capable of touching the opposite driven half.
+- A separator that compresses below 0.250 in or slips uncontrollably.
+- Relative boom rotation or axial slip after final retention.
+- Less than the required boom, support, hardware, or reflector clearance.
+- Unexpected electrical continuity.
+- A proposed metal support, metal joint, PVC tee, crossbar, hinge, pivot, or permanent adhesive joint.
+- Any substitution that changes the controlled RF or mechanical geometry.
 
 ---
 
-# 39. O6 Acceptance Checklist
+## 35. O6 completion checklist
 
-O6 may be considered complete when:
+O6 is complete only when:
 
-- [ ] Materials have passed receiving inspection
-- [ ] Both PVC booms are cut to 30.000 in
-- [ ] FRONT datums are marked
-- [ ] All main element stations are drilled
-- [ ] All tape-steel elements are cut and labeled
-- [ ] All steel ends are deburred
-- [ ] 2 m elements are installed
-- [ ] 70 cm elements are installed
-- [ ] Driven-element gaps are set
-- [ ] 2 m stiffeners are installed
-- [ ] Feedpoint holes are match-drilled
-- [ ] Feedpoint holes are deburred
-- [ ] Dual-boom rotating collars are installed
-- [ ] Joint ties meet the 8 in preferred / 6 in minimum requirement
-- [ ] Operating orientation is functional
-- [ ] Storage orientation is functional
-- [ ] As-built mechanical dimensions are recorded
-- [ ] Fabrication deviations are documented
-- [ ] Build photographs are archived under `images/fabrication/`
-- [ ] Mechanical assembly is ready for O7
-- [ ] O6 has been committed to the GitHub repository
-
----
-
-# 40. Handoff to O7 and O8
-
-After O6, the mechanically complete antenna structure is transferred to O7.
-
-## O7 constructs and verifies:
-
-- Driven-element electrical contact surfaces
-- RG-58 feed lines
-- Feed lugs
-- Feedpoint electrical connections
-- 2 m hairpin matching element
-- 2 m six-turn coax choke
-- 70 cm four-turn coax choke
-- Coax routing and strain relief
-- BNC band labeling
-- DC continuity and isolation checks
-- Feed-system mechanical integrity
-- Final feed architecture
-- External diplexer/interface strategy where applicable
-
-O7 should also recheck:
-
-- Driven-element center gaps
-- Boom rotation with installed coax
-- Storage configuration with installed coax
-- Any mechanical effect caused by feedline routing
-
-## O8 performs:
-
-- NanoVNA calibration
-- Broad S11 sweeps
-- Narrow sweeps
-- SWR measurement
-- Complex impedance measurement
-- Smith-chart analysis
-- Feedline-sensitivity testing
-- Hairpin tuning
-- Final as-tuned recording
-
-No RF tuning shall be performed without updating the project record.
+- [ ] O3, O4, O5, and O6 Rev. B inputs are present.
+- [ ] Material measurements are recorded.
+- [ ] All coupon tests pass.
+- [ ] Both booms are 30.000 in and correctly labeled.
+- [ ] All stations and holes pass inspection.
+- [ ] All ten tape-steel pieces pass cut and label inspection.
+- [ ] All three 12.000 in supports are installed without unauthorized trimming.
+- [ ] Every element is centered, aligned, and retained nonconductively.
+- [ ] Both driven gaps and overall spans pass.
+- [ ] Four feed-node holes are drilled through tape only.
+- [ ] Contact pads are clean and untinned.
+- [ ] Node-center spacings are recorded.
+- [ ] J1/J2 retention uses approved pads and 8 in minimum ties.
+- [ ] Fixed 90-degree operating geometry passes the hand-load check.
+- [ ] All cross-boom and reflector clearances pass.
+- [ ] Pre-feed DC checks pass.
+- [ ] O5 as-built mechanical table is complete.
+- [ ] Fabrication deviations are closed or formally dispositioned.
+- [ ] Required photographs are stored.
+- [ ] No coax has been cut and no transmitter has been connected.
 
 ---
 
-# 41. Revision Control
+## 36. Handoff to O7
+
+Deliver the following to the feed-system phase:
+
+- Completed mechanical antenna or two labeled separated booms with fresh retention ties reserved.
+- O5 as-built mechanical record.
+- O6 completed quality gates.
+- Node-hole diameters and node-center spacing for both bands.
+- Selected #6-32 screw length from the coupon.
+- Feed-hardware parts bag labeled by band.
+- Photographs of driven gaps and node locations.
+- Open deviation list, if any.
+
+O7 must preserve the recorded gaps, spans, element stations, plane angle, and clearances while installing the coax, lugs, 2 m hairpin, ferrites, strain relief, and labels.
+
+O7 must not add tight boom-wound coax coils or a passive BNC tee.
+
+---
+
+## 37. Revision control
 
 | Revision | Date | Description |
-| --- | --- | --- |
-| Rev. A | 2026-08-24 | Initial formal O6 fabrication and mechanical assembly procedure based on finalized O3/O4/O5 design; O7 electrical feed work separated into its own phase |
+|---|---|---|
+| Rev. A | 2026-08-24 | Initial fabrication and assembly procedure. |
+| **Rev. B** | **2026-09-21** | Retained the verified mechanical sequence; removed rotating/folding joint instructions, six-inch dual-boom ties, PVC feed-screw drilling, support trimming, and O7 feed work; added complete coupon testing, tape-only node drilling, fixed removable boom retention, separator pads, tighter tolerances, clearance checks, DC isolation tests, as-built records, and explicit stop conditions. |
 
-Future revisions should preserve prior history.
+The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
 ---
 
-# 42. Engineering Intent
+## 38. Engineering intent
 
-O6 is intended to make fabrication reproducible while preserving the boundary between mechanical fabrication and RF feed-system construction.
+O6 Rev. B produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
-The desired project sequence is:
+The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
-```text
-O3 — RF DESIGN
-      ↓
-O4 — MATERIAL CONTROL
-      ↓
-O5 — CUT / DRILL CONTROL
-      ↓
-O6 — MECHANICAL FABRICATION
-      ↓
-AS-BUILT MECHANICAL RECORD
-      ↓
-O7 — FEED & MATCHING SYSTEM
-      ↓
-O8 — RF CHARACTERIZATION / TUNING
-```
+---
 
-The finished antenna should not merely exist.
+**End of O6 Rev. B Fabrication and Assembly Procedure**
 
-Its physical construction should be traceable, measurable, repeatable, and directly comparable to the original design.
 
 ---
 
