@@ -8,7 +8,7 @@
 **Repository path:** `docs/bill-of-materials.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. D  
+**Revision:** Rev. E  
 **Date:** 2026-10-12  
 **Status:** Controlled construction and procurement baseline  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-This document defines the materials, quantities, specifications, ownership status, substitutions, and receiving inspections for the Revision D Tape Measure Satellite Yagi.
+This document defines the materials, quantities, specifications, ownership status, substitutions, and receiving inspections for the Revision E Tape Measure Satellite Yagi.
 
 Revision B retains the verified W6NBC-derived RF geometry while correcting the material and integration problems found during the September 2026 construction-readiness review.
 
@@ -24,9 +24,9 @@ This document controls material selection. Exact cut locations, mounting geometr
 
 ---
 
-## 2. Revision D configuration
+## 2. Revision E configuration
 
-The Revision D antenna uses:
+The Revision E antenna uses:
 
 - Two separate 30.000 in booms made from nominal 1/2 in Schedule 40 PVC.
 - One three-element 2 m Yagi.
@@ -40,7 +40,7 @@ The Revision D antenna uses:
 - Band-appropriate snap-on ferrite common-mode suppression near each feedpoint.
 - Simple removable dual-boom retention using UV-resistant cable ties and nonconductive separator pads.
 
-Revision D does **not** use:
+Revision E does **not** use:
 
 - A separate boom-joint mechanism.
 - A hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, or metal boom connector.
@@ -97,7 +97,7 @@ Status terms:
 
 - **Owned:** Previously confirmed as on hand.
 - **Verify:** Expected to be on hand, but must be physically inspected before use.
-- **Acquire:** Required for Revision D and not previously confirmed as owned.
+- **Acquire:** Required for Revision E and not previously confirmed as owned.
 - **Select after measurement:** Exact variant depends on actual measured material.
 
 | ID | Item | Controlled specification | Installed quantity | Procurement quantity | Status | Notes |
@@ -119,7 +119,7 @@ Status terms:
 | BOM-015 | Small strain-relief ties | UV-resistant nylon cable ties, approximately 4 in | As required | 20 minimum | **Verify** | Used only for element support, ferrite retention, and coax strain relief—not around both booms. |
 | BOM-016 | Heat-shrink tubing | Thin-wall polyolefin assortment sized for individual coax conductors and terminals | As required | 1 assortment | **Owned — 240-piece assortment** | Do not cover a contact until DC inspection is complete. |
 | BOM-017 | Electronics solder | Sn99.3/Cu0.7 electronics solder | As required | Existing spool | **Owned** | Use only with electronics-compatible flux. |
-| BOM-018 | Separate pivot/joint hardware | **Retired — not used in Revision D** | 0 | 0 | **Removed** | No pivot bolt, hinge, tee, crossbar, or dedicated joint assembly. ID is not reassigned. |
+| BOM-018 | Separate pivot/joint hardware | **Retired — not used in Revision E** | 0 | 0 | **Removed** | No pivot bolt, hinge, tee, crossbar, or dedicated joint assembly. ID is not reassigned. |
 | BOM-019 | Electronics flux | Flux compatible with coax conductors, copper lugs, and solder alloy | As required | 1 | **Verify** | Clean residues as required by the product instructions. |
 | BOM-020 | Contact-preparation abrasive | Fine emery cloth or equivalent | As required | 1 small piece | **Verify** | Expose clean conductive steel only where electrical contact is required. |
 | BOM-021 | Electrical tape | Quality vinyl electrical tape | As required | 1 roll | **Verify** | Temporary positioning and finishing only; not a structural joint. |
@@ -151,7 +151,7 @@ The initial installed count is four ferrites per feed. O8 must repeat the SWR/im
 
 ## 6. Dual-boom retention materials
 
-Revision D has no separate boom-joint assembly.
+Revision E has no separate boom-joint assembly.
 
 The two booms are retained at the O5 stations using:
 
@@ -175,7 +175,7 @@ The antenna has four electrical feed nodes:
 - 70 cm Node A: coax center conductor and one driven half.
 - 70 cm Node B: coax braid and the other driven half.
 
-The BOM intentionally stocks both 1/2 in and 3/4 in #6-32 screws. O5 selects the shortest usable screw after an actual-material coupon confirms the screw, bare tape contact pad, coax ring lug, 2 m hairpin hook where applicable, flat washer, and nut stack. Drill each feed-node hole through the exposed driven-half tape only.
+The BOM intentionally stocks both 1/2 in and 3/4 in #6-32 screws. O5 selects the shortest usable screw after an actual-material coupon confirms the screw, bare tape contact pad, coax ring lug, 2 m hairpin hook where applicable, flat washer, and nut stack. O5/O6 use visible witness marks to verify the hidden driven gaps, then drill each feed-node hole through the exposed driven-half tape only while the halves have removable temporary retention. Final driven-station ties are installed after drilling and refitting; this does not change hardware quantities.
 
 Do not substitute a full transverse bolt through the entire pipe. Each screw must contact only its assigned driven half and must remain clear of the opposite electrical node.
 
@@ -356,7 +356,8 @@ The final two open checklist items are O5 interface verifications. They do not r
 | Rev. A | 2026-08-24 | Initial sourcing baseline. |
 | Rev. B | 2026-09-21 | Standardized project name; removed separate joint hardware and four-inch dual-boom ties; added separator pads; replaced tight coax coils with band-appropriate snap-on ferrites; corrected dowel stock allowance; expanded feedpoint hardware, inspection, ownership, and substitution controls. |
 | Rev. C | 2026-10-12 | Increased the minimum installed separator-pad thickness and bare-PVC boom gap from 0.250 in to 0.375 in to satisfy the 0.125 in support clearance at the 40-degree orientation limit; clarified fixed boom retention and tape-only feed-node screws. |
-| **Rev. D** | **2026-10-12** | Raised minimum usable tape-steel procurement to 20 ft and reserved a continuous 41.400 in section for one full reflector recut; installed steel total remains 174.700 in. |
+| Rev. D | 2026-10-12 | Raised minimum usable tape-steel procurement to 20 ft and reserved a continuous 41.400 in section for one full reflector recut; installed steel total remains 174.700 in. |
+| **Rev. E** | **2026-10-12** | Aligned BOM feedpoint notes with exterior driven-gap witness marks and delayed driven-station tie installation; material quantities are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -364,6 +365,6 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 15. Engineering intent
 
-This BOM provides every material needed to construct and test the Revision D prototype without relying on the mechanically conflicting assumptions in the Rev. A drawing set.
+This BOM provides every material needed to construct and test the Revision E prototype without relying on the mechanically conflicting assumptions in the Rev. A drawing set.
 
 It does not claim measured RF performance. The finished antenna must pass the O8 calibrated impedance/SWR checks, coax-movement test, two-band assembled checks, and station-level receiver-desensitization test before operational release.

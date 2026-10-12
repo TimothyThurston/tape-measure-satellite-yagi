@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. D  
+**Revision:** Rev. E  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision D Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision E Tape Measure Satellite Yagi.
 
 It supersedes O5 Rev. C, Rev. B, and the earlier Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision D retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrects the tape-steel stock reserve.
+Revision E retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E makes the hidden driven-gap assembly and verification sequence explicit.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. D sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. E sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -66,6 +66,10 @@ The installed bare-PVC boom gap and both separator-pad minimum thicknesses incre
 ### 2.4 Corrected in Rev. D
 
 The minimum usable conductive tape-steel stock increases from 18 ft to **20 ft**. The installed cuts total 174.700 in. Keep one continuous 41.400 in section available for a full recut of the longest element, 2M-R, until all element cuts pass inspection. Installed cuts plus that recut require 216.100 in of the 240.000 in minimum, leaving 23.900 in for coupons, end cleanup, kerf, and damaged sections. Obtain more stock if those losses exceed the allowance. Installed element lengths, stations, and driven-element gaps do not change.
+
+### 2.5 Corrected in Rev. E
+
+The driven steel-tip gaps sit inside opaque PVC after installation. Set and verify each 0.250 in gap from the measured PVC outside diameter and visible witness marks on the two driven halves. Keep the driven halves in removable temporary retention while drilling feed-node holes; install the final nonconductive station ties only after the halves are refitted and the gap is rechecked. Element cuts, stations, and gap targets do not change.
 
 ---
 
@@ -153,6 +157,10 @@ The 0.250 in center gap is part of the overall span but contains no conductive t
 |---|---:|---:|---|---:|
 | 2 m | 37.400 in | 0.250 in | (37.400 - 0.250) / 2 | 18.575 in |
 | 70 cm | 12.600 in | 0.250 in | (12.600 - 0.250) / 2 | 6.175 in |
+
+The gap is inside the PVC and is verified from outside. Measure the actual PVC outside diameter `D` at each driven station. For each half, target the insertion depth from its adjacent outer PVC surface to its hidden inner steel tip as `I_target = (D - 0.250 in) / 2`. With nominal `D = 0.840 in`, `I_target = 0.295 in`. Mark a fine, visible witness line on each half at `M = I_target + 0.500 in` from its inner tip (`M = 0.795 in` nominally). After insertion, measure the exposed distance `E` from that line back to the adjacent outer PVC surface along the element axis. The actual insertion depth is `I = M - E`, and the calculated steel-tip gap is `G = D - I_left - I_right`. Set both `E` values to 0.500 in nominally; record `D`, both `M` and `E` values, and `G`. Accept `G` only at 0.250 in +/- 0.0156 in and `|I_left - I_right|` no greater than 0.0156 in, keeping the hidden gap centered on the boom axis. The visible witness lines must remain readable after final retention. Use the caliper for `D`, `M`, and `E`; a rule with 1/32 in graduations alone cannot resolve the 0.0156 in gap tolerance. If either witness line cannot be read repeatably, stop and use an approved measurement fixture before retaining the halves.
+
+As an independent span cross-check, `S = L_left + L_right + G`, where `L` is each measured finished half length. Nominal exposed projection from each outer tip to the adjacent PVC surface is 18.280 in on 2 m or 5.880 in on 70 cm when `D = 0.840 in` and the halves have nominal equal lengths. Do not attempt to place or remove a loose gap gauge inside the finished opaque boom.
 
 Keep the two halves of each driven element equal before tuning. If O8 tuning requires shortening, remove equal amounts from the outer ends unless the tuning procedure explicitly records another method.
 
@@ -255,12 +263,13 @@ Do not drill feed-screw holes through the PVC boom as substitutes for the separa
 
 ### 8.3 Driven elements
 
-- Insert the two equal tape halves from opposite sides of the station.
-- Use a 0.250 in nonconductive gauge between the physical inner steel ends.
-- Establish an overall tip-to-tip span of 37.400 in on 2 m or 12.600 in on 70 cm.
-- Keep the halves collinear, symmetric, and electrically isolated before feed hardware is installed.
-- Remove the temporary gap gauge only after the halves are mechanically retained.
-- Record the finished gap and overall span.
+- Measure `D` at the driven station and mark each actual half with the visible 0.500 in-offset witness line defined in Section 5.
+- Insert the two halves from opposite sides of the station, alongside ST-2 on 2 m, until each witness line is 0.500 in outboard of its adjacent PVC surface.
+- Use the recorded witness-line positions to calculate `G = D - I_left - I_right`; adjust until the calculated gap is 0.250 in +/- 0.0156 in and the two insertion depths differ by no more than 0.0156 in.
+- Cross-check the overall tip-to-tip span against the measured half lengths and calculated gap: 37.400 in nominal on 2 m or 12.600 in nominal on 70 cm.
+- Keep the halves collinear and electrically isolated before feed hardware is installed. Hold them with removable nonconductive tape or clamps while the feed-node holes are drilled.
+- Install final nonconductive driven-station ties only after drilling and refitting both halves. Recheck witness lines, calculated gap, and overall span after tightening. Cut and replace a tie if a half must be moved or removed again.
+- Record the insertion-depth calculation, finished gap, and overall span.
 
 The 0.250 in steel-tip gap is not the distance between feed-screw centers.
 
@@ -272,7 +281,7 @@ There are four separate feed nodes: two on the 2 m driven element and two on the
 
 ### 9.1 Hole location
 
-After the driven halves are centered and the gap is fixed:
+After the driven halves are temporarily aligned and the calculated gap passes Section 8.3:
 
 - Mark one screw hole on each driven half.
 - Center the hole across the approximately 3/8 in tape width.
@@ -444,6 +453,7 @@ If the tape curvature, width, or mounting angle violates the physical-clearance 
 - [ ] Neither boom slips axially or rotates under gentle hand load.
 - [ ] Clearance from either boom to components carried by the other boom is at least 0.125 in.
 - [ ] Reflector edge clearance is at least 0.0625 in.
+- [ ] Both driven gaps are recalculated from visible witness marks after final retention; each gap and left/right insertion-depth difference remains within tolerance.
 - [ ] Feed hardware cannot bridge a driven-element gap.
 
 ### Hold Point F - DC checks before hairpin
@@ -488,6 +498,7 @@ Complete this table before RF tuning.
 | 2M-DE-L length | 18.575 in |  |  |
 | 2M-DE-R length | 18.575 in |  |  |
 | 2M-DE gap / station | 0.250 / 13.500 in |  |  |
+| 2M-DE actual OD; witness M/E left and right; calculated insertion depths | Record |  |  |
 | 2M-R length / station | 41.400 / 21.500 in |  |  |
 | 70-D3 length / station | 11.700 / 3.500 in |  |  |
 | 70-D2 length / station | 11.900 / 9.500 in |  |  |
@@ -495,6 +506,7 @@ Complete this table before RF tuning.
 | 70-DE-L length | 6.175 in |  |  |
 | 70-DE-R length | 6.175 in |  |  |
 | 70-DE gap / station | 0.250 / 18.500 in |  |  |
+| 70-DE actual OD; witness M/E left and right; calculated insertion depths | Record |  |  |
 | 70-R length / station | 12.900 / 21.000 in |  |  |
 | 2 m node-center spacing | Record |  |  |
 | 70 cm node-center spacing | Record |  |  |
@@ -532,7 +544,8 @@ Stop fabrication for any of the following:
 | Rev. A | 2026-08-17 | Initial mechanical drawing and cut sheet. |
 | Rev. B | 2026-09-21 | Retained verified RF geometry; standardized project name; removed rotating/folding joint language and coax coils; added fixed removable boom retention, separator pads, ferrites, coupon controls, feed-node geometry, corrected DC checks, tighter clearances, and as-built records. |
 | Rev. C | 2026-10-12 | Raised the installed bare-PVC gap and separator-pad minimum thickness to 0.375 in so the nominal support clearance passes at the 40-degree orientation limit. |
-| **Rev. D** | **2026-10-12** | Raised the usable tape-steel minimum to 20 ft and reserved a continuous 41.400 in section for one full reflector recut; installed element cuts are unchanged. |
+| Rev. D | 2026-10-12 | Raised the usable tape-steel minimum to 20 ft and reserved a continuous 41.400 in section for one full reflector recut; installed element cuts are unchanged. |
+| **Rev. E** | **2026-10-12** | Defined external witness-mark calculation for the hidden driven gaps and deferred final driven-station ties until feed-node drilling and refitting are complete; RF dimensions are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -540,7 +553,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. D cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. E cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
@@ -548,4 +561,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O5 Rev. D Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. E Mechanical Drawing and Cut Sheet**

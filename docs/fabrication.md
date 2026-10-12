@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. D  
+**Revision:** Rev. E  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision D baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision E baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -88,6 +88,10 @@ The installed bare-PVC boom gap and separator-pad minimum thickness increase fro
 
 The minimum usable conductive tape-steel stock increases from 18 ft to 20 ft. The finished elements still require 174.700 in. Reserve one continuous 41.400 in section for a possible full recut of 2M-R until all element cuts pass inspection. The 240.000 in minimum then leaves 23.900 in for coupons, end cleanup, kerf, and damaged sections after the installed cuts and that recut. Obtain more steel if actual losses exceed this allowance. No installed element dimensions change.
 
+### 2.5 Corrected in Revision E
+
+The 0.250 in driven-element gaps lie inside opaque PVC after assembly. O6 now sets and verifies them using visible witness marks and the measured outside diameter at each driven station. Driven halves stay in removable temporary retention through feed-node drilling; final driven-station ties are installed only after refitting and rechecking the gaps. Element lengths, stations, and gaps remain unchanged.
+
 ---
 
 ## 3. Controlling inputs
@@ -96,12 +100,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. D | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. D | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. D | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. D | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. E | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. E | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. E | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. E | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. D, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. E, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -140,7 +144,7 @@ Use only O4-approved materials.
 | #6-32 screws, nuts, and flat washers | Coupon and feed-node hole fit verification |
 | One representative #4-6 ring lug | Coupon stack verification only |
 | Fine abrasive | Local feed-node contact-pad preparation after drilling |
-| Temporary nonconductive 0.250 in gap gauge | Driven-element gap setup |
+| Fine-tip marker and removable nonconductive tape or clamps | Visible driven-half witness marks and temporary retention through feed-node drilling |
 | Labels or masking tape and marker | Part identification |
 
 RG-58, final ring lugs, the hairpin blank, ferrites, solder, heat shrink, and electrical finishing materials are controlled by O4 but are installed during O7.
@@ -154,7 +158,7 @@ Minimum tools:
 - Safety glasses.
 - Cut-resistant work gloves for handling spring steel.
 - Steel rule or measuring tape with at least 1/32 in graduations where controlled.
-- Caliper capable of reading PVC, tape, support, pad, screw, and coax dimensions.
+- Zero-checked caliper capable of reading PVC, tape, support, pad, screw, and coax dimensions; use it, rather than the 1/32 in rule alone, for driven-gap witness marks and insertion-depth checks.
 - Fine-point permanent marker.
 - Square.
 - V-block, drill guide, or equivalent round-pipe fixture.
@@ -216,10 +220,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. D |
-| O4 revision | Rev. D |
-| O5 revision | Rev. D |
-| O6 revision | Rev. D |
+| O3 revision | Rev. E |
+| O4 revision | Rev. E |
+| O5 revision | Rev. E |
+| O6 revision | Rev. E |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -582,21 +586,23 @@ At 70-D3, 70-D2, 70-D1, and 70-R:
 ### 23.1 2 m driven element
 
 1. Place ST-2 through the 2M-DE station using the validated tape/support arrangement.
-2. Insert 2M-DE-L and 2M-DE-R from opposite sides.
-3. Place a 0.250 in nonconductive gauge between the physical inner steel ends.
-4. Set the overall tip-to-tip span to 37.400 in.
-5. Match left/right projection about the boom centerline.
-6. Keep both halves collinear.
-7. Apply temporary nonconductive retention so the gap cannot close.
+2. Measure the actual PVC outside diameter `D` at 2M-DE and the finished lengths of both halves. Calculate `I_target = (D - 0.250 in) / 2` (0.295 in at nominal 0.840 in OD).
+3. On each half, mark a fine witness line `M = I_target + 0.500 in` from its inner steel tip toward the outer tip. Record both measured `M` distances.
+4. Insert 2M-DE-L and 2M-DE-R from opposite sides alongside ST-2. Adjust until each visible witness line is nominally 0.500 in outboard of its adjacent outer PVC surface.
+5. Measure each exposed witness distance `E` from line to PVC surface along the element axis. Calculate actual insertion depths `I_left = M_left - E_left` and `I_right = M_right - E_right`, then the hidden gap `G = D - I_left - I_right`.
+6. Adjust until `G` is 0.250 in +/- 0.0156 in and the insertion depths differ by no more than 0.0156 in. Cross-check the overall tip-to-tip span against `L_left + L_right + G` (37.400 in nominal).
+7. Keep both halves collinear and DC-isolated. Record `D`, the half lengths, `M`, `E`, insertion depths, `G`, and overall span.
+8. Hold each half with removable nonconductive tape or clamps. Do not install locking station or support-end ties until Step 12 is complete.
 
 ### 23.2 70 cm driven element
 
-1. Insert 70-DE-L and 70-DE-R from opposite sides.
-2. Place a 0.250 in nonconductive gauge between the physical inner steel ends.
-3. Set the overall tip-to-tip span to 12.600 in.
-4. Match left/right projection about the boom centerline.
-5. Keep both halves collinear.
-6. Apply temporary nonconductive retention so the gap cannot close.
+1. Measure the actual PVC outside diameter `D` at 70-DE and the finished lengths of both halves. Calculate `I_target = (D - 0.250 in) / 2` (0.295 in at nominal 0.840 in OD).
+2. Mark a fine witness line on each half at `M = I_target + 0.500 in` from its inner steel tip toward the outer tip. Record both measured `M` distances.
+3. Insert 70-DE-L and 70-DE-R from opposite sides until each visible witness line is nominally 0.500 in outboard of its adjacent outer PVC surface.
+4. Measure each exposed witness distance `E`, calculate `I = M - E` for each half, and calculate the hidden gap `G = D - I_left - I_right`.
+5. Adjust until `G` is 0.250 in +/- 0.0156 in and the insertion depths differ by no more than 0.0156 in. Cross-check the overall tip-to-tip span against `L_left + L_right + G` (12.600 in nominal).
+6. Keep both halves collinear and DC-isolated. Record `D`, the half lengths, `M`, `E`, insertion depths, `G`, and overall span.
+7. Hold each half with removable nonconductive tape or clamps. Do not install a locking station tie until Step 12 is complete.
 
 The steel-tip gap is not the feed-node screw spacing.
 
@@ -608,22 +614,24 @@ Use small approximately 4 in cable ties. Keep every locking head away from the i
 
 ### 24.1 2 m stations
 
-At each 2 m station:
+At the passive 2 m stations 2M-D1 and 2M-R:
 
 1. Install one small station tie around the PVC in the element cross-section so it gently captures the tape/support pair at both hole exits.
 2. Tighten only enough to prevent lateral sliding; do not flatten the tape, crush the support, or indent the PVC.
 3. Add one small tie around the tape and support near each support end, approximately 0.750 in inboard from the support tip.
 4. Confirm the conductive tape remains centered and straight.
-5. Confirm the driven gap remains controlled at 2M-DE.
+
+At 2M-DE, keep the halves in removable temporary nonconductive retention. Final station and support-end ties are deferred until Step 12 so each half can be removed for feed-node drilling without cutting a locking tie.
 
 ### 24.2 70 cm stations
 
-At each 70 cm station:
+At the passive 70 cm stations 70-D3, 70-D2, 70-D1, and 70-R:
 
 1. Install one small station tie around the PVC in the element cross-section so it gently captures the tape at both hole exits.
 2. Tighten only enough to prevent lateral sliding without flattening, creasing, or twisting the blade.
-3. Place the locking head away from the feed-node location at 70-DE.
-4. Recheck centering and parallelism.
+3. Recheck centering and parallelism.
+
+At 70-DE, keep the halves in removable temporary nonconductive retention. The final locking station tie is deferred until Step 12 and must clear the feed-node locations.
 
 If this retention method cannot hold the actual blade securely without distortion, stop. Do not add metal fasteners or adhesive without revising O4-O6.
 
@@ -631,7 +639,7 @@ If this retention method cannot hold the actual blade securely without distortio
 
 ## 25. Step 12 - Mark and drill the feed-node holes
 
-Perform this step only after both driven gaps, overall spans, and temporary retention pass inspection.
+Perform this step only after both driven gaps have been calculated from visible witness marks, both overall spans have been cross-checked, and temporary retention passes inspection.
 
 For each of the four driven halves:
 
@@ -640,16 +648,19 @@ For each of the four driven halves:
 3. Mirror the left and right hole locations.
 4. Confirm the screw and washer envelope will remain clear of the opposite half, other boom, hairpin route, and station tie.
 5. Mark the selected point clearly.
-6. Remove one driven half at a time while preserving all reference marks.
+6. Release only that half's removable temporary retention and remove one driven half at a time, preserving its inner-tip and witness marks. Keep the other half temporarily fixed.
 7. Clamp the tape flat to sacrificial wood.
 8. Drill the approved approximately 5/32 in clearance hole through the tape only.
 9. Deburr both faces without removing excessive material.
 10. Prepare a small bare-metal contact pad around the hole using fine abrasive.
 11. Do not tin the contact pad.
-12. Reinstall the half, reset the gap and overall span, and repeat for the next half.
+12. Reinstall the half. Remeasure its exposed witness distance and recalculate both insertion depths and the hidden gap; restore the approved gap and span before removing the next half.
 
 After all four holes are complete:
 
+- Recheck both driven gaps from the visible witness marks, and record the final insertion depths and overall spans.
+- Install the final small station ties at 2M-DE and 70-DE. Add the two small tape/support ties near the ST-2 ends, approximately 0.750 in inboard from each support tip. Keep tie heads clear of the feed-node holes.
+- Recheck witness distances, calculated gaps, spans, centering, and DC isolation after tightening. If a half must move or come out again, cut and replace the affected locking ties and repeat this check.
 - Install the selected bare #6-32 screws, washers, and nuts temporarily for mechanical fit only.
 - Do not install ring lugs or the hairpin during O6.
 - Confirm at least two complete threads are visible beyond each nut.
@@ -666,7 +677,8 @@ Do not drill the PVC wall for feed-node hardware.
 - [ ] Every element is in the correct station and order.
 - [ ] 2 m passive elements are centered within 1/16 in.
 - [ ] 70 cm passive elements are centered within 1/32 in.
-- [ ] Driven halves remain matched and collinear.
+- [ ] Driven halves remain matched and collinear; the final witness marks remain visible beyond the station ties.
+- [ ] Each hidden driven gap is calculated from recorded actual PVC OD and left/right insertion depths after final retention; each insertion-depth difference is no more than 0.0156 in.
 - [ ] 2 m gap is 0.250 in +/- 0.0156 in.
 - [ ] 70 cm gap is 0.250 in +/- 0.0156 in.
 - [ ] 2 m overall driven span is 37.400 in within tolerance.
@@ -798,6 +810,7 @@ At minimum record:
 - Overall span.
 - Steel-tip center gap.
 - Feed-node center spacing.
+- Actual PVC OD at each driven station; each half's witness-mark distance `M`, exposed witness distance `E`, calculated insertion depth, and calculated steel-tip gap.
 - Feed-node hole diameter.
 
 ### Assembly
@@ -827,8 +840,8 @@ Minimum photographs:
 8. All labeled 2 m cut parts beside a rule.
 9. All labeled 70 cm cut parts beside a rule.
 10. Each 2 m tape/support cross-section and retention method.
-11. 2 m driven gap and node-hole locations.
-12. 70 cm driven gap and node-hole locations.
+11. 2 m visible witness marks beside a scale, the recorded hidden-gap calculation, and node-hole locations.
+12. 70 cm visible witness marks beside a scale, the recorded hidden-gap calculation, and node-hole locations.
 13. J1 separator and tie.
 14. J2 separator and tie.
 15. End view showing the 90-degree planes and 45-degree boom-center line.
@@ -893,7 +906,7 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. D inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. E inputs are present.
 - [ ] Material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Both booms are 30.000 in and correctly labeled.
@@ -901,7 +914,7 @@ O6 is complete only when:
 - [ ] All ten tape-steel pieces pass cut and label inspection.
 - [ ] All three 12.000 in supports are installed without unauthorized trimming.
 - [ ] Every element is centered, aligned, and retained nonconductively.
-- [ ] Both driven gaps and overall spans pass.
+- [ ] Both driven gaps are calculated from visible witness marks after final ties and pass; both overall spans are rechecked.
 - [ ] Four feed-node holes are drilled through tape only.
 - [ ] Contact pads are clean and untinned.
 - [ ] Node-center spacings are recorded.
@@ -926,7 +939,7 @@ Deliver the following to the feed-system phase:
 - Node-hole diameters and node-center spacing for both bands.
 - Selected #6-32 screw length from the coupon.
 - Feed-hardware parts bag labeled by band.
-- Photographs of driven gaps and node locations.
+- Photographs of visible driven-half witness marks, hidden-gap calculations, and node locations.
 - Open deviation list, if any.
 
 O7 must preserve the recorded gaps, spans, element stations, plane angle, and clearances while installing the coax, lugs, 2 m hairpin, ferrites, strain relief, and labels.
@@ -942,7 +955,8 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | Rev. A | 2026-08-24 | Initial fabrication and assembly procedure. |
 | Rev. B | 2026-09-21 | Retained the verified mechanical sequence; removed rotating/folding joint instructions, six-inch dual-boom ties, PVC feed-screw drilling, support trimming, and O7 feed work; added complete coupon testing, tape-only node drilling, fixed removable boom retention, separator pads, tighter tolerances, clearance checks, DC isolation tests, as-built records, and explicit stop conditions. |
 | Rev. C | 2026-10-12 | Raised the minimum installed separator-pad thickness and bare-PVC boom gap to 0.375 in; retained the 45 degrees +/- 5 degrees orientation and all RF element dimensions. |
-| **Rev. D** | **2026-10-12** | Raised the minimum usable tape-steel stock to 20 ft and reserved one continuous 41.400 in section for a full reflector recut; installed element cuts are unchanged. |
+| Rev. D | 2026-10-12 | Raised the minimum usable tape-steel stock to 20 ft and reserved one continuous 41.400 in section for a full reflector recut; installed element cuts are unchanged. |
+| **Rev. E** | **2026-10-12** | Added external witness-mark calculation for buried driven gaps; delayed final driven-station ties until after feed-node drilling and refitting. RF dimensions are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -950,13 +964,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. D produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. E produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. D Fabrication and Assembly Procedure**
+**End of O6 Rev. E Fabrication and Assembly Procedure**
 
 
 ---
