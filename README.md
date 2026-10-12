@@ -243,8 +243,9 @@ The current controlled files are:
 | O6 | [docs/fabrication.md](docs/fabrication.md) | Mechanical build sequence and quality gates |
 | M-01 | [PDF](drawings/M-01-overall-assembly.pdf) · [editable SVG](drawings/M-01-overall-assembly.svg) | Overall assembly, datum stations, boom orientation, and key clearances |
 | M-02 | [PDF](drawings/M-02-2m-boom-layout.pdf) · [editable SVG](drawings/M-02-2m-boom-layout.svg) | 2 m boom stations, hole layout, datums, and drilling checks |
+| M-03 | [PDF](drawings/M-03-70cm-boom-layout.pdf) · [editable SVG](drawings/M-03-70cm-boom-layout.svg) | 70 cm boom stations, hole layout, datums, and drilling checks |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 and M-02 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-03 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 

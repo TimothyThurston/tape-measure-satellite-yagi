@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
+<title>M-03 70 cm Boom Layout - Tape Measure Satellite Yagi</title>
+<desc>Rev A 70 cm boom station and drill layout derived from O3/O5/O6 Rev L. Dimensions and tolerances control.</desc>
+<rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
+<line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
+<text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">M-03  70 cm BOOM LAYOUT</text>
+<text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3/O5/O6 REV L</text>
+<rect x="42.000" y="148.000" width="1616.000" height="430.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A  |  PVC-70 ELEMENT-PLANE ELEVATION</text>
+<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">FRONT DATUM CONTROLS  |  1:2</text>
+<line x1="100.000" y1="215.000" x2="1150.000" y2="215.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="100.000" y1="208.000" x2="100.000" y2="222.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="1150.000" y1="208.000" x2="1150.000" y2="222.000" stroke="#192A37" stroke-width="1.0"/>
+<text x="625.000" y="207.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">21.000</text>
+<line x1="100.000" y1="241.000" x2="1025.000" y2="241.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="100.000" y1="234.000" x2="100.000" y2="248.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="1025.000" y1="234.000" x2="1025.000" y2="248.000" stroke="#192A37" stroke-width="1.0"/>
+<text x="562.500" y="233.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">18.500</text>
+<line x1="100.000" y1="267.000" x2="875.000" y2="267.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="100.000" y1="260.000" x2="100.000" y2="274.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="875.000" y1="260.000" x2="875.000" y2="274.000" stroke="#192A37" stroke-width="1.0"/>
+<text x="487.500" y="259.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">15.500</text>
+<line x1="100.000" y1="293.000" x2="575.000" y2="293.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="100.000" y1="286.000" x2="100.000" y2="300.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="575.000" y1="286.000" x2="575.000" y2="300.000" stroke="#192A37" stroke-width="1.0"/>
+<text x="337.500" y="285.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">9.500</text>
+<line x1="100.000" y1="319.000" x2="275.000" y2="319.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="100.000" y1="312.000" x2="100.000" y2="326.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="275.000" y1="312.000" x2="275.000" y2="326.000" stroke="#192A37" stroke-width="1.0"/>
+<text x="187.500" y="311.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">3.500</text>
+<line x1="275.000" y1="332.000" x2="275.000" y2="372.000" stroke="#D6DEE4" stroke-width="1.0" stroke-dasharray="4,4"/>
+<line x1="575.000" y1="332.000" x2="575.000" y2="372.000" stroke="#D6DEE4" stroke-width="1.0" stroke-dasharray="4,4"/>
+<line x1="875.000" y1="332.000" x2="875.000" y2="372.000" stroke="#D6DEE4" stroke-width="1.0" stroke-dasharray="4,4"/>
+<line x1="1025.000" y1="332.000" x2="1025.000" y2="372.000" stroke="#D6DEE4" stroke-width="1.0" stroke-dasharray="4,4"/>
+<line x1="1150.000" y1="332.000" x2="1150.000" y2="372.000" stroke="#D6DEE4" stroke-width="1.0" stroke-dasharray="4,4"/>
+<rect x="100.000" y="376.000" width="1500.000" height="42.000" stroke="#1F5B94" fill="#EAF1F7" stroke-width="1.8"/>
+<line x1="100.000" y1="397.000" x2="1600.000" y2="397.000" stroke="#1F5B94" stroke-width="0.9" stroke-dasharray="9,4,2,4"/>
+<circle cx="275.000" cy="397.000" r="10.938" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.0"/>
+<text x="275.000" y="356.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1F5B94">70-D3</text>
+<circle cx="575.000" cy="397.000" r="10.938" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.0"/>
+<text x="575.000" y="356.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1F5B94">70-D2</text>
+<circle cx="875.000" cy="397.000" r="10.938" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.0"/>
+<text x="875.000" y="356.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1F5B94">70-D1</text>
+<circle cx="1025.000" cy="397.000" r="10.938" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.0"/>
+<text x="1025.000" y="356.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1F5B94">70-DE</text>
+<circle cx="1150.000" cy="397.000" r="10.938" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.0"/>
+<text x="1150.000" y="356.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1F5B94">70-R</text>
+<line x1="325.000" y1="421.000" x2="325.000" y2="451.000" stroke="#A7662F" stroke-width="1.0" stroke-dasharray="4,3"/>
+<polygon points="325.000,451.000 332.000,458.000 325.000,465.000 318.000,458.000" stroke="#A7662F" fill="#FFFFFF" stroke-width="1.7"/>
+<text x="325.000" y="485.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#A7662F">J1  4.500 +/- 0.125  NO HOLE</text>
+<line x1="1225.000" y1="421.000" x2="1225.000" y2="451.000" stroke="#A7662F" stroke-width="1.0" stroke-dasharray="4,3"/>
+<polygon points="1225.000,451.000 1232.000,458.000 1225.000,465.000 1218.000,458.000" stroke="#A7662F" fill="#FFFFFF" stroke-width="1.7"/>
+<text x="1225.000" y="485.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#A7662F">J2  22.500 +/- 0.125  NO HOLE</text>
+<text x="100.000" y="446.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">FRONT = X 0.000</text>
+<text x="1600.000" y="446.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="end" fill="#1F5B94">REAR / OPERATOR</text>
+<text x="1290.000" y="349.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">5X 7/16 THRU</text>
+<text x="610.000" y="449.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#657582">1/2 in SCHEDULE 40 PVC, INTACT</text>
+<line x1="1576.000" y1="327.000" x2="1506.000" y2="327.000" stroke="#1F5B94" stroke-width="2"/>
+<polygon points="1504.000,327.000 1520.000,320.000 1520.000,334.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<text x="1586.000" y="332.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">GAIN</text>
+<line x1="100.000" y1="424.000" x2="100.000" y2="542.000" stroke="#D6DEE4" stroke-width="1"/>
+<line x1="1600.000" y1="424.000" x2="1600.000" y2="542.000" stroke="#D6DEE4" stroke-width="1"/>
+<line x1="100.000" y1="542.000" x2="1600.000" y2="542.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="100.000" y1="535.000" x2="100.000" y2="549.000" stroke="#192A37" stroke-width="1.0"/>
+<line x1="1600.000" y1="535.000" x2="1600.000" y2="549.000" stroke="#192A37" stroke-width="1.0"/>
+<text x="850.000" y="534.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">30.000 +/- 0.0625 FINISHED LENGTH</text>
+<text x="58.000" y="565.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">ALL X VALUES MEASURED INDEPENDENTLY FROM THE FINISHED FRONT END; DO NOT CHAIN LAYOUT.</text>
+<rect x="42.000" y="594.000" width="704.000" height="352.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="624.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">70 cm BOOM STATION SCHEDULE</text>
+<text x="730.000" y="624.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">INCHES</text>
+<line x1="58.000" y1="637.000" x2="730.000" y2="637.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="72.000" y="664.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">ID</text>
+<text x="207.000" y="664.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">X FRONT</text>
+<text x="332.000" y="664.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">TOL.</text>
+<text x="438.000" y="664.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">X REAR NOM.</text>
+<text x="585.000" y="664.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">ACTION</text>
+<line x1="58.000" y1="699.000" x2="730.000" y2="699.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="72.000" y="688.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D3</text>
+<text x="207.000" y="688.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">3.500</text>
+<text x="332.000" y="688.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="438.000" y="688.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">26.500</text>
+<text x="585.000" y="688.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#1F5B94">7/16 THRU</text>
+<line x1="58.000" y1="731.000" x2="730.000" y2="731.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="72.000" y="720.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="bold" text-anchor="start" fill="#A7662F">J1</text>
+<text x="207.000" y="720.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">4.500</text>
+<text x="332.000" y="720.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.125</text>
+<text x="438.000" y="720.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">25.500</text>
+<text x="585.000" y="720.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#A7662F">NO HOLE</text>
+<line x1="58.000" y1="763.000" x2="730.000" y2="763.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="72.000" y="752.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D2</text>
+<text x="207.000" y="752.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">9.500</text>
+<text x="332.000" y="752.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="438.000" y="752.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">20.500</text>
+<text x="585.000" y="752.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#1F5B94">7/16 THRU</text>
+<line x1="58.000" y1="795.000" x2="730.000" y2="795.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="72.000" y="784.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D1</text>
+<text x="207.000" y="784.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">15.500</text>
+<text x="332.000" y="784.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="438.000" y="784.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">14.500</text>
+<text x="585.000" y="784.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#1F5B94">7/16 THRU</text>
+<line x1="58.000" y1="827.000" x2="730.000" y2="827.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="72.000" y="816.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="bold" text-anchor="start" fill="#1F5B94">70-DE</text>
+<text x="207.000" y="816.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">18.500</text>
+<text x="332.000" y="816.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="438.000" y="816.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">11.500</text>
+<text x="585.000" y="816.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#1F5B94">7/16 THRU</text>
+<line x1="58.000" y1="859.000" x2="730.000" y2="859.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="72.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="bold" text-anchor="start" fill="#1F5B94">70-R</text>
+<text x="207.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">21.000</text>
+<text x="332.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="438.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">9.000</text>
+<text x="585.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#1F5B94">7/16 THRU</text>
+<line x1="58.000" y1="891.000" x2="730.000" y2="891.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="72.000" y="880.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="bold" text-anchor="start" fill="#A7662F">J2</text>
+<text x="207.000" y="880.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">22.500</text>
+<text x="332.000" y="880.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.125</text>
+<text x="438.000" y="880.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#192A37">7.500</text>
+<text x="585.000" y="880.000" font-family="Arial, Helvetica, sans-serif" font-size="11.7" font-weight="normal" text-anchor="start" fill="#A7662F">NO HOLE</text>
+<text x="60.000" y="913.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">REAR VALUES ARE NOMINAL FOR L = 30.000; ACTUAL L GOVERNS THE CROSS-CHECK.</text>
+<text x="60.000" y="932.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#A7662F">J1 / J2: CENTER PAD AND TIE AT MARK; DO NOT DRILL EITHER BOOM.</text>
+<rect x="762.000" y="594.000" width="380.000" height="352.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="778.000" y="624.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW B  |  FRONT END</text>
+<text x="1126.000" y="624.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">1:1 NOMINAL</text>
+<circle cx="952.000" cy="762.000" r="42.000" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.0"/>
+<line x1="952.000" y1="657.000" x2="952.000" y2="834.000" stroke="#1F5B94" stroke-width="1.3" stroke-dasharray="8,4"/>
+<line x1="952.000" y1="762.000" x2="898.260" y2="815.740" stroke="#A7662F" stroke-width="1.7" stroke-dasharray="6,3"/>
+<circle cx="952.000" cy="762.000" r="2.500" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.3"/>
+<text x="780.000" y="852.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">ELEMENT-PLANE / DRILL AXIS</text>
+<text x="780.000" y="873.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#A7662F">45 deg ASSEMBLY-ORIENTATION LINE</text>
+<text x="780.000" y="904.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">NOMINAL OD 0.840; MEASURE ACTUAL.</text>
+<text x="780.000" y="925.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">TRANSFER LINES AT EACH RF STATION.</text>
+<rect x="1158.000" y="594.000" width="500.000" height="352.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1174.000" y="624.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">DRILLING / INSPECTION</text>
+<text x="1640.000" y="624.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">O5 / O6</text>
+<text x="1177.000" y="658.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="bold" text-anchor="start" fill="#192A37">1. PASS MATERIAL COUPON: 70 cm TAPE ONLY.</text>
+<text x="1177.000" y="683.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">2. MARK FRONT, REAR, BAND ID, GAIN ARROW.</text>
+<text x="1177.000" y="708.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">3. MARK STRAIGHT ELEMENT-PLANE LINE.</text>
+<text x="1177.000" y="733.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">4. MARK 45 deg ASSEMBLY-ORIENTATION LINE.</text>
+<text x="1177.000" y="758.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">5. CHECK EACH X FRONT AND X REAR USING L.</text>
+<text x="1177.000" y="783.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="bold" text-anchor="start" fill="#192A37">6. REQUIRE |X FRONT + X REAR - L| &lt;= 0.03125.</text>
+<text x="1177.000" y="808.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">7. 2M-R TO 70-R X DELTA: 0.500 +/- 0.03125.</text>
+<text x="1177.000" y="833.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="bold" text-anchor="start" fill="#192A37">8. FIX IN V-BLOCK; DRILL 5 RF HOLES ONLY.</text>
+<text x="1177.000" y="858.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">9. AXES SQUARE, PARALLEL, COPLANAR.</text>
+<text x="1177.000" y="883.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">10. DEBURR / INSPECT; RECHECK X BOTH ENDS.</text>
+<text x="1177.000" y="908.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="bold" text-anchor="start" fill="#192A37">11. NO J1/J2 OR PVC FEED-NODE HOLES.</text>
+<line x1="30.000" y1="960.000" x2="1670.000" y2="960.000" stroke="#192A37" stroke-width="2"/>
+<text x="48.000" y="982.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">GENERAL NOTES</text>
+<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">1. DIMENSIONS / TOLERANCES CONTROL. VIEW A 1:2 AT 100% PRINT.</text>
+<text x="48.000" y="1023.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2. FIVE 7/16 THROUGH-HOLES ONLY. COUPON APPROVAL PRECEDES FINAL DRILLING.</text>
+<text x="48.000" y="1042.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">3. ALIGN FRONTS WITH PVC-2M; VERIFY CLOSE REFLECTORS PER M-09.</text>
+<line x1="905.000" y1="960.000" x2="905.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1178.000" y1="960.000" x2="1178.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1398.000" y1="960.000" x2="1398.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<text x="922.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SOURCE BASELINE</text>
+<text x="922.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">O3/O5/O6 REV L</text>
+<text x="922.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">COMMIT 186c773</text>
+<text x="1195.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SCALE AT 100% PRINT</text>
+<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A 1:2</text>
+<text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">VIEW B 1:1 NOMINAL</text>
+<text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
+<text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET M-03</text>
+</svg>
