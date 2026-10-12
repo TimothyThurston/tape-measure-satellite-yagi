@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. G  
+**Revision:** Rev. H  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision G baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision H baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -38,7 +38,7 @@ O6 does **not**:
 - Remove either antenna-side BNC connector.
 - Strip or terminate RG-58.
 - Crimp or solder feed lugs.
-- Install the 2 m hairpin.
+- Cut, form, or install the 2 m hairpin.
 - Install or finalize ferrite common-mode suppression.
 - Apply final heat shrink or weatherproofing.
 - Perform VNA measurements or RF tuning.
@@ -100,6 +100,10 @@ O5 now accepts each finished boom at 30.000 in +/- 0.0625 in, with no more than 
 
 O5 Section 15 now separates the mechanical measurements made in O6 from the 2 m hairpin geometry measured during O7. O6 completion requires Section 15.1 only. Section 15.2 stays blank until O7 installs the hairpin, before O8 tuning.
 
+### 2.8 Corrected in Revision H
+
+O5 Hold Point C covers the booms, ten tape-steel elements, and three supports cut in O6. The 2M-HP hairpin blank is cut, labeled, measured, and recorded during O7, before forming; it does not block O6 completion.
+
 ---
 
 ## 3. Controlling inputs
@@ -108,12 +112,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. G | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. G | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. G | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. G | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. H | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. H | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. H | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. H | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. G, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. H, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -155,7 +159,7 @@ Use only O4-approved materials.
 | Fine-tip marker and removable nonconductive tape or clamps | Visible driven-half witness marks and temporary retention through feed-node drilling |
 | Labels or masking tape and marker | Part identification |
 
-RG-58, final ring lugs, the hairpin blank, ferrites, solder, heat shrink, and electrical finishing materials are controlled by O4 but are installed during O7.
+RG-58, final ring lugs, ferrites, solder, heat shrink, and electrical finishing materials are controlled by O4 but are installed during O7. O7 also cuts, labels, measures, forms, and installs the 2M-HP hairpin blank.
 
 ---
 
@@ -228,10 +232,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. G |
-| O4 revision | Rev. G |
-| O5 revision | Rev. G |
-| O6 revision | Rev. G |
+| O3 revision | Rev. H |
+| O4 revision | Rev. H |
+| O5 revision | Rev. H |
+| O6 revision | Rev. H |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -553,12 +557,16 @@ If a 12.000 in support creates a verified interference, stop and document it for
 
 ## 21. Quality Gate E - cut-part verification
 
+This gate verifies the O6-cut parts under O5 Hold Point C. The 2M-HP hairpin blank is an O7 cut.
+
+- [ ] Both PVC booms are cut, labeled, measured, and within the O5 finished-length and pair-match limits.
 - [ ] All ten tape pieces present and labeled.
 - [ ] All tape lengths pass O5 tolerance.
 - [ ] Driven halves match within the controlled difference.
 - [ ] All exposed tape edges are deburred.
 - [ ] Three supports measure 12.000 in and are labeled.
-- [ ] No part is kinked, cracked, or short.
+- [ ] No O6-cut part is kinked, cracked, or short.
+- [ ] Every O6-cut finished length is measured and recorded under O5 Hold Point C.
 - [ ] Net tape schedule reconciles to 174.700 in.
 
 Do not use an accidentally short element. Cut a replacement.
@@ -917,12 +925,12 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. G inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. H inputs are present.
 - [ ] Material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Each finished boom is 30.000 in +/- 0.0625 in, the two lengths differ by no more than 0.03125 in, and both are correctly labeled.
 - [ ] All stations and holes pass inspection.
-- [ ] All ten tape-steel pieces pass cut and label inspection.
+- [ ] O5 Hold Point C is closed for the O6-cut booms, ten tape-steel pieces, and three supports; the 2M-HP blank remains assigned to O7.
 - [ ] All three 12.000 in supports are installed without unauthorized trimming.
 - [ ] Every element is centered, aligned, and retained nonconductively.
 - [ ] Both driven gaps are calculated from visible witness marks after final ties and pass; measured overall spans pass the 2 m and 70 cm limits independently.
@@ -970,6 +978,7 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | **Rev. E** | **2026-10-12** | Added external witness-mark calculation for buried driven gaps; delayed final driven-station ties until after feed-node drilling and refitting. RF dimensions are unchanged. |
 | **Rev. F** | **2026-10-12** | Added explicit boom-length and pair-match limits, actual-length rear cross-checks, and derived measured overall driven-span limits; nominal RF dimensions are unchanged. |
 | **Rev. G** | **2026-10-12** | Aligned O6 completion and handoff with O5 Section 15.1 mechanical records; hairpin geometry remains an O7 Section 15.2 record. |
+| **Rev. H** | **2026-10-12** | Aligned O6 cut verification and completion with O5 Hold Point C; assigned the hairpin blank cut and record to O7 without changing dimensions. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -977,13 +986,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. G produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. H produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. G Fabrication and Assembly Procedure**
+**End of O6 Rev. H Fabrication and Assembly Procedure**
 
 
 ---

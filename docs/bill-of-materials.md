@@ -8,7 +8,7 @@
 **Repository path:** `docs/bill-of-materials.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. G  
+**Revision:** Rev. H  
 **Date:** 2026-10-12  
 **Status:** Controlled construction and procurement baseline  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-This document defines the materials, quantities, specifications, ownership status, substitutions, and receiving inspections for the Revision G Tape Measure Satellite Yagi.
+This document defines the materials, quantities, specifications, ownership status, substitutions, and receiving inspections for the Revision H Tape Measure Satellite Yagi.
 
 Revision B retains the verified W6NBC-derived RF geometry while correcting the material and integration problems found during the September 2026 construction-readiness review.
 
@@ -24,9 +24,9 @@ This document controls material selection. Exact cut locations, mounting geometr
 
 ---
 
-## 2. Revision G configuration
+## 2. Revision H configuration
 
-The Revision G antenna uses:
+The Revision H antenna uses:
 
 - Two separate 30.000 in booms made from nominal 1/2 in Schedule 40 PVC.
 - One three-element 2 m Yagi.
@@ -40,7 +40,7 @@ The Revision G antenna uses:
 - Band-appropriate snap-on ferrite common-mode suppression near each feedpoint.
 - Simple removable dual-boom retention using UV-resistant cable ties and nonconductive separator pads.
 
-Revision G does **not** use:
+Revision H does **not** use:
 
 - A separate boom-joint mechanism.
 - A hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, or metal boom connector.
@@ -83,7 +83,7 @@ Procure or reserve at least **20 ft (240.000 in) of usable tape steel** in lengt
 | 70 cm boom | 1 | 30.000 in | 30.000 in |
 | **Total** | **2** |  | **60.000 in** |
 
-One 10 ft PVC length is sufficient and provides ample cutting allowance. O5 Rev. G accepts each finished boom at 30.000 in +/- 0.0625 in and requires the two finished lengths to differ by no more than 0.03125 in. The two finished booms remain intact and parallel; no tee or crosspiece is required.
+One 10 ft PVC length is sufficient and provides ample cutting allowance. O5 Rev. H accepts each finished boom at 30.000 in +/- 0.0625 in and requires the two finished lengths to differ by no more than 0.03125 in. The two finished booms remain intact and parallel; no tee or crosspiece is required.
 
 ### 3.3 Nonconductive support requirement
 
@@ -97,7 +97,7 @@ Status terms:
 
 - **Owned:** Previously confirmed as on hand.
 - **Verify:** Expected to be on hand, but must be physically inspected before use.
-- **Acquire:** Required for Revision G and not previously confirmed as owned.
+- **Acquire:** Required for Revision H and not previously confirmed as owned.
 - **Select after measurement:** Exact variant depends on actual measured material.
 
 | ID | Item | Controlled specification | Installed quantity | Procurement quantity | Status | Notes |
@@ -115,11 +115,11 @@ Status terms:
 | BOM-011 | Feedpoint nuts | #6-32 stainless nuts | 4 | 8 | **Owned in hardware assortment** | No loose hardware permitted. |
 | BOM-012 | Feedpoint flat washers | #6 stainless flat washers | 4 minimum | 12 | **Owned in hardware assortment** | Final stack count is controlled by the O5 feedpoint detail. |
 | BOM-013 | Coax feed lugs | 22–16 AWG ring terminals with #4–6 stud opening | 4 | 8 | **Acquire / verify** | Two per feed line: center conductor and braid. |
-| BOM-014 | 2 m hairpin conductor | #12 AWG solid copper, bare or stripped THHN | 1 adjustable blank | 12 in minimum | **Owned — 25 ft THHN** | Initial cut is 8.500 in. Finished geometry is controlled and tuned by O7/O8. |
+| BOM-014 | 2 m hairpin conductor | #12 AWG solid copper, bare or stripped THHN | 1 adjustable blank | 12 in minimum | **Owned — 25 ft THHN** | O7 cuts, labels, and measures the 8.500 in initial blank before forming it; finished geometry is controlled and tuned by O7/O8. |
 | BOM-015 | Small strain-relief ties | UV-resistant nylon cable ties, approximately 4 in | As required | 20 minimum | **Verify** | Used only for element support, ferrite retention, and coax strain relief—not around both booms. |
 | BOM-016 | Heat-shrink tubing | Thin-wall polyolefin assortment sized for individual coax conductors and terminals | As required | 1 assortment | **Owned — 240-piece assortment** | Do not cover a contact until DC inspection is complete. |
 | BOM-017 | Electronics solder | Sn99.3/Cu0.7 electronics solder | As required | Existing spool | **Owned** | Use only with electronics-compatible flux. |
-| BOM-018 | Separate pivot/joint hardware | **Retired — not used in Revision G** | 0 | 0 | **Removed** | No pivot bolt, hinge, tee, crossbar, or dedicated joint assembly. ID is not reassigned. |
+| BOM-018 | Separate pivot/joint hardware | **Retired — not used in Revision H** | 0 | 0 | **Removed** | No pivot bolt, hinge, tee, crossbar, or dedicated joint assembly. ID is not reassigned. |
 | BOM-019 | Electronics flux | Flux compatible with coax conductors, copper lugs, and solder alloy | As required | 1 | **Verify** | Clean residues as required by the product instructions. |
 | BOM-020 | Contact-preparation abrasive | Fine emery cloth or equivalent | As required | 1 small piece | **Verify** | Expose clean conductive steel only where electrical contact is required. |
 | BOM-021 | Electrical tape | Quality vinyl electrical tape | As required | 1 roll | **Verify** | Temporary positioning and finishing only; not a structural joint. |
@@ -151,7 +151,7 @@ The initial installed count is four ferrites per feed. O8 must repeat the SWR/im
 
 ## 6. Dual-boom retention materials
 
-Revision G has no separate boom-joint assembly.
+Revision H has no separate boom-joint assembly.
 
 The two booms are retained at the O5 stations using:
 
@@ -360,6 +360,7 @@ The final two open checklist items are O5 interface verifications. They do not r
 | **Rev. E** | **2026-10-12** | Aligned BOM feedpoint notes with exterior driven-gap witness marks and delayed driven-station tie installation; material quantities are unchanged. |
 | **Rev. F** | **2026-10-12** | Added explicit PVC finished-length and pair-matching acceptance limits from O5; quantities and nominal cuts are unchanged. |
 | **Rev. G** | **2026-10-12** | Aligned references with the O5/O6 record-phase clarification; materials, quantities, and procurement status are unchanged. |
+| **Rev. H** | **2026-10-12** | Assigned the BOM-014 hairpin-blank cut and measurement to O7 and aligned controlled references; materials and quantities are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -367,6 +368,6 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 15. Engineering intent
 
-This BOM provides every material needed to construct and test the Revision G prototype without relying on the mechanically conflicting assumptions in the Rev. A drawing set.
+This BOM provides every material needed to construct and test the Revision H prototype without relying on the mechanically conflicting assumptions in the Rev. A drawing set.
 
 It does not claim measured RF performance. The finished antenna must pass the O8 calibrated impedance/SWR checks, coax-movement test, two-band assembled checks, and station-level receiver-desensitization test before operational release.

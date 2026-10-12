@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. G  
+**Revision:** Rev. H  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision G Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision H Tape Measure Satellite Yagi.
 
-It supersedes O5 Rev. F and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. G and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision G retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records.
+Revision H retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. G sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. H sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -79,6 +79,10 @@ Each finished boom must measure 30.000 in +/- 0.0625 in, and the two lengths mus
 
 The O5 dimensional record now has an O6 mechanical section and an O7 hairpin section. Complete the mechanical section to close O6; record hairpin geometry after O7 forms and installs it, before O8 RF tuning. O6 does not require an unbuilt hairpin measurement.
 
+### 2.8 Corrected in Rev. H
+
+Hold Point C now covers only the parts cut in O6. O7 cuts, labels, and measures the 2M-HP hairpin blank before forming it, and records the blank length in Section 15.2. This phase assignment changes no cut length or finished geometry.
+
 ---
 
 ## 3. Mechanical configuration
@@ -107,7 +111,7 @@ There is no separate boom-joint mechanism.
 
 ## 4. Master cut list
 
-Cut finished lengths from the actual material. Deburr every cut edge and label each part immediately.
+Cut finished lengths from the actual material. Deburr every cut edge and label each cut part immediately. O6 cuts the two PVC booms, ten tape-steel elements, and three supports; O7 cuts the 2M-HP hairpin blank. PAD-1 and PAD-2 may be acquired at finished size or prepared from stock and are inspected before mechanical assembly.
 
 ### 4.1 Tape-steel elements
 
@@ -143,7 +147,7 @@ Reserve at least 20 ft (240.000 in) of usable approximately 3/8 in wide conducti
 | ST-1 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-D1 support |
 | ST-2 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-DE support |
 | ST-3 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-R support |
-| 2M-HP | #12 AWG solid copper, fully bare | 8.500 in initial blank | 1 | Tunable 2 m shunt hairpin |
+| 2M-HP | #12 AWG solid copper, fully bare | 8.500 in initial blank | 1 | O7 tunable 2 m shunt hairpin |
 | PAD-1 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Front retention separator |
 | PAD-2 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Rear retention separator |
 
@@ -445,12 +449,14 @@ If the tape curvature, width, or mounting angle violates the physical-clearance 
 - [ ] #6 clearance hole and hardware stack pass.
 - [ ] Selected screw length provides at least two full threads beyond the nut.
 
-### Hold Point C - after cutting
+### Hold Point C - after O6 cutting
 
-- [ ] Every part is labeled.
-- [ ] Every finished length is measured and recorded; each boom is 30.000 in +/- 0.0625 in and their length difference is no more than 0.03125 in.
-- [ ] No element is short, kinked, cracked, or left with a sharp burr.
+- [ ] Both PVC booms (PVC-2M and PVC-70), all ten tape-steel elements, and all three supports (ST-1 through ST-3) are cut, deburred, and labeled.
+- [ ] Each O6-cut finished length is measured and recorded; each boom is 30.000 in +/- 0.0625 in and their length difference is no more than 0.03125 in.
+- [ ] No tape-steel element is short, kinked, cracked, or left with a sharp burr.
 - [ ] Driven halves are matched within the controlled difference.
+
+The 2M-HP hairpin blank is not an O6 cut and does not block this hold point. O7 cuts, labels, and measures its 8.500 in initial blank before forming it; record that length in Section 15.2. Inspect PAD-1 and PAD-2 before mechanical assembly.
 
 ### Hold Point D - after boom drilling
 
@@ -504,13 +510,16 @@ Do not transmit until O8 calibrated impedance and SWR testing passes the require
 
 ### 15.1 O6 mechanical as-built record
 
-Complete this table at the end of O6, before removing the retention ties or handing the antenna to O7. These are the measurements and checks available from the mechanical build.
+Enter the O6-cut finished lengths at Hold Point C, then complete the remaining mechanical measurements at the end of O6, before removing the retention ties or handing the antenna to O7. These are the measurements and checks available from the mechanical build.
 
 | Item | Design value | As-built value | Pass / deviation |
 |---|---:|---:|---|
 | PVC-2M length | 30.000 in +/- 0.0625 in |  |  |
 | PVC-70 length | 30.000 in +/- 0.0625 in |  |  |
 | Difference between finished PVC boom lengths | 0.03125 in maximum |  |  |
+| ST-1 finished length | 12.000 in |  |  |
+| ST-2 finished length | 12.000 in |  |  |
+| ST-3 finished length | 12.000 in |  |  |
 | Assembled REAR end-face offset with FRONT ends flush | 0.03125 in maximum |  |  |
 | PVC actual OD | Record |  |  |
 | Tape width / thickness | Record |  |  |
@@ -540,10 +549,11 @@ A missing or unresolved failed mechanical entry prevents O6 completion. Any out-
 
 ### 15.2 O7 hairpin as-built addendum
 
-Leave this addendum blank at O6 handoff. After O7 forms and installs the 2 m hairpin, record its measured starting geometry before O8 RF tuning. Use the O6-measured 2 m feed-node center spacing as the starting leg-spacing target. Record any later O8 trim separately as as-tuned data.
+Leave this addendum blank at O6 handoff. O7 cuts, labels, and measures the 2M-HP initial blank before forming it. After O7 forms and installs the 2 m hairpin, record its measured starting geometry before O8 RF tuning. Use the O6-measured 2 m feed-node center spacing as the starting leg-spacing target. Record any later O8 trim separately as as-tuned data.
 
 | Item | Design value | O7 as-built value | Pass / deviation |
 |---|---:|---:|---|
+| 2M-HP initial blank length, measured before forming | 8.500 in |  |  |
 | 2 m hairpin leg spacing / straight-leg lengths / bottom-bend diameter / installed orientation | Record measured starting geometry per Section 10 |  |  |
 
 ---
@@ -577,6 +587,7 @@ Stop fabrication for any of the following:
 | **Rev. E** | **2026-10-12** | Defined external witness-mark calculation for the hidden driven gaps and deferred final driven-station ties until feed-node drilling and refitting are complete; RF dimensions are unchanged. |
 | **Rev. F** | **2026-10-12** | Added boom finished-length and pair-match limits, actual-length rear cross-checks, and derived overall driven-span limits; nominal RF geometry is unchanged. |
 | **Rev. G** | **2026-10-12** | Separated the O6 mechanical as-built table from the O7 hairpin addendum; O6 completion no longer depends on hairpin fabrication. |
+| **Rev. H** | **2026-10-12** | Scoped Hold Point C to O6-cut parts and assigned the hairpin blank cut, label, measurement, and record to O7; cut dimensions are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -584,7 +595,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. G cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. H cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
@@ -592,4 +603,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O5 Rev. G Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. H Mechanical Drawing and Cut Sheet**
