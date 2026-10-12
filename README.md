@@ -251,8 +251,9 @@ The current controlled files are:
 | M-08 | [PDF](drawings/M-08-dual-boom-retention.pdf) · [editable SVG](drawings/M-08-dual-boom-retention.svg) | J1/J2 separator pads and ties, boom orientation, and assembled clearance checks |
 | M-09 | [PDF](drawings/M-09-close-reflector-clearance.pdf) · [editable SVG](drawings/M-09-close-reflector-clearance.svg) | Close-reflector station separation and physical edge-clearance inspection |
 | E-01 | [PDF](drawings/E-01-electrical-feed-schematic.pdf) · [editable SVG](drawings/E-01-electrical-feed-schematic.svg) | Independent 2 m hairpin and 70 cm direct feeds, BNC interfaces, and expected DC checks |
+| E-02 | [PDF](drawings/E-02-2m-hairpin-detail.pdf) · [editable SVG](drawings/E-02-2m-hairpin-detail.svg) | 2 m hairpin starting blank, U geometry, orientation, and O7/O8 measurement records |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 and E-01 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 and E-01 through E-02 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 

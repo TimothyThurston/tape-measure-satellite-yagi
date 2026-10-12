@@ -1,0 +1,179 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
+<title>E-02 2 m Hairpin Detail - Tape Measure Satellite Yagi</title>
+<desc>Rev A 2 m hairpin starting shape and O7/O8 record controls derived from O3-O6 Rev L.</desc>
+<rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
+<line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
+<text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">E-02  2 m HAIRPIN DETAIL</text>
+<text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3-O6 REV L</text>
+<rect x="42.000" y="148.000" width="1616.000" height="187.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A  |  CUT THE INITIAL BLANK</text>
+<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">BLANK CENTERLINE LENGTH 1:1 AT 100% PRINT</text>
+<text x="60.000" y="204.000" font-family="Arial, Helvetica, sans-serif" font-size="11.3" font-weight="bold" text-anchor="start" fill="#192A37">2M-HP  |  FULLY BARE #12 AWG SOLID COPPER; STRIP WITHOUT NICKING.</text>
+<line x1="425.000" y1="238.000" x2="1275.000" y2="238.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="425.000" y1="231.000" x2="425.000" y2="245.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="1275.000" y1="231.000" x2="1275.000" y2="245.000" stroke="#A7662F" stroke-width="1"/>
+<text x="850.000" y="230.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#A7662F">8.500 IN INITIAL BLANK; MEASURE BEFORE FORMING</text>
+<line x1="425.000" y1="267.000" x2="1275.000" y2="267.000" stroke="#A7662F" stroke-width="7"/>
+<line x1="425.000" y1="258.000" x2="425.000" y2="276.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1275.000" y1="258.000" x2="1275.000" y2="276.000" stroke="#192A37" stroke-width="1.4"/>
+<text x="60.000" y="310.000" font-family="Arial, Helvetica, sans-serif" font-size="10.6" font-weight="normal" text-anchor="start" fill="#657582">O7 CUT / LABEL / RECORD. THIS IS STOCK LENGTH, NOT THE FINISHED LEG LENGTH OR AN RF MATCH SETTING.</text>
+<rect x="42.000" y="352.000" width="958.000" height="428.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="381.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW B  |  SYMMETRIC U STARTING SHAPE</text>
+<text x="984.000" y="381.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">AS FORMED / NTS</text>
+<text x="60.000" y="408.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="normal" text-anchor="start" fill="#657582">TOP VIEW IN THE 2 m ELEMENT PLANE; SHAPE FROM THE ACTUAL FEED HARDWARE.</text>
+<line x1="325.000" y1="446.000" x2="605.000" y2="446.000" stroke="#192A37" stroke-width="1"/>
+<line x1="325.000" y1="439.000" x2="325.000" y2="453.000" stroke="#192A37" stroke-width="1"/>
+<line x1="605.000" y1="439.000" x2="605.000" y2="453.000" stroke="#192A37" stroke-width="1"/>
+<text x="465.000" y="438.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#192A37">N = O6-MEASURED FEED-NODE C-C</text>
+<rect x="128.000" y="471.000" width="197.000" height="8.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<rect x="605.000" y="471.000" width="197.000" height="8.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<circle cx="325.000" cy="475.000" r="7.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="605.000" cy="475.000" r="7.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2"/>
+<text x="325.000" y="465.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#192A37">NODE A</text>
+<text x="605.000" y="465.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#192A37">NODE B</text>
+<line x1="325.000" y1="482.000" x2="325.000" y2="594.000" stroke="#A7662F" stroke-width="4"/>
+<line x1="325.000" y1="594.000" x2="325.674" y2="607.722" stroke="#A7662F" stroke-width="4"/>
+<line x1="325.674" y1="607.722" x2="327.690" y2="621.313" stroke="#A7662F" stroke-width="4"/>
+<line x1="327.690" y1="621.313" x2="331.028" y2="634.640" stroke="#A7662F" stroke-width="4"/>
+<line x1="331.028" y1="634.640" x2="335.657" y2="647.576" stroke="#A7662F" stroke-width="4"/>
+<line x1="335.657" y1="647.576" x2="341.531" y2="659.996" stroke="#A7662F" stroke-width="4"/>
+<line x1="341.531" y1="659.996" x2="348.594" y2="671.780" stroke="#A7662F" stroke-width="4"/>
+<line x1="348.594" y1="671.780" x2="356.779" y2="682.815" stroke="#A7662F" stroke-width="4"/>
+<line x1="356.779" y1="682.815" x2="366.005" y2="692.995" stroke="#A7662F" stroke-width="4"/>
+<line x1="366.005" y1="692.995" x2="376.185" y2="702.221" stroke="#A7662F" stroke-width="4"/>
+<line x1="376.185" y1="702.221" x2="387.220" y2="710.406" stroke="#A7662F" stroke-width="4"/>
+<line x1="387.220" y1="710.406" x2="399.004" y2="717.469" stroke="#A7662F" stroke-width="4"/>
+<line x1="399.004" y1="717.469" x2="411.424" y2="723.343" stroke="#A7662F" stroke-width="4"/>
+<line x1="411.424" y1="723.343" x2="424.360" y2="727.972" stroke="#A7662F" stroke-width="4"/>
+<line x1="424.360" y1="727.972" x2="437.687" y2="731.310" stroke="#A7662F" stroke-width="4"/>
+<line x1="437.687" y1="731.310" x2="451.278" y2="733.326" stroke="#A7662F" stroke-width="4"/>
+<line x1="451.278" y1="733.326" x2="465.000" y2="734.000" stroke="#A7662F" stroke-width="4"/>
+<line x1="465.000" y1="734.000" x2="478.722" y2="733.326" stroke="#A7662F" stroke-width="4"/>
+<line x1="478.722" y1="733.326" x2="492.313" y2="731.310" stroke="#A7662F" stroke-width="4"/>
+<line x1="492.313" y1="731.310" x2="505.640" y2="727.972" stroke="#A7662F" stroke-width="4"/>
+<line x1="505.640" y1="727.972" x2="518.576" y2="723.343" stroke="#A7662F" stroke-width="4"/>
+<line x1="518.576" y1="723.343" x2="530.996" y2="717.469" stroke="#A7662F" stroke-width="4"/>
+<line x1="530.996" y1="717.469" x2="542.780" y2="710.406" stroke="#A7662F" stroke-width="4"/>
+<line x1="542.780" y1="710.406" x2="553.815" y2="702.221" stroke="#A7662F" stroke-width="4"/>
+<line x1="553.815" y1="702.221" x2="563.995" y2="692.995" stroke="#A7662F" stroke-width="4"/>
+<line x1="563.995" y1="692.995" x2="573.221" y2="682.815" stroke="#A7662F" stroke-width="4"/>
+<line x1="573.221" y1="682.815" x2="581.406" y2="671.780" stroke="#A7662F" stroke-width="4"/>
+<line x1="581.406" y1="671.780" x2="588.469" y2="659.996" stroke="#A7662F" stroke-width="4"/>
+<line x1="588.469" y1="659.996" x2="594.343" y2="647.576" stroke="#A7662F" stroke-width="4"/>
+<line x1="594.343" y1="647.576" x2="598.972" y2="634.640" stroke="#A7662F" stroke-width="4"/>
+<line x1="598.972" y1="634.640" x2="602.310" y2="621.313" stroke="#A7662F" stroke-width="4"/>
+<line x1="602.310" y1="621.313" x2="604.326" y2="607.722" stroke="#A7662F" stroke-width="4"/>
+<line x1="604.326" y1="607.722" x2="605.000" y2="594.000" stroke="#A7662F" stroke-width="4"/>
+<line x1="605.000" y1="594.000" x2="605.000" y2="482.000" stroke="#A7662F" stroke-width="4"/>
+<line x1="325.000" y1="537.000" x2="605.000" y2="537.000" stroke="#1F5B94" stroke-width="1"/>
+<line x1="325.000" y1="530.000" x2="325.000" y2="544.000" stroke="#1F5B94" stroke-width="1"/>
+<line x1="605.000" y1="530.000" x2="605.000" y2="544.000" stroke="#1F5B94" stroke-width="1"/>
+<text x="465.000" y="529.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#1F5B94">S = N  |  PARALLEL LEG SPACING</text>
+<text x="277.000" y="582.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#A7662F">L-A</text>
+<text x="652.000" y="582.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#A7662F">L-B</text>
+<text x="465.000" y="563.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#A7662F">L-A = L-B AS FORMED</text>
+<text x="60.000" y="705.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#A7662F">ONE SMOOTH 180 DEG BEND; NO KINK</text>
+<text x="60.000" y="760.000" font-family="Arial, Helvetica, sans-serif" font-size="10.1" font-weight="normal" text-anchor="start" fill="#657582">MEASURE BEND DIA AS FORMED; DO NOT DERIVE THE FINISHED SHAPE FROM 8.500.</text>
+<rect x="1018.000" y="352.000" width="640.000" height="428.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1034.000" y="381.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW C  |  INSTALLED ORIENTATION</text>
+<text x="1640.000" y="381.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">CONCEPT / NTS</text>
+<text x="1036.000" y="408.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="bold" text-anchor="start" fill="#192A37">U EXTENDS AWAY FROM THE 70 cm BOOM AND REAR COAX ROUTE.</text>
+<rect x="1060.000" y="429.000" width="556.000" height="52.000" stroke="#D6DEE4" fill="#EAF1F7" stroke-width="1"/>
+<text x="1338.000" y="451.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="bold" text-anchor="middle" fill="#1F5B94">70 cm BOOM / REAR COAX KEEP-OUT REFERENCE</text>
+<text x="1338.000" y="470.000" font-family="Arial, Helvetica, sans-serif" font-size="9.6" font-weight="normal" text-anchor="middle" fill="#657582">POSITION IS SCHEMATIC; VERIFY ON THE BUILT ANTENNA</text>
+<line x1="1338.000" y1="489.000" x2="1338.000" y2="510.000" stroke="#A7662F" stroke-width="2"/>
+<text x="1360.000" y="505.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="bold" text-anchor="start" fill="#A7662F">AWAY</text>
+<rect x="1085.000" y="534.000" width="165.000" height="8.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<rect x="1420.000" y="534.000" width="165.000" height="8.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<circle cx="1250.000" cy="538.000" r="7.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="1420.000" cy="538.000" r="7.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2"/>
+<text x="1250.000" y="527.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#192A37">A</text>
+<text x="1420.000" y="527.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#192A37">B</text>
+<line x1="1250.000" y1="545.000" x2="1250.000" y2="628.000" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1250.000" y1="628.000" x2="1250.409" y2="636.331" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1250.409" y1="636.331" x2="1251.633" y2="644.583" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1251.633" y1="644.583" x2="1253.660" y2="652.674" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1253.660" y1="652.674" x2="1256.470" y2="660.528" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1256.470" y1="660.528" x2="1260.037" y2="668.069" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1260.037" y1="668.069" x2="1264.325" y2="675.223" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1264.325" y1="675.223" x2="1269.294" y2="681.923" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1269.294" y1="681.923" x2="1274.896" y2="688.104" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1274.896" y1="688.104" x2="1281.077" y2="693.706" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1281.077" y1="693.706" x2="1287.777" y2="698.675" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1287.777" y1="698.675" x2="1294.931" y2="702.963" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1294.931" y1="702.963" x2="1302.472" y2="706.530" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1302.472" y1="706.530" x2="1310.326" y2="709.340" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1310.326" y1="709.340" x2="1318.417" y2="711.367" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1318.417" y1="711.367" x2="1326.669" y2="712.591" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1326.669" y1="712.591" x2="1335.000" y2="713.000" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1335.000" y1="713.000" x2="1343.331" y2="712.591" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1343.331" y1="712.591" x2="1351.583" y2="711.367" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1351.583" y1="711.367" x2="1359.674" y2="709.340" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1359.674" y1="709.340" x2="1367.528" y2="706.530" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1367.528" y1="706.530" x2="1375.069" y2="702.963" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1375.069" y1="702.963" x2="1382.223" y2="698.675" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1382.223" y1="698.675" x2="1388.923" y2="693.706" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1388.923" y1="693.706" x2="1395.104" y2="688.104" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1395.104" y1="688.104" x2="1400.706" y2="681.923" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1400.706" y1="681.923" x2="1405.675" y2="675.223" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1405.675" y1="675.223" x2="1409.963" y2="668.069" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1409.963" y1="668.069" x2="1413.530" y2="660.528" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1413.530" y1="660.528" x2="1416.340" y2="652.674" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1416.340" y1="652.674" x2="1418.367" y2="644.583" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1418.367" y1="644.583" x2="1419.591" y2="636.331" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1419.591" y1="636.331" x2="1420.000" y2="628.000" stroke="#A7662F" stroke-width="3.5"/>
+<line x1="1420.000" y1="628.000" x2="1420.000" y2="545.000" stroke="#A7662F" stroke-width="3.5"/>
+<text x="1335.000" y="580.000" font-family="Arial, Helvetica, sans-serif" font-size="9.6" font-weight="bold" text-anchor="middle" fill="#A7662F">BARE END AT EACH NODE</text>
+<text x="1335.000" y="749.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="bold" text-anchor="middle" fill="#A7662F">CHECK &gt;= 0.500 IN TO UNINTENDED CONDUCTORS</text>
+<text x="1335.000" y="767.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="middle" fill="#657582">WHERE ACTUAL ASSEMBLY PERMITS; RECORD ACTUAL GAP.</text>
+<rect x="42.000" y="798.000" width="958.000" height="148.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="826.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">O7 STARTING-GEOMETRY RECORD</text>
+<text x="984.000" y="826.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">TRANSFER TO O5 SEC. 15.2</text>
+<text x="60.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="bold" text-anchor="start" fill="#657582">FEATURE</text>
+<text x="479.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="bold" text-anchor="start" fill="#657582">CONTROL / TARGET</text>
+<text x="774.000" y="848.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="bold" text-anchor="start" fill="#657582">ACTUAL / PASS</text>
+<line x1="58.000" y1="854.000" x2="984.000" y2="854.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="60.000" y="869.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="bold" text-anchor="start" fill="#192A37">BLANK BEFORE FORMING</text>
+<text x="479.000" y="869.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">8.500 IN INITIAL</text>
+<line x1="774.000" y1="871.000" x2="979.000" y2="871.000" stroke="#657582" stroke-width="0.7"/>
+<text x="60.000" y="886.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">FEED NODE C-C  N / LEG SPACING  S</text>
+<text x="479.000" y="886.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">MEASURE N; SET S = N</text>
+<line x1="774.000" y1="888.000" x2="979.000" y2="888.000" stroke="#657582" stroke-width="0.7"/>
+<text x="60.000" y="903.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">STRAIGHT LEGS  L-A / L-B</text>
+<text x="479.000" y="903.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">EQUAL AS FORMED</text>
+<line x1="774.000" y1="905.000" x2="979.000" y2="905.000" stroke="#657582" stroke-width="0.7"/>
+<text x="60.000" y="920.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">BOTTOM BEND DIA / ORIENTATION</text>
+<text x="479.000" y="920.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">SMOOTH 180; AWAY</text>
+<line x1="774.000" y1="922.000" x2="979.000" y2="922.000" stroke="#657582" stroke-width="0.7"/>
+<text x="60.000" y="937.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">MIN UNINTENDED-CONDUCTOR GAP</text>
+<text x="479.000" y="937.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="normal" text-anchor="start" fill="#192A37">&gt;= 0.500 WHERE PERMITTED</text>
+<line x1="774.000" y1="939.000" x2="979.000" y2="939.000" stroke="#657582" stroke-width="0.7"/>
+<rect x="1018.000" y="798.000" width="640.000" height="148.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1034.000" y="826.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">O8 TUNING / ELECTRICAL HOLD</text>
+<text x="1640.000" y="826.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">SEPARATE AS-TUNED RECORD</text>
+<text x="1036.000" y="850.000" font-family="Arial, Helvetica, sans-serif" font-size="10.1" font-weight="bold" text-anchor="start" fill="#A7662F">DO NOT TRIM BEFORE INITIAL CALIBRATED O8 MEASUREMENT.</text>
+<text x="1036.000" y="872.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#192A37">IF TRIMMED: RECORD EQUAL TRIM AT BOTH ENDS AND FINAL SHAPE.</text>
+<text x="1036.000" y="894.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#192A37">ONE HAIRPIN END FREE: 2 m BNC PIN-TO-SHELL OPEN.</text>
+<text x="1036.000" y="916.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#192A37">BOTH ENDS SECURED: CONTINUITY THROUGH HAIRPIN.</text>
+<text x="1036.000" y="938.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#657582">RECHECK GAP / ROUTING / DC AFTER EACH CHANGE.</text>
+<line x1="30.000" y1="960.000" x2="1670.000" y2="960.000" stroke="#192A37" stroke-width="2"/>
+<text x="48.000" y="982.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">GENERAL NOTES</text>
+<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">1. DIMENSIONS IN INCHES. VIEW A CUT LENGTH IS 1:1 AT 100% PRINT; VIEWS B / C ARE NTS.</text>
+<text x="48.000" y="1023.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">2. EACH END HOOK IS HELD AT ITS OWN M-07 FEED NODE; USE APPROVED #6-32 STACK.</text>
+<text x="48.000" y="1042.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">3. MATCH REQUIRES O8 IMPEDANCE / SWR DATA; 8.500 IN ALONE DOES NOT SET REACTANCE.</text>
+<line x1="905.000" y1="960.000" x2="905.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1178.000" y1="960.000" x2="1178.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1398.000" y1="960.000" x2="1398.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<text x="922.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SOURCE BASELINE</text>
+<text x="922.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">O3/O4/O5/O6 REV L</text>
+<text x="922.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">COMMIT 186c773</text>
+<text x="1195.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SCALE AT 100% PRINT</text>
+<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="start" fill="#192A37">BLANK 1:1 ONLY</text>
+<text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">OTHER DETAILS NTS</text>
+<text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
+<text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET E-02</text>
+</svg>
