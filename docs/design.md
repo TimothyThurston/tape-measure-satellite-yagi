@@ -8,7 +8,7 @@
 **Repository path:** `docs/design.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. E  
+**Revision:** Rev. F  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication design baseline  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-This document defines the Revision E architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
+This document defines the Revision F architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
 
 Revision B retains the verified W6NBC-derived element lengths and within-band spacings from Rev. A. It replaces the outdated joint, folding, touching-boom, coax-coil, polarization, and fabrication assumptions identified during the September 2026 construction-readiness review.
 
@@ -68,6 +68,10 @@ The finished antenna still uses 174.700 in of conductive tape. Revision D raises
 
 The 0.250 in steel-tip gaps remain unchanged, but their inner tips sit inside the opaque PVC after installation. O5/O6 now set and verify each gap using the actual boom outside diameter and visible witness marks on the driven halves. Final nonconductive driven-station ties follow feed-node drilling and refitting, so a half can be removed without silently losing its gap setting. No RF geometry changes.
 
+### 2.6 Revision F boom and span acceptance limits
+
+Each finished boom is 30.000 in +/- 0.0625 in; their measured finished lengths differ by no more than 0.03125 in. Align FRONT end faces flush in the operating assembly, leaving REAR end faces within 0.03125 in. The overall driven-span acceptance limits are derived from the existing half-length and gap tolerances: 2 m is 37.400 in +/- 0.0781 in, and 70 cm is 12.600 in +/- 0.0468 in. All half-length, half-mismatch, and gap limits still apply independently. Nominal RF cuts and station locations do not change.
+
 ---
 
 ## 3. Design requirements
@@ -96,7 +100,7 @@ The reference frequencies are geometry sanity-check points, not guaranteed reson
 
 ### 3.3 Performance claims
 
-Before measurement, Revision E claims only a controlled prototype geometry. It does not claim a measured value for:
+Before measurement, Revision F claims only a controlled prototype geometry. It does not claim a measured value for:
 
 - Resonant frequency.
 - Feedpoint impedance.
@@ -133,15 +137,13 @@ The operator adjusts polarization by rolling the complete antenna about the shar
 
 ### 5.1 Primary datum
 
-Revision E uses one construction datum for both booms:
+Revision F uses one construction datum for both booms:
 
 - **FRONT = X 0.000 in** at the director end and intended direction of gain.
-- **REAR = X 30.000 in** at the operator/handle end.
+- **REAR = X 30.000 in nominal** at the operator/handle end.
 - Every station is measured independently from FRONT.
 
-The rear-end cross-check is:
-
-`X from REAR = 30.000 in - X from FRONT`
+The listed rear-datum values use the nominal conversion `X from REAR = 30.000 in - X from FRONT`. For an as-built independent cross-check, physically measure the station from REAR and compare it with `L_boom, measured - X from FRONT, measured`. FRONT remains the controlling station datum.
 
 This changes only the controlling notation from O3 Rev. A. It does not move any element.
 
@@ -204,6 +206,8 @@ Calculations:
 
 - 2 m: `(37.400 - 0.250) / 2 = 18.575 in per half`
 - 70 cm: `(12.600 - 0.250) / 2 = 6.175 in per half`
+
+Derived overall-span acceptance limits are +/- `(2 x half-length tolerance + gap tolerance)`: +/- `(2 x 0.03125 + 0.0156) = 0.0781 in` for 2 m and +/- `(2 x 0.0156 + 0.0156) = 0.0468 in` for 70 cm. Measure the installed tip-to-tip span as an independent cross-check; passing the overall span does not waive the separate half-length, half-mismatch, or gap limits.
 
 The physical steel-tip gap and the feed-node screw spacing are different dimensions. Because the steel tips are hidden inside the PVC, O5/O6 calculate the gap from actual boom outside diameter and visible insertion-depth witness marks on the two halves, then recheck after final retention. O5 sets the screw locations after the actual material stack is dry-fitted.
 
@@ -292,8 +296,9 @@ The 70 cm tape steel passes through the validated boom holes without a separate 
 |---|---|
 | Material | Nominal 1/2 in Schedule 40 PVC, nonmetallic |
 | Quantity | Two separate booms |
-| Finished length | 30.000 in each |
-| Alignment | FRONT-to-FRONT and REAR-to-REAR |
+| Finished length | 30.000 in +/- 0.0625 in each, measured between square, deburred end faces along the boom centerline |
+| Finished-length difference | No more than 0.03125 in between the two booms |
+| Alignment | FRONT end faces flush; REAR end-face offset no more than 0.03125 in |
 | Longitudinal relationship | Parallel |
 | Element-plane relationship | 90 degrees +/- 2 degrees |
 
@@ -317,9 +322,9 @@ The 45-degree cross-section and separator gap provide clearance for the 2 m supp
 
 Each pad is approximately 1.000 x 0.500 in with at least 0.375 in installed thickness. No retention holes are drilled in either boom.
 
-The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision E prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
+The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision F prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
 
-There is no separate boom-joint mechanism in Revision E.
+There is no separate boom-joint mechanism in Revision F.
 
 The booms do not rotate relative to one another while retained. Cut and replace the ties to separate or reassemble the antenna.
 
@@ -394,7 +399,7 @@ The 70 cm coax center and braid connect directly to the two isolated driven halv
 
 ## 14. Common-mode suppression and cable routing
 
-Revision E retains the removal of tight RG-58 coils around the PVC booms.
+Revision F retains the removal of tight RG-58 coils around the PVC booms.
 
 | Feed | Initial suppression baseline | Validation |
 |---|---|---|
@@ -420,14 +425,18 @@ Ferrite count and position remain subject to O8 measurement. Low SWR alone does 
 
 ## 15. Fabrication tolerances
 
-O5 Rev. E controls the following targets:
+O5 Rev. F controls the following targets:
 
 | Feature | Tolerance or requirement |
 |---|---:|
+| Finished length of each PVC boom | 30.000 in +/- 0.0625 in |
+| Difference between finished boom lengths; assembled REAR offset with FRONT ends flush | 0.03125 in maximum |
 | 2 m passive element length | +/- 0.0625 in |
 | 2 m driven-half length | +/- 0.03125 in; half mismatch no more than 0.03125 in |
 | 70 cm passive element length | +/- 0.03125 in |
 | 70 cm driven-half length | +/- 0.0156 in; half mismatch no more than 0.0156 in |
+| 2 m overall driven span | 37.400 in +/- 0.0781 in, derived |
+| 70 cm overall driven span | 12.600 in +/- 0.0468 in, derived |
 | 2 m station from FRONT | +/- 0.0625 in |
 | 70 cm station from FRONT | +/- 0.03125 in |
 | Driven steel-tip gap | 0.250 in +/- 0.0156 in |
@@ -435,6 +444,8 @@ O5 Rev. E controls the following targets:
 | Installed bare-surface boom gap | 0.375 in minimum |
 | 2M-R to 70-R center separation | 0.500 in +/- 0.03125 in |
 | 2M-R to 70-R physical edge clearance | 0.0625 in minimum |
+
+The overall-span limits equal twice the applicable half-length tolerance plus the 0.0156 in gap tolerance. Check the actual span and each constituent dimension independently.
 
 Actual dimensions are recorded before RF tuning. A dimensional deviation is not corrected by silently changing the design value.
 
@@ -526,7 +537,7 @@ Maintain three distinct configurations:
 
 ### 20.1 As-designed
 
-The controlled Rev. E dimensions and interfaces in O3 through O7 before fabrication.
+The controlled Rev. F dimensions and interfaces in O3 through O7 before fabrication.
 
 ### 20.2 As-built
 
@@ -563,12 +574,12 @@ Failure of a hold point requires a documented deviation or design revision befor
 
 - [x] Project name is consistently **Tape Measure Satellite Yagi**.
 - [x] Project ID is TM-YAGI-01.
-- [x] Revision is Rev. E.
-- [x] Two separate 30.000 in booms are defined.
+- [x] Revision is Rev. F.
+- [x] Two separate 30.000 in booms and their finished-length and pair-matching limits are defined.
 - [x] No separate boom-joint mechanism is included.
 - [x] Front/rear and left/right conventions are defined.
 - [x] Every element has a unique ID, length, and absolute station.
-- [x] Driven-element half lengths, gaps, and external verification method are defined.
+- [x] Driven-element half lengths, gaps, derived overall-span limits, and external verification method are defined.
 - [x] Within-band spacings are verified.
 - [x] Net conductive steel length is verified as 174.700 in.
 - [x] Minimum usable tape-steel stock is 20 ft with one 41.400 in recut section reserved through cut inspection.
@@ -576,8 +587,8 @@ Failure of a hold point requires a documented deviation or design revision befor
 - [x] Feed nodes and matching topology are defined.
 - [x] Tight coax coils are removed.
 - [x] Band-appropriate ferrite baselines are defined.
-- [x] Mechanical retention and clearances agree with O4 and O5 Rev. E.
-- [x] Fabrication tolerances agree with O5 Rev. E.
+- [x] Mechanical retention and clearances agree with O4 and O5 Rev. F.
+- [x] Fabrication tolerances agree with O5 Rev. F.
 - [x] Correct pre- and post-hairpin DC expectations are defined.
 - [x] RF and station-level validation requirements are defined.
 - [ ] Actual material measurements and coupons have passed.
@@ -597,6 +608,7 @@ The final three open items are physical build and test gates, not missing design
 | Rev. C | 2026-10-12 | Raised the installed boom gap and separator-pad minimum thickness to 0.375 in after checking the 40-degree support-clearance tolerance limit; retained element geometry and the 45 degrees +/- 5 degrees orientation. |
 | Rev. D | 2026-10-12 | Increased minimum usable tape-steel stock to 20 ft and reserved a continuous 41.400 in section for one full reflector recut; installed RF geometry is unchanged. |
 | **Rev. E** | **2026-10-12** | Aligned O3 with the exterior witness-mark method and delayed final driven-station retention in O5/O6; element dimensions and feed topology are unchanged. |
+| **Rev. F** | **2026-10-12** | Defined finished boom-length and pair-matching limits, actual-length rear cross-checks, and derived overall driven-span limits; nominal RF geometry is unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -606,8 +618,8 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 | Document | Function |
 |---|---|
-| O4 Rev. E - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
-| O5 Rev. E - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
+| O4 Rev. F - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
+| O5 Rev. F - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
 | O6 - Fabrication and Assembly | Controlled build sequence |
 | O7 - Feed and Matching System | Coax preparation, node construction, hairpin setup, ferrites, and strain relief |
 | O8 - Initial RF Testing and Tuning | Analyzer calibration, tuning, acceptance, and coax-movement test |
@@ -617,7 +629,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 25. Engineering intent
 
-Revision E provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
+Revision F provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
 
 The retained RF geometry is a credible published starting point, not proof of final performance. Engineering completion requires the as-built record, calibrated impedance and SWR measurements, common-mode sensitivity testing, directional field evidence, and station-level desensitization testing.
 
@@ -625,4 +637,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O3 Rev. E Antenna Design and Dimensions**
+**End of O3 Rev. F Antenna Design and Dimensions**

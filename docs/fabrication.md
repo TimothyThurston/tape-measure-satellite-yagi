@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. E  
+**Revision:** Rev. F  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision E baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision F baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -92,6 +92,10 @@ The minimum usable conductive tape-steel stock increases from 18 ft to 20 ft. Th
 
 The 0.250 in driven-element gaps lie inside opaque PVC after assembly. O6 now sets and verifies them using visible witness marks and the measured outside diameter at each driven station. Driven halves stay in removable temporary retention through feed-node drilling; final driven-station ties are installed only after refitting and rechecking the gaps. Element lengths, stations, and gaps remain unchanged.
 
+### 2.6 Corrected in Revision F
+
+O5 now accepts each finished boom at 30.000 in +/- 0.0625 in, with no more than 0.03125 in difference between the two lengths. With FRONT end faces flush, REAR offset is no more than 0.03125 in. The installed driven overall-span limits, derived from the existing half-length and gap tolerances, are 37.400 in +/- 0.0781 in on 2 m and 12.600 in +/- 0.0468 in on 70 cm. Nominal RF cuts and stations remain unchanged.
+
 ---
 
 ## 3. Controlling inputs
@@ -100,12 +104,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. E | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. E | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. E | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. E | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. F | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. F | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. F | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. F | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. E, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. F, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -220,10 +224,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. E |
-| O4 revision | Rev. E |
-| O5 revision | Rev. E |
-| O6 revision | Rev. E |
+| O3 revision | Rev. F |
+| O4 revision | Rev. F |
+| O5 revision | Rev. F |
+| O6 revision | Rev. F |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -362,7 +366,7 @@ If any item fails, stop. Do not enlarge all final holes or improvise a joint.
 
 Cut:
 
-| Boom ID | Band | Finished length |
+| Boom ID | Band | Nominal finished length |
 |---|---|---:|
 | PVC-2M | 2 m | 30.000 in |
 | PVC-70 | 70 cm | 30.000 in |
@@ -371,12 +375,13 @@ For each boom:
 
 1. Make a square cut.
 2. Deburr inside and outside.
-3. Measure the finished length.
-4. Reject or recut if shorter than the O5 tolerance permits.
-5. Select and mark the FRONT end.
-6. Mark the REAR/operator end.
-7. Mark the band ID.
-8. Add a permanent direction-of-gain arrow pointing toward FRONT.
+3. Measure the finished length along the boom centerline between the square, deburred end faces. Accept only 30.000 in +/- 0.0625 in.
+4. Trim and remeasure an overlong boom; replace a boom shorter than 29.9375 in. Compare the two accepted finished lengths and trim or replace as needed until their absolute difference is no more than 0.03125 in.
+5. Record both finished lengths and their difference.
+6. Select and mark the FRONT end.
+7. Mark the REAR/operator end.
+8. Mark the band ID.
+9. Add a permanent direction-of-gain arrow pointing toward FRONT.
 
 Do not cut either boom into folding sections. Do not install the purchased PVC tee.
 
@@ -423,7 +428,7 @@ Measure every station independently from FRONT. Do not chain dimensions.
 
 ### 15.3 Independent checks
 
-- Confirm every rear-datum value using `30.000 - X from FRONT`.
+- Compare nominal rear-datum table values using `30.000 - X from FRONT`. For an as-built independent rear check, physically measure the station from REAR and compare it with `L_boom, measured - X_FRONT, measured`. FRONT controls the station acceptance.
 - Align both FRONT ends and verify the nominal 2M-R to 70-R center difference is 0.500 in.
 - Confirm no retention station overlaps an RF station.
 
@@ -431,7 +436,7 @@ Measure every station independently from FRONT. Do not chain dimensions.
 
 ## 16. Quality Gate C - layout verification
 
-- [ ] Both boom lengths recorded.
+- [ ] Both finished boom lengths are recorded and each is 30.000 in +/- 0.0625 in; their absolute difference is no more than 0.03125 in.
 - [ ] FRONT, REAR, band ID, and gain arrows present.
 - [ ] Longitudinal element-plane references present.
 - [ ] Assembly-orientation references present.
@@ -590,7 +595,7 @@ At 70-D3, 70-D2, 70-D1, and 70-R:
 3. On each half, mark a fine witness line `M = I_target + 0.500 in` from its inner steel tip toward the outer tip. Record both measured `M` distances.
 4. Insert 2M-DE-L and 2M-DE-R from opposite sides alongside ST-2. Adjust until each visible witness line is nominally 0.500 in outboard of its adjacent outer PVC surface.
 5. Measure each exposed witness distance `E` from line to PVC surface along the element axis. Calculate actual insertion depths `I_left = M_left - E_left` and `I_right = M_right - E_right`, then the hidden gap `G = D - I_left - I_right`.
-6. Adjust until `G` is 0.250 in +/- 0.0156 in and the insertion depths differ by no more than 0.0156 in. Cross-check the overall tip-to-tip span against `L_left + L_right + G` (37.400 in nominal).
+6. Adjust until `G` is 0.250 in +/- 0.0156 in and the insertion depths differ by no more than 0.0156 in. Measure the installed overall tip-to-tip span independently and require 37.400 in +/- 0.0781 in; cross-check it against `L_left + L_right + G`. Both half lengths, half mismatch, and gap must pass separately.
 7. Keep both halves collinear and DC-isolated. Record `D`, the half lengths, `M`, `E`, insertion depths, `G`, and overall span.
 8. Hold each half with removable nonconductive tape or clamps. Do not install locking station or support-end ties until Step 12 is complete.
 
@@ -600,7 +605,7 @@ At 70-D3, 70-D2, 70-D1, and 70-R:
 2. Mark a fine witness line on each half at `M = I_target + 0.500 in` from its inner steel tip toward the outer tip. Record both measured `M` distances.
 3. Insert 70-DE-L and 70-DE-R from opposite sides until each visible witness line is nominally 0.500 in outboard of its adjacent outer PVC surface.
 4. Measure each exposed witness distance `E`, calculate `I = M - E` for each half, and calculate the hidden gap `G = D - I_left - I_right`.
-5. Adjust until `G` is 0.250 in +/- 0.0156 in and the insertion depths differ by no more than 0.0156 in. Cross-check the overall tip-to-tip span against `L_left + L_right + G` (12.600 in nominal).
+5. Adjust until `G` is 0.250 in +/- 0.0156 in and the insertion depths differ by no more than 0.0156 in. Measure the installed overall tip-to-tip span independently and require 12.600 in +/- 0.0468 in; cross-check it against `L_left + L_right + G`. Both half lengths, half mismatch, and gap must pass separately.
 6. Keep both halves collinear and DC-isolated. Record `D`, the half lengths, `M`, `E`, insertion depths, `G`, and overall span.
 7. Hold each half with removable nonconductive tape or clamps. Do not install a locking station tie until Step 12 is complete.
 
@@ -681,8 +686,8 @@ Do not drill the PVC wall for feed-node hardware.
 - [ ] Each hidden driven gap is calculated from recorded actual PVC OD and left/right insertion depths after final retention; each insertion-depth difference is no more than 0.0156 in.
 - [ ] 2 m gap is 0.250 in +/- 0.0156 in.
 - [ ] 70 cm gap is 0.250 in +/- 0.0156 in.
-- [ ] 2 m overall driven span is 37.400 in within tolerance.
-- [ ] 70 cm overall driven span is 12.600 in within tolerance.
+- [ ] Measured 2 m overall driven span is 37.400 in +/- 0.0781 in; half lengths, half mismatch, and gap pass separately.
+- [ ] Measured 70 cm overall driven span is 12.600 in +/- 0.0468 in; half lengths, half mismatch, and gap pass separately.
 - [ ] Feed-node holes are in tape only, centered across blade width, and deburred.
 - [ ] No contact pad is tinned.
 - [ ] Temporary screw fit passes with at least two threads beyond each nut.
@@ -695,7 +700,7 @@ Do not drill the PVC wall for feed-node hardware.
 
 There is no separate boom-joint mechanism.
 
-1. Lay both booms FRONT-to-FRONT and REAR-to-REAR.
+1. Lay both booms side by side with their square, deburred FRONT end faces flush; require REAR end-face offset no more than 0.03125 in.
 2. Keep the longitudinal centerlines parallel.
 3. Set the two element planes to 90 degrees +/- 2 degrees.
 4. Use the orientation references to set the line between boom centers to 45 degrees +/- 5 degrees from either element plane.
@@ -717,17 +722,18 @@ The booms must not rotate relative to each other while retained. For storage, cu
 
 With the antenna mechanically assembled:
 
-1. Pull each boom axially by hand; neither may slip.
-2. Apply a gentle opposite twist; the 90-degree relationship must remain fixed.
-3. Confirm neither PVC surface is flattened or visibly indented.
-4. Measure and record the J1 and J2 installed gaps.
-5. Measure and record the element-plane angle.
-6. Confirm the center-to-center line remains approximately 45 degrees from both element planes.
-7. Confirm at least 0.125 in clearance from either boom to components carried by the other boom.
-8. Confirm the 2 m supports clear the 70 cm boom.
-9. Confirm all feed-node screw envelopes clear the other boom and array.
-10. Confirm J1/J2 pads and ties do not touch any RF element.
-11. Confirm the rear handle region remains usable.
+1. Confirm FRONT end faces remain flush and measure the REAR end-face offset; it must be no more than 0.03125 in.
+2. Pull each boom axially by hand; neither may slip.
+3. Apply a gentle opposite twist; the 90-degree relationship must remain fixed.
+4. Confirm neither PVC surface is flattened or visibly indented.
+5. Measure and record the J1 and J2 installed gaps.
+6. Measure and record the element-plane angle.
+7. Confirm the center-to-center line remains approximately 45 degrees from both element planes.
+8. Confirm at least 0.125 in clearance from either boom to components carried by the other boom.
+9. Confirm the 2 m supports clear the 70 cm boom.
+10. Confirm all feed-node screw envelopes clear the other boom and array.
+11. Confirm J1/J2 pads and ties do not touch any RF element.
+12. Confirm the rear handle region remains usable.
 
 ### Close-reflector check
 
@@ -744,7 +750,7 @@ Do not bend, notch, offset, or shorten a reflector to create clearance.
 
 ## 29. Quality Gate G - completed mechanical assembly
 
-- [ ] FRONT ends aligned and gain arrows agree.
+- [ ] FRONT end faces flush, REAR end-face offset no more than 0.03125 in, and gain arrows agree.
 - [ ] Boom centerlines parallel.
 - [ ] Element planes 90 degrees +/- 2 degrees.
 - [ ] Boom-center line 45 degrees +/- 5 degrees from both element planes.
@@ -807,7 +813,7 @@ At minimum record:
 ### Driven elements
 
 - Both half lengths.
-- Overall span.
+- Overall span, measured independently against 37.400 in +/- 0.0781 in (2 m) or 12.600 in +/- 0.0468 in (70 cm).
 - Steel-tip center gap.
 - Feed-node center spacing.
 - Actual PVC OD at each driven station; each half's witness-mark distance `M`, exposed witness distance `E`, calculated insertion depth, and calculated steel-tip gap.
@@ -816,6 +822,7 @@ At minimum record:
 ### Assembly
 
 - J1 and J2 positions.
+- Both finished boom lengths, their absolute difference, and the assembled REAR end-face offset with FRONT end faces flush.
 - J1 and J2 installed boom gaps.
 - Element-plane angle.
 - Boom-center-line angle.
@@ -906,15 +913,15 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. E inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. F inputs are present.
 - [ ] Material measurements are recorded.
 - [ ] All coupon tests pass.
-- [ ] Both booms are 30.000 in and correctly labeled.
+- [ ] Each finished boom is 30.000 in +/- 0.0625 in, the two lengths differ by no more than 0.03125 in, and both are correctly labeled.
 - [ ] All stations and holes pass inspection.
 - [ ] All ten tape-steel pieces pass cut and label inspection.
 - [ ] All three 12.000 in supports are installed without unauthorized trimming.
 - [ ] Every element is centered, aligned, and retained nonconductively.
-- [ ] Both driven gaps are calculated from visible witness marks after final ties and pass; both overall spans are rechecked.
+- [ ] Both driven gaps are calculated from visible witness marks after final ties and pass; measured overall spans pass the 2 m and 70 cm limits independently.
 - [ ] Four feed-node holes are drilled through tape only.
 - [ ] Contact pads are clean and untinned.
 - [ ] Node-center spacings are recorded.
@@ -957,6 +964,7 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | Rev. C | 2026-10-12 | Raised the minimum installed separator-pad thickness and bare-PVC boom gap to 0.375 in; retained the 45 degrees +/- 5 degrees orientation and all RF element dimensions. |
 | Rev. D | 2026-10-12 | Raised the minimum usable tape-steel stock to 20 ft and reserved one continuous 41.400 in section for a full reflector recut; installed element cuts are unchanged. |
 | **Rev. E** | **2026-10-12** | Added external witness-mark calculation for buried driven gaps; delayed final driven-station ties until after feed-node drilling and refitting. RF dimensions are unchanged. |
+| **Rev. F** | **2026-10-12** | Added explicit boom-length and pair-match limits, actual-length rear cross-checks, and derived measured overall driven-span limits; nominal RF dimensions are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -964,13 +972,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. E produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. F produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. E Fabrication and Assembly Procedure**
+**End of O6 Rev. F Fabrication and Assembly Procedure**
 
 
 ---
