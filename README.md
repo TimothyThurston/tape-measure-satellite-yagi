@@ -249,8 +249,9 @@ The current controlled files are:
 | M-06 | [PDF](drawings/M-06-split-driven-element-mounting.pdf) · [editable SVG](drawings/M-06-split-driven-element-mounting.svg) | Split driven mounting, hidden-gap witness method, and final retention sequence |
 | M-07 | [PDF](drawings/M-07-feed-node-hardware.pdf) · [editable SVG](drawings/M-07-feed-node-hardware.svg) | Feed-node hole placement, hardware stack, electrical assignments, and assembly checks |
 | M-08 | [PDF](drawings/M-08-dual-boom-retention.pdf) · [editable SVG](drawings/M-08-dual-boom-retention.svg) | J1/J2 separator pads and ties, boom orientation, and assembled clearance checks |
+| M-09 | [PDF](drawings/M-09-close-reflector-clearance.pdf) · [editable SVG](drawings/M-09-close-reflector-clearance.svg) | Close-reflector station separation and physical edge-clearance inspection |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-08 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 

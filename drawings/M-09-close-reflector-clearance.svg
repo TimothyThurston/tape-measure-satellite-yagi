@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
+<title>M-09 Close-Reflector Clearance - Tape Measure Satellite Yagi</title>
+<desc>Rev A close-reflector station and physical-edge checks derived from O3-O6 Rev L.</desc>
+<rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
+<line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
+<text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">M-09  CLOSE-REFLECTOR CLEARANCE</text>
+<text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3-O6 REV L</text>
+<rect x="42.000" y="148.000" width="1616.000" height="365.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A  |  REFLECTOR STATION ORDER</text>
+<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">RELATIVE X INTERVAL 4:1; BOOMS TRUNCATED</text>
+<text x="60.000" y="205.000" font-family="Arial, Helvetica, sans-serif" font-size="10.9" font-weight="normal" text-anchor="start" fill="#657582">BOTH FRONT END FACES FLUSH; MEASURE STATIONS INDEPENDENTLY FROM EACH BOOM'S FRONT.</text>
+<line x1="780.000" y1="256.000" x2="980.000" y2="256.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="780.000" y1="249.000" x2="780.000" y2="263.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="980.000" y1="249.000" x2="980.000" y2="263.000" stroke="#A7662F" stroke-width="1"/>
+<text x="880.000" y="248.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#A7662F">DELTA X = 0.500 +/- 0.03125</text>
+<line x1="780.000" y1="263.000" x2="780.000" y2="389.000" stroke="#D6DEE4" stroke-width="1"/>
+<line x1="980.000" y1="263.000" x2="980.000" y2="316.000" stroke="#D6DEE4" stroke-width="1"/>
+<rect x="150.000" y="302.000" width="1400.000" height="15.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<rect x="150.000" y="390.000" width="1400.000" height="15.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<line x1="980.000" y1="283.000" x2="980.000" y2="336.000" stroke="#192A37" stroke-width="3"/>
+<line x1="780.000" y1="370.000" x2="780.000" y2="424.000" stroke="#1F5B94" stroke-width="3"/>
+<circle cx="980.000" cy="309.500" r="8.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="780.000" cy="397.500" r="8.000" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2"/>
+<text x="160.000" y="294.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#192A37">2 m BOOM</text>
+<text x="160.000" y="427.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">70 cm BOOM</text>
+<text x="980.000" y="355.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">2M-R</text>
+<text x="980.000" y="376.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="middle" fill="#192A37">X = 21.500</text>
+<text x="780.000" y="446.000" font-family="Arial, Helvetica, sans-serif" font-size="11.2" font-weight="bold" text-anchor="middle" fill="#1F5B94">70-R  |  X = 21.000</text>
+<text x="150.000" y="461.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">FRONT / GAIN</text>
+<text x="1550.000" y="461.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="end" fill="#657582">REAR / OPERATOR</text>
+<text x="60.000" y="492.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="normal" text-anchor="start" fill="#192A37">70-R IS 0.500 IN NOMINALLY FORWARD OF 2M-R. STATION MARKS DO NOT SHOW TAPE WIDTH OR EDGE GAP.</text>
+<rect x="42.000" y="530.000" width="958.000" height="270.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="559.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW B  |  PLANE ORIENTATION REFERENCE</text>
+<text x="984.000" y="559.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">END PROJECTION / NTS</text>
+<text x="520.000" y="585.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#657582">STATIONS OVERLAID; NOT ONE PHYSICAL CROSS-SECTION.</text>
+<line x1="192.000" y1="730.000" x2="393.000" y2="730.000" stroke="#192A37" stroke-width="4"/>
+<line x1="420.000" y1="566.000" x2="420.000" y2="691.000" stroke="#1F5B94" stroke-width="4"/>
+<line x1="300.000" y1="730.000" x2="420.000" y2="610.000" stroke="#A7662F" stroke-width="1.4" stroke-dasharray="7,4"/>
+<circle cx="300.000" cy="730.000" r="35.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="420.000" cy="610.000" r="35.000" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2"/>
+<text x="300.000" y="735.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#192A37">2 m</text>
+<text x="420.000" y="615.000" font-family="Arial, Helvetica, sans-serif" font-size="10.6" font-weight="bold" text-anchor="middle" fill="#1F5B94">70 cm</text>
+<text x="520.000" y="613.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#192A37">ELEMENT PLANES: 90 +/- 2 DEG</text>
+<text x="520.000" y="644.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#192A37">BOOM-CENTER LINE: 45 +/- 5 DEG TO EACH</text>
+<text x="520.000" y="675.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#192A37">BOOMS PARALLEL; FRONT FACES FLUSH</text>
+<text x="520.000" y="706.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#657582">TAPE / SUPPORT SHAPES TRUNCATED</text>
+<text x="520.000" y="737.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="bold" text-anchor="start" fill="#A7662F">THIS PROJECTION CANNOT PROVE EDGE GAP</text>
+<text x="60.000" y="780.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">ACTUAL REFLECTORS ARE AT DIFFERENT X STATIONS; INSPECT THE BUILT 3D ASSEMBLY.</text>
+<rect x="1018.000" y="530.000" width="640.000" height="270.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1034.000" y="559.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">DETAIL C  |  NEAREST CONDUCTIVE EDGES</text>
+<text x="1640.000" y="559.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">SCHEMATIC / NTS</text>
+<text x="1036.000" y="584.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#192A37">MEASURE THE ACTUAL CLOSEST TAPE-EDGE APPROACH.</text>
+<rect x="1073.000" y="655.000" width="186.000" height="23.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<rect x="1340.000" y="655.000" width="186.000" height="23.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<line x1="1259.000" y1="637.000" x2="1340.000" y2="637.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="1259.000" y1="630.000" x2="1259.000" y2="644.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="1340.000" y1="630.000" x2="1340.000" y2="644.000" stroke="#A7662F" stroke-width="1"/>
+<text x="1299.500" y="629.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#A7662F">&gt;= 0.0625</text>
+<text x="1166.000" y="699.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#192A37">2M-R EDGE</text>
+<text x="1433.000" y="699.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1F5B94">70-R EDGE</text>
+<text x="1036.000" y="726.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">CHECK AFTER FINAL M-08 BOOM RETENTION.</text>
+<text x="1036.000" y="748.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">INCLUDE ACTUAL BLADE WIDTH, CURVE, AND MOUNT ANGLE.</text>
+<text x="1036.000" y="775.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#A7662F">CENTER DELTA OR PAD GAP CANNOT SUBSTITUTE FOR THIS.</text>
+<rect x="42.000" y="816.000" width="958.000" height="130.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="844.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">MEASURE / RECORD BOTH ACCEPTANCE CHECKS</text>
+<text x="984.000" y="844.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">O5 SEC. 13.2 / 15.1</text>
+<line x1="58.000" y1="852.000" x2="984.000" y2="852.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="60.000" y="870.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#657582">FEATURE</text>
+<text x="474.000" y="870.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#657582">LIMIT (IN)</text>
+<text x="803.000" y="870.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#657582">ACTUAL</text>
+<line x1="58.000" y1="876.000" x2="984.000" y2="876.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="60.000" y="891.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="normal" text-anchor="start" fill="#192A37">2M-R FRONT X</text>
+<text x="474.000" y="891.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="normal" text-anchor="start" fill="#192A37">21.500 +/- 0.0625</text>
+<line x1="803.000" y1="893.000" x2="969.000" y2="893.000" stroke="#657582" stroke-width="0.7"/>
+<text x="60.000" y="908.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="normal" text-anchor="start" fill="#192A37">70-R FRONT X</text>
+<text x="474.000" y="908.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="normal" text-anchor="start" fill="#192A37">21.000 +/- 0.03125</text>
+<line x1="803.000" y1="910.000" x2="969.000" y2="910.000" stroke="#657582" stroke-width="0.7"/>
+<text x="60.000" y="925.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="bold" text-anchor="start" fill="#192A37">DELTA X = X(2M-R) - X(70-R)</text>
+<text x="474.000" y="925.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="bold" text-anchor="start" fill="#192A37">0.500 +/- 0.03125</text>
+<line x1="803.000" y1="927.000" x2="969.000" y2="927.000" stroke="#657582" stroke-width="0.7"/>
+<text x="60.000" y="942.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="bold" text-anchor="start" fill="#192A37">MIN PHYSICAL EDGE GAP</text>
+<text x="474.000" y="942.000" font-family="Arial, Helvetica, sans-serif" font-size="9.9" font-weight="bold" text-anchor="start" fill="#192A37">&gt;= 0.0625</text>
+<line x1="803.000" y1="944.000" x2="969.000" y2="944.000" stroke="#657582" stroke-width="0.7"/>
+<rect x="1018.000" y="816.000" width="640.000" height="130.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1034.000" y="844.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">INSPECTION / STOP RULE</text>
+<text x="1640.000" y="844.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">O6 STEP 14</text>
+<text x="1036.000" y="860.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="normal" text-anchor="start" fill="#192A37">1. ALIGN FRONTS; PARALLEL BOOMS; REAR OFFSET &lt;= 0.03125.</text>
+<text x="1036.000" y="876.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="normal" text-anchor="start" fill="#192A37">2. READ EACH FRONT X; REAR CHECK |XF+XR-L| &lt;= 0.03125.</text>
+<text x="1036.000" y="892.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="normal" text-anchor="start" fill="#192A37">3. COMPUTE DELTA X; BOTH STATION LIMITS ALSO APPLY.</text>
+<text x="1036.000" y="908.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="bold" text-anchor="start" fill="#192A37">4. GAUGE / RECORD THE CLOSEST ACTUAL EDGE GAP.</text>
+<text x="1036.000" y="924.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="bold" text-anchor="start" fill="#A7662F">5. FAIL? STOP / DOCUMENT; ENGINEERING REVIEW.</text>
+<text x="1036.000" y="940.000" font-family="Arial, Helvetica, sans-serif" font-size="9.7" font-weight="bold" text-anchor="start" fill="#A7662F">6. NO BEND / NOTCH / OFFSET / SHORTEN WITHOUT REVISION.</text>
+<line x1="30.000" y1="960.000" x2="1670.000" y2="960.000" stroke="#192A37" stroke-width="2"/>
+<text x="48.000" y="982.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">GENERAL NOTES</text>
+<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="start" fill="#192A37">1. ALL DIMENSIONS IN INCHES. ONLY VIEW A RELATIVE X INTERVAL IS 4:1; REST NTS.</text>
+<text x="48.000" y="1023.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="start" fill="#192A37">2. 2M-R: 41.400 CUT + ST-3; 70-R: 12.900 TAPE ONLY. SEE M-04 / M-05.</text>
+<text x="48.000" y="1042.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="start" fill="#192A37">3. ALSO REQUIRE &gt;= 0.125 CLEARANCE FROM EITHER BOOM TO OTHER-BOOM COMPONENTS.</text>
+<line x1="905.000" y1="960.000" x2="905.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1178.000" y1="960.000" x2="1178.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1398.000" y1="960.000" x2="1398.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<text x="922.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SOURCE BASELINE</text>
+<text x="922.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">O3/O4/O5/O6 REV L</text>
+<text x="922.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">COMMIT 186c773</text>
+<text x="1195.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SCALE AT 100% PRINT</text>
+<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="start" fill="#192A37">DELTA X 4:1 ONLY</text>
+<text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">OTHER DETAILS NTS</text>
+<text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
+<text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET M-09</text>
+</svg>
