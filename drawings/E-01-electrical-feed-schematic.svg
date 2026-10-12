@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
+<title>E-01 Electrical Feed Schematic - Tape Measure Satellite Yagi</title>
+<desc>Rev A independent dual-band electrical feed and DC checks derived from O3-O6 Rev L.</desc>
+<rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
+<line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
+<text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">E-01  ELECTRICAL FEED SCHEMATIC</text>
+<text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3-O6 REV L</text>
+<rect x="42.000" y="148.000" width="790.000" height="420.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">CIRCUIT A  |  2 m SHUNT-HAIRPIN FEED</text>
+<text x="814.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">SCHEMATIC / NTS</text>
+<text x="60.000" y="205.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#192A37">2M-DE SPLIT DRIVEN ELEMENT  |  X = 13.500 FROM FRONT</text>
+<rect x="102.000" y="254.000" width="198.000" height="12.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<rect x="500.000" y="254.000" width="198.000" height="12.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<circle cx="300.000" cy="260.000" r="6.500" stroke="#192A37" fill="#FFFFFF" stroke-width="2.2"/>
+<text x="300.000" y="241.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#192A37">A</text>
+<circle cx="500.000" cy="260.000" r="6.500" stroke="#192A37" fill="#FFFFFF" stroke-width="2.2"/>
+<text x="500.000" y="241.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#192A37">B</text>
+<text x="171.000" y="249.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#192A37">HALF A</text>
+<text x="629.000" y="249.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#192A37">HALF B</text>
+<text x="400.000" y="244.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#657582">ISOLATED STEEL GAP</text>
+<text x="400.000" y="283.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#657582">G = 0.250 +/- 0.0156</text>
+<line x1="300.000" y1="260.000" x2="328.000" y2="260.000" stroke="#A7662F" stroke-width="3"/>
+<line x1="328.000" y1="260.000" x2="328.000" y2="348.000" stroke="#A7662F" stroke-width="3"/>
+<line x1="328.000" y1="348.000" x2="472.000" y2="348.000" stroke="#A7662F" stroke-width="3"/>
+<line x1="472.000" y1="348.000" x2="472.000" y2="260.000" stroke="#A7662F" stroke-width="3"/>
+<line x1="472.000" y1="260.000" x2="500.000" y2="260.000" stroke="#A7662F" stroke-width="3"/>
+<text x="400.000" y="332.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="#A7662F">2M-HP  |  #12 BARE Cu</text>
+<text x="400.000" y="369.000" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="normal" text-anchor="middle" fill="#A7662F">8.500 INITIAL BLANK; FORM PER O5 SEC. 10; TUNE IN O8</text>
+<line x1="300.000" y1="267.000" x2="300.000" y2="405.000" stroke="#192A37" stroke-width="2.2"/>
+<line x1="500.000" y1="267.000" x2="500.000" y2="405.000" stroke="#192A37" stroke-width="2.2"/>
+<text x="275.000" y="391.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#192A37">CENTER</text>
+<text x="525.000" y="391.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#192A37">BRAID</text>
+<rect x="215.000" y="405.000" width="370.000" height="84.000" stroke="#D6DEE4" fill="#E8EDF0" stroke-width="1.4"/>
+<text x="400.000" y="430.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#192A37">ONE INDEPENDENT 50 OHM RG-58</text>
+<text x="400.000" y="455.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="middle" fill="#657582">6 FT FACTORY BNC MALE-TO-MALE CABLE</text>
+<text x="400.000" y="477.000" font-family="Arial, Helvetica, sans-serif" font-size="9.6" font-weight="normal" text-anchor="middle" fill="#657582">REMOVE ANTENNA-END BNC ONLY AFTER O7 GATE</text>
+<line x1="400.000" y1="489.000" x2="400.000" y2="514.000" stroke="#192A37" stroke-width="2"/>
+<rect x="346.000" y="514.000" width="108.000" height="22.000" stroke="#192A37" fill="#FFFFFF" stroke-width="1.5"/>
+<text x="400.000" y="530.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#192A37">BNC MALE</text>
+<text x="400.000" y="553.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="bold" text-anchor="middle" fill="#192A37">OPERATOR END: LABEL '2 m'</text>
+<rect x="850.000" y="148.000" width="808.000" height="420.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="866.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">CIRCUIT B  |  70 cm DIRECT FEED</text>
+<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">SCHEMATIC / NTS</text>
+<text x="868.000" y="205.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">70-DE SPLIT DRIVEN ELEMENT  |  X = 18.500 FROM FRONT</text>
+<rect x="911.000" y="254.000" width="198.000" height="12.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<rect x="1309.000" y="254.000" width="198.000" height="12.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<circle cx="1109.000" cy="260.000" r="6.500" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.2"/>
+<text x="1109.000" y="241.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1F5B94">A</text>
+<circle cx="1309.000" cy="260.000" r="6.500" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2.2"/>
+<text x="1309.000" y="241.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1F5B94">B</text>
+<text x="982.000" y="249.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1F5B94">HALF A</text>
+<text x="1438.000" y="249.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#1F5B94">HALF B</text>
+<text x="1209.000" y="244.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#657582">ISOLATED STEEL GAP</text>
+<text x="1209.000" y="283.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="middle" fill="#657582">G = 0.250 +/- 0.0156</text>
+<rect x="1027.000" y="313.000" width="364.000" height="59.000" stroke="#D6DEE4" fill="#EAF1F7" stroke-width="1.1"/>
+<text x="1209.000" y="338.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1F5B94">NO HAIRPIN / MATCHING WIRE</text>
+<text x="1209.000" y="359.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="middle" fill="#1F5B94">NO INTENTIONAL DC BRIDGE</text>
+<line x1="1109.000" y1="267.000" x2="1109.000" y2="405.000" stroke="#1F5B94" stroke-width="2.2"/>
+<line x1="1309.000" y1="267.000" x2="1309.000" y2="405.000" stroke="#1F5B94" stroke-width="2.2"/>
+<text x="1084.000" y="391.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="end" fill="#1F5B94">CENTER</text>
+<text x="1334.000" y="391.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#1F5B94">BRAID</text>
+<rect x="1024.000" y="405.000" width="370.000" height="84.000" stroke="#D6DEE4" fill="#EAF1F7" stroke-width="1.4"/>
+<text x="1209.000" y="430.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#1F5B94">ONE INDEPENDENT 50 OHM RG-58</text>
+<text x="1209.000" y="455.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="middle" fill="#657582">6 FT FACTORY BNC MALE-TO-MALE CABLE</text>
+<text x="1209.000" y="477.000" font-family="Arial, Helvetica, sans-serif" font-size="9.6" font-weight="normal" text-anchor="middle" fill="#657582">REMOVE ANTENNA-END BNC ONLY AFTER O7 GATE</text>
+<line x1="1209.000" y1="489.000" x2="1209.000" y2="514.000" stroke="#1F5B94" stroke-width="2"/>
+<rect x="1155.000" y="514.000" width="108.000" height="22.000" stroke="#1F5B94" fill="#FFFFFF" stroke-width="1.5"/>
+<text x="1209.000" y="530.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="middle" fill="#1F5B94">BNC MALE</text>
+<text x="1209.000" y="553.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="bold" text-anchor="middle" fill="#1F5B94">OPERATOR END: LABEL '70 cm'</text>
+<rect x="42.000" y="585.000" width="1048.000" height="230.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="614.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">DC CONTINUITY / ISOLATION CHECKS</text>
+<text x="1074.000" y="614.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">DESIGN EXPECTATION / O3 SEC. 17</text>
+<text x="60.000" y="639.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#657582">TEST (RADIOS, ANALYZERS, DIPLEXERS DISCONNECTED)</text>
+<text x="753.000" y="639.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#192A37">2 m</text>
+<text x="912.000" y="639.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#1F5B94">70 cm</text>
+<line x1="58.000" y1="647.000" x2="1074.000" y2="647.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="60.000" y="670.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="start" fill="#192A37">BNC PIN -&gt; ASSIGNED DRIVEN HALF</text>
+<text x="753.000" y="670.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#192A37">CONTINUITY</text>
+<text x="912.000" y="670.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#1F5B94">CONTINUITY</text>
+<line x1="58.000" y1="678.000" x2="1074.000" y2="678.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="60.000" y="696.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="start" fill="#192A37">BNC SHELL -&gt; ASSIGNED DRIVEN HALF</text>
+<text x="753.000" y="696.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#192A37">CONTINUITY</text>
+<text x="912.000" y="696.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#1F5B94">CONTINUITY</text>
+<line x1="58.000" y1="704.000" x2="1074.000" y2="704.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="60.000" y="722.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="bold" text-anchor="start" fill="#192A37">PIN -&gt; SHELL, ONE 2 m HAIRPIN END DISCONNECTED</text>
+<text x="753.000" y="722.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#192A37">OPEN</text>
+<text x="912.000" y="722.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#1F5B94">OPEN</text>
+<line x1="58.000" y1="730.000" x2="1074.000" y2="730.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="60.000" y="748.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="bold" text-anchor="start" fill="#192A37">PIN -&gt; SHELL, FINISHED BASELINE</text>
+<text x="753.000" y="748.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#A7662F">CONT. VIA HAIRPIN</text>
+<text x="912.000" y="748.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#1F5B94">OPEN</text>
+<line x1="58.000" y1="756.000" x2="1074.000" y2="756.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="60.000" y="774.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="start" fill="#192A37">EITHER FEED CONDUCTOR -&gt; PARASITIC ELEMENTS</text>
+<text x="753.000" y="774.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#192A37">OPEN</text>
+<text x="912.000" y="774.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#1F5B94">OPEN</text>
+<line x1="58.000" y1="782.000" x2="1074.000" y2="782.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="60.000" y="800.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="start" fill="#192A37">ALL CROSS-FEED CONDUCTOR PAIRS, EQUIPMENT DETACHED</text>
+<text x="753.000" y="800.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#192A37">OPEN</text>
+<text x="912.000" y="800.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="normal" text-anchor="start" fill="#1F5B94">OPEN</text>
+<rect x="1108.000" y="585.000" width="550.000" height="230.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1124.000" y="614.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">O7 CHECK SEQUENCE</text>
+<text x="1640.000" y="614.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">O5 HOLD POINTS F / G</text>
+<text x="1126.000" y="643.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">1. PASS O5 SEC. 12 FEED-ENTRY GATE.</text>
+<text x="1126.000" y="670.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2. CONNECT CENTER TO A; BRAID TO B.</text>
+<text x="1126.000" y="697.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">3. WITH ONE 2 m HAIRPIN END FREE,</text>
+<text x="1148.000" y="717.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">VERIFY BOTH PIN-TO-SHELL PATHS OPEN.</text>
+<text x="1126.000" y="744.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">4. CONNECT HAIRPIN; VERIFY 2 m PATH</text>
+<text x="1148.000" y="764.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">CLOSES THROUGH HAIRPIN; 70 cm STAYS OPEN.</text>
+<text x="1126.000" y="797.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#A7662F">FAILED CHECK? STOP / INSPECT / RECORD.</text>
+<rect x="42.000" y="832.000" width="1616.000" height="114.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="861.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">ELECTRICAL INTERFACES / BUILD LIMITS</text>
+<text x="1640.000" y="861.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">O3 SEC. 13 / O5 SEC. 9-12</text>
+<text x="60.000" y="885.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="bold" text-anchor="start" fill="#192A37">A = CENTER LUG + ONE HALF; B = BRAID LUG + OTHER HALF. LEFT/RIGHT MAY REVERSE BEFORE ASSEMBLY IF LABELED.</text>
+<text x="60.000" y="908.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#192A37">EACH NODE: OWN #6-32 HARDWARE / LUG; 2 m ONLY ADDS ONE BARE HAIRPIN END. NO SCREW / LUG MAY BRIDGE THE GAP.</text>
+<text x="60.000" y="931.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="bold" text-anchor="start" fill="#A7662F">NO PASSIVE BNC TEE. BASELINE: TWO RADIOS / TWO FEEDS. FERRITES, REAR ROUTING, STRAIN RELIEF PER O5 SEC. 12.</text>
+<line x1="30.000" y1="960.000" x2="1670.000" y2="960.000" stroke="#192A37" stroke-width="2"/>
+<text x="48.000" y="982.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">GENERAL NOTES</text>
+<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">1. SCHEMATIC ONLY; NOT TO SCALE. STEEL GAP IS NOT THE FEED-SCREW CENTER SPACING.</text>
+<text x="48.000" y="1023.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">2. 2 m HAIRPIN IS A STARTING GEOMETRY; FINAL MATCH REQUIRES O8 RF MEASUREMENT.</text>
+<text x="48.000" y="1042.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#192A37">3. THIS SHEET STATES EXPECTED RESULTS; NO AS-BUILT DC OR RF DATA ARE CLAIMED.</text>
+<line x1="905.000" y1="960.000" x2="905.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1178.000" y1="960.000" x2="1178.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1398.000" y1="960.000" x2="1398.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<text x="922.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SOURCE BASELINE</text>
+<text x="922.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">O3/O4/O5/O6 REV L</text>
+<text x="922.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">COMMIT 186c773</text>
+<text x="1195.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SCALE AT 100% PRINT</text>
+<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="start" fill="#192A37">SCHEMATIC / NTS</text>
+<text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">17 x 11 IN SHEET</text>
+<text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
+<text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET E-01</text>
+</svg>
