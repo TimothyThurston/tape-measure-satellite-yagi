@@ -6,15 +6,15 @@ This project is intended as both a practical amateur radio antenna and an RF eng
 
 ## **Project Status**
 
-**Status:** Design / Pre-fabrication
+**Status:** Controlled pre-fabrication design; technical drawings next.
 
-The antenna design and build procedure are currently being developed. Fabrication, RF characterization, and satellite field testing will follow.
+The O3–O6 design, materials, cut sheet, and fabrication procedure are at Rev. L. No as-built dimensions or RF test results are recorded in this repository yet. Feed construction (O7), calibrated RF testing (O8), and field validation remain future stages.
 
 ## **Overview**
 
 The Tape Measure Satellite Yagi is a lightweight, portable directional antenna designed primarily for handheld amateur radio satellite operation.
 
-The antenna uses flexible steel tape measure elements mounted to a lightweight boom. Tape measure elements are useful for portable antennas because they are inexpensive, easy to cut, resilient, and can bend when struck without permanently damaging the antenna.
+The antenna uses flexible steel tape measure elements on two separate, parallel PVC booms: a three-element 2 m array and a five-element 70 cm array. The element planes are orthogonal in the operating assembly, and each band has its own feedline. Tape measure elements are useful for portable antennas because they are inexpensive, easy to cut, and resilient.
 
 The project is designed around the amateur radio:
 
@@ -105,7 +105,7 @@ The antenna may also be evaluated for:
 
 Development of the antenna is divided into several engineering stages.
 
-### **O3 — Detailed Antenna Design**
+### **O3 — [Antenna Design and Dimensions](docs/design.md)**
 
 Define the final electromagnetic geometry of the antenna, including:
 
@@ -116,12 +116,12 @@ Define the final electromagnetic geometry of the antenna, including:
 * Director geometry  
 * Boom layout
 
-### **O4 — Bill of Materials**
+### **O4 — [Bill of Materials and Sourcing](docs/bill-of-materials.md)**
 
 Develop the complete component list for construction, including:
 
 * Tape measure material  
-* Boom  
+* Two PVC booms  
 * Fasteners  
 * Element mounts  
 * Coaxial cable  
@@ -129,20 +129,13 @@ Develop the complete component list for construction, including:
 * Feedpoint components  
 * Electrical hardware
 
-### **O5 — Mechanical Drawing & Cut Sheet**
+### **O5 — [Mechanical Drawing and Cut Sheet](docs/cut-sheet.md)**
 
-Produce fabrication drawings containing:
+Control the element and boom dimensions, station and hole locations, mechanical fit, material cuts, inspection limits, and as-built measurement forms. Technical drawings will use this baseline and be added as a separate deliverable.
 
-* Element dimensions  
-* Boom dimensions  
-* Element locations  
-* Hole locations  
-* Mechanical mounting details  
-* Material cut lengths
+### **O6 — [Fabrication and Assembly Procedure](docs/fabrication.md)**
 
-### **O6 — Fabrication Procedure**
-
-Document the complete construction process from raw materials through final mechanical assembly.
+Control the construction process from material inspection and test coupons through final mechanical assembly and the handoff to O7.
 
 ### **O7 — Feed & Matching System**
 
@@ -238,41 +231,18 @@ During each pass, observations may include:
 
 These observations will be recorded for later analysis.
 
-## **Repository Structure**
+## **Repository Files**
 
-The repository is planned to use the following structure:
+The current controlled files are:
 
-TapeMeasureSatelliteYagi/  
-│  
-├── README.md  
-│  
-├── docs/  
-│   ├── requirements.md  
-│   ├── design.md  
-│   ├── billofmaterials.md  
-│   ├── fabrication.md  
-│   ├── feedsystem.md  
-│   ├── testing.md  
-│   └── finalreport.md  
-│  
-├── drawings/  
-│   ├── antennalayout/  
-│   ├── mechanical/  
-│   └── feedsystem/  
-│  
-├── data/  
-│   ├── swr/  
-│   ├── terrestrialtests/  
-│   └── satellitetests/  
-│  
-├── images/  
-│   ├── fabrication/  
-│   ├── completedantenna/  
-│   └── fieldtesting/  
-│  
-└── LICENSE
+| Stage | File | Purpose |
+|---|---|---|
+| O3 | [docs/design.md](docs/design.md) | Design geometry, interfaces, and acceptance criteria |
+| O4 | [docs/bill-of-materials.md](docs/bill-of-materials.md) | Materials, quantities, sourcing, and receiving checks |
+| O5 | [docs/cut-sheet.md](docs/cut-sheet.md) | Cut list, layout, tolerances, hold points, and as-built forms |
+| O6 | [docs/fabrication.md](docs/fabrication.md) | Mechanical build sequence and quality gates |
 
-The repository structure may change as the project develops.
+All four controlled documents are Rev. L. The next planned addition is a technical drawing set. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 
@@ -334,7 +304,7 @@ Possible future improvements include:
 * Automated SWR data collection  
 * Satellite pass logging software  
 * Rotator or pointing assistance system  
-* Improved collapsible boom  
+* More compact transport configuration  
 * 3D-printed mechanical components  
 * Integration with a portable field communications system
 
@@ -363,4 +333,4 @@ The goal is not simply to construct an antenna that works, but to understand **w
 **Type:** Amateur Radio / RF Engineering  
 **Bands:** 2 m / 70 cm  
 **Primary Application:** Amateur radio satellite and ISS operation  
-**Current Phase:** Design and Pre-Fabrication
+**Current Phase:** Pre-fabrication; technical drawings next
