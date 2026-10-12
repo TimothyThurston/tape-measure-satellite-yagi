@@ -6,7 +6,7 @@ This project is intended as both a practical amateur radio antenna and an RF eng
 
 ## **Project Status**
 
-**Status:** Controlled pre-fabrication design; technical drawings next.
+**Status:** Controlled pre-fabrication design; technical drawings underway.
 
 The O3–O6 design, materials, cut sheet, and fabrication procedure are at Rev. L. No as-built dimensions or RF test results are recorded in this repository yet. Feed construction (O7), calibrated RF testing (O8), and field validation remain future stages.
 
@@ -131,7 +131,7 @@ Develop the complete component list for construction, including:
 
 ### **O5 — [Mechanical Drawing and Cut Sheet](docs/cut-sheet.md)**
 
-Control the element and boom dimensions, station and hole locations, mechanical fit, material cuts, inspection limits, and as-built measurement forms. Technical drawings will use this baseline and be added as a separate deliverable.
+Control the element and boom dimensions, station and hole locations, mechanical fit, material cuts, inspection limits, and as-built measurement forms. Technical drawings use this baseline and are added as separate deliverables.
 
 ### **O6 — [Fabrication and Assembly Procedure](docs/fabrication.md)**
 
@@ -241,8 +241,9 @@ The current controlled files are:
 | O4 | [docs/bill-of-materials.md](docs/bill-of-materials.md) | Materials, quantities, sourcing, and receiving checks |
 | O5 | [docs/cut-sheet.md](docs/cut-sheet.md) | Cut list, layout, tolerances, hold points, and as-built forms |
 | O6 | [docs/fabrication.md](docs/fabrication.md) | Mechanical build sequence and quality gates |
+| M-01 | [PDF](drawings/M-01-overall-assembly.pdf) · [editable SVG](drawings/M-01-overall-assembly.svg) | Overall assembly, datum stations, boom orientation, and key clearances |
 
-All four controlled documents are Rev. L. The next planned addition is a technical drawing set. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set begins with M-01 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 
@@ -333,4 +334,4 @@ The goal is not simply to construct an antenna that works, but to understand **w
 **Type:** Amateur Radio / RF Engineering  
 **Bands:** 2 m / 70 cm  
 **Primary Application:** Amateur radio satellite and ISS operation  
-**Current Phase:** Pre-fabrication; technical drawings next
+**Current Phase:** Pre-fabrication; technical drawings underway
