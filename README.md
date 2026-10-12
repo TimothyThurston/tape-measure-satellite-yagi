@@ -248,8 +248,9 @@ The current controlled files are:
 | M-05 | [PDF](drawings/M-05-passive-element-mounting.pdf) · [editable SVG](drawings/M-05-passive-element-mounting.svg) | Supported 2 m and tape-only 70 cm passive mounting and retention checks |
 | M-06 | [PDF](drawings/M-06-split-driven-element-mounting.pdf) · [editable SVG](drawings/M-06-split-driven-element-mounting.svg) | Split driven mounting, hidden-gap witness method, and final retention sequence |
 | M-07 | [PDF](drawings/M-07-feed-node-hardware.pdf) · [editable SVG](drawings/M-07-feed-node-hardware.svg) | Feed-node hole placement, hardware stack, electrical assignments, and assembly checks |
+| M-08 | [PDF](drawings/M-08-dual-boom-retention.pdf) · [editable SVG](drawings/M-08-dual-boom-retention.svg) | J1/J2 separator pads and ties, boom orientation, and assembled clearance checks |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-07 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-08 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 
