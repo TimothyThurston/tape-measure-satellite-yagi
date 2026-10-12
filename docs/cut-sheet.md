@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. C  
+**Revision:** Rev. D  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision C Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision D Tape Measure Satellite Yagi.
 
-It supersedes O5 Rev. B and the earlier Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. C, Rev. B, and the earlier Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision C retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raises the minimum installed boom gap.
+Revision D retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrects the tape-steel stock reserve.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. C sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. D sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -62,6 +62,10 @@ If an older document conflicts with this sheet on cutting or mechanical fabricat
 ### 2.3 Corrected in Rev. C
 
 The installed bare-PVC boom gap and both separator-pad minimum thicknesses increase from 0.250 in to **0.375 in**. At the retained 45 degrees +/- 5 degrees orientation, the limiting nominal 40-degree position gives approximately 0.1735 in clearance between a centered 3/8 in 2 m support and the other 1/2 in Schedule 40 PVC boom. The former 0.250 in gap allowed only 0.0931 in, below the required 0.125 in. Element lengths, element stations, and driven-element gaps do not change. Actual cross-boom component clearances still require physical inspection.
+
+### 2.4 Corrected in Rev. D
+
+The minimum usable conductive tape-steel stock increases from 18 ft to **20 ft**. The installed cuts total 174.700 in. Keep one continuous 41.400 in section available for a full recut of the longest element, 2M-R, until all element cuts pass inspection. Installed cuts plus that recut require 216.100 in of the 240.000 in minimum, leaving 23.900 in for coupons, end cleanup, kerf, and damaged sections. Obtain more stock if those losses exceed the allowance. Installed element lengths, stations, and driven-element gaps do not change.
 
 ---
 
@@ -116,7 +120,7 @@ Tape-steel totals:
 | 70 cm elements | 60.750 in |
 | **Total net steel** | **174.700 in (14.558 ft)** |
 
-Reserve at least 18 ft of usable approximately 3/8 in wide conductive tape steel. The difference covers cleanup, kerf, damaged coating, the required coupon, and replacement pieces.
+Reserve at least 20 ft (240.000 in) of usable approximately 3/8 in wide conductive tape steel. Plan the cuts to preserve one continuous 41.400 in spare section for a full 2M-R recut through cut inspection. Installed cuts plus that recut require 216.100 in, leaving 23.900 in for the required coupon, end cleanup, kerf, and damaged sections.
 
 ### 4.2 Non-element cuts
 
@@ -408,7 +412,7 @@ If the tape curvature, width, or mounting angle violates the physical-clearance 
 - [ ] PVC OD, tape width/thickness, support diameter, coax diameter, and pad thickness recorded.
 - [ ] Tape steel is conductive and approximately 3/8 in wide.
 - [ ] Both 30.000 in boom blanks are straight and undamaged.
-- [ ] At least 18 ft of usable tape steel is available.
+- [ ] At least 20 ft of usable tape steel is available, with one continuous 41.400 in recut section preserved in the cutting plan.
 
 ### Hold Point B - coupon approval
 
@@ -527,7 +531,8 @@ Stop fabrication for any of the following:
 |---|---|---|
 | Rev. A | 2026-08-17 | Initial mechanical drawing and cut sheet. |
 | Rev. B | 2026-09-21 | Retained verified RF geometry; standardized project name; removed rotating/folding joint language and coax coils; added fixed removable boom retention, separator pads, ferrites, coupon controls, feed-node geometry, corrected DC checks, tighter clearances, and as-built records. |
-| **Rev. C** | **2026-10-12** | Raised the installed bare-PVC gap and separator-pad minimum thickness to 0.375 in so the nominal support clearance passes at the 40-degree orientation limit. |
+| Rev. C | 2026-10-12 | Raised the installed bare-PVC gap and separator-pad minimum thickness to 0.375 in so the nominal support clearance passes at the 40-degree orientation limit. |
+| **Rev. D** | **2026-10-12** | Raised the usable tape-steel minimum to 20 ft and reserved a continuous 41.400 in section for one full reflector recut; installed element cuts are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -535,12 +540,12 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. C cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. D cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
-Baseline RF geometry is derived from the project design set based on John Portune, W6NBC, QST, January 2012, pages 37-39. Project-specific boom retention, feed hardware, ferrite suppression, tolerances, and inspection controls are TM-YAGI-01 Rev. B and C engineering changes.
+Baseline RF geometry is derived from the project design set based on John Portune, W6NBC, QST, January 2012, pages 37-39. Project-specific boom retention, feed hardware, ferrite suppression, tolerances, and inspection controls are TM-YAGI-01 Rev. B through D engineering changes.
 
 ---
 
-**End of O5 Rev. C Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. D Mechanical Drawing and Cut Sheet**

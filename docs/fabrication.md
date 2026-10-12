@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. C  
+**Revision:** Rev. D  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision C baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision D baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -84,6 +84,10 @@ Those operations belong to O7 and O8.
 
 The installed bare-PVC boom gap and separator-pad minimum thickness increase from 0.250 in to 0.375 in. This preserves the 45 degrees +/- 5 degrees assembly orientation while giving approximately 0.1735 in nominal support-to-other-boom clearance at the limiting 40-degree position, above the 0.125 in requirement. Element geometry and driven-element gaps remain unchanged. The coupon and final assembly must still pass direct clearance checks with the actual materials.
 
+### 2.4 Corrected in Revision D
+
+The minimum usable conductive tape-steel stock increases from 18 ft to 20 ft. The finished elements still require 174.700 in. Reserve one continuous 41.400 in section for a possible full recut of 2M-R until all element cuts pass inspection. The 240.000 in minimum then leaves 23.900 in for coupons, end cleanup, kerf, and damaged sections after the installed cuts and that recut. Obtain more steel if actual losses exceed this allowance. No installed element dimensions change.
+
 ---
 
 ## 3. Controlling inputs
@@ -92,12 +96,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. C | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. C | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. C | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. C | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. D | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. D | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. D | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. D | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. C, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. D, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -212,10 +216,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. C |
-| O4 revision | Rev. C |
-| O5 revision | Rev. C |
-| O6 revision | Rev. C |
+| O3 revision | Rev. D |
+| O4 revision | Rev. D |
+| O5 revision | Rev. D |
+| O6 revision | Rev. D |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -243,7 +247,7 @@ Verify and record:
 - Conductive spring-steel base material.
 - Actual width and thickness.
 - Blade curvature and coating.
-- At least 18 ft usable length.
+- At least 20 ft usable length in a cutting arrangement that preserves one continuous 41.400 in recut section.
 - No severe kinks, cracks, or corrosion in the selected sections.
 
 Reject a 1 in or wider blade unless O3-O5 are formally revised.
@@ -282,7 +286,7 @@ Verify:
 - [ ] PVC OD measured and recorded.
 - [ ] Tape width, thickness, curvature, coating, and conductivity recorded.
 - [ ] Support diameter measured and recorded.
-- [ ] At least 18 ft usable tape steel accepted.
+- [ ] At least 20 ft usable tape steel accepted, with a continuous 41.400 in section available for a full 2M-R recut.
 - [ ] Three final supports plus one coupon support available.
 - [ ] Separator pads and 8 in minimum ties accepted.
 - [ ] Candidate #6-32 hardware stack available.
@@ -475,7 +479,7 @@ Replace a badly drilled boom rather than moving an RF element to compensate.
 
 ## 19. Step 7 - Cut, deburr, and label RF elements
 
-Cut every finished length from the actual tape steel. Label immediately.
+Cut every finished length from the actual tape steel. Plan the sequence so one continuous 41.400 in section remains available for a full 2M-R recut until all element cuts pass inspection. Label each finished element immediately.
 
 ### 19.1 2 m cuts
 
@@ -510,7 +514,7 @@ For every piece:
 
 Do not trim any element for RF tuning during O6.
 
-Net tape steel in the finished elements is 174.700 in.
+Net tape steel in the finished elements is 174.700 in. The reserved recut brings potential element use to 216.100 in, leaving 23.900 in from the 20 ft minimum for the coupon, end cleanup, kerf, and damaged sections.
 
 ---
 
@@ -889,7 +893,7 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. C inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. D inputs are present.
 - [ ] Material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Both booms are 30.000 in and correctly labeled.
@@ -937,7 +941,8 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 |---|---|---|
 | Rev. A | 2026-08-24 | Initial fabrication and assembly procedure. |
 | Rev. B | 2026-09-21 | Retained the verified mechanical sequence; removed rotating/folding joint instructions, six-inch dual-boom ties, PVC feed-screw drilling, support trimming, and O7 feed work; added complete coupon testing, tape-only node drilling, fixed removable boom retention, separator pads, tighter tolerances, clearance checks, DC isolation tests, as-built records, and explicit stop conditions. |
-| **Rev. C** | **2026-10-12** | Raised the minimum installed separator-pad thickness and bare-PVC boom gap to 0.375 in; retained the 45 degrees +/- 5 degrees orientation and all RF element dimensions. |
+| Rev. C | 2026-10-12 | Raised the minimum installed separator-pad thickness and bare-PVC boom gap to 0.375 in; retained the 45 degrees +/- 5 degrees orientation and all RF element dimensions. |
+| **Rev. D** | **2026-10-12** | Raised the minimum usable tape-steel stock to 20 ft and reserved one continuous 41.400 in section for a full reflector recut; installed element cuts are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -945,13 +950,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. C produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. D produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. C Fabrication and Assembly Procedure**
+**End of O6 Rev. D Fabrication and Assembly Procedure**
 
 
 ---
