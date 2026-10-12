@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. I  
+**Revision:** Rev. J  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision I Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision J Tape Measure Satellite Yagi.
 
-It supersedes O5 Rev. H and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. I and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision I retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases; Revision I assigns coax and ferrite acceptance to O7 feed entry.
+Revision J retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases; Revision I assigns coax and ferrite acceptance to O7 feed entry; Revision J sets an acceptance tolerance for the three 2 m support cuts.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. I sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. J sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -87,6 +87,10 @@ Hold Point C now covers only the parts cut in O6. O7 cuts, labels, and measures 
 
 O6 mechanical material acceptance no longer requires coax or ferrite checks. O7 must complete the Section 12 feed-entry gate before removing either antenna-side BNC connector. This changes no feed topology or material specification.
 
+### 2.10 Corrected in Rev. J
+
+Each 2 m support now has a 12.000 in +/- 0.0625 in finished-length limit. Measure and record ST-1, ST-2, and ST-3 individually; mark each actual midpoint before installation. Nominal layout and RF element cuts are unchanged.
+
 ---
 
 ## 3. Mechanical configuration
@@ -148,9 +152,9 @@ Reserve at least 20 ft (240.000 in) of usable approximately 3/8 in wide conducti
 |---|---|---:|---:|---|
 | PVC-2M | Nominal 1/2 in Schedule 40 PVC | 30.000 in +/- 0.0625 in | 1 | 2 m boom |
 | PVC-70 | Nominal 1/2 in Schedule 40 PVC | 30.000 in +/- 0.0625 in | 1 | 70 cm boom |
-| ST-1 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-D1 support |
-| ST-2 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-DE support |
-| ST-3 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-R support |
+| ST-1 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in +/- 0.0625 in | 1 | 2M-D1 support |
+| ST-2 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in +/- 0.0625 in | 1 | 2M-DE support |
+| ST-3 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in +/- 0.0625 in | 1 | 2M-R support |
 | 2M-HP | #12 AWG solid copper, fully bare | 8.500 in initial blank | 1 | O7 tunable 2 m shunt hairpin |
 | PAD-1 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Front retention separator |
 | PAD-2 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Rear retention separator |
@@ -265,7 +269,7 @@ Do not drill feed-screw holes through the PVC boom as substitutes for the separa
 
 ### 8.1 Passive 2 m elements
 
-- Center one 12.000 in nonconductive support at each 2 m station.
+- Center one 12.000 in nominal nonconductive support at each 2 m station using its marked actual midpoint; each finished length must pass 12.000 in +/- 0.0625 in.
 - Place the tape steel alongside the support through the validated 7/16 in hole.
 - Center the conductive tape left-to-right to within 1/16 in.
 - Keep the tape and support straight through the local boom cross-section.
@@ -420,6 +424,7 @@ Final ferrite count and position are validated during O8 coax-movement testing.
 | Each finished PVC boom length | 30.000 in +/- 0.0625 in |
 | Difference between finished boom lengths | 0.03125 in maximum |
 | Assembled REAR end-face offset with FRONT end faces flush | 0.03125 in maximum |
+| Each ST-1/ST-2/ST-3 support finished length | 12.000 in +/- 0.0625 in (11.9375-12.0625 in) |
 | 2 m passive element finished length | +/- 0.0625 in |
 | 2 m driven half finished length | +/- 0.03125 in; half-to-half mismatch no more than 0.03125 in |
 | 70 cm passive element finished length | +/- 0.03125 in |
@@ -466,7 +471,7 @@ If the tape curvature, width, or mounting angle violates the physical-clearance 
 ### Hold Point C - after O6 cutting
 
 - [ ] Both PVC booms (PVC-2M and PVC-70), all ten tape-steel elements, and all three supports (ST-1 through ST-3) are cut, deburred, and labeled.
-- [ ] Each O6-cut finished length is measured and recorded; each boom is 30.000 in +/- 0.0625 in and their length difference is no more than 0.03125 in.
+- [ ] Each O6-cut finished length is measured and recorded; each boom is 30.000 in +/- 0.0625 in with no more than 0.03125 in pair difference, and each support is 12.000 in +/- 0.0625 in.
 - [ ] No tape-steel element is short, kinked, cracked, or left with a sharp burr.
 - [ ] Driven halves are matched within the controlled difference.
 
@@ -535,9 +540,9 @@ Enter the O6-cut finished lengths at Hold Point C, then complete the remaining m
 | PVC-2M length | 30.000 in +/- 0.0625 in |  |  |
 | PVC-70 length | 30.000 in +/- 0.0625 in |  |  |
 | Difference between finished PVC boom lengths | 0.03125 in maximum |  |  |
-| ST-1 finished length | 12.000 in |  |  |
-| ST-2 finished length | 12.000 in |  |  |
-| ST-3 finished length | 12.000 in |  |  |
+| ST-1 finished length | 12.000 in +/- 0.0625 in |  |  |
+| ST-2 finished length | 12.000 in +/- 0.0625 in |  |  |
+| ST-3 finished length | 12.000 in +/- 0.0625 in |  |  |
 | Assembled REAR end-face offset with FRONT ends flush | 0.03125 in maximum |  |  |
 | PVC actual OD | Record |  |  |
 | Tape width / thickness | Record |  |  |
@@ -607,6 +612,7 @@ Stop fabrication for any of the following:
 | **Rev. G** | **2026-10-12** | Separated the O6 mechanical as-built table from the O7 hairpin addendum; O6 completion no longer depends on hairpin fabrication. |
 | **Rev. H** | **2026-10-12** | Scoped Hold Point C to O6-cut parts and assigned the hairpin blank cut, label, measurement, and record to O7; cut dimensions are unchanged. |
 | **Rev. I** | **2026-10-12** | Moved coax and ferrite acceptance from O6 material entry to an explicit O7 pre-feed gate; dimensions and feed topology are unchanged. |
+| **Rev. J** | **2026-10-12** | Set each 2 m support finished-length acceptance at 12.000 in +/- 0.0625 in and required measured-midpoint marking; nominal RF geometry is unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -614,7 +620,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. I cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. J cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
@@ -622,4 +628,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O5 Rev. I Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. J Mechanical Drawing and Cut Sheet**
