@@ -160,7 +160,7 @@ The two booms are retained at the O5 stations using:
 - No holes through either boom for retention.
 - No metal connector between the booms.
 
-The separator establishes at least 0.375 in of bare-surface clearance between the two PVC pipes. O5 must define the final pad shape, retention method, installed boom-center spacing, and allowed rotation path.
+The separator establishes at least 0.375 in of bare-surface clearance between the two PVC pipes. O5 controls pad geometry, retention method, boom orientation, and the minimum installed surface gap. The tied booms remain fixed relative to each other; cut and replace the ties to separate them for storage.
 
 The ties must retain both booms without crushing the PVC. Replace any tie that is nicked, UV-damaged, or permanently stretched.
 
@@ -175,7 +175,7 @@ The antenna has four electrical feed nodes:
 - 70 cm Node A: coax center conductor and one driven half.
 - 70 cm Node B: coax braid and the other driven half.
 
-The BOM intentionally stocks both 1/2 in and 3/4 in #6-32 screws. O5 must select and dimension the shortest usable screw after a physical coupon confirms the tape/PVC/lug/washer/nut stack.
+The BOM intentionally stocks both 1/2 in and 3/4 in #6-32 screws. O5 selects the shortest usable screw after an actual-material coupon confirms the screw, bare tape contact pad, coax ring lug, 2 m hairpin hook where applicable, flat washer, and nut stack. Drill each feed-node hole through the exposed driven-half tape only.
 
 Do not substitute a full transverse bolt through the entire pipe. Each screw must contact only its assigned driven half and must remain clear of the opposite electrical node.
 
@@ -354,7 +354,7 @@ The final two open checklist items are O5 interface verifications. They do not r
 |---|---|---|
 | Rev. A | 2026-08-24 | Initial sourcing baseline. |
 | Rev. B | 2026-09-21 | Standardized project name; removed separate joint hardware and four-inch dual-boom ties; added separator pads; replaced tight coax coils with band-appropriate snap-on ferrites; corrected dowel stock allowance; expanded feedpoint hardware, inspection, ownership, and substitution controls. |
-| **Rev. C** | **2026-10-12** | Increased the minimum installed separator-pad thickness and bare-PVC boom gap from 0.250 in to 0.375 in to satisfy the 0.125 in support clearance at the 40-degree orientation limit. |
+| **Rev. C** | **2026-10-12** | Increased the minimum installed separator-pad thickness and bare-PVC boom gap from 0.250 in to 0.375 in to satisfy the 0.125 in support clearance at the 40-degree orientation limit; clarified fixed boom retention and tape-only feed-node screws. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
