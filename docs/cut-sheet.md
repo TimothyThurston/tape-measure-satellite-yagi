@@ -8,25 +8,25 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. B  
-**Date:** 2026-09-21  
+**Revision:** Rev. C  
+**Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
 ---
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision B Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision C Tape Measure Satellite Yagi.
 
-It supersedes the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. B and the earlier Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision B retains the verified RF element lengths and longitudinal element stations. It corrects the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A.
+Revision C retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raises the minimum installed boom gap.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. B sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. C sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
-## 2. Audit disposition
+## 2. Revision history and audit disposition
 
 ### 2.1 Verified and retained
 
@@ -50,7 +50,7 @@ If an older document conflicts with this sheet on cutting or mechanical fabricat
 | Rotating tie-wrap collars and folding language | Removed. The operating assembly is fixed; separate the booms for storage by cutting and replacing the ties. |
 | Separate boom-joint assumptions | Removed. There is no hinge, pivot, tee, crossbar, or joint assembly. |
 | Four-inch ties around both booms | Replaced by two 8 in minimum UV-resistant ties, one at each retention station. |
-| Touching booms | Replaced by two nonconductive separator pads providing at least 0.250 in installed bare-surface clearance. |
+| Touching booms | Replaced in Rev. B by separator pads providing at least 0.250 in installed bare-surface clearance; Rev. C increases this to 0.375 in. |
 | Six-turn and four-turn RG-58 coils | Removed. Use band-appropriate snap-on ferrites after the feedpoint. |
 | Uncontrolled feed-screw location and hardware stack | Added a mandatory material coupon, symmetric hole-location rule, node stack, and screw-length selection check. |
 | Instruction to tin clamped tape contact | Removed. Do not tin beneath a washer or other mechanical clamp. |
@@ -58,6 +58,10 @@ If an older document conflicts with this sheet on cutting or mechanical fabricat
 | Blanket requirement for no DC short between 2 m driven halves | Corrected. The 2 m feed is open only before the hairpin is connected; the completed hairpin creates intended DC continuity. |
 | Loose station tolerance at the closely spaced reflectors | Added a cross-boom relative-location and physical-clearance requirement. |
 | Ambiguous support cuts of approximately 8-12 in | Replaced by three controlled 12.000 in support pieces. |
+
+### 2.3 Corrected in Rev. C
+
+The installed bare-PVC boom gap and both separator-pad minimum thicknesses increase from 0.250 in to **0.375 in**. At the retained 45 degrees +/- 5 degrees orientation, the limiting nominal 40-degree position gives approximately 0.1735 in clearance between a centered 3/8 in 2 m support and the other 1/2 in Schedule 40 PVC boom. The former 0.250 in gap allowed only 0.0931 in, below the required 0.125 in. Element lengths, element stations, and driven-element gaps do not change. Actual cross-boom component clearances still require physical inspection.
 
 ---
 
@@ -76,7 +80,7 @@ Assembly requirements:
 - Keep the boom longitudinal centerlines parallel.
 - Set the 2 m and 70 cm element planes to **90 degrees +/- 2 degrees**.
 - Set the line between the two boom centers approximately halfway between the two element planes: **45 degrees +/- 5 degrees** from either plane.
-- Maintain at least **0.250 in (6.35 mm)** bare-surface clearance between the PVC booms at both retention stations.
+- Maintain at least **0.375 in (9.525 mm)** bare-surface clearance between the PVC booms at both retention stations.
 - Maintain at least **0.125 in (3.2 mm)** physical clearance between either boom and every element, dowel, feed screw, lug, hairpin, ferrite, and cable on the other boom.
 - Do not rotate or fold one boom relative to the other while the retention ties are installed.
 - For storage or transport, cut the two retention ties and separate the booms. Use new ties for reassembly.
@@ -124,10 +128,10 @@ Reserve at least 18 ft of usable approximately 3/8 in wide conductive tape steel
 | ST-2 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-DE support |
 | ST-3 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in | 1 | 2M-R support |
 | 2M-HP | #12 AWG solid copper, fully bare | 8.500 in initial blank | 1 | Tunable 2 m shunt hairpin |
-| PAD-1 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.250 in minimum | 1 | Front retention separator |
-| PAD-2 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.250 in minimum | 1 | Rear retention separator |
+| PAD-1 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Front retention separator |
+| PAD-2 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Rear retention separator |
 
-Pad thickness is the minimum installed separation. If a pad compresses, permanently deforms, or measures less than 0.250 in after installation, replace it with a thicker part.
+Pad thickness is the minimum installed separation. If a pad compresses, permanently deforms, or measures less than 0.375 in after installation, replace it with a thicker part.
 
 ### 4.3 Stock breakdown
 
@@ -329,7 +333,7 @@ At J1 and J2:
 3. Set the boom-center line 45 degrees +/- 5 degrees between the element planes.
 4. Wrap one 8 in minimum UV-resistant cable tie around both booms and the pad.
 5. Tighten only enough to prevent axial slip and loss of the 90-degree plane relationship.
-6. Confirm the pad remains centered and the installed bare-surface gap is at least 0.250 in.
+6. Confirm the pad remains centered and the installed bare-surface gap is at least 0.375 in.
 7. Confirm the PVC is not flattened or visibly indented.
 8. Trim the tie tail flush and orient the locking head away from the operator's hand and coax.
 
@@ -384,7 +388,7 @@ Final ferrite count and position are validated during O8 coax-movement testing.
 | Element centering on 2 m boom | +/- 0.0625 in |
 | Element centering on 70 cm boom | +/- 0.03125 in |
 | Relative element-plane angle | 90 degrees +/- 2 degrees |
-| Installed bare-surface boom gap | 0.250 in minimum |
+| Installed bare-surface boom gap | 0.375 in minimum |
 
 ### 13.2 Close reflector pair
 
@@ -432,7 +436,7 @@ If the tape curvature, width, or mounting angle violates the physical-clearance 
 - [ ] Booms are parallel and FRONT ends are aligned.
 - [ ] Element planes are 90 degrees +/- 2 degrees.
 - [ ] Boom-center line is 45 degrees +/- 5 degrees from both element planes.
-- [ ] Both pads retain at least 0.250 in installed gap.
+- [ ] Both pads retain at least 0.375 in installed gap.
 - [ ] Neither boom slips axially or rotates under gentle hand load.
 - [ ] Clearance from either boom to components carried by the other boom is at least 0.125 in.
 - [ ] Reflector edge clearance is at least 0.0625 in.
@@ -491,7 +495,7 @@ Complete this table before RF tuning.
 | 2 m node-center spacing | Record |  |  |
 | 70 cm node-center spacing | Record |  |  |
 | Hairpin leg spacing / leg length / bend diameter | Record |  |  |
-| Installed boom gap at J1 / J2 | 0.250 in minimum |  |  |
+| Installed boom gap at J1 / J2 | 0.375 in minimum |  |  |
 | Element-plane angle | 90 degrees +/- 2 degrees |  |  |
 | Reflector physical edge clearance | 0.0625 in minimum |  |  |
 
@@ -522,7 +526,8 @@ Stop fabrication for any of the following:
 | Revision | Date | Description |
 |---|---|---|
 | Rev. A | 2026-08-17 | Initial mechanical drawing and cut sheet. |
-| **Rev. B** | **2026-09-21** | Retained verified RF geometry; standardized project name; removed rotating/folding joint language and coax coils; added fixed removable boom retention, separator pads, ferrites, coupon controls, feed-node geometry, corrected DC checks, tighter clearances, and as-built records. |
+| Rev. B | 2026-09-21 | Retained verified RF geometry; standardized project name; removed rotating/folding joint language and coax coils; added fixed removable boom retention, separator pads, ferrites, coupon controls, feed-node geometry, corrected DC checks, tighter clearances, and as-built records. |
+| **Rev. C** | **2026-10-12** | Raised the installed bare-PVC gap and separator-pad minimum thickness to 0.375 in so the nominal support clearance passes at the 40-degree orientation limit. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -530,12 +535,12 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. B cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. C cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
-Baseline RF geometry is derived from the project design set based on John Portune, W6NBC, QST, January 2012, pages 37-39. Project-specific boom retention, feed hardware, ferrite suppression, tolerances, and inspection controls are TM-YAGI-01 Rev. B engineering changes.
+Baseline RF geometry is derived from the project design set based on John Portune, W6NBC, QST, January 2012, pages 37-39. Project-specific boom retention, feed hardware, ferrite suppression, tolerances, and inspection controls are TM-YAGI-01 Rev. B and C engineering changes.
 
 ---
 
-**End of O5 Rev. B Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. C Mechanical Drawing and Cut Sheet**

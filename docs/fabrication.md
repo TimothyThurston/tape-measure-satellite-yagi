@@ -8,15 +8,15 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. B  
-**Date:** 2026-09-21  
+**Revision:** Rev. C  
+**Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
 ---
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision B baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision C baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -48,7 +48,7 @@ Those operations belong to O7 and O8.
 
 ---
 
-## 2. Revision B audit disposition
+## 2. Revision history and audit disposition
 
 ### 2.1 Retained from the later Rev. A fabrication draft
 
@@ -69,7 +69,7 @@ Those operations belong to O7 and O8.
 |---|---|
 | Rotating collar and folding instructions | Removed. The booms are fixed in operating orientation while tied and are separated for storage. |
 | Six-inch dual-boom ties allowed | Removed. Use 8 in minimum UV-resistant ties. |
-| Touching booms | Removed. Use two nonconductive separator pads with at least 0.250 in installed clearance. |
+| Touching booms | Removed in Rev. B using separator pads with at least 0.250 in installed clearance; Rev. C increases this to 0.375 in. |
 | J1/J2 called joints | Renamed retention stations. No separate joint mechanism exists. |
 | Practice hole tested only the tape | Replaced by a complete tape/support/PVC and feed-hardware coupon. |
 | Feed screws drilled through the PVC wall | Prohibited. Feed-node holes are drilled only through the exposed driven-half tape steel. |
@@ -80,6 +80,10 @@ Those operations belong to O7 and O8.
 | Relative boom rotation treated as normal handling | Prohibited while ties are installed. Roll the complete antenna during operation. |
 | Incomplete mechanical DC checks | Added driven-half, parasitic-element, and cross-band isolation checks before O7. |
 
+### 2.3 Corrected in Revision C
+
+The installed bare-PVC boom gap and separator-pad minimum thickness increase from 0.250 in to 0.375 in. This preserves the 45 degrees +/- 5 degrees assembly orientation while giving approximately 0.1735 in nominal support-to-other-boom clearance at the limiting 40-degree position, above the 0.125 in requirement. Element geometry and driven-element gaps remain unchanged. The coupon and final assembly must still pass direct clearance checks with the actual materials.
+
 ---
 
 ## 3. Controlling inputs
@@ -88,12 +92,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. B | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. B | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. B | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. B | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. C | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. C | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. C | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. C | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. B, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. C, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -128,7 +132,7 @@ Use only O4-approved materials.
 | 3/8 in x 12.000 in nonconductive supports | Three 2 m element supports plus one spare for coupon |
 | Approximately 4 in nonconductive cable ties | Element/support retention and temporary positioning |
 | 8 in minimum UV-resistant black cable ties | Two installed dual-boom retention ties plus spares |
-| Two nonconductive separator pads | Installed at J1 and J2 |
+| Two nonconductive separator pads, 0.375 in minimum installed thickness | Installed at J1 and J2 |
 | #6-32 screws, nuts, and flat washers | Coupon and feed-node hole fit verification |
 | One representative #4-6 ring lug | Coupon stack verification only |
 | Fine abrasive | Local feed-node contact-pad preparation after drilling |
@@ -208,10 +212,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. B |
-| O4 revision | Rev. B |
-| O5 revision | Rev. B |
-| O6 revision | Rev. B |
+| O3 revision | Rev. C |
+| O4 revision | Rev. C |
+| O5 revision | Rev. C |
+| O6 revision | Rev. C |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -259,7 +263,7 @@ Verify:
 
 - At least two 8 in minimum UV-resistant ties plus spares.
 - Two nonconductive pads approximately 1.000 x 0.500 in.
-- Each installed pad thickness will remain at least 0.250 in.
+- Each installed pad thickness will remain at least 0.375 in.
 - Small ties are available for all element-retention stations.
 
 ### 9.5 Feed hardware for coupon
@@ -328,7 +332,7 @@ Do not tin the tape coupon beneath the mechanical stack.
 3. Tighten only enough to prevent sliding.
 4. Confirm the pad remains centered.
 5. Measure the installed bare-surface gap.
-6. Reject a pad that compresses below 0.250 in, slips uncontrollably, cracks, or permanently deforms.
+6. Reject a pad that compresses below 0.375 in, slips uncontrollably, cracks, or permanently deforms.
 
 ---
 
@@ -340,7 +344,7 @@ Do not tin the tape coupon beneath the mechanical stack.
 - [ ] Candidate #6 clearance hole fits the actual screw.
 - [ ] Shortest usable screw identified.
 - [ ] Node stack clamps securely with at least two full threads beyond the nut.
-- [ ] Separator pad retains at least 0.250 in installed gap.
+- [ ] Separator pad retains at least 0.375 in installed gap.
 
 If any item fails, stop. Do not enlarge all final holes or improvise a joint.
 
@@ -683,7 +687,7 @@ There is no separate boom-joint mechanism.
 6. Center one 8 in minimum UV-resistant tie over J1 and PAD-1.
 7. Tighten only enough to retain the booms without axial slip or PVC indentation.
 8. Repeat at J2 using PAD-2 and a new 8 in minimum tie.
-9. Confirm each pad remains centered and produces at least 0.250 in installed bare-surface clearance.
+9. Confirm each pad remains centered and produces at least 0.375 in installed bare-surface clearance.
 10. Orient each tie head away from the operator's hand, coax route, and RF elements.
 11. Trim tie tails flush only after all geometry passes.
 
@@ -730,7 +734,7 @@ Do not bend, notch, offset, or shorten a reflector to create clearance.
 - [ ] Boom-center line 45 degrees +/- 5 degrees from both element planes.
 - [ ] J1 and J2 use 8 in minimum UV-resistant ties.
 - [ ] One approved separator pad installed at each retention station.
-- [ ] Installed boom gap at least 0.250 in at J1 and J2.
+- [ ] Installed boom gap at least 0.375 in at J1 and J2.
 - [ ] No axial slip under hand load.
 - [ ] No relative rotation under gentle hand load.
 - [ ] No crushed or indented PVC.
@@ -872,7 +876,7 @@ Stop O6 for any of the following:
 - A driven gap that will not stay within tolerance.
 - A feed-node hole that tears, cracks, or approaches a tape edge unsafely.
 - Any feed screw capable of touching the opposite driven half.
-- A separator that compresses below 0.250 in or slips uncontrollably.
+- A separator that compresses below 0.375 in or slips uncontrollably.
 - Relative boom rotation or axial slip after final retention.
 - Less than the required boom, support, hardware, or reflector clearance.
 - Unexpected electrical continuity.
@@ -885,7 +889,7 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. B inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. C inputs are present.
 - [ ] Material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Both booms are 30.000 in and correctly labeled.
@@ -932,7 +936,8 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | Revision | Date | Description |
 |---|---|---|
 | Rev. A | 2026-08-24 | Initial fabrication and assembly procedure. |
-| **Rev. B** | **2026-09-21** | Retained the verified mechanical sequence; removed rotating/folding joint instructions, six-inch dual-boom ties, PVC feed-screw drilling, support trimming, and O7 feed work; added complete coupon testing, tape-only node drilling, fixed removable boom retention, separator pads, tighter tolerances, clearance checks, DC isolation tests, as-built records, and explicit stop conditions. |
+| Rev. B | 2026-09-21 | Retained the verified mechanical sequence; removed rotating/folding joint instructions, six-inch dual-boom ties, PVC feed-screw drilling, support trimming, and O7 feed work; added complete coupon testing, tape-only node drilling, fixed removable boom retention, separator pads, tighter tolerances, clearance checks, DC isolation tests, as-built records, and explicit stop conditions. |
+| **Rev. C** | **2026-10-12** | Raised the minimum installed separator-pad thickness and bare-PVC boom gap to 0.375 in; retained the 45 degrees +/- 5 degrees orientation and all RF element dimensions. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -940,13 +945,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. B produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. C produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. B Fabrication and Assembly Procedure**
+**End of O6 Rev. C Fabrication and Assembly Procedure**
 
 
 ---

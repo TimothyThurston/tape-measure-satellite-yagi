@@ -8,15 +8,15 @@
 **Repository path:** `docs/design.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. B  
-**Date:** 2026-09-21  
+**Revision:** Rev. C  
+**Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication design baseline  
 
 ---
 
 ## 1. Purpose
 
-This document defines the Revision B architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
+This document defines the Revision C architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
 
 Revision B retains the verified W6NBC-derived element lengths and within-band spacings from Rev. A. It replaces the outdated joint, folding, touching-boom, coax-coil, polarization, and fabrication assumptions identified during the September 2026 construction-readiness review.
 
@@ -24,7 +24,7 @@ This document controls design intent. O4 controls materials and sourcing. O5 con
 
 ---
 
-## 2. Revision B audit disposition
+## 2. Revision history and audit disposition
 
 ### 2.1 Verified without RF-geometry change
 
@@ -46,7 +46,7 @@ This document controls design intent. O4 controls materials and sourcing. O5 con
 |---|---|
 | Booms described as mechanically joined and rotatable | Removed. The booms are retained in one fixed operating orientation using removable ties and separator pads. |
 | Folded storage configuration | Removed. The booms are separated for storage by cutting and replacing the retention ties. |
-| Touching PVC booms | Removed. Installed bare-surface clearance is at least 0.250 in. |
+| Touching PVC booms | Removed in Rev. B. Installed bare-surface clearance was at least 0.250 in; Rev. C raises it to 0.375 in. |
 | Separate joint or pivot assumptions | Removed. No hinge, tee, crossbar, pivot, or dedicated joint mechanism is used. |
 | Tight six-turn and four-turn RG-58 boom coils | Removed. Band-appropriate snap-on ferrites are the baseline. |
 | Mixed rear and front datum conventions | FRONT is now the primary construction datum; rear values are cross-checks. Physical element locations are unchanged. |
@@ -55,6 +55,10 @@ This document controls design intent. O4 controls materials and sourcing. O5 con
 | Hairpin defined mainly by wire length | Replaced by a measurable starting geometry plus tuning record requirements. |
 | Blanket no-short check for driven halves | Corrected. The completed 2 m hairpin intentionally creates DC continuity across its feed nodes. |
 | Incomplete feedpoint mechanical interface | Added controlled node assignments, coupon requirement, fastener stack interface, and clearance rules. |
+
+### 2.3 Revision C boom-clearance correction
+
+The installed bare-PVC gap and separator-pad minimum thickness increase from 0.250 in to **0.375 in**. The 45 degrees +/- 5 degrees boom-center orientation is retained. With nominal 0.840 in PVC outside diameter and a centered 0.375 in support, the limiting 40-degree cross-section has approximately `(0.840 + 0.375) sin(40 degrees) - 0.840/2 - 0.375/2 = 0.1735 in` of support-to-other-boom clearance, above the required 0.125 in. At the former 0.250 in gap, the same calculation gives only 0.0931 in. Actual material dimensions and all component clearances must still be measured after assembly.
 
 ---
 
@@ -84,7 +88,7 @@ The reference frequencies are geometry sanity-check points, not guaranteed reson
 
 ### 3.3 Performance claims
 
-Before measurement, Revision B claims only a controlled prototype geometry. It does not claim a measured value for:
+Before measurement, Revision C claims only a controlled prototype geometry. It does not claim a measured value for:
 
 - Resonant frequency.
 - Feedpoint impedance.
@@ -121,7 +125,7 @@ The operator adjusts polarization by rolling the complete antenna about the shar
 
 ### 5.1 Primary datum
 
-Revision B uses one construction datum for both booms:
+Revision C uses one construction datum for both booms:
 
 - **FRONT = X 0.000 in** at the director end and intended direction of gain.
 - **REAR = X 30.000 in** at the operator/handle end.
@@ -290,7 +294,7 @@ The 70 cm tape steel passes through the validated boom holes without a separate 
 In the operating assembly:
 
 - The line between boom centers is 45 degrees +/- 5 degrees from either element plane.
-- Bare PVC surface-to-surface separation is at least 0.250 in.
+- Bare PVC surface-to-surface separation is at least 0.375 in.
 - Clearance from either boom to components carried by the other boom is at least 0.125 in.
 - The 2M-R and 70-R stations retain at least 0.0625 in measured physical edge clearance.
 
@@ -303,11 +307,11 @@ The 45-degree cross-section and separator gap provide clearance for the 2 m supp
 | J1 | 4.500 in +/- 0.125 in | One nonconductive separator pad and one 8 in minimum UV-resistant tie |
 | J2 | 22.500 in +/- 0.125 in | One nonconductive separator pad and one 8 in minimum UV-resistant tie |
 
-Each pad is approximately 1.000 x 0.500 in with at least 0.250 in installed thickness. No retention holes are drilled in either boom.
+Each pad is approximately 1.000 x 0.500 in with at least 0.375 in installed thickness. No retention holes are drilled in either boom.
 
-The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision B prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
+The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision C prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
 
-There is no separate boom-joint mechanism in Revision B.
+There is no separate boom-joint mechanism in Revision C.
 
 The booms do not rotate relative to one another while retained. Cut and replace the ties to separate or reassemble the antenna.
 
@@ -382,7 +386,7 @@ The 70 cm coax center and braid connect directly to the two isolated driven halv
 
 ## 14. Common-mode suppression and cable routing
 
-Revision B deletes the tight RG-58 coils around the PVC booms.
+Revision C retains the removal of tight RG-58 coils around the PVC booms.
 
 | Feed | Initial suppression baseline | Validation |
 |---|---|---|
@@ -408,7 +412,7 @@ Ferrite count and position remain subject to O8 measurement. Low SWR alone does 
 
 ## 15. Fabrication tolerances
 
-O5 Rev. B controls the following targets:
+O5 Rev. C controls the following targets:
 
 | Feature | Tolerance or requirement |
 |---|---:|
@@ -420,7 +424,7 @@ O5 Rev. B controls the following targets:
 | 70 cm station from FRONT | +/- 0.03125 in |
 | Driven steel-tip gap | 0.250 in +/- 0.0156 in |
 | Element-plane angle | 90 degrees +/- 2 degrees |
-| Installed bare-surface boom gap | 0.250 in minimum |
+| Installed bare-surface boom gap | 0.375 in minimum |
 | 2M-R to 70-R center separation | 0.500 in +/- 0.03125 in |
 | 2M-R to 70-R physical edge clearance | 0.0625 in minimum |
 
@@ -514,7 +518,7 @@ Maintain three distinct configurations:
 
 ### 20.1 As-designed
 
-The controlled Rev. B dimensions and interfaces in O3 through O7 before fabrication.
+The controlled Rev. C dimensions and interfaces in O3 through O7 before fabrication.
 
 ### 20.2 As-built
 
@@ -551,7 +555,7 @@ Failure of a hold point requires a documented deviation or design revision befor
 
 - [x] Project name is consistently **Tape Measure Satellite Yagi**.
 - [x] Project ID is TM-YAGI-01.
-- [x] Revision is Rev. B.
+- [x] Revision is Rev. C.
 - [x] Two separate 30.000 in booms are defined.
 - [x] No separate boom-joint mechanism is included.
 - [x] Front/rear and left/right conventions are defined.
@@ -563,8 +567,8 @@ Failure of a hold point requires a documented deviation or design revision befor
 - [x] Feed nodes and matching topology are defined.
 - [x] Tight coax coils are removed.
 - [x] Band-appropriate ferrite baselines are defined.
-- [x] Mechanical retention and clearances agree with O4 and O5 Rev. B.
-- [x] Fabrication tolerances agree with O5 Rev. B.
+- [x] Mechanical retention and clearances agree with O4 and O5 Rev. C.
+- [x] Fabrication tolerances agree with O5 Rev. C.
 - [x] Correct pre- and post-hairpin DC expectations are defined.
 - [x] RF and station-level validation requirements are defined.
 - [ ] Actual material measurements and coupons have passed.
@@ -580,7 +584,8 @@ The final three open items are physical build and test gates, not missing design
 | Revision | Date | Description |
 |---|---|---|
 | Rev. A | 2026-08-24 | Initial formal design and dimensional baseline. |
-| **Rev. B** | **2026-09-21** | Retained verified RF geometry; standardized the FRONT datum; removed rotating/folding joint and touching-boom assumptions; corrected polarization language; replaced coax coils with ferrites; aligned feedpoint, tolerance, clearance, DC-test, station, and configuration controls with the Rev. B BOM and cut sheet. |
+| Rev. B | 2026-09-21 | Retained verified RF geometry; standardized the FRONT datum; removed rotating/folding joint and touching-boom assumptions; corrected polarization language; replaced coax coils with ferrites; aligned feedpoint, tolerance, clearance, DC-test, station, and configuration controls with the Rev. B BOM and cut sheet. |
+| **Rev. C** | **2026-10-12** | Raised the installed boom gap and separator-pad minimum thickness to 0.375 in after checking the 40-degree support-clearance tolerance limit; retained element geometry and the 45 degrees +/- 5 degrees orientation. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -590,8 +595,8 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 | Document | Function |
 |---|---|
-| O4 Rev. B - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
-| O5 Rev. B - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
+| O4 Rev. C - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
+| O5 Rev. C - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
 | O6 - Fabrication and Assembly | Controlled build sequence |
 | O7 - Feed and Matching System | Coax preparation, node construction, hairpin setup, ferrites, and strain relief |
 | O8 - Initial RF Testing and Tuning | Analyzer calibration, tuning, acceptance, and coax-movement test |
@@ -601,12 +606,12 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 25. Engineering intent
 
-Revision B provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
+Revision C provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
 
 The retained RF geometry is a credible published starting point, not proof of final performance. Engineering completion requires the as-built record, calibrated impedance and SWR measurements, common-mode sensitivity testing, directional field evidence, and station-level desensitization testing.
 
-Baseline RF geometry is derived from the project design set based on John Portune, W6NBC, QST, January 2012, pages 37-39. Revision B boom retention, feed hardware, ferrite suppression, tolerances, clearance controls, and verification gates are TM-YAGI-01 project-specific engineering changes.
+Baseline RF geometry is derived from the project design set based on John Portune, W6NBC, QST, January 2012, pages 37-39. Revision B and C boom retention, feed hardware, ferrite suppression, tolerances, clearance controls, and verification gates are TM-YAGI-01 project-specific engineering changes.
 
 ---
 
-**End of O3 Rev. B Antenna Design and Dimensions**
+**End of O3 Rev. C Antenna Design and Dimensions**
