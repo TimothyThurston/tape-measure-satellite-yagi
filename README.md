@@ -252,8 +252,9 @@ The current controlled files are:
 | M-09 | [PDF](drawings/M-09-close-reflector-clearance.pdf) · [editable SVG](drawings/M-09-close-reflector-clearance.svg) | Close-reflector station separation and physical edge-clearance inspection |
 | E-01 | [PDF](drawings/E-01-electrical-feed-schematic.pdf) · [editable SVG](drawings/E-01-electrical-feed-schematic.svg) | Independent 2 m hairpin and 70 cm direct feeds, BNC interfaces, and expected DC checks |
 | E-02 | [PDF](drawings/E-02-2m-hairpin-detail.pdf) · [editable SVG](drawings/E-02-2m-hairpin-detail.svg) | 2 m hairpin starting blank, U geometry, orientation, and O7/O8 measurement records |
+| E-03 | [PDF](drawings/E-03-coax-and-ferrite-routing.pdf) · [editable SVG](drawings/E-03-coax-and-ferrite-routing.svg) | Independent rearward coax paths, ferrite groups, O7 feed-entry gate, and routing checks |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 and E-01 through E-02 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 and E-01 through E-03 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 
