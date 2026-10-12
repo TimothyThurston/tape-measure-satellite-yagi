@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
+<title>M-05 Passive Element Mounting - Tape Measure Satellite Yagi</title>
+<desc>Rev A schematic mounting details derived from O3-O6 Rev L. Dimensions and actual-material coupon acceptance control.</desc>
+<rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
+<line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
+<text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">M-05  PASSIVE ELEMENT MOUNTING</text>
+<text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3-O6 REV L</text>
+<rect x="42.000" y="148.000" width="790.000" height="616.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A  |  2 m SUPPORTED PASSIVE</text>
+<text x="814.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">SUPPORT 1:2</text>
+<text x="60.000" y="214.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">2M-D1 / ST-1 AND 2M-R / ST-3</text>
+<text x="60.000" y="238.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#657582">TAPE TRUNCATED; FINISHED CUT LENGTHS ON M-04.</text>
+<line x1="137.000" y1="276.000" x2="737.000" y2="276.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="137.000" y1="269.000" x2="137.000" y2="283.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="737.000" y1="269.000" x2="737.000" y2="283.000" stroke="#A7662F" stroke-width="1"/>
+<text x="437.000" y="268.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#A7662F">12.000 +/- 0.0625 SUPPORT</text>
+<line x1="137.000" y1="283.000" x2="137.000" y2="372.000" stroke="#D6DEE4" stroke-width="1"/>
+<line x1="737.000" y1="283.000" x2="737.000" y2="372.000" stroke="#D6DEE4" stroke-width="1"/>
+<rect x="416.000" y="322.000" width="42.000" height="125.000" stroke="#657582" fill="#E8EDF0" stroke-width="1.8"/>
+<line x1="437.000" y1="318.000" x2="437.000" y2="451.000" stroke="#657582" stroke-width="1" stroke-dasharray="8,4,2,4"/>
+<rect x="78.000" y="377.000" width="718.000" height="9.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<rect x="137.000" y="389.000" width="600.000" height="15.000" stroke="#A7662F" fill="#F5E7D9" stroke-width="1.5"/>
+<line x1="437.000" y1="386.000" x2="437.000" y2="408.000" stroke="#A7662F" stroke-width="2"/>
+<rect x="407.000" y="369.000" width="60.000" height="42.000" stroke="#A7662F" fill="none" stroke-width="1.5" stroke-dasharray="5,3"/>
+<rect x="169.500" y="371.000" width="10.000" height="38.000" stroke="#A7662F" fill="none" stroke-width="1.4"/>
+<rect x="694.500" y="371.000" width="10.000" height="38.000" stroke="#A7662F" fill="none" stroke-width="1.4"/>
+<line x1="137.000" y1="426.000" x2="174.500" y2="426.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="137.000" y1="419.000" x2="137.000" y2="433.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="174.500" y1="419.000" x2="174.500" y2="433.000" stroke="#A7662F" stroke-width="1"/>
+<text x="155.750" y="418.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#A7662F">~0.750</text>
+<line x1="699.500" y1="426.000" x2="737.000" y2="426.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="699.500" y1="419.000" x2="699.500" y2="433.000" stroke="#A7662F" stroke-width="1"/>
+<line x1="737.000" y1="419.000" x2="737.000" y2="433.000" stroke="#A7662F" stroke-width="1"/>
+<text x="718.250" y="418.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#A7662F">~0.750</text>
+<text x="485.000" y="431.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="bold" text-anchor="start" fill="#A7662F">1 TIE HOLDS PAIR AT BOTH EXITS</text>
+<text x="60.000" y="464.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="bold" text-anchor="start" fill="#A7662F">2 SMALL SUPPORT-END TIES, APPROX. 0.750 INBOARD FROM EACH TIP.</text>
+<text x="60.000" y="486.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#192A37">ALIGN THE MARKED ACTUAL SUPPORT MIDPOINT TO THE BOOM CENTERLINE.</text>
+<text x="60.000" y="508.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#192A37">TAPE + SUPPORT STRAIGHT THROUGH 7/16 THRU HOLE; NO FORCED FIT.</text>
+<line x1="58.000" y1="528.000" x2="816.000" y2="528.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="58.000" y="553.000" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#192A37">DETAIL A  |  COUPON HOLE FIT (SCHEMATIC / NTS)</text>
+<circle cx="194.000" cy="654.000" r="60.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2"/>
+<circle cx="194.000" cy="660.000" r="51.000" stroke="#A7662F" fill="#F5E7D9" stroke-width="1.7"/>
+<rect x="166.000" y="601.000" width="56.000" height="5.000" stroke="#192A37" fill="#192A37" stroke-width="0.5"/>
+<text x="294.000" y="604.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#192A37">7/16 THRU PVC HOLE</text>
+<text x="294.000" y="629.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#A7662F">NOM. 3/8 NONCONDUCTIVE SUPPORT</text>
+<text x="294.000" y="654.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">ACTUAL TAPE STEEL ALONGSIDE</text>
+<text x="294.000" y="679.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">COUPON MUST PASS WITHOUT DISTORTION</text>
+<text x="294.000" y="704.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">NO METAL RETENTION NEAR BOOM</text>
+<text x="60.000" y="746.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#657582">FIT SKETCH DOES NOT SET THE TAPE CURVE OR MATERIAL CLEARANCE.</text>
+<rect x="850.000" y="148.000" width="808.000" height="616.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="866.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW B  |  70 cm TAPE-ONLY PASSIVE</text>
+<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">LOCAL VIEW NTS</text>
+<text x="868.000" y="214.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D3 / D2 / D1 / R</text>
+<text x="868.000" y="238.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#657582">NO LONGITUDINAL SUPPORT DOWEL.</text>
+<rect x="1233.000" y="322.000" width="42.000" height="125.000" stroke="#1F5B94" fill="#EAF1F7" stroke-width="1.8"/>
+<line x1="1254.000" y1="318.000" x2="1254.000" y2="451.000" stroke="#1F5B94" stroke-width="1" stroke-dasharray="8,4,2,4"/>
+<rect x="900.000" y="382.000" width="708.000" height="9.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<rect x="1224.000" y="370.000" width="60.000" height="36.000" stroke="#A7662F" fill="none" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="1296.000" y="430.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="bold" text-anchor="start" fill="#A7662F">1 TIE HOLDS TAPE AT BOTH EXITS</text>
+<text x="868.000" y="464.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="bold" text-anchor="start" fill="#1F5B94">TAPE ALONE THROUGH THE VALIDATED 7/16 THRU HOLE.</text>
+<text x="868.000" y="486.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#192A37">TIE GENTLY; NO FLATTENING, CREASING, OR TWISTING.</text>
+<text x="868.000" y="508.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#192A37">CHECK ELEMENT ID, PHYSICAL ORDER, AND PARALLEL AXES.</text>
+<line x1="866.000" y1="528.000" x2="1642.000" y2="528.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="866.000" y="553.000" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="bold" text-anchor="start" fill="#192A37">DETAIL B  |  COUPON HOLE FIT (SCHEMATIC / NTS)</text>
+<circle cx="1005.000" cy="654.000" r="60.000" stroke="#1F5B94" fill="#FFFFFF" stroke-width="2"/>
+<rect x="973.000" y="651.000" width="64.000" height="6.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<text x="1105.000" y="604.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">7/16 THRU PVC HOLE</text>
+<text x="1105.000" y="629.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">TAPE ONLY; NO DOWEL</text>
+<text x="1105.000" y="654.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">COUPON: NO UNCONTROLLED LOOSENESS</text>
+<text x="1105.000" y="679.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">NONCONDUCTIVE TIE PREVENTS SLIDING</text>
+<text x="1105.000" y="704.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">NO METAL FASTENERS OR ADHESIVE</text>
+<text x="868.000" y="746.000" font-family="Arial, Helvetica, sans-serif" font-size="10.3" font-weight="normal" text-anchor="start" fill="#657582">FIT SKETCH DOES NOT SET THE TAPE CURVE OR MATERIAL CLEARANCE.</text>
+<rect x="42.000" y="780.000" width="958.000" height="166.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="809.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">PASSIVE STATION KEY</text>
+<text x="984.000" y="809.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">X FROM FRONT  |  INCHES</text>
+<line x1="58.000" y1="820.000" x2="984.000" y2="820.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="60.000" y="842.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#192A37">2 m WITH SUPPORT</text>
+<text x="520.000" y="842.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">70 cm TAPE ONLY</text>
+<text x="60.000" y="864.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#192A37">2M-D1</text>
+<text x="215.000" y="864.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">2.000</text>
+<text x="320.000" y="864.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#A7662F">ST-1</text>
+<text x="60.000" y="889.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#192A37">2M-R</text>
+<text x="215.000" y="889.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">21.500</text>
+<text x="320.000" y="889.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#A7662F">ST-3</text>
+<text x="520.000" y="864.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D3</text>
+<text x="682.000" y="864.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#1F5B94">3.500</text>
+<text x="520.000" y="885.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D2</text>
+<text x="682.000" y="885.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#1F5B94">9.500</text>
+<text x="520.000" y="906.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D1</text>
+<text x="682.000" y="906.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#1F5B94">15.500</text>
+<text x="520.000" y="927.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#1F5B94">70-R</text>
+<text x="682.000" y="927.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#1F5B94">21.000</text>
+<text x="60.000" y="930.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">DRIVEN STATIONS / ST-2 ARE COVERED ON M-06.</text>
+<rect x="1018.000" y="780.000" width="640.000" height="166.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1034.000" y="809.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">RETENTION ACCEPTANCE</text>
+<text x="1640.000" y="809.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">O5 / O6</text>
+<text x="1036.000" y="833.000" font-family="Arial, Helvetica, sans-serif" font-size="10.1" font-weight="normal" text-anchor="start" fill="#657582">L/R = OUTER-TIP PROJECTIONS FROM OWN BOOM CENTERLINE.</text>
+<text x="1036.000" y="852.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#192A37">1. DRY-FIT FIRST; APPROVE ACTUAL-MATERIAL COUPON.</text>
+<text x="1036.000" y="871.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="bold" text-anchor="start" fill="#192A37">2. 2 m CENTERING OFFSET |L-R| / 2 &lt;= 0.0625.</text>
+<text x="1036.000" y="890.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="bold" text-anchor="start" fill="#192A37">3. 70 cm CENTERING OFFSET |L-R| / 2 &lt;= 0.03125.</text>
+<text x="1036.000" y="909.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#192A37">4. TIGHTEN ONLY ENOUGH TO STOP LATERAL SLIDING.</text>
+<text x="1036.000" y="928.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="bold" text-anchor="start" fill="#192A37">5. IF FIT OR RETENTION FAILS, STOP; REVISE O4-O6.</text>
+<line x1="30.000" y1="960.000" x2="1670.000" y2="960.000" stroke="#192A37" stroke-width="2"/>
+<text x="48.000" y="982.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">GENERAL NOTES</text>
+<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">1. ALL DIMENSIONS IN INCHES. FIT DETAILS SCHEMATIC; COUPON APPROVAL CONTROLS.</text>
+<text x="48.000" y="1023.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2. USE SMALL APPROX. 4 in NONCONDUCTIVE TIES; DO NOT CRUSH TAPE, SUPPORT, OR PVC.</text>
+<text x="48.000" y="1042.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">3. DRIVEN-ELEMENT MOUNTS AND FEED-NODE HARDWARE ARE ON M-06 / M-07.</text>
+<line x1="905.000" y1="960.000" x2="905.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1178.000" y1="960.000" x2="1178.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1398.000" y1="960.000" x2="1398.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<text x="922.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SOURCE BASELINE</text>
+<text x="922.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">O3/O4/O5/O6 REV L</text>
+<text x="922.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">COMMIT 186c773</text>
+<text x="1195.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SCALE AT 100% PRINT</text>
+<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A SUPPORT 1:2</text>
+<text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">OTHER DETAILS NTS</text>
+<text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
+<text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET M-05</text>
+</svg>

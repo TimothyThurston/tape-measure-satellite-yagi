@@ -245,8 +245,9 @@ The current controlled files are:
 | M-02 | [PDF](drawings/M-02-2m-boom-layout.pdf) · [editable SVG](drawings/M-02-2m-boom-layout.svg) | 2 m boom stations, hole layout, datums, and drilling checks |
 | M-03 | [PDF](drawings/M-03-70cm-boom-layout.pdf) · [editable SVG](drawings/M-03-70cm-boom-layout.svg) | 70 cm boom stations, hole layout, datums, and drilling checks |
 | M-04 | [PDF](drawings/M-04-parts-cut-schedule.pdf) · [editable SVG](drawings/M-04-parts-cut-schedule.svg) | Finished parts, cut tolerances, and tape-steel stock allowance |
+| M-05 | [PDF](drawings/M-05-passive-element-mounting.pdf) · [editable SVG](drawings/M-05-passive-element-mounting.svg) | Supported 2 m and tape-only 70 cm passive mounting and retention checks |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-04 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-05 Rev. A, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 
