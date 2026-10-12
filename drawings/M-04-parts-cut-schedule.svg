@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
+<title>M-04 Parts and Cut Schedule - Tape Measure Satellite Yagi</title>
+<desc>Rev A installed-parts cut schedule and steel-stock allocation derived from O3-O6 Rev L. Dimensions and tolerances control.</desc>
+<rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
+<line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
+<text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">M-04  PARTS AND CUT SCHEDULE</text>
+<text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3-O6 REV L</text>
+<rect x="42.000" y="148.000" width="1000.000" height="798.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">TAPE-STEEL FINISHED CUTS</text>
+<text x="1024.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">10 PIECES  |  INCHES</text>
+<text x="60.000" y="203.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">APPROX. 3/8 in WIDE CONDUCTIVE TAPE STEEL</text>
+<line x1="58.000" y1="214.000" x2="1026.000" y2="214.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="62.000" y="237.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">CUT ID</text>
+<text x="205.000" y="237.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">BAND</text>
+<text x="292.000" y="237.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">ELEMENT</text>
+<text x="590.000" y="237.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">FINISHED LENGTH</text>
+<text x="762.000" y="237.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">CUT TOL.</text>
+<text x="987.000" y="237.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#657582">QTY</text>
+<line x1="58.000" y1="279.000" x2="1026.000" y2="279.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="266.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">2M-R</text>
+<text x="205.000" y="266.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">2 m</text>
+<text x="292.000" y="266.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Reflector</text>
+<text x="590.000" y="266.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">41.400</text>
+<text x="762.000" y="266.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.0625</text>
+<text x="987.000" y="266.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="321.000" x2="1026.000" y2="321.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="308.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">2M-DE-L</text>
+<text x="205.000" y="308.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">2 m</text>
+<text x="292.000" y="308.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Driven half - left</text>
+<text x="590.000" y="308.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">18.575</text>
+<text x="762.000" y="308.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="987.000" y="308.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="363.000" x2="1026.000" y2="363.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">2M-DE-R</text>
+<text x="205.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">2 m</text>
+<text x="292.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Driven half - right</text>
+<text x="590.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">18.575</text>
+<text x="762.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="987.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="405.000" x2="1026.000" y2="405.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="392.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">2M-D1</text>
+<text x="205.000" y="392.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">2 m</text>
+<text x="292.000" y="392.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Director 1</text>
+<text x="590.000" y="392.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">35.400</text>
+<text x="762.000" y="392.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.0625</text>
+<text x="987.000" y="392.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="447.000" x2="1026.000" y2="447.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="434.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70-R</text>
+<text x="205.000" y="434.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1F5B94">70 cm</text>
+<text x="292.000" y="434.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Reflector</text>
+<text x="590.000" y="434.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">12.900</text>
+<text x="762.000" y="434.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="987.000" y="434.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="489.000" x2="1026.000" y2="489.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="476.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70-DE-L</text>
+<text x="205.000" y="476.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1F5B94">70 cm</text>
+<text x="292.000" y="476.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Driven half - left</text>
+<text x="590.000" y="476.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">6.175</text>
+<text x="762.000" y="476.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.0156</text>
+<text x="987.000" y="476.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="531.000" x2="1026.000" y2="531.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="518.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70-DE-R</text>
+<text x="205.000" y="518.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1F5B94">70 cm</text>
+<text x="292.000" y="518.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Driven half - right</text>
+<text x="590.000" y="518.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">6.175</text>
+<text x="762.000" y="518.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.0156</text>
+<text x="987.000" y="518.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="573.000" x2="1026.000" y2="573.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="560.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D1</text>
+<text x="205.000" y="560.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1F5B94">70 cm</text>
+<text x="292.000" y="560.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Director 1</text>
+<text x="590.000" y="560.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">11.900</text>
+<text x="762.000" y="560.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="987.000" y="560.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="615.000" x2="1026.000" y2="615.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="602.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D2</text>
+<text x="205.000" y="602.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1F5B94">70 cm</text>
+<text x="292.000" y="602.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Director 2</text>
+<text x="590.000" y="602.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">11.900</text>
+<text x="762.000" y="602.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="987.000" y="602.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="657.000" x2="1026.000" y2="657.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="644.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70-D3</text>
+<text x="205.000" y="644.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#1F5B94">70 cm</text>
+<text x="292.000" y="644.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">Director 3</text>
+<text x="590.000" y="644.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">11.700</text>
+<text x="762.000" y="644.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="start" fill="#192A37">+/- 0.03125</text>
+<text x="987.000" y="644.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<line x1="58.000" y1="694.000" x2="1026.000" y2="694.000" stroke="#192A37" stroke-width="1.1"/>
+<text x="62.000" y="718.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">2 m NET LENGTH</text>
+<text x="987.000" y="718.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="end" fill="#192A37">113.950</text>
+<text x="62.000" y="746.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">70 cm NET LENGTH</text>
+<text x="987.000" y="746.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="end" fill="#1F5B94">60.750</text>
+<line x1="58.000" y1="757.000" x2="1026.000" y2="757.000" stroke="#D6DEE4" stroke-width="0.8"/>
+<text x="62.000" y="784.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="start" fill="#192A37">INSTALLED NET STEEL</text>
+<text x="987.000" y="784.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#192A37">174.700 in</text>
+<text x="60.000" y="819.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="normal" text-anchor="start" fill="#657582">Each row is one finished cut; dimensions do not include the driven-element gap.</text>
+<text x="60.000" y="842.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="normal" text-anchor="start" fill="#192A37">Driven half mismatch max: 2 m 0.03125 in; 70 cm 0.0156 in.</text>
+<text x="60.000" y="865.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="normal" text-anchor="start" fill="#192A37">Driven tip gaps and installed tip-to-tip spans are controlled on M-06.</text>
+<text x="60.000" y="888.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="normal" text-anchor="start" fill="#192A37">Measure after deburring and label every piece immediately.</text>
+<text x="60.000" y="918.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="normal" text-anchor="start" fill="#657582">Installed pieces shown; procurement stock and spare quantities follow O4.</text>
+<rect x="1058.000" y="148.000" width="600.000" height="474.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1074.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">NON-ELEMENT FINISHED PARTS</text>
+<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">INSTALLED QTY</text>
+<line x1="1074.000" y1="194.000" x2="1642.000" y2="194.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="1080.000" y="216.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">CUT ID</text>
+<text x="1200.000" y="216.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="start" fill="#657582">FINISHED SIZE</text>
+<text x="1624.000" y="216.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#657582">QTY</text>
+<text x="1080.000" y="248.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">PVC-2M</text>
+<text x="1200.000" y="248.000" font-family="Arial, Helvetica, sans-serif" font-size="11.8" font-weight="normal" text-anchor="start" fill="#192A37">30.000 +/- 0.0625</text>
+<text x="1624.000" y="248.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<text x="1200.000" y="267.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">1/2 Schedule 40 PVC | 2 m boom</text>
+<line x1="1074.000" y1="278.000" x2="1642.000" y2="278.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="1080.000" y="299.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">PVC-70</text>
+<text x="1200.000" y="299.000" font-family="Arial, Helvetica, sans-serif" font-size="11.8" font-weight="normal" text-anchor="start" fill="#192A37">30.000 +/- 0.0625</text>
+<text x="1624.000" y="299.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<text x="1200.000" y="318.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">1/2 Schedule 40 PVC | 70 cm boom</text>
+<line x1="1074.000" y1="329.000" x2="1642.000" y2="329.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="1080.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">ST-1</text>
+<text x="1200.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="11.8" font-weight="normal" text-anchor="start" fill="#192A37">12.000 +/- 0.0625</text>
+<text x="1624.000" y="350.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<text x="1200.000" y="369.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">nom. 3/8 dowel / fiberglass | 2M-D1 support</text>
+<line x1="1074.000" y1="380.000" x2="1642.000" y2="380.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="1080.000" y="401.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">ST-2</text>
+<text x="1200.000" y="401.000" font-family="Arial, Helvetica, sans-serif" font-size="11.8" font-weight="normal" text-anchor="start" fill="#192A37">12.000 +/- 0.0625</text>
+<text x="1624.000" y="401.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<text x="1200.000" y="420.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">nom. 3/8 dowel / fiberglass | 2M-DE support</text>
+<line x1="1074.000" y1="431.000" x2="1642.000" y2="431.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="1080.000" y="452.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">ST-3</text>
+<text x="1200.000" y="452.000" font-family="Arial, Helvetica, sans-serif" font-size="11.8" font-weight="normal" text-anchor="start" fill="#192A37">12.000 +/- 0.0625</text>
+<text x="1624.000" y="452.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<text x="1200.000" y="471.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">nom. 3/8 dowel / fiberglass | 2M-R support</text>
+<line x1="1074.000" y1="482.000" x2="1642.000" y2="482.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="1080.000" y="503.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#A7662F">PAD-1</text>
+<text x="1200.000" y="503.000" font-family="Arial, Helvetica, sans-serif" font-size="11.8" font-weight="normal" text-anchor="start" fill="#192A37">~1.000 x 0.500; t &gt;=0.375</text>
+<text x="1624.000" y="503.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<text x="1200.000" y="522.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">nylon/acetal/HDPE | J1 separator</text>
+<line x1="1074.000" y1="533.000" x2="1642.000" y2="533.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="1080.000" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#A7662F">PAD-2</text>
+<text x="1200.000" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="11.8" font-weight="normal" text-anchor="start" fill="#192A37">~1.000 x 0.500; t &gt;=0.375</text>
+<text x="1624.000" y="554.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#192A37">1</text>
+<text x="1200.000" y="573.000" font-family="Arial, Helvetica, sans-serif" font-size="10.4" font-weight="normal" text-anchor="start" fill="#657582">nylon/acetal/HDPE | J2 separator</text>
+<line x1="1074.000" y1="584.000" x2="1642.000" y2="584.000" stroke="#D6DEE4" stroke-width="0.7"/>
+<text x="1078.000" y="611.000" font-family="Arial, Helvetica, sans-serif" font-size="10.7" font-weight="bold" text-anchor="start" fill="#192A37">PVC pair finished-length difference &lt;= 0.03125 in.</text>
+<rect x="1058.000" y="638.000" width="600.000" height="308.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
+<text x="1074.000" y="668.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">STEEL STOCK ALLOWANCE</text>
+<text x="1640.000" y="668.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">MINIMUM USABLE</text>
+<text x="1078.000" y="694.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">20 ft = 240.000 in</text>
+<rect x="1080.000" y="713.000" width="401.810" height="29.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.6"/>
+<rect x="1481.810" y="713.000" width="95.220" height="29.000" stroke="#A7662F" fill="#A7662F" stroke-width="0.6"/>
+<rect x="1577.030" y="713.000" width="54.970" height="29.000" stroke="#657582" fill="#D6DEE4" stroke-width="0.6"/>
+<rect x="1080.000" y="713.000" width="552.000" height="29.000" stroke="#192A37" fill="none" stroke-width="1.2"/>
+<text x="1280.905" y="733.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF">INSTALLED</text>
+<text x="1529.420" y="733.000" font-family="Arial, Helvetica, sans-serif" font-size="9.5" font-weight="bold" text-anchor="middle" fill="#FFFFFF">RESERVE</text>
+<rect x="1080.000" y="765.000" width="13.000" height="13.000" stroke="#1F5B94" fill="#1F5B94" stroke-width="0.5"/>
+<text x="1105.000" y="776.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">Installed finished tape pieces</text>
+<text x="1628.000" y="776.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="end" fill="#192A37">174.700 in</text>
+<rect x="1080.000" y="793.000" width="13.000" height="13.000" stroke="#A7662F" fill="#A7662F" stroke-width="0.5"/>
+<text x="1105.000" y="804.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">Continuous reflector recut reserve</text>
+<text x="1628.000" y="804.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="end" fill="#192A37">41.400 in</text>
+<rect x="1080.000" y="821.000" width="13.000" height="13.000" stroke="#657582" fill="#657582" stroke-width="0.5"/>
+<text x="1105.000" y="832.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#192A37">Coupon / cleanup / kerf / damage allowance</text>
+<text x="1628.000" y="832.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="end" fill="#192A37">23.900 in</text>
+<line x1="1074.000" y1="850.000" x2="1642.000" y2="850.000" stroke="#D6DEE4" stroke-width="1"/>
+<text x="1078.000" y="866.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#192A37">Installed + reserve = 216.100 in.</text>
+<text x="1078.000" y="886.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">Keep one continuous 41.400 in section until cut inspection passes.</text>
+<text x="1078.000" y="906.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">23.900 in covers losses; obtain more stock if exceeded.</text>
+<text x="1078.000" y="928.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">PROPORTIONAL ALLOCATION ONLY; NOT A CUT ORDER.</text>
+<line x1="30.000" y1="960.000" x2="1670.000" y2="960.000" stroke="#192A37" stroke-width="2"/>
+<text x="48.000" y="982.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">GENERAL NOTES</text>
+<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">1. ALL DIMENSIONS IN INCHES; QUANTITIES ARE INSTALLED FINISHED PARTS.</text>
+<text x="48.000" y="1023.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2. PAD FOOTPRINTS APPROXIMATE; INSTALLED THICKNESS &gt;= 0.375 in.</text>
+<text x="48.000" y="1042.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">3. O7 HAIRPIN BLANK AND COAX CUTS ARE EXCLUDED FROM THIS O6 SCHEDULE.</text>
+<line x1="905.000" y1="960.000" x2="905.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1178.000" y1="960.000" x2="1178.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<line x1="1398.000" y1="960.000" x2="1398.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
+<text x="922.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SOURCE BASELINE</text>
+<text x="922.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">O3/O4/O5/O6 REV L</text>
+<text x="922.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">COMMIT 186c773</text>
+<text x="1195.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SCALE AT 100% PRINT</text>
+<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">TABLES NTS</text>
+<text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">STOCK BAR PROPORTIONAL</text>
+<text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
+<text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET M-04</text>
+</svg>
