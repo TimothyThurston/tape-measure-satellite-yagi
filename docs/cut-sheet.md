@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. K  
+**Revision:** Rev. L  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision K Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision L Tape Measure Satellite Yagi.
 
-It supersedes O5 Rev. J and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. K and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision K retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases; Revision I assigns coax and ferrite acceptance to O7 feed entry; Revision J sets an acceptance tolerance for the three 2 m support cuts; Revision K sets a limit for independent rear-station cross-checks.
+Revision L retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases; Revision I assigns coax and ferrite acceptance to O7 feed entry; Revision J sets an acceptance tolerance for the three 2 m support cuts; Revision K sets a limit for independent rear-station cross-checks; Revision L completes the mechanical as-built form.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. K sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. L sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -94,6 +94,10 @@ Each 2 m support now has a 12.000 in +/- 0.0625 in finished-length limit. Measur
 ### 2.11 Corrected in Rev. K
 
 Each independent rear-station cross-check must agree with the corresponding FRONT reading and actual finished boom length within 0.03125 in. This is a measurement-consistency limit; the FRONT station tolerances still control position. No station is moved.
+
+### 2.12 Corrected in Rev. L
+
+Section 15.1 now records every O6-required mechanical measurement in its dimensional and element-projection tables. The added fields cover support diameter, feed-hole diameter, separator material and thickness, J1/J2 positions, boom-center angles, cross-boom and reflector separation, and individual element centering. No acceptance limit or geometry changes.
 
 ---
 
@@ -538,7 +542,7 @@ Do not transmit until O8 calibrated impedance and SWR testing passes the require
 
 ### 15.1 O6 mechanical as-built record
 
-Enter the O6-cut finished lengths at Hold Point C, then complete the remaining mechanical measurements at the end of O6, before removing the retention ties or handing the antenna to O7. These are the measurements and checks available from the mechanical build.
+Enter the O6-cut finished lengths at Hold Point C. Complete both tables below at the end of O6, before removing retention ties or handing the antenna to O7. Use the O6 station layout log for every independent FRONT/REAR reading and the post-drilling RF-hole checks; record each boom's largest discrepancy and station ID here. A field marked "Record" still requires an actual measurement or observed value.
 
 | Item | Design value | As-built value | Pass / deviation |
 |---|---:|---:|---|
@@ -550,32 +554,66 @@ Enter the O6-cut finished lengths at Hold Point C, then complete the remaining m
 | ST-1 finished length | 12.000 in +/- 0.0625 in |  |  |
 | ST-2 finished length | 12.000 in +/- 0.0625 in |  |  |
 | ST-3 finished length | 12.000 in +/- 0.0625 in |  |  |
+| ST-1 actual diameter | 3/8 in nominal; coupon-approved fit |  |  |
+| ST-2 actual diameter | 3/8 in nominal; coupon-approved fit |  |  |
+| ST-3 actual diameter | 3/8 in nominal; coupon-approved fit |  |  |
 | Assembled REAR end-face offset with FRONT ends flush | 0.03125 in maximum |  |  |
 | PVC actual OD | Record |  |  |
 | Tape width / thickness | Record |  |  |
+| Tape curvature / coating / conductivity | Record; conductive steel required |  |  |
 | 2M-D1 length / station | 35.400 / 2.000 in |  |  |
 | 2M-DE-L length | 18.575 in |  |  |
 | 2M-DE-R length | 18.575 in |  |  |
+| 2M-DE half-length mismatch | 0.03125 in maximum |  |  |
 | 2M-DE gap / station | 0.250 / 13.500 in |  |  |
 | 2M-DE overall tip-to-tip span | 37.400 in +/- 0.0781 in |  |  |
 | 2M-DE actual OD; witness M/E left and right; calculated insertion depths | Record |  |  |
+| 2M-DE insertion-depth mismatch | 0.0156 in maximum |  |  |
 | 2M-R length / station | 41.400 / 21.500 in |  |  |
 | 70-D3 length / station | 11.700 / 3.500 in |  |  |
 | 70-D2 length / station | 11.900 / 9.500 in |  |  |
 | 70-D1 length / station | 11.900 / 15.500 in |  |  |
 | 70-DE-L length | 6.175 in |  |  |
 | 70-DE-R length | 6.175 in |  |  |
+| 70-DE half-length mismatch | 0.0156 in maximum |  |  |
 | 70-DE gap / station | 0.250 / 18.500 in |  |  |
 | 70-DE overall tip-to-tip span | 12.600 in +/- 0.0468 in |  |  |
 | 70-DE actual OD; witness M/E left and right; calculated insertion depths | Record |  |  |
+| 70-DE insertion-depth mismatch | 0.0156 in maximum |  |  |
 | 70-R length / station | 12.900 / 21.000 in |  |  |
 | 2 m node-center spacing | Record |  |  |
 | 70 cm node-center spacing | Record |  |  |
-| Installed boom gap at J1 / J2 | 0.375 in minimum |  |  |
+| 2M-DE-L feed-hole outboard offset / diameter | 0.250 in +/- 0.062 in from adjacent PVC surface; coupon-approved #6 clearance |  |  |
+| 2M-DE-R feed-hole outboard offset / diameter | 0.250 in +/- 0.062 in from adjacent PVC surface; coupon-approved #6 clearance |  |  |
+| 70-DE-L feed-hole outboard offset / diameter | 0.250 in +/- 0.062 in from adjacent PVC surface; coupon-approved #6 clearance |  |  |
+| 70-DE-R feed-hole outboard offset / diameter | 0.250 in +/- 0.062 in from adjacent PVC surface; coupon-approved #6 clearance |  |  |
+| J1 FRONT station on PVC-2M | 4.500 in +/- 0.125 in |  |  |
+| J1 FRONT station on PVC-70 | 4.500 in +/- 0.125 in |  |  |
+| J2 FRONT station on PVC-2M | 22.500 in +/- 0.125 in |  |  |
+| J2 FRONT station on PVC-70 | 22.500 in +/- 0.125 in |  |  |
+| PAD-1 material / installed thickness | Nylon, acetal, or HDPE; 0.375 in minimum |  |  |
+| PAD-2 material / installed thickness | Nylon, acetal, or HDPE; 0.375 in minimum |  |  |
+| Installed bare-PVC boom gap at J1 / J2 | 0.375 in minimum each |  |  |
 | Element-plane angle | 90 degrees +/- 2 degrees |  |  |
+| Boom-center-line angle from 2 m / 70 cm element planes | 45 degrees +/- 5 degrees from each plane |  |  |
+| Close-reflector center separation | 0.500 in +/- 0.03125 in |  |  |
 | Reflector physical edge clearance | 0.0625 in minimum |  |  |
+| Minimum observed cross-boom component clearance in O6 assembly | 0.125 in minimum |  |  |
 
-A missing or unresolved failed mechanical entry prevents O6 completion. Any out-of-tolerance result must be formally dispositioned before O6 handoff and evaluated before O8. Do not silently change a design value to match the fabricated part.
+For the element table, measure left and right outer-tip projections from the longitudinal centerline of that element's own boom, along its element axis. Record each actual FRONT station and confirm the element ID and operating plane. For a passive element, calculate centering offset as `abs(left projection - right projection) / 2`; require no more than 0.0625 in on 2 m or 0.03125 in on 70 cm. For a split driven element, record both projections; its half-length, insertion-depth difference, gap, and overall-span limits remain the acceptance checks.
+
+| RF element | Actual FRONT station (in) | Left tip projection from boom centerline (in) | Right tip projection from boom centerline (in) | Centering offset / pass / ID and plane verified |
+|---|---:|---:|---:|---|
+| 2M-D1 |  |  |  |  |
+| 2M-DE |  |  |  |  |
+| 2M-R |  |  |  |  |
+| 70-D3 |  |  |  |  |
+| 70-D2 |  |  |  |  |
+| 70-D1 |  |  |  |  |
+| 70-DE |  |  |  |  |
+| 70-R |  |  |  |  |
+
+A missing or unresolved failed entry in either O6 mechanical table prevents O6 completion. Any out-of-tolerance result must be formally dispositioned before O6 handoff and evaluated before O8. Do not silently change a design value to match the fabricated part.
 
 ### 15.2 O7 hairpin as-built addendum
 
@@ -621,6 +659,7 @@ Stop fabrication for any of the following:
 | **Rev. I** | **2026-10-12** | Moved coax and ferrite acceptance from O6 material entry to an explicit O7 pre-feed gate; dimensions and feed topology are unchanged. |
 | **Rev. J** | **2026-10-12** | Set each 2 m support finished-length acceptance at 12.000 in +/- 0.0625 in and required measured-midpoint marking; nominal RF geometry is unchanged. |
 | **Rev. K** | **2026-10-12** | Added a 0.03125 in independent rear-station discrepancy limit and as-built maximum records for both booms; nominal stations are unchanged. |
+| **Rev. L** | **2026-10-12** | Completed both mechanical as-built tables to capture all O6-required measurements without changing dimensions or tolerances. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -628,7 +667,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. K cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. L cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
@@ -636,4 +675,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O5 Rev. K Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. L Mechanical Drawing and Cut Sheet**

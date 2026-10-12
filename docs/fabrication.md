@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. K  
+**Revision:** Rev. L  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision K baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision L baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -116,6 +116,10 @@ Each 2 m support has a 12.000 in +/- 0.0625 in finished-length limit. O6 measure
 
 The independent rear-station check now passes only when FRONT and REAR measurements sum to the actual finished boom length within 0.03125 in at every element and retention station. The same limit applies to RF hole centers after drilling. FRONT position tolerances remain separate and controlling.
 
+### 2.12 Corrected in Revision L
+
+O5 Section 15.1 now has dedicated dimensional and element-projection tables for every measurement required at O6 handoff. O6 records the actual feed-hole sizes, component clearances, retention positions, and element centering in those tables. No fabrication geometry or acceptance limits change.
+
 ---
 
 ## 3. Controlling inputs
@@ -124,12 +128,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. K | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. K | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. K | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. K | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. L | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. L | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. L | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. L | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. K, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. L, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -244,10 +248,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. K |
-| O4 revision | Rev. K |
-| O5 revision | Rev. K |
-| O6 revision | Rev. K |
+| O3 revision | Rev. L |
+| O4 revision | Rev. L |
+| O5 revision | Rev. L |
+| O6 revision | Rev. L |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -709,6 +713,7 @@ For each of the four driven halves:
 After all four holes are complete:
 
 - Recheck both driven gaps from the visible witness marks, and record the final insertion depths and overall spans.
+- Measure and record each of the four finished feed-node hole offsets from its adjacent PVC surface and its diameter in O5 Section 15.1; verify the 0.250 in +/- 0.062 in offset and coupon-approved #6 clearance fit.
 - Install the final small station ties at 2M-DE and 70-DE. Add the two small tape/support ties near the ST-2 ends, approximately 0.750 in inboard from each support tip. Keep tie heads clear of the feed-node holes.
 - Recheck witness distances, calculated gaps, spans, centering, and DC isolation after tightening. If a half must move or come out again, cut and replace the affected locking ties and repeat this check.
 - Install the selected bare #6-32 screws, washers, and nuts temporarily for mechanical fit only.
@@ -836,7 +841,7 @@ O7 repeats cable-specific checks before and after the hairpin is connected.
 
 ## 31. Step 16 - Record the as-built mechanical configuration
 
-Complete O5 Section 15.1, the mechanical as-built table, before removing the retention ties or beginning O7. Leave O5 Section 15.2, the hairpin addendum, blank for O7.
+Complete both O5 Section 15.1 mechanical as-built tables, including the per-element projection and centering records, before removing the retention ties or beginning O7. Keep the O6 station layout log with them. Leave O5 Section 15.2, the hairpin addendum, blank for O7.
 
 At minimum record:
 
@@ -846,14 +851,14 @@ At minimum record:
 - Actual PVC OD.
 - Tape width and thickness.
 - Support diameter and finished lengths.
-- Separator material and installed thickness.
+- PAD-1 and PAD-2 material and installed thickness, individually.
 
 ### Every RF element
 
 - Actual finished length.
 - Actual FRONT-datum station.
-- Centering or left/right projection.
-- Element ID and orientation.
+- Left and right outer-tip projections from the element's own boom centerline; calculate passive-element centering offset from their difference.
+- Element ID and operating-plane orientation, confirmed in the O5 element table.
 
 ### Driven elements
 
@@ -862,20 +867,20 @@ At minimum record:
 - Steel-tip center gap.
 - Feed-node center spacing.
 - Actual PVC OD at each driven station; each half's witness-mark distance `M`, exposed witness distance `E`, calculated insertion depth, and calculated steel-tip gap.
-- Feed-node hole diameter.
+- Finished outboard offset and diameter of each of the four feed-node holes.
 
 ### Assembly
 
-- J1 and J2 positions.
+- J1 and J2 FRONT positions on each boom.
 - Both finished boom lengths, their absolute difference, and the assembled REAR end-face offset with FRONT end faces flush.
 - The largest independent rear-station discrepancy and its station ID for each boom, from the layout and post-drilling checks.
 - J1 and J2 installed boom gaps.
 - Element-plane angle.
-- Boom-center-line angle.
+- Boom-center-line angle from each element plane.
 - Close-reflector center separation and physical edge clearance.
 - Minimum observed cross-boom component clearance.
 
-Leave O5 Section 15.2 hairpin geometry blank for O7. Ferrite position, coax routing, cable termination, and RF measurements likewise belong to O7/O8.
+Complete every field in both O5 Section 15.1 tables or document a formally approved deviation. Leave O5 Section 15.2 hairpin geometry blank for O7. Ferrite position, coax routing, cable termination, and RF measurements likewise belong to O7/O8.
 
 ---
 
@@ -959,7 +964,7 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. K inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. L inputs are present.
 - [ ] O6 mechanical material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Each finished boom is 30.000 in +/- 0.0625 in, the two lengths differ by no more than 0.03125 in, and both are correctly labeled.
@@ -975,7 +980,7 @@ O6 is complete only when:
 - [ ] Fixed 90-degree operating geometry passes the hand-load check.
 - [ ] All cross-boom and reflector clearances pass.
 - [ ] Pre-feed DC checks pass.
-- [ ] Every applicable entry in O5 Section 15.1, the mechanical as-built table, is complete and passes or has a formally dispositioned deviation; Section 15.2 is left for O7.
+- [ ] Every applicable entry in both O5 Section 15.1 mechanical as-built tables, including each element's projections and centering/placement check, is complete and passes or has a formally dispositioned deviation; Section 15.2 is left for O7.
 - [ ] Fabrication deviations are closed or formally dispositioned.
 - [ ] Required photographs are stored.
 - [ ] No coax has been cut and no transmitter has been connected.
@@ -987,7 +992,7 @@ O6 is complete only when:
 Deliver the following to the feed-system phase:
 
 - Completed mechanical antenna or two labeled separated booms with fresh retention ties reserved.
-- Completed O5 Section 15.1 mechanical as-built record, with Section 15.2 hairpin addendum reserved for O7.
+- Completed O5 Section 15.1 dimensional and per-element mechanical as-built tables, with Section 15.2 hairpin addendum reserved for O7.
 - Station layout log with all FRONT/REAR readings, post-drilling RF hole checks, and the maximum discrepancy on each boom.
 - O6 completed quality gates.
 - Node-hole diameters and node-center spacing for both bands.
@@ -1019,6 +1024,7 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | **Rev. I** | **2026-10-12** | Scoped Quality Gate A to mechanical materials and assigned coax/ferrite acceptance to the O7 feed-entry gate; no dimensional changes. |
 | **Rev. J** | **2026-10-12** | Added measurable +/- 0.0625 in acceptance for each 2 m support and measured-midpoint marking; nominal geometry is unchanged. |
 | **Rev. K** | **2026-10-12** | Added a 0.03125 in FRONT/REAR measurement-consistency limit at layout and after drilling; nominal stations are unchanged. |
+| **Rev. L** | **2026-10-12** | Aligned the O6 measurement and completion instructions with both O5 Section 15.1 mechanical record tables; no dimensions or limits changed. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -1026,13 +1032,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. K produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. L produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. K Fabrication and Assembly Procedure**
+**End of O6 Rev. L Fabrication and Assembly Procedure**
 
 
 ---
