@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. F  
+**Revision:** Rev. G  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision F Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision G Tape Measure Satellite Yagi.
 
-It supersedes O5 Rev. E and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. F and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision F retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F adds measurable boom-length and overall-span acceptance limits.
+Revision G retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. F sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. G sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -74,6 +74,10 @@ The driven steel-tip gaps sit inside opaque PVC after installation. Set and veri
 ### 2.6 Corrected in Rev. F
 
 Each finished boom must measure 30.000 in +/- 0.0625 in, and the two lengths must differ by no more than 0.03125 in. With FRONT end faces flush, REAR end-face offset is no more than 0.03125 in. Driven-element overall-span limits are derived from the existing half-length and gap tolerances: 2 m is 37.400 in +/- 0.0781 in; 70 cm is 12.600 in +/- 0.0468 in. The original cuts, gap targets, and element stations remain unchanged.
+
+### 2.7 Corrected in Rev. G
+
+The O5 dimensional record now has an O6 mechanical section and an O7 hairpin section. Complete the mechanical section to close O6; record hairpin geometry after O7 forms and installs it, before O8 RF tuning. O6 does not require an unbuilt hairpin measurement.
 
 ---
 
@@ -498,7 +502,9 @@ Do not transmit until O8 calibrated impedance and SWR testing passes the require
 
 ## 15. As-built dimensional record
 
-Complete this table before RF tuning.
+### 15.1 O6 mechanical as-built record
+
+Complete this table at the end of O6, before removing the retention ties or handing the antenna to O7. These are the measurements and checks available from the mechanical build.
 
 | Item | Design value | As-built value | Pass / deviation |
 |---|---:|---:|---|
@@ -526,12 +532,19 @@ Complete this table before RF tuning.
 | 70-R length / station | 12.900 / 21.000 in |  |  |
 | 2 m node-center spacing | Record |  |  |
 | 70 cm node-center spacing | Record |  |  |
-| Hairpin leg spacing / leg length / bend diameter | Record |  |  |
 | Installed boom gap at J1 / J2 | 0.375 in minimum |  |  |
 | Element-plane angle | 90 degrees +/- 2 degrees |  |  |
 | Reflector physical edge clearance | 0.0625 in minimum |  |  |
 
-Any out-of-tolerance result is an as-built deviation requiring evaluation before O8. Do not silently change a design value to match the fabricated part.
+A missing or unresolved failed mechanical entry prevents O6 completion. Any out-of-tolerance result must be formally dispositioned before O6 handoff and evaluated before O8. Do not silently change a design value to match the fabricated part.
+
+### 15.2 O7 hairpin as-built addendum
+
+Leave this addendum blank at O6 handoff. After O7 forms and installs the 2 m hairpin, record its measured starting geometry before O8 RF tuning. Use the O6-measured 2 m feed-node center spacing as the starting leg-spacing target. Record any later O8 trim separately as as-tuned data.
+
+| Item | Design value | O7 as-built value | Pass / deviation |
+|---|---:|---:|---|
+| 2 m hairpin leg spacing / straight-leg lengths / bottom-bend diameter / installed orientation | Record measured starting geometry per Section 10 |  |  |
 
 ---
 
@@ -563,6 +576,7 @@ Stop fabrication for any of the following:
 | Rev. D | 2026-10-12 | Raised the usable tape-steel minimum to 20 ft and reserved a continuous 41.400 in section for one full reflector recut; installed element cuts are unchanged. |
 | **Rev. E** | **2026-10-12** | Defined external witness-mark calculation for the hidden driven gaps and deferred final driven-station ties until feed-node drilling and refitting are complete; RF dimensions are unchanged. |
 | **Rev. F** | **2026-10-12** | Added boom finished-length and pair-match limits, actual-length rear cross-checks, and derived overall driven-span limits; nominal RF geometry is unchanged. |
+| **Rev. G** | **2026-10-12** | Separated the O6 mechanical as-built table from the O7 hairpin addendum; O6 completion no longer depends on hairpin fabrication. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -570,7 +584,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. F cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. G cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
@@ -578,4 +592,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O5 Rev. F Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. G Mechanical Drawing and Cut Sheet**
