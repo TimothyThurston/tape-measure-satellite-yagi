@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. H  
+**Revision:** Rev. I  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision H baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision I baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -104,6 +104,10 @@ O5 Section 15 now separates the mechanical measurements made in O6 from the 2 m 
 
 O5 Hold Point C covers the booms, ten tape-steel elements, and three supports cut in O6. The 2M-HP hairpin blank is cut, labeled, measured, and recorded during O7, before forming; it does not block O6 completion.
 
+### 2.9 Corrected in Revision I
+
+Quality Gate A accepts mechanical materials for O6. Coax and ferrite measurements, electrical checks, and fit are due at the O5 Section 12 feed-entry gate before O7 removes either antenna-side BNC connector; they do not block mechanical fabrication.
+
 ---
 
 ## 3. Controlling inputs
@@ -112,12 +116,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. H | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. H | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. H | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. H | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. I | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. I | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. I | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. I | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. H, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. I, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -232,10 +236,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. H |
-| O4 revision | Rev. H |
-| O5 revision | Rev. H |
-| O6 revision | Rev. H |
+| O3 revision | Rev. I |
+| O4 revision | Rev. I |
+| O5 revision | Rev. I |
+| O6 revision | Rev. I |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -297,7 +301,9 @@ Verify:
 
 ---
 
-## 10. Quality Gate A - material acceptance
+## 10. Quality Gate A - O6 mechanical material acceptance
+
+This gate covers the materials used in mechanical fabrication. Coax and ferrites are accepted under O5 Section 12 before O7 feed work; their inspection does not block O6.
 
 - [ ] PVC OD measured and recorded.
 - [ ] Tape width, thickness, curvature, coating, and conductivity recorded.
@@ -925,8 +931,8 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. H inputs are present.
-- [ ] Material measurements are recorded.
+- [ ] O3, O4, O5, and O6 Rev. I inputs are present.
+- [ ] O6 mechanical material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Each finished boom is 30.000 in +/- 0.0625 in, the two lengths differ by no more than 0.03125 in, and both are correctly labeled.
 - [ ] All stations and holes pass inspection.
@@ -961,6 +967,8 @@ Deliver the following to the feed-system phase:
 - Photographs of visible driven-half witness marks, hidden-gap calculations, and node locations.
 - Open deviation list, if any.
 
+Before removing either antenna-side BNC connector or installing feed parts, O7 must pass and record the O5 Section 12 feed-entry gate for both coax lines and both ferrite groups. O6 completion does not require that gate.
+
 O7 must preserve the recorded gaps, spans, element stations, plane angle, and clearances while installing the coax, lugs, 2 m hairpin, ferrites, strain relief, and labels.
 
 O7 must not add tight boom-wound coax coils or a passive BNC tee.
@@ -979,6 +987,7 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | **Rev. F** | **2026-10-12** | Added explicit boom-length and pair-match limits, actual-length rear cross-checks, and derived measured overall driven-span limits; nominal RF dimensions are unchanged. |
 | **Rev. G** | **2026-10-12** | Aligned O6 completion and handoff with O5 Section 15.1 mechanical records; hairpin geometry remains an O7 Section 15.2 record. |
 | **Rev. H** | **2026-10-12** | Aligned O6 cut verification and completion with O5 Hold Point C; assigned the hairpin blank cut and record to O7 without changing dimensions. |
+| **Rev. I** | **2026-10-12** | Scoped Quality Gate A to mechanical materials and assigned coax/ferrite acceptance to the O7 feed-entry gate; no dimensional changes. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -986,13 +995,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. H produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. I produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. H Fabrication and Assembly Procedure**
+**End of O6 Rev. I Fabrication and Assembly Procedure**
 
 
 ---

@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. H  
+**Revision:** Rev. I  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision H Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision I Tape Measure Satellite Yagi.
 
-It supersedes O5 Rev. G and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. H and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision H retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases.
+Revision I retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases; Revision I assigns coax and ferrite acceptance to O7 feed entry.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. H sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. I sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -82,6 +82,10 @@ The O5 dimensional record now has an O6 mechanical section and an O7 hairpin sec
 ### 2.8 Corrected in Rev. H
 
 Hold Point C now covers only the parts cut in O6. O7 cuts, labels, and measures the 2M-HP hairpin blank before forming it, and records the blank length in Section 15.2. This phase assignment changes no cut length or finished geometry.
+
+### 2.9 Corrected in Rev. I
+
+O6 mechanical material acceptance no longer requires coax or ferrite checks. O7 must complete the Section 12 feed-entry gate before removing either antenna-side BNC connector. This changes no feed topology or material specification.
 
 ---
 
@@ -157,7 +161,7 @@ Pad thickness is the minimum installed separation. If a pad compresses, permanen
 
 One 10 ft PVC length is sufficient for both nominal 30.000 in booms and leaves approximately 60 in before saw kerf. Measure each finished length along the boom centerline between square, deburred end faces; require the two measured lengths to differ by no more than 0.03125 in. Do not cut the booms into folding sections.
 
-Do not cut either RG-58 feedline until its routing, ferrite fit, and strain-relief locations have been dry-fitted. At that point remove only the antenna-side connector from each cable; retain the factory BNC male at the operator end.
+Do not cut either RG-58 feedline until the O7 feed-entry gate in Section 12 passes, including routing, ferrite fit, and strain-relief dry fit. At that point remove only the antenna-side connector from each cable; retain the factory BNC male at the operator end.
 
 ---
 
@@ -221,7 +225,7 @@ The pad long axis runs parallel to the booms. Center the pad and tie at the stat
 ### 7.1 Before drilling
 
 1. Measure and record the actual PVC outside diameter.
-2. Measure and record tape width, tape thickness, dowel diameter, and coax diameter.
+2. Measure and record tape width, tape thickness, and dowel diameter. Record coax diameter at the O7 feed-entry gate in Section 12.
 3. Draw one straight longitudinal reference line on each boom.
 4. Mark FRONT and REAR permanently on both booms.
 5. Mark every station independently from FRONT.
@@ -382,9 +386,19 @@ The Rev. A air-wound coax coils are deleted.
 | 2 m | Four snap-on Fair-Rite 31-material parts, baseline 0431164281 or verified equivalent | Immediately after the feedpoint, before the rearward cable run |
 | 70 cm | Four snap-on Fair-Rite 61-material parts, baseline 0461164281 or verified equivalent | Immediately after the feedpoint, before the rearward cable run |
 
-Routing requirements:
+### 12.1 O7 feed-entry gate - before either antenna-side BNC connector is removed
 
-- Confirm ferrite fit on the measured RG-58 jacket before removing a connector.
+Record the results in O4 Section 11. If any check fails, do not alter a feed line or begin feed installation.
+
+- [ ] Both feed lines are confirmed as 50 ohm RG-58; factory BNC connectors pass continuity and short tests.
+- [ ] Actual jacket diameter is recorded for each cable, along with the manufacturer/model and published bend radius if available.
+- [ ] Four initial ferrites per feed are available; 2 m parts are verified 31 material and 70 cm parts 61 material, or approved equivalents with manufacturer data.
+- [ ] Each ferrite fits and latches on the actual cable without crushing it.
+- [ ] Both intact cables, ferrite groups, and strain relief are dry-fitted for a rearward route that preserves required clearances and available bend limits.
+
+### 12.2 Routing after the feed-entry gate
+
+Routing requirements:
 - Route each cable from its node pair toward the REAR/operator end.
 - Keep the intact jacket close to the feedpoint and strain-relieve it before the ferrite group.
 - Obey the cable manufacturer's minimum bend radius; do not wrap the cable tightly around either boom.
@@ -435,9 +449,9 @@ If the tape curvature, width, or mounting angle violates the physical-clearance 
 
 ## 14. Inspection and hold points
 
-### Hold Point A - material acceptance
+### Hold Point A - O6 mechanical material acceptance
 
-- [ ] PVC OD, tape width/thickness, support diameter, coax diameter, and pad thickness recorded.
+- [ ] PVC OD, tape width/thickness, support diameter, and pad thickness recorded. Coax and ferrites are checked at the Section 12 O7 feed-entry gate.
 - [ ] Tape steel is conductive and approximately 3/8 in wide.
 - [ ] PVC stock for both nominal 30.000 in booms is straight and undamaged.
 - [ ] At least 20 ft of usable tape steel is available, with one continuous 41.400 in recut section preserved in the cutting plan.
@@ -477,6 +491,10 @@ The 2M-HP hairpin blank is not an O6 cut and does not block this hold point. O7 
 - [ ] Both driven gaps are recalculated from visible witness marks after final retention; each gap and left/right insertion-depth difference remains within tolerance.
 - [ ] Installed overall driven spans pass 37.400 in +/- 0.0781 in on 2 m and 12.600 in +/- 0.0468 in on 70 cm; their half lengths and half mismatch also pass independently.
 - [ ] Feed hardware cannot bridge a driven-element gap.
+
+### O7 feed-entry hold point - before either BNC connector is removed
+
+- [ ] All Section 12.1 coax, ferrite, and dry-fit checks pass and are recorded in O4 Section 11.
 
 ### Hold Point F - DC checks before hairpin
 
@@ -588,6 +606,7 @@ Stop fabrication for any of the following:
 | **Rev. F** | **2026-10-12** | Added boom finished-length and pair-match limits, actual-length rear cross-checks, and derived overall driven-span limits; nominal RF geometry is unchanged. |
 | **Rev. G** | **2026-10-12** | Separated the O6 mechanical as-built table from the O7 hairpin addendum; O6 completion no longer depends on hairpin fabrication. |
 | **Rev. H** | **2026-10-12** | Scoped Hold Point C to O6-cut parts and assigned the hairpin blank cut, label, measurement, and record to O7; cut dimensions are unchanged. |
+| **Rev. I** | **2026-10-12** | Moved coax and ferrite acceptance from O6 material entry to an explicit O7 pre-feed gate; dimensions and feed topology are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -595,7 +614,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. H cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. I cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
@@ -603,4 +622,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O5 Rev. H Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. I Mechanical Drawing and Cut Sheet**

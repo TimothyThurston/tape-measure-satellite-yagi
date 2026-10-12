@@ -8,7 +8,7 @@
 **Repository path:** `docs/design.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. H  
+**Revision:** Rev. I  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication design baseline  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-This document defines the Revision H architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
+This document defines the Revision I architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
 
 Revision B retains the verified W6NBC-derived element lengths and within-band spacings from Rev. A. It replaces the outdated joint, folding, touching-boom, coax-coil, polarization, and fabrication assumptions identified during the September 2026 construction-readiness review.
 
@@ -80,6 +80,10 @@ O5 Section 15.1 holds the mechanical as-built measurements completed by O6. The 
 
 O5 Hold Point C checks only the booms, tape-steel elements, and supports cut during O6. O7 cuts, labels, measures, and records the 2M-HP hairpin blank before forming it. No cut dimensions or RF geometry change.
 
+### 2.9 Revision I feed-entry gate clarification
+
+Coax and ferrite receiving checks are due before O7 alters either feed line, under the O5 Section 12 feed-entry gate. O6 mechanical material acceptance does not depend on uninstalled feed parts. No materials, dimensions, or RF geometry change.
+
 ---
 
 ## 3. Design requirements
@@ -108,7 +112,7 @@ The reference frequencies are geometry sanity-check points, not guaranteed reson
 
 ### 3.3 Performance claims
 
-Before measurement, Revision H claims only a controlled prototype geometry. It does not claim a measured value for:
+Before measurement, Revision I claims only a controlled prototype geometry. It does not claim a measured value for:
 
 - Resonant frequency.
 - Feedpoint impedance.
@@ -145,7 +149,7 @@ The operator adjusts polarization by rolling the complete antenna about the shar
 
 ### 5.1 Primary datum
 
-Revision H uses one construction datum for both booms:
+Revision I uses one construction datum for both booms:
 
 - **FRONT = X 0.000 in** at the director end and intended direction of gain.
 - **REAR = X 30.000 in nominal** at the operator/handle end.
@@ -330,9 +334,9 @@ The 45-degree cross-section and separator gap provide clearance for the 2 m supp
 
 Each pad is approximately 1.000 x 0.500 in with at least 0.375 in installed thickness. No retention holes are drilled in either boom.
 
-The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision H prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
+The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision I prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
 
-There is no separate boom-joint mechanism in Revision H.
+There is no separate boom-joint mechanism in Revision I.
 
 The booms do not rotate relative to one another while retained. Cut and replace the ties to separate or reassemble the antenna.
 
@@ -407,7 +411,7 @@ The 70 cm coax center and braid connect directly to the two isolated driven halv
 
 ## 14. Common-mode suppression and cable routing
 
-Revision H retains the removal of tight RG-58 coils around the PVC booms.
+Revision I retains the removal of tight RG-58 coils around the PVC booms.
 
 | Feed | Initial suppression baseline | Validation |
 |---|---|---|
@@ -433,7 +437,7 @@ Ferrite count and position remain subject to O8 measurement. Low SWR alone does 
 
 ## 15. Fabrication tolerances
 
-O5 Rev. H controls the following targets:
+O5 Rev. I controls the following targets:
 
 | Feature | Tolerance or requirement |
 |---|---:|
@@ -545,7 +549,7 @@ Maintain three distinct configurations:
 
 ### 20.1 As-designed
 
-The controlled Rev. H dimensions and interfaces in O3 through O7 before fabrication.
+The controlled Rev. I dimensions and interfaces in O3 through O7 before fabrication.
 
 ### 20.2 As-built
 
@@ -559,22 +563,23 @@ Do not overwrite design values with fabricated or tuned values. Record deviation
 
 ---
 
-## 21. Pre-construction hold points
+## 21. Build-phase hold points
 
-The design is released, but physical construction remains conditional on the actual materials passing O4/O5 inspection.
+The design is released. Each check is due at the phase that uses the material or feature.
 
-- [ ] Actual PVC OD recorded.
-- [ ] Tape width, thickness, curvature, coating, and conductivity recorded.
-- [ ] Support diameter recorded.
-- [ ] Coax diameter and documented bend limit recorded where available.
-- [ ] Ferrite fit confirmed on the actual coax.
-- [ ] Shared 2 m tape/support/PVC coupon passed.
-- [ ] 70 cm tape/PVC coupon passed.
-- [ ] Feed-node screw, nut, washer, lug, and hairpin coupon passed.
-- [ ] Separator-pad installed thickness confirmed.
-- [ ] Cross-boom and close-reflector clearances confirmed.
+### O6 mechanical entry and completion
 
-Failure of a hold point requires a documented deviation or design revision before the affected final parts are made.
+- [ ] Before O6 final-part work, actual PVC OD, tape width/thickness/curvature/coating/conductivity, and support diameter are recorded under O6 Quality Gate A.
+- [ ] Before final drilling, the shared 2 m tape/support/PVC coupon, 70 cm tape/PVC coupon, and feed-node hardware coupon pass.
+- [ ] Before O6 handoff, separator-pad installed thickness and cross-boom and close-reflector clearances pass.
+
+### O7 feed entry, before either antenna-side BNC connector is removed
+
+- [ ] Both RG-58 cables pass the O4 continuity and short checks; actual jacket diameters and available manufacturer bend limits are recorded.
+- [ ] The 2 m and 70 cm ferrites have verified material, fit securely on the actual cables, and are available in the initial installed counts.
+- [ ] Cable routing, ferrite locations, and strain relief pass the O5 Section 12 dry-fit gate.
+
+An unresolved failed check blocks its affected phase. Do not remove a BNC connector or install the feed until the O7 feed-entry gate passes.
 
 ---
 
@@ -582,7 +587,7 @@ Failure of a hold point requires a documented deviation or design revision befor
 
 - [x] Project name is consistently **Tape Measure Satellite Yagi**.
 - [x] Project ID is TM-YAGI-01.
-- [x] Revision is Rev. H.
+- [x] Revision is Rev. I.
 - [x] Two separate 30.000 in booms and their finished-length and pair-matching limits are defined.
 - [x] No separate boom-joint mechanism is included.
 - [x] Front/rear and left/right conventions are defined.
@@ -595,8 +600,8 @@ Failure of a hold point requires a documented deviation or design revision befor
 - [x] Feed nodes and matching topology are defined.
 - [x] Tight coax coils are removed.
 - [x] Band-appropriate ferrite baselines are defined.
-- [x] Mechanical retention and clearances agree with O4 and O5 Rev. H.
-- [x] Fabrication tolerances agree with O5 Rev. H.
+- [x] Mechanical retention and clearances agree with O4 and O5 Rev. I.
+- [x] Fabrication tolerances agree with O5 Rev. I.
 - [x] Correct pre- and post-hairpin DC expectations are defined.
 - [x] RF and station-level validation requirements are defined.
 - [ ] Actual material measurements and coupons have passed.
@@ -619,6 +624,7 @@ The final three open items are physical build and test gates, not missing design
 | **Rev. F** | **2026-10-12** | Defined finished boom-length and pair-matching limits, actual-length rear cross-checks, and derived overall driven-span limits; nominal RF geometry is unchanged. |
 | **Rev. G** | **2026-10-12** | Clarified O6 mechanical versus O7 hairpin as-built records and aligned references to the controlled document set; geometry is unchanged. |
 | **Rev. H** | **2026-10-12** | Scoped O5 Hold Point C to O6 cuts and assigned the 2M-HP blank cut and measurement to O7; geometry is unchanged. |
+| **Rev. I** | **2026-10-12** | Assigned coax and ferrite acceptance to the O7 feed-entry gate and aligned O6 mechanical entry; geometry is unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -628,8 +634,8 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 | Document | Function |
 |---|---|
-| O4 Rev. H - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
-| O5 Rev. H - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
+| O4 Rev. I - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
+| O5 Rev. I - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
 | O6 - Fabrication and Assembly | Controlled build sequence |
 | O7 - Feed and Matching System | Coax preparation, node construction, hairpin setup, ferrites, and strain relief |
 | O8 - Initial RF Testing and Tuning | Analyzer calibration, tuning, acceptance, and coax-movement test |
@@ -639,7 +645,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 25. Engineering intent
 
-Revision H provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
+Revision I provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
 
 The retained RF geometry is a credible published starting point, not proof of final performance. Engineering completion requires the as-built record, calibrated impedance and SWR measurements, common-mode sensitivity testing, directional field evidence, and station-level desensitization testing.
 
@@ -647,4 +653,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O3 Rev. H Antenna Design and Dimensions**
+**End of O3 Rev. I Antenna Design and Dimensions**
