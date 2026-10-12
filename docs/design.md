@@ -8,7 +8,7 @@
 **Repository path:** `docs/design.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. J  
+**Revision:** Rev. K  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication design baseline  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose
 
-This document defines the Revision J architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
+This document defines the Revision K architecture, RF geometry, dimensional conventions, mechanical interfaces, feed interfaces, tolerances, and verification requirements for the Tape Measure Satellite Yagi.
 
 Revision B retains the verified W6NBC-derived element lengths and within-band spacings from Rev. A. It replaces the outdated joint, folding, touching-boom, coax-coil, polarization, and fabrication assumptions identified during the September 2026 construction-readiness review.
 
@@ -88,6 +88,10 @@ Coax and ferrite receiving checks are due before O7 alters either feed line, und
 
 Each of the three 2 m nonconductive supports has a 12.000 in nominal finished length with a +/- 0.0625 in cut tolerance. O5/O6 measure and record each piece and mark its actual midpoint. The nominal support layout and RF geometry are unchanged.
 
+### 2.11 Revision K rear-station cross-check limit
+
+For each marked element and retention station, the independently measured FRONT and REAR distances must sum to the actual measured boom length within 0.03125 in. The FRONT station tolerance still controls position. This adds a measurement-consistency limit without moving any station.
+
 ---
 
 ## 3. Design requirements
@@ -116,7 +120,7 @@ The reference frequencies are geometry sanity-check points, not guaranteed reson
 
 ### 3.3 Performance claims
 
-Before measurement, Revision J claims only a controlled prototype geometry. It does not claim a measured value for:
+Before measurement, Revision K claims only a controlled prototype geometry. It does not claim a measured value for:
 
 - Resonant frequency.
 - Feedpoint impedance.
@@ -153,13 +157,13 @@ The operator adjusts polarization by rolling the complete antenna about the shar
 
 ### 5.1 Primary datum
 
-Revision J uses one construction datum for both booms:
+Revision K uses one construction datum for both booms:
 
 - **FRONT = X 0.000 in** at the director end and intended direction of gain.
 - **REAR = X 30.000 in nominal** at the operator/handle end.
 - Every station is measured independently from FRONT.
 
-The listed rear-datum values use the nominal conversion `X from REAR = 30.000 in - X from FRONT`. For an as-built independent cross-check, physically measure the station from REAR and compare it with `L_boom, measured - X from FRONT, measured`. FRONT remains the controlling station datum.
+The listed rear-datum values use the nominal conversion `X from REAR = 30.000 in - X from FRONT`. For each as-built element and retention station, independently measure `X_FRONT` and `X_REAR` from the respective finished end faces of the same boom. Let `L` be that boom's measured finished length and require `abs(X_FRONT + X_REAR - L) <= 0.03125 in`. Use `L`, not nominal 30.000 in, for this check. FRONT remains the controlling station datum and must pass its own tolerance.
 
 This changes only the controlling notation from O3 Rev. A. It does not move any element.
 
@@ -338,9 +342,9 @@ The 45-degree cross-section and separator gap provide clearance for the 2 m supp
 
 Each pad is approximately 1.000 x 0.500 in with at least 0.375 in installed thickness. No retention holes are drilled in either boom.
 
-The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision J prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
+The ties and pads are removable retention consumables, not a separate boom-joint mechanism. Revision K prohibits a hinge, pivot bolt, PVC tee, PVC crosspiece, crossbar, metal boom connector, wood spacer block, and permanent adhesive joint.
 
-There is no separate boom-joint mechanism in Revision J.
+There is no separate boom-joint mechanism in Revision K.
 
 The booms do not rotate relative to one another while retained. Cut and replace the ties to separate or reassemble the antenna.
 
@@ -415,7 +419,7 @@ The 70 cm coax center and braid connect directly to the two isolated driven halv
 
 ## 14. Common-mode suppression and cable routing
 
-Revision J retains the removal of tight RG-58 coils around the PVC booms.
+Revision K retains the removal of tight RG-58 coils around the PVC booms.
 
 | Feed | Initial suppression baseline | Validation |
 |---|---|---|
@@ -441,7 +445,7 @@ Ferrite count and position remain subject to O8 measurement. Low SWR alone does 
 
 ## 15. Fabrication tolerances
 
-O5 Rev. J controls the following targets:
+O5 Rev. K controls the following targets:
 
 | Feature | Tolerance or requirement |
 |---|---:|
@@ -455,6 +459,7 @@ O5 Rev. J controls the following targets:
 | 70 cm overall driven span | 12.600 in +/- 0.0468 in, derived |
 | 2 m station from FRONT | +/- 0.0625 in |
 | 70 cm station from FRONT | +/- 0.03125 in |
+| Independent rear-station check, each element and retention station | `abs(X_FRONT + X_REAR - L) <= 0.03125 in` |
 | Driven steel-tip gap | 0.250 in +/- 0.0156 in |
 | Element-plane angle | 90 degrees +/- 2 degrees |
 | Installed bare-surface boom gap | 0.375 in minimum |
@@ -553,7 +558,7 @@ Maintain three distinct configurations:
 
 ### 20.1 As-designed
 
-The controlled Rev. J dimensions and interfaces in O3 through O7 before fabrication.
+The controlled Rev. K dimensions and interfaces in O3 through O7 before fabrication.
 
 ### 20.2 As-built
 
@@ -591,7 +596,7 @@ An unresolved failed check blocks its affected phase. Do not remove a BNC connec
 
 - [x] Project name is consistently **Tape Measure Satellite Yagi**.
 - [x] Project ID is TM-YAGI-01.
-- [x] Revision is Rev. J.
+- [x] Revision is Rev. K.
 - [x] Two separate 30.000 in booms and their finished-length and pair-matching limits are defined.
 - [x] No separate boom-joint mechanism is included.
 - [x] Front/rear and left/right conventions are defined.
@@ -604,8 +609,8 @@ An unresolved failed check blocks its affected phase. Do not remove a BNC connec
 - [x] Feed nodes and matching topology are defined.
 - [x] Tight coax coils are removed.
 - [x] Band-appropriate ferrite baselines are defined.
-- [x] Mechanical retention and clearances agree with O4 and O5 Rev. J.
-- [x] Fabrication tolerances agree with O5 Rev. J.
+- [x] Mechanical retention and clearances agree with O4 and O5 Rev. K.
+- [x] Fabrication tolerances agree with O5 Rev. K.
 - [x] Correct pre- and post-hairpin DC expectations are defined.
 - [x] RF and station-level validation requirements are defined.
 - [ ] Actual material measurements and coupons have passed.
@@ -630,6 +635,7 @@ The final three open items are physical build and test gates, not missing design
 | **Rev. H** | **2026-10-12** | Scoped O5 Hold Point C to O6 cuts and assigned the 2M-HP blank cut and measurement to O7; geometry is unchanged. |
 | **Rev. I** | **2026-10-12** | Assigned coax and ferrite acceptance to the O7 feed-entry gate and aligned O6 mechanical entry; geometry is unchanged. |
 | **Rev. J** | **2026-10-12** | Defined a +/- 0.0625 in finished-length tolerance for each 12.000 in support and required midpoint marking from its measured length; nominal geometry is unchanged. |
+| **Rev. K** | **2026-10-12** | Set a 0.03125 in maximum discrepancy for independent FRONT/REAR station measurements using actual boom length; nominal stations are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -639,8 +645,8 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 | Document | Function |
 |---|---|
-| O4 Rev. J - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
-| O5 Rev. J - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
+| O4 Rev. K - Bill of Materials and Sourcing | Materials, quantities, ownership, substitutions, and receiving inspection |
+| O5 Rev. K - Mechanical Drawing and Cut Sheet | Cutting, station layout, drilling, mechanical assembly dimensions, and hold points |
 | O6 - Fabrication and Assembly | Controlled build sequence |
 | O7 - Feed and Matching System | Coax preparation, node construction, hairpin setup, ferrites, and strain relief |
 | O8 - Initial RF Testing and Tuning | Analyzer calibration, tuning, acceptance, and coax-movement test |
@@ -650,7 +656,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 25. Engineering intent
 
-Revision J provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
+Revision K provides a self-consistent design baseline for a buildable dual-band handheld satellite antenna without relying on the mechanically conflicting assumptions in Rev. A.
 
 The retained RF geometry is a credible published starting point, not proof of final performance. Engineering completion requires the as-built record, calibrated impedance and SWR measurements, common-mode sensitivity testing, directional field evidence, and station-level desensitization testing.
 
@@ -658,4 +664,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O3 Rev. J Antenna Design and Dimensions**
+**End of O3 Rev. K Antenna Design and Dimensions**

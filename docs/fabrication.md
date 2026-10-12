@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. J  
+**Revision:** Rev. K  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision J baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision K baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -112,6 +112,10 @@ Quality Gate A accepts mechanical materials for O6. Coax and ferrite measurement
 
 Each 2 m support has a 12.000 in +/- 0.0625 in finished-length limit. O6 measures and records ST-1, ST-2, and ST-3 before installation and marks each piece at its measured midpoint. No nominal support length or RF geometry changes.
 
+### 2.11 Corrected in Revision K
+
+The independent rear-station check now passes only when FRONT and REAR measurements sum to the actual finished boom length within 0.03125 in at every element and retention station. The same limit applies to RF hole centers after drilling. FRONT position tolerances remain separate and controlling.
+
 ---
 
 ## 3. Controlling inputs
@@ -120,12 +124,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. J | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. J | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. J | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. J | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. K | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. K | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. K | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. K | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. J, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. K, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -240,10 +244,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. J |
-| O4 revision | Rev. J |
-| O5 revision | Rev. J |
-| O6 revision | Rev. J |
+| O3 revision | Rev. K |
+| O4 revision | Rev. K |
+| O5 revision | Rev. K |
+| O6 revision | Rev. K |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -446,9 +450,26 @@ Measure every station independently from FRONT. Do not chain dimensions.
 
 ### 15.3 Independent checks
 
-- Compare nominal rear-datum table values using `30.000 - X from FRONT`. For an as-built independent rear check, physically measure the station from REAR and compare it with `L_boom, measured - X_FRONT, measured`. FRONT controls the station acceptance.
+- Use `30.000 - X_FRONT` only to check the nominal rear table. For each marked element and J1/J2 retention station on each boom, independently measure `X_FRONT` and `X_REAR` from the finished end faces. Let `L` be that boom's measured finished length; calculate `delta = abs(X_FRONT + X_REAR - L)` and require `delta <= 0.03125 in`. Record both readings and `delta` by station in the layout log. If a check fails, remeasure the boom and station and resolve the discrepancy before drilling. Passing this check does not waive the separate FRONT station tolerance.
 - Align both FRONT ends and verify the nominal 2M-R to 70-R center difference is 0.500 in.
 - Confirm no retention station overlaps an RF station.
+
+Record the layout readings below. After drilling, copy the eight RF-station rows and repeat the measurements at the actual hole centers. Keep both sets of readings; enter the largest discrepancy and its station ID for each boom in O5 Section 15.1.
+
+| Boom / station | FRONT measured (in) | REAR measured (in) | Delta (in) | Pass / deviation |
+|---|---:|---:|---:|---|
+| 2 m / 2M-D1 |  |  |  |  |
+| 2 m / J1 |  |  |  |  |
+| 2 m / 2M-DE |  |  |  |  |
+| 2 m / 2M-R |  |  |  |  |
+| 2 m / J2 |  |  |  |  |
+| 70 cm / 70-D3 |  |  |  |  |
+| 70 cm / J1 |  |  |  |  |
+| 70 cm / 70-D2 |  |  |  |  |
+| 70 cm / 70-D1 |  |  |  |  |
+| 70 cm / 70-DE |  |  |  |  |
+| 70 cm / 70-R |  |  |  |  |
+| 70 cm / J2 |  |  |  |  |
 
 ---
 
@@ -459,7 +480,7 @@ Measure every station independently from FRONT. Do not chain dimensions.
 - [ ] Longitudinal element-plane references present.
 - [ ] Assembly-orientation references present.
 - [ ] All element stations measured independently from FRONT.
-- [ ] Rear-datum cross-checks completed.
+- [ ] FRONT/REAR readings and discrepancy for every element and J1/J2 station are recorded; each discrepancy is no more than 0.03125 in using that boom's measured finished length.
 - [ ] J1 and J2 marked as no-hole retention stations.
 - [ ] Nominal reflector-center separation confirmed at 0.500 in.
 
@@ -495,7 +516,8 @@ Do not drill at J1 or J2. Do not drill feed-node holes through the PVC.
 - [ ] Five element holes on the 70 cm boom.
 - [ ] No holes at J1 or J2.
 - [ ] Hole axes are parallel within each boom.
-- [ ] Stations remain within the O5 tolerance.
+- [ ] Stations remain within the O5 FRONT tolerance.
+- [ ] RF hole centers are remeasured independently from both finished ends; each FRONT/REAR discrepancy is no more than 0.03125 in and is recorded in the layout log.
 - [ ] No cracks, splits, crushing, or severe whitening.
 - [ ] Holes are deburred without excessive enlargement.
 - [ ] Actual tape/support fit remains consistent with the coupon.
@@ -846,6 +868,7 @@ At minimum record:
 
 - J1 and J2 positions.
 - Both finished boom lengths, their absolute difference, and the assembled REAR end-face offset with FRONT end faces flush.
+- The largest independent rear-station discrepancy and its station ID for each boom, from the layout and post-drilling checks.
 - J1 and J2 installed boom gaps.
 - Element-plane angle.
 - Boom-center-line angle.
@@ -936,11 +959,11 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. J inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. K inputs are present.
 - [ ] O6 mechanical material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Each finished boom is 30.000 in +/- 0.0625 in, the two lengths differ by no more than 0.03125 in, and both are correctly labeled.
-- [ ] All stations and holes pass inspection.
+- [ ] All FRONT station and RF hole locations pass O5 tolerances; every independent rear-station discrepancy is no more than 0.03125 in and both boom maxima are recorded in O5 Section 15.1.
 - [ ] O5 Hold Point C is closed for the O6-cut booms, ten tape-steel pieces, and three supports; the 2M-HP blank remains assigned to O7.
 - [ ] All three supports pass the 12.000 in +/- 0.0625 in finished-length limit, are centered on their measured midpoint marks, and are installed without unauthorized trimming.
 - [ ] Every element is centered, aligned, and retained nonconductively.
@@ -965,6 +988,7 @@ Deliver the following to the feed-system phase:
 
 - Completed mechanical antenna or two labeled separated booms with fresh retention ties reserved.
 - Completed O5 Section 15.1 mechanical as-built record, with Section 15.2 hairpin addendum reserved for O7.
+- Station layout log with all FRONT/REAR readings, post-drilling RF hole checks, and the maximum discrepancy on each boom.
 - O6 completed quality gates.
 - Node-hole diameters and node-center spacing for both bands.
 - Selected #6-32 screw length from the coupon.
@@ -994,6 +1018,7 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | **Rev. H** | **2026-10-12** | Aligned O6 cut verification and completion with O5 Hold Point C; assigned the hairpin blank cut and record to O7 without changing dimensions. |
 | **Rev. I** | **2026-10-12** | Scoped Quality Gate A to mechanical materials and assigned coax/ferrite acceptance to the O7 feed-entry gate; no dimensional changes. |
 | **Rev. J** | **2026-10-12** | Added measurable +/- 0.0625 in acceptance for each 2 m support and measured-midpoint marking; nominal geometry is unchanged. |
+| **Rev. K** | **2026-10-12** | Added a 0.03125 in FRONT/REAR measurement-consistency limit at layout and after drilling; nominal stations are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -1001,13 +1026,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. J produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. K produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. J Fabrication and Assembly Procedure**
+**End of O6 Rev. K Fabrication and Assembly Procedure**
 
 
 ---
