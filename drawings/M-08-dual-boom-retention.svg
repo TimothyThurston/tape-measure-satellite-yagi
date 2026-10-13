@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
 <title>M-08 Dual-Boom Retention - Tape Measure Satellite Yagi</title>
-<desc>Rev A dual-boom retention and installed-clearance detail derived from O3-O6 Rev L.</desc>
+<desc>Rev B dual-boom retention and installed-clearance detail derived from O3-O6 Rev L.</desc>
 <rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
 <line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
 <text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">M-08  DUAL-BOOM RETENTION</text>
 <text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
-<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV B</text>
 <text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3-O6 REV L</text>
 <rect x="42.000" y="148.000" width="1616.000" height="362.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
 <text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A  |  TWO INTACT PARALLEL BOOMS</text>
-<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">BOOM LENGTH / PAD AXIS 1:2; REST NTS</text>
+<text x="1640.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">BOOM LENGTH 1:2; PAD SYMBOL / REST NTS</text>
 <text x="60.000" y="205.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="start" fill="#657582">FRONT ENDS FLUSH; J1 AND J2 ARE TIE / PAD STATIONS, NOT DRILLED JOINTS.</text>
 <line x1="100.000" y1="241.000" x2="1600.000" y2="241.000" stroke="#192A37" stroke-width="1"/>
 <line x1="100.000" y1="234.000" x2="100.000" y2="248.000" stroke="#192A37" stroke-width="1"/>
@@ -88,7 +88,7 @@
 <text x="1300.000" y="646.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#A7662F">PAD-2 / 8 in min</text>
 <text x="1485.000" y="646.000" font-family="Arial, Helvetica, sans-serif" font-size="10.8" font-weight="normal" text-anchor="start" fill="#192A37">2M-R</text>
 <line x1="1034.000" y1="658.000" x2="1640.000" y2="658.000" stroke="#D6DEE4" stroke-width="1"/>
-<text x="1036.000" y="681.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">PAD: NYLON / ACETAL / HDPE; ~1.000 x 0.500 PLAN.</text>
+<text x="1036.000" y="681.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">PAD: NYLON / ACETAL / HDPE; 1.000 x 0.500 MIN PLAN.</text>
 <text x="1036.000" y="704.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#192A37">INSTALLED PAD THICKNESS &gt;= 0.375; REPLACE IF COMPRESSED.</text>
 <text x="1036.000" y="727.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">PAD LONG AXIS PARALLEL TO BOOMS; CENTER PAD AND TIE.</text>
 <text x="1036.000" y="750.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#A7662F">USE UV-RESISTANT 8 in MIN TIE; 4 / 6 in TIES PROHIBITED.</text>
@@ -111,7 +111,7 @@
 <text x="1036.000" y="942.000" font-family="Arial, Helvetica, sans-serif" font-size="9.4" font-weight="bold" text-anchor="start" fill="#A7662F">FOR STORAGE, CUT BOTH TIES; USE NEW TIES TO REASSEMBLE.</text>
 <line x1="30.000" y1="960.000" x2="1670.000" y2="960.000" stroke="#192A37" stroke-width="2"/>
 <text x="48.000" y="982.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">GENERAL NOTES</text>
-<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="start" fill="#192A37">1. ALL DIMENSIONS IN INCHES; BOOM LENGTH / PAD LONG AXIS AT 1:2; OTHER VIEWS NTS.</text>
+<text x="48.000" y="1004.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="start" fill="#192A37">1. ALL DIMENSIONS IN INCHES; BOOM LENGTH AT 1:2; PAD SYMBOL / OTHER VIEWS NTS.</text>
 <text x="48.000" y="1023.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="start" fill="#192A37">2. EACH BOOM 30.000 +/- 0.0625; KEEP BOTH INTACT AND PARALLEL IN USE.</text>
 <text x="48.000" y="1042.000" font-family="Arial, Helvetica, sans-serif" font-size="10.2" font-weight="normal" text-anchor="start" fill="#192A37">3. COAX ROUTES REARWARD CLEAR OF BOTH TIE / PAD INTERFACES.</text>
 <line x1="905.000" y1="960.000" x2="905.000" y2="1070.000" stroke="#192A37" stroke-width="1.4"/>
@@ -121,10 +121,10 @@
 <text x="922.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#192A37">O3/O4/O5/O6 REV L</text>
 <text x="922.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#657582">COMMIT 186c773</text>
 <text x="1195.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">SCALE AT 100% PRINT</text>
-<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A 1:2 AS NOTED</text>
+<text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A BOOM 1:2</text>
 <text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">OTHER DETAILS NTS</text>
 <text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
-<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV B - FOR REVIEW</text>
 <text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
 <text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET M-08</text>
 </svg>

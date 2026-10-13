@@ -254,7 +254,7 @@ The current controlled files are:
 | E-02 | [PDF](drawings/E-02-2m-hairpin-detail.pdf) · [editable SVG](drawings/E-02-2m-hairpin-detail.svg) | 2 m hairpin starting blank, U geometry, orientation, and O7/O8 measurement records |
 | E-03 | [PDF](drawings/E-03-coax-and-ferrite-routing.pdf) · [editable SVG](drawings/E-03-coax-and-ferrite-routing.svg) | Independent rearward coax paths, ferrite groups, O7 feed-entry gate, and routing checks |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 and E-01 through E-02 Rev. A, plus E-03 Rev. B, issued for review. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 and E-01 through E-03, issued for review. M-04, M-08, and E-03 are Rev. B; all other sheets are Rev. A. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 
