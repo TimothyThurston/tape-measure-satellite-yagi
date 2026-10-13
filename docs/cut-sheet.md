@@ -8,7 +8,7 @@
 **Repository path:** `docs/cut-sheet.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. L  
+**Revision:** Rev. M  
 **Date:** 2026-10-12  
 **Status:** Controlled pre-fabrication baseline  
 
@@ -16,13 +16,13 @@
 
 ## 1. Purpose and control
 
-This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision L Tape Measure Satellite Yagi.
+This document is the controlling cut, mark, drill, and mechanical-fit sheet for the Revision M Tape Measure Satellite Yagi.
 
-It supersedes O5 Rev. K and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
+It supersedes O5 Rev. L and earlier revisions, including the Rev. A O5 PDF. Dimensions in inches govern; metric values are rounded references. Do not scale sketches, photographs, or printed pages.
 
-Revision L retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases; Revision I assigns coax and ferrite acceptance to O7 feed entry; Revision J sets an acceptance tolerance for the three 2 m support cuts; Revision K sets a limit for independent rear-station cross-checks; Revision L completes the mechanical as-built form.
+Revision M retains the verified RF element lengths and longitudinal element stations. Revision B corrected the mechanically conflicting joint, choke, feedpoint, support, and inspection instructions in Rev. A; Revision C raised the minimum installed boom gap; Revision D corrected the tape-steel stock reserve; Revision E made hidden driven-gap assembly and verification explicit; Revision F added measurable boom-length and overall-span acceptance limits; Revision G separates O6 mechanical records from O7 hairpin records; Revision H assigns the O6 cut checkpoint and the hairpin-blank record to their respective phases; Revision I assigns coax and ferrite acceptance to O7 feed entry; Revision J sets an acceptance tolerance for the three 2 m support cuts; Revision K sets a limit for independent rear-station cross-checks; Revision L completes the mechanical as-built form; Revision M clarifies the existing minimum separator-pad plan dimensions and installed thickness.
 
-If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. L sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
+If an older document conflicts with this sheet on cutting or mechanical fabrication, this O5 Rev. M sheet controls. Electrical tuning and RF acceptance remain controlled by O7 and O8.
 
 ---
 
@@ -99,6 +99,10 @@ Each independent rear-station cross-check must agree with the corresponding FRON
 
 Section 15.1 now records every O6-required mechanical measurement in its dimensional and element-projection tables. The added fields cover support diameter, feed-hole diameter, separator material and thickness, J1/J2 positions, boom-center angles, cross-boom and reflector separation, and individual element centering. No acceptance limit or geometry changes.
 
+### 2.13 Clarified in Rev. M
+
+The PAD-1 and PAD-2 cut-list cells now state separately that the 1.000 x 0.500 in plan dimensions are minimums and that 0.375 in is the minimum thickness after installation. The as-built record now captures each pad's plan dimensions. This clarifies the existing pad requirement without changing the RF geometry, station locations, or clearance limits.
+
 ---
 
 ## 3. Mechanical configuration
@@ -164,10 +168,10 @@ Reserve at least 20 ft (240.000 in) of usable approximately 3/8 in wide conducti
 | ST-2 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in +/- 0.0625 in | 1 | 2M-DE support |
 | ST-3 | 3/8 in nonconductive dowel or fiberglass rod | 12.000 in +/- 0.0625 in | 1 | 2M-R support |
 | 2M-HP | #12 AWG solid copper, fully bare | 8.500 in initial blank | 1 | O7 tunable 2 m shunt hairpin |
-| PAD-1 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Front retention separator |
-| PAD-2 | Nylon, acetal, or HDPE | 1.000 x 0.500 x 0.375 in minimum | 1 | Rear retention separator |
+| PAD-1 | Nylon, acetal, or HDPE | Plan: 1.000 x 0.500 in minimum; installed thickness: 0.375 in minimum | 1 | Front retention separator |
+| PAD-2 | Nylon, acetal, or HDPE | Plan: 1.000 x 0.500 in minimum; installed thickness: 0.375 in minimum | 1 | Rear retention separator |
 
-Pad thickness is the minimum installed separation. If a pad compresses, permanently deforms, or measures less than 0.375 in after installation, replace it with a thicker part.
+For each pad, both plan dimensions are minimums: 1.000 in along the booms and 0.500 in transverse to them. The 0.375 in thickness is a minimum after installation and establishes the minimum bare-PVC separation. If a pad compresses, permanently deforms, or measures less than 0.375 in after installation, replace it with a thicker part.
 
 ### 4.3 Stock breakdown
 
@@ -591,8 +595,8 @@ Enter the O6-cut finished lengths at Hold Point C. Complete both tables below at
 | J1 FRONT station on PVC-70 | 4.500 in +/- 0.125 in |  |  |
 | J2 FRONT station on PVC-2M | 22.500 in +/- 0.125 in |  |  |
 | J2 FRONT station on PVC-70 | 22.500 in +/- 0.125 in |  |  |
-| PAD-1 material / installed thickness | Nylon, acetal, or HDPE; 0.375 in minimum |  |  |
-| PAD-2 material / installed thickness | Nylon, acetal, or HDPE; 0.375 in minimum |  |  |
+| PAD-1 material / plan length and width / installed thickness | Nylon, acetal, or HDPE; plan at least 1.000 x 0.500 in; installed thickness at least 0.375 in |  |  |
+| PAD-2 material / plan length and width / installed thickness | Nylon, acetal, or HDPE; plan at least 1.000 x 0.500 in; installed thickness at least 0.375 in |  |  |
 | Installed bare-PVC boom gap at J1 / J2 | 0.375 in minimum each |  |  |
 | Element-plane angle | 90 degrees +/- 2 degrees |  |  |
 | Boom-center-line angle from 2 m / 70 cm element planes | 45 degrees +/- 5 degrees from each plane |  |  |
@@ -659,7 +663,8 @@ Stop fabrication for any of the following:
 | **Rev. I** | **2026-10-12** | Moved coax and ferrite acceptance from O6 material entry to an explicit O7 pre-feed gate; dimensions and feed topology are unchanged. |
 | **Rev. J** | **2026-10-12** | Set each 2 m support finished-length acceptance at 12.000 in +/- 0.0625 in and required measured-midpoint marking; nominal RF geometry is unchanged. |
 | **Rev. K** | **2026-10-12** | Added a 0.03125 in independent rear-station discrepancy limit and as-built maximum records for both booms; nominal stations are unchanged. |
-| **Rev. L** | **2026-10-12** | Completed both mechanical as-built tables to capture all O6-required measurements without changing dimensions or tolerances. |
+| Rev. L | 2026-10-12 | Completed both mechanical as-built tables to capture all O6-required measurements without changing dimensions or tolerances. |
+| **Rev. M** | **2026-10-12** | Separated the existing minimum separator-pad plan and installed-thickness limits in the cut list and added pad plan measurements to the as-built record; RF geometry and clearance limits are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -667,7 +672,7 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 18. Engineering intent
 
-This Rev. L cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
+This Rev. M cut sheet makes the verified dimensional baseline buildable without relying on the conflicting joint and choke assumptions in the earlier drawings.
 
 It does not claim measured resonance, impedance, gain, pattern, isolation, or common-mode suppression. Those properties must be established on the completed as-built antenna through O8 and later field testing.
 
@@ -675,4 +680,4 @@ Baseline RF geometry is derived from the project design set based on John Portun
 
 ---
 
-**End of O5 Rev. L Mechanical Drawing and Cut Sheet**
+**End of O5 Rev. M Mechanical Drawing and Cut Sheet**

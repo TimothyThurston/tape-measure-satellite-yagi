@@ -8,7 +8,7 @@ This project is intended as both a practical amateur radio antenna and an RF eng
 
 **Status:** Controlled pre-fabrication design; technical drawings underway.
 
-The O3–O6 design, materials, cut sheet, and fabrication procedure are at Rev. L. No as-built dimensions or RF test results are recorded in this repository yet. Feed construction (O7), calibrated RF testing (O8), and field validation remain future stages.
+The O3–O6 design, materials, cut sheet, and fabrication procedure are at Rev. M. No as-built dimensions or RF test results are recorded in this repository yet. Feed construction (O7), calibrated RF testing (O8), and field validation remain future stages.
 
 ## **Overview**
 
@@ -254,7 +254,7 @@ The current controlled files are:
 | E-02 | [PDF](drawings/E-02-2m-hairpin-detail.pdf) · [editable SVG](drawings/E-02-2m-hairpin-detail.svg) | 2 m hairpin starting blank, U geometry, orientation, and O7/O8 measurement records |
 | E-03 | [PDF](drawings/E-03-coax-and-ferrite-routing.pdf) · [editable SVG](drawings/E-03-coax-and-ferrite-routing.svg) | Independent rearward coax paths, ferrite groups, O7 feed-entry gate, and routing checks |
 
-All four controlled documents are Rev. L. The technical drawing set now includes M-01 through M-09 and E-01 through E-03, issued for review. M-04, M-08, and E-03 are Rev. B; all other sheets are Rev. A. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
+All four controlled documents are Rev. M. The technical drawing set includes M-01 through M-09 and E-01 through E-03, issued for review. M-04, M-08, and E-03 are Rev. B; all other sheets are Rev. A. The drawings retain their Rev. L source baseline because Rev. M clarifies the existing separator-pad minimum and its inspection record without changing RF geometry, station positions, or clearance limits. O7 feed and matching documentation, O8 test records, build photographs, and field data will be added as those phases are completed.
 
 ## **Documentation**
 

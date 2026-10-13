@@ -8,7 +8,7 @@
 **Repository path:** `docs/fabrication.md`  
 **Application:** Handheld amateur-radio satellite and ISS operation  
 **Bands:** 2 m / 70 cm  
-**Revision:** Rev. L  
+**Revision:** Rev. M  
 **Date:** 2026-10-12  
 **Status:** Controlled mechanical fabrication procedure  
 
@@ -16,7 +16,7 @@
 
 ## 1. Purpose and scope
 
-This document converts the controlled O3 through O5 Revision L baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
+This document converts the controlled O3 through O5 Revision M baseline into a safe, repeatable mechanical build process for the Tape Measure Satellite Yagi.
 
 O6 controls:
 
@@ -120,6 +120,10 @@ The independent rear-station check now passes only when FRONT and REAR measureme
 
 O5 Section 15.1 now has dedicated dimensional and element-projection tables for every measurement required at O6 handoff. O6 records the actual feed-hole sizes, component clearances, retention positions, and element centering in those tables. No fabrication geometry or acceptance limits change.
 
+### 2.13 Clarified in Revision M
+
+Separator-pad receiving, coupon, assembly, and as-built checks now state the existing O5 minimum 1.000 x 0.500 in plan footprint and 0.375 in installed thickness. This clarification changes no station, RF geometry, or clearance limit.
+
 ---
 
 ## 3. Controlling inputs
@@ -128,12 +132,12 @@ Do not begin O6 unless these documents are available and mutually consistent:
 
 | Document | Required revision | Function |
 |---|---|---|
-| O3 - Antenna Design and Dimensions | Rev. L | Architecture and design intent |
-| O4 - Bill of Materials and Sourcing | Rev. L | Controlled materials and substitutions |
-| O5 - Mechanical Drawing and Cut Sheet | Rev. L | Exact cuts, stations, tolerances, coupon, and clearances |
-| O6 - Fabrication and Assembly | Rev. L | Mechanical build sequence |
+| O3 - Antenna Design and Dimensions | Rev. M | Architecture and design intent |
+| O4 - Bill of Materials and Sourcing | Rev. M | Controlled materials and substitutions |
+| O5 - Mechanical Drawing and Cut Sheet | Rev. M | Exact cuts, stations, tolerances, coupon, and clearances |
+| O6 - Fabrication and Assembly | Rev. M | Mechanical build sequence |
 
-If a value in this procedure conflicts with O5 Rev. L, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
+If a value in this procedure conflicts with O5 Rev. M, stop and reconcile the documents before cutting or drilling. Do not choose whichever value is easier to fabricate.
 
 ---
 
@@ -248,10 +252,10 @@ Complete before cutting:
 |---|---|
 | Builder |  |
 | Build date |  |
-| O3 revision | Rev. L |
-| O4 revision | Rev. L |
-| O5 revision | Rev. L |
-| O6 revision | Rev. L |
+| O3 revision | Rev. M |
+| O4 revision | Rev. M |
+| O5 revision | Rev. M |
+| O6 revision | Rev. M |
 | PVC manufacturer / marking |  |
 | Tape manufacturer / blade model |  |
 | Support material |  |
@@ -298,7 +302,7 @@ Verify and record:
 Verify:
 
 - At least two 8 in minimum UV-resistant ties plus spares.
-- Two nonconductive pads approximately 1.000 x 0.500 in.
+- Two nonconductive pads, each with a minimum 1.000 x 0.500 in plan footprint (long axis parallel to the booms).
 - Each installed pad thickness will remain at least 0.375 in.
 - Small ties are available for all element-retention stations.
 
@@ -365,12 +369,13 @@ Do not tin the tape coupon beneath the mechanical stack.
 
 ### 11.3 Separator-pad fit
 
-1. Place a pad between two scrap or uncut sections of the actual PVC.
-2. Wrap one 8 in tie around both pipes and the pad.
-3. Tighten only enough to prevent sliding.
-4. Confirm the pad remains centered.
-5. Measure the installed bare-surface gap.
-6. Reject a pad that compresses below 0.375 in, slips uncontrollably, cracks, or permanently deforms.
+1. Measure each pad's plan length and width; require at least 1.000 x 0.500 in, with the long axis parallel to the booms.
+2. Place a pad between two scrap or uncut sections of the actual PVC.
+3. Wrap one 8 in tie around both pipes and the pad.
+4. Tighten only enough to prevent sliding.
+5. Confirm the pad remains centered.
+6. Measure the installed bare-surface gap.
+7. Reject a pad that falls below either plan minimum, compresses below 0.375 in, slips uncontrollably, cracks, or permanently deforms.
 
 ---
 
@@ -382,7 +387,7 @@ Do not tin the tape coupon beneath the mechanical stack.
 - [ ] Candidate #6 clearance hole fits the actual screw.
 - [ ] Shortest usable screw identified.
 - [ ] Node stack clamps securely with at least two full threads beyond the nut.
-- [ ] Separator pad retains at least 0.375 in installed gap.
+- [ ] Each separator pad measures at least 1.000 x 0.500 in in plan and retains at least 0.375 in installed gap.
 
 If any item fails, stop. Do not enlarge all final holes or improvise a joint.
 
@@ -754,7 +759,7 @@ There is no separate boom-joint mechanism.
 2. Keep the longitudinal centerlines parallel.
 3. Set the two element planes to 90 degrees +/- 2 degrees.
 4. Use the orientation references to set the line between boom centers to 45 degrees +/- 5 degrees from either element plane.
-5. At J1, place PAD-1 between the bare PVC surfaces with its 1.000 in long axis parallel to the booms.
+5. At J1, place PAD-1 between the bare PVC surfaces with its long axis (at least 1.000 in) parallel to the booms.
 6. Center one 8 in minimum UV-resistant tie over J1 and PAD-1.
 7. Tighten only enough to retain the booms without axial slip or PVC indentation.
 8. Repeat at J2 using PAD-2 and a new 8 in minimum tie.
@@ -805,7 +810,7 @@ Do not bend, notch, offset, or shorten a reflector to create clearance.
 - [ ] Element planes 90 degrees +/- 2 degrees.
 - [ ] Boom-center line 45 degrees +/- 5 degrees from both element planes.
 - [ ] J1 and J2 use 8 in minimum UV-resistant ties.
-- [ ] One approved separator pad installed at each retention station.
+- [ ] One approved separator pad with at least a 1.000 x 0.500 in plan footprint installed at each retention station.
 - [ ] Installed boom gap at least 0.375 in at J1 and J2.
 - [ ] No axial slip under hand load.
 - [ ] No relative rotation under gentle hand load.
@@ -851,7 +856,7 @@ At minimum record:
 - Actual PVC OD.
 - Tape width and thickness.
 - Support diameter and finished lengths.
-- PAD-1 and PAD-2 material and installed thickness, individually.
+- PAD-1 and PAD-2 material, plan length and width, and installed thickness, individually.
 
 ### Every RF element
 
@@ -964,7 +969,7 @@ Stop O6 for any of the following:
 
 O6 is complete only when:
 
-- [ ] O3, O4, O5, and O6 Rev. L inputs are present.
+- [ ] O3, O4, O5, and O6 Rev. M inputs are present.
 - [ ] O6 mechanical material measurements are recorded.
 - [ ] All coupon tests pass.
 - [ ] Each finished boom is 30.000 in +/- 0.0625 in, the two lengths differ by no more than 0.03125 in, and both are correctly labeled.
@@ -1024,7 +1029,8 @@ O7 must not add tight boom-wound coax coils or a passive BNC tee.
 | **Rev. I** | **2026-10-12** | Scoped Quality Gate A to mechanical materials and assigned coax/ferrite acceptance to the O7 feed-entry gate; no dimensional changes. |
 | **Rev. J** | **2026-10-12** | Added measurable +/- 0.0625 in acceptance for each 2 m support and measured-midpoint marking; nominal geometry is unchanged. |
 | **Rev. K** | **2026-10-12** | Added a 0.03125 in FRONT/REAR measurement-consistency limit at layout and after drilling; nominal stations are unchanged. |
-| **Rev. L** | **2026-10-12** | Aligned the O6 measurement and completion instructions with both O5 Section 15.1 mechanical record tables; no dimensions or limits changed. |
+| Rev. L | 2026-10-12 | Aligned the O6 measurement and completion instructions with both O5 Section 15.1 mechanical record tables; no dimensions or limits changed. |
+| **Rev. M** | **2026-10-12** | Clarified separator-pad plan minima in receiving, coupon, assembly, and as-built checks; geometry and clearance limits are unchanged. |
 
 The 2026-09-15 boom-retention drawing was an unreleased draft and did not consume the Rev. B repository revision identifier.
 
@@ -1032,13 +1038,13 @@ The 2026-09-15 boom-retention drawing was an unreleased draft and did not consum
 
 ## 38. Engineering intent
 
-O6 Rev. L produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
+O6 Rev. M produces a traceable mechanical antenna structure that can be compared directly with the controlled design and safely handed to O7.
 
 The procedure intentionally stops before electrical feed construction and RF tuning. A mechanically complete antenna is not an electrically accepted antenna. Operational release still requires O7 feed installation, O8 calibrated impedance and SWR testing, common-mode sensitivity checks, and later field validation.
 
 ---
 
-**End of O6 Rev. L Fabrication and Assembly Procedure**
+**End of O6 Rev. M Fabrication and Assembly Procedure**
 
 
 ---
