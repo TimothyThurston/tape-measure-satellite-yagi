@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="17in" height="11in" viewBox="0 0 1700 1100">
 <title>E-03 Coax and Ferrite Routing - Tape Measure Satellite Yagi</title>
-<desc>Rev A independent coax routes and ferrite gates derived from O3-O6 Rev L.</desc>
+<desc>Rev B independent coax routes and ferrite gates derived from O3-O6 Rev L.</desc>
 <rect x="30.000" y="30.000" width="1640.000" height="1040.000" stroke="#192A37" fill="#FFFFFF" stroke-width="2.4"/>
 <line x1="30.000" y1="130.000" x2="1670.000" y2="130.000" stroke="#192A37" stroke-width="2"/>
 <text x="52.000" y="75.000" font-family="Arial, Helvetica, sans-serif" font-size="32" font-weight="bold" text-anchor="start" fill="#192A37">E-03  COAX AND FERRITE ROUTING</text>
 <text x="53.000" y="108.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="normal" text-anchor="start" fill="#657582">TAPE MEASURE SATELLITE YAGI  |  TM-YAGI-01</text>
-<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV A</text>
+<text x="1645.000" y="71.000" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="bold" text-anchor="end" fill="#1F5B94">DRAWING REV B</text>
 <text x="1645.000" y="103.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#657582">FOR REVIEW - SOURCE O3-O6 REV L</text>
 <rect x="42.000" y="148.000" width="1616.000" height="432.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
 <text x="58.000" y="177.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">VIEW A  |  TWO REARWARD CABLE PATHS</text>
@@ -68,7 +68,7 @@
 <text x="60.000" y="741.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="start" fill="#192A37">   OR APPROVED EQUIVALENTS WITH MANUFACTURER DATA.</text>
 <text x="60.000" y="763.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="start" fill="#192A37">4. CHECK EACH SNAP-ON FIT / LATCH ON THE REAL CABLE; NO CRUSH.</text>
 <text x="60.000" y="785.000" font-family="Arial, Helvetica, sans-serif" font-size="9.8" font-weight="normal" text-anchor="start" fill="#192A37">5. DRY-FIT BOTH INTACT CABLES, FERRITES, AND LOCAL STRAIN RELIEF.</text>
-<text x="60.000" y="802.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#A7662F">FAIL? RECORD IN O4 SEC. 11 AND STOP BEFORE CUTTING EITHER CABLE.</text>
+<text x="60.000" y="802.000" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="bold" text-anchor="start" fill="#A7662F">RECORD ALL O7 RESULTS IN O4 SEC. 11; ALL MUST PASS BEFORE BNC REMOVAL.</text>
 <rect x="820.000" y="596.000" width="838.000" height="219.000" stroke="#D6DEE4" fill="none" stroke-width="1.2"/>
 <text x="836.000" y="625.000" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="bold" text-anchor="start" fill="#192A37">INSTALLATION / CLEARANCE RULES</text>
 <text x="1640.000" y="625.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="normal" text-anchor="end" fill="#657582">O3 SEC. 14 / O5 SEC. 12</text>
@@ -114,7 +114,7 @@
 <text x="1195.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="11.5" font-weight="bold" text-anchor="start" fill="#192A37">SCHEMATIC / NTS</text>
 <text x="1195.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">17 x 11 IN SHEET</text>
 <text x="1415.000" y="984.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="bold" text-anchor="start" fill="#657582">ISSUE / DATE</text>
-<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV A - FOR REVIEW</text>
+<text x="1415.000" y="1007.000" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="bold" text-anchor="start" fill="#1F5B94">REV B - FOR REVIEW</text>
 <text x="1415.000" y="1030.000" font-family="Arial, Helvetica, sans-serif" font-size="10.5" font-weight="normal" text-anchor="start" fill="#192A37">2026-10-12</text>
 <text x="1648.000" y="1055.000" font-family="Arial, Helvetica, sans-serif" font-size="11" font-weight="bold" text-anchor="end" fill="#192A37">SHEET E-03</text>
 </svg>
